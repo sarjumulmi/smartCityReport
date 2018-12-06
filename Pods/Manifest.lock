@@ -1,0 +1,34 @@
+PODS:
+  - Eureka (4.3.0)
+  - ImageRow (3.2.0):
+    - Eureka (~> 4.3)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - Eureka (from `https://github.com/xmartlabs/Eureka.git`, branch `master`)
+  - ImageRow (~> 3.0)
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ImageRow
+    - SVProgressHUD
+
+EXTERNAL SOURCES:
+  Eureka:
+    :branch: master
+    :git: https://github.com/xmartlabs/Eureka.git
+
+CHECKOUT OPTIONS:
+  Eureka:
+    :commit: 65b80e039c1de35ad0a21c22ae45c07ebe0edeba
+    :git: https://github.com/xmartlabs/Eureka.git
+
+SPEC CHECKSUMS:
+  Eureka: e2dd50c3d6e07d2d2501d4141e903ec64fa3724e
+  ImageRow: 03681b3ef8034b5a649440325f5d5ba7b22c1b0a
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: f36f8f609bf596d67f7aa2b800a8ad0bd2d918ec
+
+COCOAPODS: 1.5.3

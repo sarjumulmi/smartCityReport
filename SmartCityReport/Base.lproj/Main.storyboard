@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Mvv-C0-Iwt">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--New Request-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ReportListViewController" customModule="SmartCityReport" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="f7t-PR-C4y">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reportListCellIdentifier" rowHeight="35" id="Pqd-Gb-FzI" customClass="ReportListCell" customModule="SmartCityReport" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="35"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Pqd-Gb-FzI" id="OBK-ay-UaU">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="34.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sy7-UJ-kxB">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="34.5"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVy-AN-NEn">
+                                                            <rect key="frame" x="5" y="0.0" width="320.5" height="34.5"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="34.5" id="CQ8-I5-vTx"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="right-chevron" translatesAutoresizingMaskIntoConstraints="NO" id="1N7-4m-fOl">
+                                                            <rect key="frame" x="335.5" y="0.0" width="34.5" height="34.5"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="34.5" id="EMy-aL-gVQ"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstItem="1N7-4m-fOl" firstAttribute="centerY" secondItem="sy7-UJ-kxB" secondAttribute="centerY" id="ATt-AF-mcd"/>
+                                                        <constraint firstItem="1N7-4m-fOl" firstAttribute="leading" secondItem="eVy-AN-NEn" secondAttribute="trailing" constant="10" id="Geu-8f-okF"/>
+                                                        <constraint firstItem="eVy-AN-NEn" firstAttribute="centerY" secondItem="sy7-UJ-kxB" secondAttribute="centerY" id="HKD-nX-5Mf"/>
+                                                        <constraint firstItem="eVy-AN-NEn" firstAttribute="leading" secondItem="sy7-UJ-kxB" secondAttribute="leading" constant="5" id="SNO-Yz-Tgk"/>
+                                                        <constraint firstAttribute="bottom" secondItem="1N7-4m-fOl" secondAttribute="bottom" id="XOI-gQ-rsW"/>
+                                                        <constraint firstAttribute="trailing" secondItem="1N7-4m-fOl" secondAttribute="trailing" constant="5" id="bZg-Cg-a7b"/>
+                                                        <constraint firstItem="1N7-4m-fOl" firstAttribute="top" secondItem="sy7-UJ-kxB" secondAttribute="top" id="cgy-Sx-2EZ"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="sy7-UJ-kxB" secondAttribute="trailing" id="6IT-V5-ZUd"/>
+                                                <constraint firstItem="sy7-UJ-kxB" firstAttribute="leading" secondItem="OBK-ay-UaU" secondAttribute="leading" id="A7i-dP-c5J"/>
+                                                <constraint firstAttribute="bottom" secondItem="sy7-UJ-kxB" secondAttribute="bottom" id="FZx-YO-ev4"/>
+                                                <constraint firstItem="sy7-UJ-kxB" firstAttribute="top" secondItem="OBK-ay-UaU" secondAttribute="top" id="onj-kK-jqY"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.95601998730964466" green="0.95601998730964466" blue="0.95601998730964466" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <outlet property="label" destination="eVy-AN-NEn" id="eTb-S1-UYe"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92443305526525332" green="0.92443305526525332" blue="0.92443305526525332" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="f7t-PR-C4y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8M3-rd-bxn"/>
+                            <constraint firstItem="f7t-PR-C4y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="CnB-bO-mQe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="f7t-PR-C4y" secondAttribute="trailing" id="fX8-8C-Qvq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="f7t-PR-C4y" secondAttribute="bottom" id="kLg-PO-sSg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="New Request" largeTitleDisplayMode="always" id="h6e-ub-Ifg">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="di2-jT-dkc"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="f7t-PR-C4y" id="RKA-oL-WZx"/>
+                        <segue destination="mLi-S8-t7S" kind="show" identifier="ReportFormView" id="pvZ-1o-ROY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="684" y="156.97151424287858"/>
+        </scene>
+        <!--Report Form View Controller-->
+        <scene sceneID="Fqb-BX-hZS">
+            <objects>
+                <viewController storyboardIdentifier="ReportFormViewController" id="mLi-S8-t7S" customClass="ReportFormViewController" customModule="SmartCityReport" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CwJ-zM-kHQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="Iny-xb-Us8">
+                                <rect key="frame" x="0.0" y="64" width="375" height="535"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdN-ui-NoJ">
+                                <rect key="frame" x="15" y="619" width="345" height="40"/>
+                                <color key="backgroundColor" red="0.9360392624549253" green="1" blue="0.097602592189697357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="XlA-ux-Bdp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Submit Request">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="submitRequest:" destination="mLi-S8-t7S" eventType="touchUpInside" id="L5Y-0G-TjP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92443305529999997" green="0.92443305529999997" blue="0.92443305529999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Iny-xb-Us8" firstAttribute="top" secondItem="m6f-IA-Mj7" secondAttribute="top" id="CS2-No-hmL"/>
+                            <constraint firstItem="wdN-ui-NoJ" firstAttribute="leading" secondItem="m6f-IA-Mj7" secondAttribute="leading" constant="15" id="IMn-HD-zuW"/>
+                            <constraint firstItem="m6f-IA-Mj7" firstAttribute="bottom" secondItem="wdN-ui-NoJ" secondAttribute="bottom" constant="8" id="MTU-sw-cRC"/>
+                            <constraint firstItem="m6f-IA-Mj7" firstAttribute="trailing" secondItem="wdN-ui-NoJ" secondAttribute="trailing" constant="15" id="oL0-ZM-GjP"/>
+                            <constraint firstItem="wdN-ui-NoJ" firstAttribute="centerX" secondItem="CwJ-zM-kHQ" secondAttribute="centerX" id="sfK-lG-q1g"/>
+                            <constraint firstItem="wdN-ui-NoJ" firstAttribute="top" secondItem="Iny-xb-Us8" secondAttribute="bottom" constant="20" id="wiJ-p0-PxH"/>
+                            <constraint firstAttribute="trailing" secondItem="Iny-xb-Us8" secondAttribute="trailing" id="yIt-RT-1me"/>
+                            <constraint firstItem="Iny-xb-Us8" firstAttribute="leading" secondItem="CwJ-zM-kHQ" secondAttribute="leading" id="zha-sG-KFF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="m6f-IA-Mj7"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="Iny-xb-Us8" id="Ro3-O4-9W6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yPp-Mv-MUh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1549.5999999999999" y="165.06746626686657"/>
+        </scene>
+        <!--Report Navigation View Controller-->
+        <scene sceneID="sk2-k7-2BS">
+            <objects>
+                <navigationController storyboardIdentifier="ReportNavigationViewController" automaticallyAdjustsScrollViewInsets="NO" id="Mvv-C0-Iwt" customClass="ReportNavigationViewController" customModule="SmartCityReport" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="h6r-c1-NNv">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="yBQ-BI-jDw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xzl-s0-Zir" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-255.19999999999999" y="156.97151424287858"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="right-chevron" width="50" height="50"/>
+    </resources>
+</document>
