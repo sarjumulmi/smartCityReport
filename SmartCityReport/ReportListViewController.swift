@@ -17,6 +17,7 @@ class ReportListViewController: UIViewController, UITableViewDataSource, UITable
         super.viewDidLoad()
         tableView.dataSource = self
         tableView.delegate = self
+        // change nav bar colors
         let navBar = self.navigationController?.navigationBar
         navBar?.barTintColor = UIColor.yellow
         navBar?.tintColor = UIColor.black
@@ -24,17 +25,19 @@ class ReportListViewController: UIViewController, UITableViewDataSource, UITable
         navBar?.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.black]
     }
     
+    // struct to store report type and categories
     struct ReportCategory {
         let name: String
         let photo: String
         var items: [[String: String]]
     }
-    
+    // add additional report categories here, ItemId is optional and not really used elsewhere in the code
     let trashItems = [["Item": "Residential Trash", "ItemId": "1"], ["Item": "Bulk Trash", "ItemId": "2"], ["Item": "Litter", "ItemId": "3"]]
     let animalSightingItems = [["Item": "Rodent Sighting", "ItemId": "1"], ["Item": "Road Kill", "ItemId": "2"]]
     let streetItems = [["Item": "Pot Hole", "ItemId": "1"], ["Item": "Broken Street Light", "ItemId": "2"]]
     let parkingItems = [["Item": "Illegal Parking", "ItemId": "1"], ["Item": "Abandoned Vehicle", "ItemId": "2"]]
     let graffitiItems = [["Item": "Illegal Graffiti", "ItemId": "1"]]
+    // define report types here
     lazy var sections = [ReportCategory(name: "Trash", photo: "trash", items: trashItems),
                 ReportCategory(name: "Animal Sighting", photo: "animal", items: animalSightingItems),
                 ReportCategory(name: "Streets", photo: "streets", items: streetItems),
@@ -89,6 +92,7 @@ class ReportListViewController: UIViewController, UITableViewDataSource, UITable
     }
     
     @objc func goToForm(sender: UITapGestureRecognizer) {
+        // pass selectedRow to ReportFormViewController
         let tapLocation = sender.location(in: self.tableView)
         let indexPath = self.tableView.indexPathForRow(at: tapLocation)
         selectedRow = self.sections[indexPath!.section].items[indexPath!.row]["Item"]

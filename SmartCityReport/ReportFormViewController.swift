@@ -15,17 +15,23 @@ import SwiftyJSON
 
 
 class ReportFormViewController: FormViewController, CLLocationManagerDelegate {
+    // variables for OMCE sdk
     var mbe: OMCMobileBackend!
     var auth: OMCAuthorization!
     var ccClient: OMCCustomCodeClient!
+    var storage: OMCStorage!
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
     
+    // selected category
     var rowItem: String = ""
+    // location manager
     let locationManager: CLLocationManager = CLLocationManager()
     var latitude: CLLocationDegrees?
     var longitude: CLLocationDegrees?
+    // options for specific locations: select options for certain categories
     let litterSpecificOptions = ["Sidewalk", "Residential Property", "Park", "Private Property"]
     let animalSpecificOptions = ["Sidewalk", "Roadway", "Building"]
+    // graffiti options
     let graffitiSpecificOptions = ["Building", "Mail Box", "Bus Shelter", "Metro Station", "City Signs", "Monument", "Park", "Other"]
     var options = [String]()
     
@@ -35,6 +41,7 @@ class ReportFormViewController: FormViewController, CLLocationManagerDelegate {
         mbe = appDelegate.myMobileBackend()
         
         auth = mbe.authorization
+        storage = mbe.storage()
         
 //        self.navigationItem.setHidesBackButton(true, animated:true);
         self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "Back", style: .plain, target: nil, action: nil)
@@ -45,6 +52,7 @@ class ReportFormViewController: FormViewController, CLLocationManagerDelegate {
         locationManager.requestWhenInUseAuthorization()
         locationManager.requestLocation()
         
+        // set options array depending upon selected report category
         switch rowItem {
         case "Litter":
             options = litterSpecificOptions
@@ -54,6 +62,7 @@ class ReportFormViewController: FormViewController, CLLocationManagerDelegate {
             break
         }
         
+        // start form
         form +++ Section()
             <<< ImageRow("photo"){ row in
                 row.title = "Upload Photo"
@@ -86,16 +95,15 @@ class ReportFormViewController: FormViewController, CLLocationManagerDelegate {
                         }
                     }
                 })
-        // call onChange() callback here to save to object storage??
+        
         +++ Section()
             <<< LocationRow("location"){
                 $0.title = "Select Location"
                 $0.add(rule: RuleRequired())
                 $0.validationOptions = .validatesOnChange
-//                $0.value = CLLocation(latitude: latitude ?? 38.5000, longitude: -77.3000)
+                // value set in locationdidupdate call
         }
             
-        
         +++ Section()
             <<< TextAreaRow("description") {
                 $0.placeholder = "Add description"
@@ -124,6 +132,7 @@ class ReportFormViewController: FormViewController, CLLocationManagerDelegate {
                     }
                 })
             
+            // select options for specific locations
             <<< PushRow<String>("specificLocation") {
                 $0.hidden = Condition.function([], { (form) -> Bool in
                     return !(self.rowItem == "Litter" || self.rowItem == "Rodent Sighting")
@@ -136,7 +145,7 @@ class ReportFormViewController: FormViewController, CLLocationManagerDelegate {
                     to.dismissOnSelection = false
                     to.dismissOnChange = false
         }
-            
+            // select options for graffiti
             <<< PushRow<String>("graffittiObject") {
                 $0.hidden = Condition.function([], { (form) -> Bool in
                     return !(self.rowItem == "Illegal Graffiti")
@@ -293,6 +302,7 @@ class ReportFormViewController: FormViewController, CLLocationManagerDelegate {
         latitude = location.coordinate.latitude
         longitude = location.coordinate.longitude
         if location.horizontalAccuracy > 0 {
+            // update the location row values
             (form.rowBy(tag: "location") as? LocationRow)?.value = CLLocation(latitude: latitude!, longitude: longitude!)
             locationManager.stopUpdatingLocation()
             self.tableView.reloadData()
@@ -317,12 +327,14 @@ class ReportFormViewController: FormViewController, CLLocationManagerDelegate {
         }
     }
     
+    // helper function to get string lat/long
     private func getStringCoordinates(coordinates: CLLocation) -> String {
         let lat = String(coordinates.coordinate.latitude)
         let long = String(coordinates.coordinate.longitude)
         return "\(lat),  \(long)"
     }
     
+    // helper function to form body for submitting report
     private func getRequestParams(form: Form, photoUrl: String?) -> [String: Any?] {
         return [
             "category": rowItem,
@@ -343,21 +355,30 @@ class ReportFormViewController: FormViewController, CLLocationManagerDelegate {
     }
     
     @IBAction func submitRequest(_ sender: UIButton) {
+        var photoUrl: String?
         self.view.endEditing(true)
-        print(getStringCoordinates(coordinates: (form.rowBy(tag: "location") as! LocationRow).value!))
+//        print(getStringCoordinates(coordinates: (form.rowBy(tag: "location") as! LocationRow).value!))
         let errors = form.validate()
         if errors.count > 1 {
             print("Errors: \(errors)")
             return
         }
-        SwiftSpinner.show("Requesting...")
+        SwiftSpinner.show("Submitting Report...")
         // need to authenticate before making api call
         // can be changed after login steps are done
         self.authenticate(username: "sarju.mulmi@oracle.com", password: "!Reston2018" )
-        let data = getRequestParams(form: form, photoUrl: nil) // need to get the photo to upload to OCI and get the url
-        ccClient = mbe.customCodeClient
+        // upload photo to mobile storage
+        if let uploadData = (form.rowBy(tag: "photo") as! ImageRow).value!.pngData() {
+            let collection = storage.getCollection("smartcityreportphotos")
+            let object  = OMCStorageObject.init()
+            object.setPayloadFrom(uploadData, withContentType: "input/png")
+            if let returnObj = collection?.post(object) {
+                photoUrl = returnObj.id
+            }
+            
+        }
+        let data = getRequestParams(form: form, photoUrl: photoUrl)
         // post call to insert new report working
-        // need to get the photo to upload to OCI and get the url
         ccClient.invokeCustomRequest("SmartCityReport/postReport", method: "POST", data: data) { (error, response, responseData) in
             if (error != nil) {
                 print(error?.localizedDescription as Any)
@@ -366,15 +387,12 @@ class ReportFormViewController: FormViewController, CLLocationManagerDelegate {
                 self.present(alert, animated: true, completion: nil)
                 return
             }
-            print(JSON(responseData!))
+            print(JSON(responseData!)["id"])
             let alert = UIAlertController(title: "Success", message:"Report submitted!", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
             self.present(alert, animated: true, completion: nil)
         }
         
-        if let uploadData = (form.rowBy(tag: "photo") as! ImageRow).value!.pngData() {
-            print("yaay")
-        }
         SwiftSpinner.hide()
     }
     
