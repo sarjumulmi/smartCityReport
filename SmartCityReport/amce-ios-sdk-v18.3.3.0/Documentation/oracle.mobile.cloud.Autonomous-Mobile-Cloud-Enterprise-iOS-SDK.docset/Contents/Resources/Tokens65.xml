@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/SyncRequestMethod.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/SyncRequestMethod</TokenIdentifier>
+			<Abstract type="html">An enumeration of the different HTTP request method types.</Abstract>
+			<DeclaredIn>OMCSyncGlobals.h</DeclaredIn>
+            
+			
+			<NodeRef refid="65"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/RequestMethodGet</TokenIdentifier>
+            <Abstract type="html">HTTP method GET</Abstract>
+            <Declaration>RequestMethodGet</Declaration>
+            
+            <DeclaredIn>OMCSyncGlobals.h</DeclaredIn>
+            
+            <NodeRef refid="65"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/RequestMethodPut</TokenIdentifier>
+            <Abstract type="html">HTTP method PUT</Abstract>
+            <Declaration>RequestMethodPut</Declaration>
+            
+            <DeclaredIn>OMCSyncGlobals.h</DeclaredIn>
+            
+            <NodeRef refid="65"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/RequestMethodPost</TokenIdentifier>
+            <Abstract type="html">HTTP method POST</Abstract>
+            <Declaration>RequestMethodPost</Declaration>
+            
+            <DeclaredIn>OMCSyncGlobals.h</DeclaredIn>
+            
+            <NodeRef refid="65"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/RequestMethodDelete</TokenIdentifier>
+            <Abstract type="html">HTTP method DELETE</Abstract>
+            <Declaration>RequestMethodDelete</Declaration>
+            
+            <DeclaredIn>OMCSyncGlobals.h</DeclaredIn>
+            
+            <NodeRef refid="65"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/RequestMethodPatch</TokenIdentifier>
+            <Abstract type="html">HTTP method PATCH</Abstract>
+            <Declaration>RequestMethodPatch</Declaration>
+            
+            <DeclaredIn>OMCSyncGlobals.h</DeclaredIn>
+            
+            <NodeRef refid="65"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

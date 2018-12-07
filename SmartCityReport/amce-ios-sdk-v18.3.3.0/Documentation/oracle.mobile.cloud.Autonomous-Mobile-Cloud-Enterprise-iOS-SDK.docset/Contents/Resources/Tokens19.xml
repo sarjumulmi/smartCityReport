@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCLocationDeviceContainerQuery.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCLocationDeviceContainerQuery</TokenIdentifier>
+			<Abstract type="html">A device container query can be configured to search for
+device containers (assets or places).</Abstract>
+			<DeclaredIn>OMCLocationDeviceContainerQuery.h</DeclaredIn>
+            
+			
+			<NodeRef refid="19"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationDeviceContainerQuery/setLabel:</TokenIdentifier>
+			<Abstract type="html">The query&apos;s results will be filtered on a
+match of this string with the location object&apos;s user-defined label.</Abstract>
+			<DeclaredIn>OMCLocationDeviceContainerQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationDeviceContainer/label</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, nullable) NSString *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationDeviceContainerQuery/label</TokenIdentifier>
+			<Abstract type="html">The query&apos;s results will be filtered on a
+match of this string with the location object&apos;s user-defined label.</Abstract>
+			<DeclaredIn>OMCLocationDeviceContainerQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationDeviceContainer/label</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, nullable) NSString *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationDeviceContainerQuery/label</TokenIdentifier>
+			<Abstract type="html">The query&apos;s results will be filtered on a
+match of this string with the location object&apos;s user-defined label.</Abstract>
+			<DeclaredIn>OMCLocationDeviceContainerQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationDeviceContainer/label</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, nullable) NSString *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationDeviceContainerQuery/setOrderByAttribute:</TokenIdentifier>
+			<Abstract type="html">The attribute by which the query results will be sorted when returned.
+The sort order (ascending or descending) is determined by the order-by order.</Abstract>
+			<DeclaredIn>OMCLocationDeviceContainerQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQuery/orderByOrder</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) OMCLocationDeviceContainerQueryOrderByAttributeType orderByAttribute</Declaration>
+			
+			
+			<Anchor>//api/name/orderByAttribute</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationDeviceContainerQuery/orderByAttribute</TokenIdentifier>
+			<Abstract type="html">The attribute by which the query results will be sorted when returned.
+The sort order (ascending or descending) is determined by the order-by order.</Abstract>
+			<DeclaredIn>OMCLocationDeviceContainerQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQuery/orderByOrder</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) OMCLocationDeviceContainerQueryOrderByAttributeType orderByAttribute</Declaration>
+			
+			
+			<Anchor>//api/name/orderByAttribute</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationDeviceContainerQuery/orderByAttribute</TokenIdentifier>
+			<Abstract type="html">The attribute by which the query results will be sorted when returned.
+The sort order (ascending or descending) is determined by the order-by order.</Abstract>
+			<DeclaredIn>OMCLocationDeviceContainerQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQuery/orderByOrder</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) OMCLocationDeviceContainerQueryOrderByAttributeType orderByAttribute</Declaration>
+			
+			
+			<Anchor>//api/name/orderByAttribute</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

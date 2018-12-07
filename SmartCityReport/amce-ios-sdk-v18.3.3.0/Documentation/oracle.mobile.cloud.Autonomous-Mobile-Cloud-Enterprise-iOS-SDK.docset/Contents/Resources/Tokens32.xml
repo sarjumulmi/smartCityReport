@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCMobileBackend.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCMobileBackend</TokenIdentifier>
+			<Abstract type="html">A mobile backend holds the settings that allow a mobile backend service proxy
+to communicate with an OMCe mobile backend server.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+            
+			
+			<NodeRef refid="32"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/setDiagnostics:</TokenIdentifier>
+			<Abstract type="html">The mobile backend&apos;s diagnostics.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) OMCDiagnostics *diagnostics</Declaration>
+			
+			
+			<Anchor>//api/name/diagnostics</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/diagnostics</TokenIdentifier>
+			<Abstract type="html">The mobile backend&apos;s diagnostics.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) OMCDiagnostics *diagnostics</Declaration>
+			
+			
+			<Anchor>//api/name/diagnostics</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileBackend/diagnostics</TokenIdentifier>
+			<Abstract type="html">The mobile backend&apos;s diagnostics.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) OMCDiagnostics *diagnostics</Declaration>
+			
+			
+			<Anchor>//api/name/diagnostics</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/setAuthorization:</TokenIdentifier>
+			<Abstract type="html">The mobile backend&apos;s authorization.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) OMCAuthorization *authorization</Declaration>
+			
+			
+			<Anchor>//api/name/authorization</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/authorization</TokenIdentifier>
+			<Abstract type="html">The mobile backend&apos;s authorization.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) OMCAuthorization *authorization</Declaration>
+			
+			
+			<Anchor>//api/name/authorization</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileBackend/authorization</TokenIdentifier>
+			<Abstract type="html">The mobile backend&apos;s authorization.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) OMCAuthorization *authorization</Declaration>
+			
+			
+			<Anchor>//api/name/authorization</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/buildURLRequestWithPath:completionHandler:</TokenIdentifier>
+			<Abstract type="html">Builds a URL request configured with a URL with the specified path,
+relative to the mobile backend&apos;s base URL and path.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileComponent/baseURL</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileComponent/path</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileComponent/url</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)buildURLRequestWithPath:(nullable NSString *)relativePath completionHandler:(OMCURLRequestCompletionBlock)completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>relativePath</Name>
+					<Abstract type="html">The request&apos;s URL path, relative to the mobile backend&apos;s URL.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion block invoked when the URL request
+is built or an error occurs.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/buildURLRequestWithPath:completionHandler:</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/setHTTPHeadersOnURLRequest:completionHandler:</TokenIdentifier>
+			<Abstract type="html">Sets the receiver&apos;s HTTP headers on the specified URL request.
+The headers will include:</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+			<Declaration>- (void)setHTTPHeadersOnURLRequest:(NSMutableURLRequest *)request completionHandler:(OMCErrorCompletionBlock)completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A URL request.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion block invoked once the mobile
+backend&apos;s HTTP headers have been added to the URL request
+or an error occurs.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setHTTPHeadersOnURLRequest:completionHandler:</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/buildAnonymousAuthorizationURLRequestWithPath:completionHandler:</TokenIdentifier>
+			<Abstract type="html">Builds an anonymous authorization URL request configured with a URL with the specified path,
+relative to the mobile backend&apos;s base URL and path.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileComponent/baseURL</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileComponent/path</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileComponent/url</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)buildAnonymousAuthorizationURLRequestWithPath:(nullable NSString *)relativePath completionHandler:(OMCURLRequestCompletionBlock)completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>relativePath</Name>
+					<Abstract type="html">The request&apos;s URL path, relative to the mobile backend&apos;s URL.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion block invoked when the URL request
+is built or an error occurs.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/buildAnonymousAuthorizationURLRequestWithPath:completionHandler:</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/setAnonymousAuthorizationHTTPHeadersOnURLRequest:completionHandler:</TokenIdentifier>
+			<Abstract type="html">Sets the receiver&apos;s anonymous authorization HTTP headers on the specified URL request.
+The headers will include:</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+			<Declaration>- (void)setAnonymousAuthorizationHTTPHeadersOnURLRequest:(NSMutableURLRequest *)request completionHandler:(OMCErrorCompletionBlock)completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">A URL request.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion block invoked once the mobile
+backend&apos;s HTTP headers have been added to the URL request
+or an error occurs.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setAnonymousAuthorizationHTTPHeadersOnURLRequest:completionHandler:</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/setPlatformPath:</TokenIdentifier>
+			<Abstract type="html">The mobile backend&apos;s platform path, which is appended to the url to
+form the platformURL.
+The platform path is held by OMCMobileBackendPlatformPath.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *platformPath</Declaration>
+			
+			
+			<Anchor>//api/name/platformPath</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/platformPath</TokenIdentifier>
+			<Abstract type="html">The mobile backend&apos;s platform path, which is appended to the url to
+form the platformURL.
+The platform path is held by OMCMobileBackendPlatformPath.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *platformPath</Declaration>
+			
+			
+			<Anchor>//api/name/platformPath</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileBackend/platformPath</TokenIdentifier>
+			<Abstract type="html">The mobile backend&apos;s platform path, which is appended to the url to
+form the platformURL.
+The platform path is held by OMCMobileBackendPlatformPath.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *platformPath</Declaration>
+			
+			
+			<Anchor>//api/name/platformPath</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/setPlatformURL:</TokenIdentifier>
+			<Abstract type="html">The mobile backend&apos;s platform URL, upon which requests such as HTTP URLs are
+built. This URL is built by appending the platformPath to the url.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSURL *platformURL</Declaration>
+			
+			
+			<Anchor>//api/name/platformURL</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/platformURL</TokenIdentifier>
+			<Abstract type="html">The mobile backend&apos;s platform URL, upon which requests such as HTTP URLs are
+built. This URL is built by appending the platformPath to the url.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSURL *platformURL</Declaration>
+			
+			
+			<Anchor>//api/name/platformURL</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileBackend/platformURL</TokenIdentifier>
+			<Abstract type="html">The mobile backend&apos;s platform URL, upon which requests such as HTTP URLs are
+built. This URL is built by appending the platformPath to the url.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSURL *platformURL</Declaration>
+			
+			
+			<Anchor>//api/name/platformURL</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/buildPlatformURLRequestWithPath:completionHandler:</TokenIdentifier>
+			<Abstract type="html">Builds a URL request configured with a URL with the specified path,
+relative to the mobile backend&apos;s platform URL.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileBackend/platformPath</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileBackend/platformURL</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)buildPlatformURLRequestWithPath:(nullable NSString *)relativePath completionHandler:(OMCURLRequestCompletionBlock)completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>relativePath</Name>
+					<Abstract type="html">The request&apos;s URL path, relative to the mobile backend&apos;s platform URL.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion block invoked when the URL request
+is built or an error occurs.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/buildPlatformURLRequestWithPath:completionHandler:</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/buildAnonymousAuthorizationPlatformURLRequestWithPath:completionHandler:</TokenIdentifier>
+			<Abstract type="html">Builds an anonymous authorization URL request configured with a URL with the specified path,
+relative to the mobile backend&apos;s platform URL.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileBackend/platformPath</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileBackend/platformURL</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)buildAnonymousAuthorizationPlatformURLRequestWithPath:(nullable NSString *)relativePath completionHandler:(OMCURLRequestCompletionBlock)completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>relativePath</Name>
+					<Abstract type="html">The request&apos;s URL path, relative to the mobile backend&apos;s platform URL.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion block invoked when the URL request
+is built or an error occurs.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/buildAnonymousAuthorizationPlatformURLRequestWithPath:completionHandler:</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/setAppConfigPath:</TokenIdentifier>
+			<Abstract type="html">The mobile backend&apos;s application configuration path, which is appended to the platformURL to
+form the appConfigURL.
+The application configuration path is held by OMCMobileBackendAppConfigPath.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *appConfigPath</Declaration>
+			
+			
+			<Anchor>//api/name/appConfigPath</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/appConfigPath</TokenIdentifier>
+			<Abstract type="html">The mobile backend&apos;s application configuration path, which is appended to the platformURL to
+form the appConfigURL.
+The application configuration path is held by OMCMobileBackendAppConfigPath.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *appConfigPath</Declaration>
+			
+			
+			<Anchor>//api/name/appConfigPath</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileBackend/appConfigPath</TokenIdentifier>
+			<Abstract type="html">The mobile backend&apos;s application configuration path, which is appended to the platformURL to
+form the appConfigURL.
+The application configuration path is held by OMCMobileBackendAppConfigPath.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *appConfigPath</Declaration>
+			
+			
+			<Anchor>//api/name/appConfigPath</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/setAppConfigURL:</TokenIdentifier>
+			<Abstract type="html">The mobile backend&apos;s application configuration URL, upon which requests such as HTTP URLs are
+built. This URL is built by appending the current appConfigPath
+to the current platformURL.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSURL *appConfigURL</Declaration>
+			
+			
+			<Anchor>//api/name/appConfigURL</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/appConfigURL</TokenIdentifier>
+			<Abstract type="html">The mobile backend&apos;s application configuration URL, upon which requests such as HTTP URLs are
+built. This URL is built by appending the current appConfigPath
+to the current platformURL.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSURL *appConfigURL</Declaration>
+			
+			
+			<Anchor>//api/name/appConfigURL</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileBackend/appConfigURL</TokenIdentifier>
+			<Abstract type="html">The mobile backend&apos;s application configuration URL, upon which requests such as HTTP URLs are
+built. This URL is built by appending the current appConfigPath
+to the current platformURL.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSURL *appConfigURL</Declaration>
+			
+			
+			<Anchor>//api/name/appConfigURL</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/setAppConfig:</TokenIdentifier>
+			<Abstract type="html">The mobile backend&apos;s application configuration.
+The application configuration will be empty until it is loaded.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/appConfigWithCompletionHandler:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly) OMCAppConfig *appConfig</Declaration>
+			
+			
+			<Anchor>//api/name/appConfig</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/appConfig</TokenIdentifier>
+			<Abstract type="html">The mobile backend&apos;s application configuration.
+The application configuration will be empty until it is loaded.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/appConfigWithCompletionHandler:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly) OMCAppConfig *appConfig</Declaration>
+			
+			
+			<Anchor>//api/name/appConfig</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileBackend/appConfig</TokenIdentifier>
+			<Abstract type="html">The mobile backend&apos;s application configuration.
+The application configuration will be empty until it is loaded.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/appConfigWithCompletionHandler:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly) OMCAppConfig *appConfig</Declaration>
+			
+			
+			<Anchor>//api/name/appConfig</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/appConfigWithCompletionHandler:</TokenIdentifier>
+			<Abstract type="html">Loads the receiver&apos;s application configuration asynchronously.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+			<Declaration>- (void)appConfigWithCompletionHandler:(OMCAppConfigCompletionBlock)completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion block invoked when the application configuration
+is loaded or an error occurs.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/appConfigWithCompletionHandler:</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/buildAppConfigURLRequestWithPath:completionHandler:</TokenIdentifier>
+			<Abstract type="html">Builds an HTTP URL GET request configured with a URL with the specified path,
+relative to the mobile backend&apos;s application configuration URL.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileBackend/appConfigURL</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)buildAppConfigURLRequestWithPath:(nullable NSString *)relativePath completionHandler:(OMCURLRequestCompletionBlock)completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>relativePath</Name>
+					<Abstract type="html">The request&apos;s URL path, relative to the mobile backend&apos;s application configuration URL.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion block invoked when the URL request
+is built or an error occurs.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/buildAppConfigURLRequestWithPath:completionHandler:</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/setCustomCodePath:</TokenIdentifier>
+			<Abstract type="html">The mobile backend&apos;s custom API path, which is appended to the url to
+form the customCodeURL.
+The custom API path is held by OMCMobileBackendCustomCodePath.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *customCodePath</Declaration>
+			
+			
+			<Anchor>//api/name/customCodePath</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/customCodePath</TokenIdentifier>
+			<Abstract type="html">The mobile backend&apos;s custom API path, which is appended to the url to
+form the customCodeURL.
+The custom API path is held by OMCMobileBackendCustomCodePath.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *customCodePath</Declaration>
+			
+			
+			<Anchor>//api/name/customCodePath</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileBackend/customCodePath</TokenIdentifier>
+			<Abstract type="html">The mobile backend&apos;s custom API path, which is appended to the url to
+form the customCodeURL.
+The custom API path is held by OMCMobileBackendCustomCodePath.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *customCodePath</Declaration>
+			
+			
+			<Anchor>//api/name/customCodePath</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/setCustomCodeURL:</TokenIdentifier>
+			<Abstract type="html">The mobile backend&apos;s custom API URL, upon which requests such as HTTP URLs are
+built. This URL is built by appending the current customCodePath
+to the current url.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSURL *customCodeURL</Declaration>
+			
+			
+			<Anchor>//api/name/customCodeURL</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/customCodeURL</TokenIdentifier>
+			<Abstract type="html">The mobile backend&apos;s custom API URL, upon which requests such as HTTP URLs are
+built. This URL is built by appending the current customCodePath
+to the current url.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSURL *customCodeURL</Declaration>
+			
+			
+			<Anchor>//api/name/customCodeURL</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileBackend/customCodeURL</TokenIdentifier>
+			<Abstract type="html">The mobile backend&apos;s custom API URL, upon which requests such as HTTP URLs are
+built. This URL is built by appending the current customCodePath
+to the current url.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSURL *customCodeURL</Declaration>
+			
+			
+			<Anchor>//api/name/customCodeURL</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/setCustomCodeClient:</TokenIdentifier>
+			<Abstract type="html">The mobile backend&apos;s custom code client.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) OMCCustomCodeClient *customCodeClient</Declaration>
+			
+			
+			<Anchor>//api/name/customCodeClient</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/customCodeClient</TokenIdentifier>
+			<Abstract type="html">The mobile backend&apos;s custom code client.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) OMCCustomCodeClient *customCodeClient</Declaration>
+			
+			
+			<Anchor>//api/name/customCodeClient</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileBackend/customCodeClient</TokenIdentifier>
+			<Abstract type="html">The mobile backend&apos;s custom code client.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) OMCCustomCodeClient *customCodeClient</Declaration>
+			
+			
+			<Anchor>//api/name/customCodeClient</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/buildCustomCodeURLRequestWithPath:completionHandler:</TokenIdentifier>
+			<Abstract type="html">Builds a URL request configured with a URL with the specified path,
+relative to the mobile backend&apos;s custom code URL.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileBackend/customCodePath</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileBackend/customCodeURL</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)buildCustomCodeURLRequestWithPath:(nullable NSString *)relativePath completionHandler:(OMCURLRequestCompletionBlock)completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>relativePath</Name>
+					<Abstract type="html">The return request&apos;s URL path, relative to the mobile backend&apos;s custom code URL.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion block invoked when the URL request
+is built or an error occurs.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/buildCustomCodeURLRequestWithPath:completionHandler:</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/buildAnonymousAuthorizationCustomCodeURLRequestWithPath:completionHandler:</TokenIdentifier>
+			<Abstract type="html">Builds an anonymous authorization URL request configured with a URL with the specified path,
+relative to the mobile backend&apos;s custom code URL.</Abstract>
+			<DeclaredIn>OMCMobileBackend.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileBackend/customCodePath</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileBackend/customCodeURL</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)buildAnonymousAuthorizationCustomCodeURLRequestWithPath:(nullable NSString *)relativePath completionHandler:(OMCURLRequestCompletionBlock)completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>relativePath</Name>
+					<Abstract type="html">The return request&apos;s URL path, relative to the mobile backend&apos;s custom code URL.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion block invoked when the URL request
+is built or an error occurs.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/buildAnonymousAuthorizationCustomCodeURLRequestWithPath:completionHandler:</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/synchronization</TokenIdentifier>
+			<Abstract type="html">Returns the receiver&apos;s synchronization service.</Abstract>
+			<DeclaredIn>OMCMobileBackend+OMC_Synchronization.h</DeclaredIn>
+			
+			<Declaration>- (OMCSynchronization *)synchronization</Declaration>
+			
+			
+			<Anchor>//api/name/synchronization</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/removeSynchronization</TokenIdentifier>
+			<Abstract type="html">Removes the receiver&apos;s synchronization service.</Abstract>
+			<DeclaredIn>OMCMobileBackend+OMC_Synchronization.h</DeclaredIn>
+			
+			<Declaration>- (void)removeSynchronization</Declaration>
+			
+			
+			<Anchor>//api/name/removeSynchronization</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/notifications</TokenIdentifier>
+			<Abstract type="html">Returns the receiver&apos;s notifications service.</Abstract>
+			<DeclaredIn>OMCMobileBackend+OMC_Notifications.h</DeclaredIn>
+			
+			<Declaration>- (OMCNotifications *)notifications</Declaration>
+			
+			
+			<Anchor>//api/name/notifications</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/removeNotifications</TokenIdentifier>
+			<Abstract type="html">Removes the receiver&apos;s notifications service.</Abstract>
+			<DeclaredIn>OMCMobileBackend+OMC_Notifications.h</DeclaredIn>
+			
+			<Declaration>- (void)removeNotifications</Declaration>
+			
+			
+			<Anchor>//api/name/removeNotifications</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/location</TokenIdentifier>
+			<Abstract type="html">Returns the receiver&apos;s location service.</Abstract>
+			<DeclaredIn>OMCMobileBackend+OMC_Location.h</DeclaredIn>
+			
+			<Declaration>- (OMCLocation *)location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/removeLocation</TokenIdentifier>
+			<Abstract type="html">Removes the receiver&apos;s location service.</Abstract>
+			<DeclaredIn>OMCMobileBackend+OMC_Location.h</DeclaredIn>
+			
+			<Declaration>- (void)removeLocation</Declaration>
+			
+			
+			<Anchor>//api/name/removeLocation</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/storage</TokenIdentifier>
+			<Abstract type="html">Returns the receiver&apos;s storage service.</Abstract>
+			<DeclaredIn>OMCMobileBackend+OMC_Storage.h</DeclaredIn>
+			
+			<Declaration>- (OMCStorage *)storage</Declaration>
+			
+			
+			<Anchor>//api/name/storage</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/removeStorage</TokenIdentifier>
+			<Abstract type="html">Removes the receiver&apos;s storage service.</Abstract>
+			<DeclaredIn>OMCMobileBackend+OMC_Storage.h</DeclaredIn>
+			
+			<Declaration>- (void)removeStorage</Declaration>
+			
+			
+			<Anchor>//api/name/removeStorage</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/analytics</TokenIdentifier>
+			<Abstract type="html">Returns the receiver&apos;s analytics service.</Abstract>
+			<DeclaredIn>OMCMobileBackend+OMC_Analytics.h</DeclaredIn>
+			
+			<Declaration>- (OMCAnalytics *)analytics</Declaration>
+			
+			
+			<Anchor>//api/name/analytics</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/removeAnalytics</TokenIdentifier>
+			<Abstract type="html">Removes the receiver&apos;s analytics service.</Abstract>
+			<DeclaredIn>OMCMobileBackend+OMC_Analytics.h</DeclaredIn>
+			
+			<Declaration>- (void)removeAnalytics</Declaration>
+			
+			
+			<Anchor>//api/name/removeAnalytics</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

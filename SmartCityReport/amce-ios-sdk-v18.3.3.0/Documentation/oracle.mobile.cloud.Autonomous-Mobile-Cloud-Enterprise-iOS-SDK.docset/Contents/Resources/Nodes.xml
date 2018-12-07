@@ -1,0 +1,1823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+    <TOC>
+        <Node type="folder">
+            <Name>Autonomous Mobile Cloud Enterprise iOS SDK</Name>
+            <Path>index.html</Path>
+			<Subnodes>
+                
+				
+				<Node type="folder">
+					<Name>Classes</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="1"/>
+						<NodeRef refid="2"/>
+						<NodeRef refid="3"/>
+						<NodeRef refid="4"/>
+						<NodeRef refid="5"/>
+						<NodeRef refid="6"/>
+						<NodeRef refid="7"/>
+						<NodeRef refid="8"/>
+						<NodeRef refid="9"/>
+						<NodeRef refid="10"/>
+						<NodeRef refid="11"/>
+						<NodeRef refid="12"/>
+						<NodeRef refid="13"/>
+						<NodeRef refid="14"/>
+						<NodeRef refid="15"/>
+						<NodeRef refid="16"/>
+						<NodeRef refid="17"/>
+						<NodeRef refid="18"/>
+						<NodeRef refid="19"/>
+						<NodeRef refid="20"/>
+						<NodeRef refid="21"/>
+						<NodeRef refid="22"/>
+						<NodeRef refid="23"/>
+						<NodeRef refid="24"/>
+						<NodeRef refid="25"/>
+						<NodeRef refid="26"/>
+						<NodeRef refid="27"/>
+						<NodeRef refid="28"/>
+						<NodeRef refid="29"/>
+						<NodeRef refid="30"/>
+						<NodeRef refid="31"/>
+						<NodeRef refid="32"/>
+						<NodeRef refid="33"/>
+						<NodeRef refid="34"/>
+						<NodeRef refid="35"/>
+						<NodeRef refid="36"/>
+						<NodeRef refid="37"/>
+						<NodeRef refid="38"/>
+						<NodeRef refid="39"/>
+						<NodeRef refid="40"/>
+						<NodeRef refid="41"/>
+						<NodeRef refid="42"/>
+						<NodeRef refid="43"/>
+						<NodeRef refid="44"/>
+						<NodeRef refid="45"/>
+						<NodeRef refid="46"/>
+						<NodeRef refid="47"/>
+						<NodeRef refid="48"/>
+						<NodeRef refid="49"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+                
+				<Node>
+					<Name>Protocols</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="50"/>
+						
+					</Subnodes>
+				</Node>
+				
+                
+				<Node>
+					<Name>Constants</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="51"/>
+						<NodeRef refid="52"/>
+						<NodeRef refid="53"/>
+						<NodeRef refid="54"/>
+						<NodeRef refid="55"/>
+						<NodeRef refid="56"/>
+						<NodeRef refid="57"/>
+						<NodeRef refid="58"/>
+						<NodeRef refid="59"/>
+						<NodeRef refid="60"/>
+						<NodeRef refid="61"/>
+						<NodeRef refid="62"/>
+						<NodeRef refid="63"/>
+						<NodeRef refid="64"/>
+						<NodeRef refid="65"/>
+						<NodeRef refid="66"/>
+						<NodeRef refid="67"/>
+						
+					</Subnodes>
+				</Node>
+				
+                
+                <Node>
+                    <Name>Blocks</Name>
+                    <Path>index.html</Path>
+                    <Subnodes>
+                        <NodeRef refid="68"/>
+                        <NodeRef refid="69"/>
+                        <NodeRef refid="70"/>
+                        <NodeRef refid="71"/>
+                        <NodeRef refid="72"/>
+                        <NodeRef refid="73"/>
+                        <NodeRef refid="74"/>
+                        <NodeRef refid="75"/>
+                        <NodeRef refid="76"/>
+                        <NodeRef refid="77"/>
+                        <NodeRef refid="78"/>
+                        <NodeRef refid="79"/>
+                        <NodeRef refid="80"/>
+                        <NodeRef refid="81"/>
+                        <NodeRef refid="82"/>
+                        <NodeRef refid="83"/>
+                        <NodeRef refid="84"/>
+                        <NodeRef refid="85"/>
+                        <NodeRef refid="86"/>
+                        <NodeRef refid="87"/>
+                        <NodeRef refid="88"/>
+                        <NodeRef refid="89"/>
+                        <NodeRef refid="90"/>
+                        <NodeRef refid="91"/>
+                        <NodeRef refid="92"/>
+                        
+                    </Subnodes>
+                </Node>
+                
+			</Subnodes>
+        </Node>
+    </TOC>
+	<Library>
+		
+		<Node id="1" type="file" documentType="reference">
+            <Name>OMCAnalytics</Name>
+            <Path>Classes/OMCAnalytics.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCAnalytics.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCAnalytics.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCAnalytics.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCAnalytics.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCAnalytics.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="2" type="file" documentType="reference">
+            <Name>OMCAnalyticsApplicationDelegate</Name>
+            <Path>Classes/OMCAnalyticsApplicationDelegate.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCAnalyticsApplicationDelegate.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCAnalyticsApplicationDelegate.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCAnalyticsApplicationDelegate.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCAnalyticsApplicationDelegate.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="3" type="file" documentType="reference">
+            <Name>OMCAppConfig</Name>
+            <Path>Classes/OMCAppConfig.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCAppConfig.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCAppConfig.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCAppConfig.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="4" type="file" documentType="reference">
+            <Name>OMCAuthorization</Name>
+            <Path>Classes/OMCAuthorization.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCAuthorization.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCAuthorization.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCAuthorization.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCAuthorization.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="5" type="file" documentType="reference">
+            <Name>OMCCore</Name>
+            <Path>Classes/OMCCore.html</Path>
+            
+        </Node>
+		<Node id="6" type="file" documentType="reference">
+            <Name>OMCCustomCodeClient</Name>
+            <Path>Classes/OMCCustomCodeClient.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCCustomCodeClient.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCCustomCodeClient.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCCustomCodeClient.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCCustomCodeClient.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="7" type="file" documentType="reference">
+            <Name>OMCDiagnostics</Name>
+            <Path>Classes/OMCDiagnostics.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCDiagnostics.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCDiagnostics.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCDiagnostics.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCDiagnostics.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="8" type="file" documentType="reference">
+            <Name>OMCFetchFileBuilder</Name>
+            <Path>Classes/OMCFetchFileBuilder.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCFetchFileBuilder.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCFetchFileBuilder.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCFetchFileBuilder.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="9" type="file" documentType="reference">
+            <Name>OMCFetchObjectBuilder</Name>
+            <Path>Classes/OMCFetchObjectBuilder.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCFetchObjectBuilder.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCFetchObjectBuilder.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCFetchObjectBuilder.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="10" type="file" documentType="reference">
+            <Name>OMCFetchObjectCollectionBuilder</Name>
+            <Path>Classes/OMCFetchObjectCollectionBuilder.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCFetchObjectCollectionBuilder.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCFetchObjectCollectionBuilder.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCFetchObjectCollectionBuilder.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="11" type="file" documentType="reference">
+            <Name>OMCLocation</Name>
+            <Path>Classes/OMCLocation.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCLocation.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCLocation.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocation.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="12" type="file" documentType="reference">
+            <Name>OMCLocationAddress</Name>
+            <Path>Classes/OMCLocationAddress.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCLocationAddress.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCLocationAddress.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocationAddress.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="13" type="file" documentType="reference">
+            <Name>OMCLocationAltBeacon</Name>
+            <Path>Classes/OMCLocationAltBeacon.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCLocationAltBeacon.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCLocationAltBeacon.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocationAltBeacon.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocationAltBeacon.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="14" type="file" documentType="reference">
+            <Name>OMCLocationAsset</Name>
+            <Path>Classes/OMCLocationAsset.html</Path>
+            
+        </Node>
+		<Node id="15" type="file" documentType="reference">
+            <Name>OMCLocationAssetQuery</Name>
+            <Path>Classes/OMCLocationAssetQuery.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCLocationAssetQuery.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCLocationAssetQuery.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocationAssetQuery.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocationAssetQuery.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="16" type="file" documentType="reference">
+            <Name>OMCLocationBeacon</Name>
+            <Path>Classes/OMCLocationBeacon.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCLocationBeacon.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCLocationBeacon.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocationBeacon.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="17" type="file" documentType="reference">
+            <Name>OMCLocationDevice</Name>
+            <Path>Classes/OMCLocationDevice.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCLocationDevice.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCLocationDevice.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocationDevice.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="18" type="file" documentType="reference">
+            <Name>OMCLocationDeviceContainer</Name>
+            <Path>Classes/OMCLocationDeviceContainer.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCLocationDeviceContainer.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCLocationDeviceContainer.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocationDeviceContainer.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocationDeviceContainer.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="19" type="file" documentType="reference">
+            <Name>OMCLocationDeviceContainerQuery</Name>
+            <Path>Classes/OMCLocationDeviceContainerQuery.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCLocationDeviceContainerQuery.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCLocationDeviceContainerQuery.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocationDeviceContainerQuery.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="20" type="file" documentType="reference">
+            <Name>OMCLocationDeviceQuery</Name>
+            <Path>Classes/OMCLocationDeviceQuery.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCLocationDeviceQuery.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCLocationDeviceQuery.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocationDeviceQuery.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocationDeviceQuery.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="21" type="file" documentType="reference">
+            <Name>OMCLocationEddystoneBeacon</Name>
+            <Path>Classes/OMCLocationEddystoneBeacon.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCLocationEddystoneBeacon.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCLocationEddystoneBeacon.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocationEddystoneBeacon.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocationEddystoneBeacon.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="22" type="file" documentType="reference">
+            <Name>OMCLocationEddystoneBeaconUID</Name>
+            <Path>Classes/OMCLocationEddystoneBeaconUID.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCLocationEddystoneBeaconUID.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCLocationEddystoneBeaconUID.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocationEddystoneBeaconUID.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocationEddystoneBeaconUID.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="23" type="file" documentType="reference">
+            <Name>OMCLocationGeoCircle</Name>
+            <Path>Classes/OMCLocationGeoCircle.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCLocationGeoCircle.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCLocationGeoCircle.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocationGeoCircle.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocationGeoCircle.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="24" type="file" documentType="reference">
+            <Name>OMCLocationGeoPoint</Name>
+            <Path>Classes/OMCLocationGeoPoint.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCLocationGeoPoint.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCLocationGeoPoint.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocationGeoPoint.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocationGeoPoint.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="25" type="file" documentType="reference">
+            <Name>OMCLocationGeoPolygon</Name>
+            <Path>Classes/OMCLocationGeoPolygon.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCLocationGeoPolygon.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCLocationGeoPolygon.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocationGeoPolygon.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocationGeoPolygon.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="26" type="file" documentType="reference">
+            <Name>OMCLocationIBeacon</Name>
+            <Path>Classes/OMCLocationIBeacon.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCLocationIBeacon.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCLocationIBeacon.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocationIBeacon.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocationIBeacon.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="27" type="file" documentType="reference">
+            <Name>OMCLocationObject</Name>
+            <Path>Classes/OMCLocationObject.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCLocationObject.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCLocationObject.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocationObject.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocationObject.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="28" type="file" documentType="reference">
+            <Name>OMCLocationObjectQuery</Name>
+            <Path>Classes/OMCLocationObjectQuery.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCLocationObjectQuery.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCLocationObjectQuery.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocationObjectQuery.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocationObjectQuery.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="29" type="file" documentType="reference">
+            <Name>OMCLocationObjectQueryResult</Name>
+            <Path>Classes/OMCLocationObjectQueryResult.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCLocationObjectQueryResult.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCLocationObjectQueryResult.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocationObjectQueryResult.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocationObjectQueryResult.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="30" type="file" documentType="reference">
+            <Name>OMCLocationPlace</Name>
+            <Path>Classes/OMCLocationPlace.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCLocationPlace.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCLocationPlace.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocationPlace.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocationPlace.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="31" type="file" documentType="reference">
+            <Name>OMCLocationPlaceQuery</Name>
+            <Path>Classes/OMCLocationPlaceQuery.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCLocationPlaceQuery.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCLocationPlaceQuery.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocationPlaceQuery.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCLocationPlaceQuery.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="32" type="file" documentType="reference">
+            <Name>OMCMobileBackend</Name>
+            <Path>Classes/OMCMobileBackend.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCMobileBackend.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCMobileBackend.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCMobileBackend.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCMobileBackend.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="33" type="file" documentType="reference">
+            <Name>OMCMobileBackendServiceProxy</Name>
+            <Path>Classes/OMCMobileBackendServiceProxy.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCMobileBackendServiceProxy.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCMobileBackendServiceProxy.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCMobileBackendServiceProxy.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="34" type="file" documentType="reference">
+            <Name>OMCMobileComponent</Name>
+            <Path>Classes/OMCMobileComponent.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCMobileComponent.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCMobileComponent.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCMobileComponent.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCMobileComponent.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="35" type="file" documentType="reference">
+            <Name>OMCMobileEndpoint</Name>
+            <Path>Classes/OMCMobileEndpoint.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCMobileEndpoint.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCMobileEndpoint.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCMobileEndpoint.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCMobileEndpoint.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="36" type="file" documentType="reference">
+            <Name>OMCMobileFile</Name>
+            <Path>Classes/OMCMobileFile.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCMobileFile.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCMobileFile.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCMobileFile.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="37" type="file" documentType="reference">
+            <Name>OMCMobileManager</Name>
+            <Path>Classes/OMCMobileManager.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCMobileManager.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCMobileManager.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCMobileManager.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCMobileManager.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCMobileManager.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="38" type="file" documentType="reference">
+            <Name>OMCMobileObject</Name>
+            <Path>Classes/OMCMobileObject.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCMobileObject.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCMobileObject.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCMobileObject.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="39" type="file" documentType="reference">
+            <Name>OMCMobileObjectCollection</Name>
+            <Path>Classes/OMCMobileObjectCollection.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCMobileObjectCollection.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCMobileObjectCollection.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCMobileObjectCollection.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="40" type="file" documentType="reference">
+            <Name>OMCMobileResource</Name>
+            <Path>Classes/OMCMobileResource.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCMobileResource.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCMobileResource.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCMobileResource.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCMobileResource.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="41" type="file" documentType="reference">
+            <Name>OMCNotifications</Name>
+            <Path>Classes/OMCNotifications.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCNotifications.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCNotifications.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCNotifications.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="42" type="file" documentType="reference">
+            <Name>OMCServiceProxy</Name>
+            <Path>Classes/OMCServiceProxy.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCServiceProxy.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCServiceProxy.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCServiceProxy.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="43" type="file" documentType="reference">
+            <Name>OMCStorage</Name>
+            <Path>Classes/OMCStorage.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCStorage.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCStorage.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCStorage.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="44" type="file" documentType="reference">
+            <Name>OMCStorageCollection</Name>
+            <Path>Classes/OMCStorageCollection.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCStorageCollection.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCStorageCollection.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCStorageCollection.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCStorageCollection.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="45" type="file" documentType="reference">
+            <Name>OMCStorageObject</Name>
+            <Path>Classes/OMCStorageObject.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCStorageObject.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCStorageObject.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCStorageObject.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCStorageObject.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="46" type="file" documentType="reference">
+            <Name>OMCSyncGlobals</Name>
+            <Path>Classes/OMCSyncGlobals.html</Path>
+            
+        </Node>
+		<Node id="47" type="file" documentType="reference">
+            <Name>OMCSyncPolicy</Name>
+            <Path>Classes/OMCSyncPolicy.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCSyncPolicy.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCSyncPolicy.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCSyncPolicy.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCSyncPolicy.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="48" type="file" documentType="reference">
+            <Name>OMCSynchronization</Name>
+            <Path>Classes/OMCSynchronization.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCSynchronization.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCSynchronization.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/OMCSynchronization.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="49" type="file" documentType="reference">
+            <Name>OMCUser</Name>
+            <Path>Classes/OMCUser.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/OMCUser.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/OMCUser.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/OMCUser.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		
+		
+        <Node id="50" type="file" documentType="reference">
+            <Name>OMCAnalyticsDelegate</Name>
+            <Path>Protocols/OMCAnalyticsDelegate.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/OMCAnalyticsDelegate.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/OMCAnalyticsDelegate.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/OMCAnalyticsDelegate.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		
+        <Node id="51" type="file" documentType="reference">
+            <Name>OMCAuthenticationMode</Name>
+            <Path>Constants/OMCAuthenticationMode.html</Path>
+            
+        </Node>
+		<Node id="52" type="file" documentType="reference">
+            <Name>OMCAuthenticationType</Name>
+            <Path>Constants/OMCAuthenticationType.html</Path>
+            
+        </Node>
+		<Node id="53" type="file" documentType="reference">
+            <Name>OMCLocationAddressType</Name>
+            <Path>Constants/OMCLocationAddressType.html</Path>
+            
+        </Node>
+		<Node id="54" type="file" documentType="reference">
+            <Name>OMCLocationBeaconType</Name>
+            <Path>Constants/OMCLocationBeaconType.html</Path>
+            
+        </Node>
+		<Node id="55" type="file" documentType="reference">
+            <Name>OMCLocationDeviceContainerQueryOrderByAttributeType</Name>
+            <Path>Constants/OMCLocationDeviceContainerQueryOrderByAttributeType.html</Path>
+            
+        </Node>
+		<Node id="56" type="file" documentType="reference">
+            <Name>OMCLocationDeviceQueryOrderByAttributeType</Name>
+            <Path>Constants/OMCLocationDeviceQueryOrderByAttributeType.html</Path>
+            
+        </Node>
+		<Node id="57" type="file" documentType="reference">
+            <Name>OMCLocationDeviceQueryProtocolType</Name>
+            <Path>Constants/OMCLocationDeviceQueryProtocolType.html</Path>
+            
+        </Node>
+		<Node id="58" type="file" documentType="reference">
+            <Name>OMCLocationObjectQueryFormatType</Name>
+            <Path>Constants/OMCLocationObjectQueryFormatType.html</Path>
+            
+        </Node>
+		<Node id="59" type="file" documentType="reference">
+            <Name>OMCLocationObjectQueryOrderByOrderType</Name>
+            <Path>Constants/OMCLocationObjectQueryOrderByOrderType.html</Path>
+            
+        </Node>
+		<Node id="60" type="file" documentType="reference">
+            <Name>SyncCompareOperator</Name>
+            <Path>Constants/SyncCompareOperator.html</Path>
+            
+        </Node>
+		<Node id="61" type="file" documentType="reference">
+            <Name>SyncConflictState</Name>
+            <Path>Constants/SyncConflictState.html</Path>
+            
+        </Node>
+		<Node id="62" type="file" documentType="reference">
+            <Name>SyncNetworkStatus</Name>
+            <Path>Constants/SyncNetworkStatus.html</Path>
+            
+        </Node>
+		<Node id="63" type="file" documentType="reference">
+            <Name>SyncOfflineState</Name>
+            <Path>Constants/SyncOfflineState.html</Path>
+            
+        </Node>
+		<Node id="64" type="file" documentType="reference">
+            <Name>SyncPinPriority</Name>
+            <Path>Constants/SyncPinPriority.html</Path>
+            
+        </Node>
+		<Node id="65" type="file" documentType="reference">
+            <Name>SyncRequestMethod</Name>
+            <Path>Constants/SyncRequestMethod.html</Path>
+            
+        </Node>
+		<Node id="66" type="file" documentType="reference">
+            <Name>SyncResourceKind</Name>
+            <Path>Constants/SyncResourceKind.html</Path>
+            
+        </Node>
+		<Node id="67" type="file" documentType="reference">
+            <Name>SyncResourcePinState</Name>
+            <Path>Constants/SyncResourcePinState.html</Path>
+            
+        </Node>
+		
+        <Node id="68" type="file" documentType="reference">
+            <Name>OMCAppConfigCompletionBlock</Name>
+            <Path>Blocks/OMCAppConfigCompletionBlock.html</Path>
+            
+        </Node>
+        <Node id="69" type="file" documentType="reference">
+            <Name>OMCAuthorizationTokenValidityBlock</Name>
+            <Path>Blocks/OMCAuthorizationTokenValidityBlock.html</Path>
+            
+        </Node>
+        <Node id="70" type="file" documentType="reference">
+            <Name>OMCCustomRequestCompletionHandler</Name>
+            <Path>Blocks/OMCCustomRequestCompletionHandler.html</Path>
+            
+        </Node>
+        <Node id="71" type="file" documentType="reference">
+            <Name>OMCErrorCompletionBlock</Name>
+            <Path>Blocks/OMCErrorCompletionBlock.html</Path>
+            
+        </Node>
+        <Node id="72" type="file" documentType="reference">
+            <Name>OMCFetchCollectionSuccess</Name>
+            <Path>Blocks/OMCFetchCollectionSuccess.html</Path>
+            
+        </Node>
+        <Node id="73" type="file" documentType="reference">
+            <Name>OMCFetchFileSuccess</Name>
+            <Path>Blocks/OMCFetchFileSuccess.html</Path>
+            
+        </Node>
+        <Node id="74" type="file" documentType="reference">
+            <Name>OMCFileSuccess</Name>
+            <Path>Blocks/OMCFileSuccess.html</Path>
+            
+        </Node>
+        <Node id="75" type="file" documentType="reference">
+            <Name>OMCLocationAssetCompletionBlock</Name>
+            <Path>Blocks/OMCLocationAssetCompletionBlock.html</Path>
+            
+        </Node>
+        <Node id="76" type="file" documentType="reference">
+            <Name>OMCLocationAssetQueryCompletionBlock</Name>
+            <Path>Blocks/OMCLocationAssetQueryCompletionBlock.html</Path>
+            
+        </Node>
+        <Node id="77" type="file" documentType="reference">
+            <Name>OMCLocationDeviceCompletionBlock</Name>
+            <Path>Blocks/OMCLocationDeviceCompletionBlock.html</Path>
+            
+        </Node>
+        <Node id="78" type="file" documentType="reference">
+            <Name>OMCLocationDeviceQueryCompletionBlock</Name>
+            <Path>Blocks/OMCLocationDeviceQueryCompletionBlock.html</Path>
+            
+        </Node>
+        <Node id="79" type="file" documentType="reference">
+            <Name>OMCLocationDevicesCompletionBlock</Name>
+            <Path>Blocks/OMCLocationDevicesCompletionBlock.html</Path>
+            
+        </Node>
+        <Node id="80" type="file" documentType="reference">
+            <Name>OMCLocationPlaceCompletionBlock</Name>
+            <Path>Blocks/OMCLocationPlaceCompletionBlock.html</Path>
+            
+        </Node>
+        <Node id="81" type="file" documentType="reference">
+            <Name>OMCLocationPlaceQueryCompletionBlock</Name>
+            <Path>Blocks/OMCLocationPlaceQueryCompletionBlock.html</Path>
+            
+        </Node>
+        <Node id="82" type="file" documentType="reference">
+            <Name>OMCLocationPlacesCompletionBlock</Name>
+            <Path>Blocks/OMCLocationPlacesCompletionBlock.html</Path>
+            
+        </Node>
+        <Node id="83" type="file" documentType="reference">
+            <Name>OMCMobileResourceSuccess</Name>
+            <Path>Blocks/OMCMobileResourceSuccess.html</Path>
+            
+        </Node>
+        <Node id="84" type="file" documentType="reference">
+            <Name>OMCObjectSuccess</Name>
+            <Path>Blocks/OMCObjectSuccess.html</Path>
+            
+        </Node>
+        <Node id="85" type="file" documentType="reference">
+            <Name>OMCSyncErrorBlock</Name>
+            <Path>Blocks/OMCSyncErrorBlock.html</Path>
+            
+        </Node>
+        <Node id="86" type="file" documentType="reference">
+            <Name>OMCSyncMobileResourceArray</Name>
+            <Path>Blocks/OMCSyncMobileResourceArray.html</Path>
+            
+        </Node>
+        <Node id="87" type="file" documentType="reference">
+            <Name>OMCSyncResourceChanged</Name>
+            <Path>Blocks/OMCSyncResourceChanged.html</Path>
+            
+        </Node>
+        <Node id="88" type="file" documentType="reference">
+            <Name>OMCSyncSuccessBlock</Name>
+            <Path>Blocks/OMCSyncSuccessBlock.html</Path>
+            
+        </Node>
+        <Node id="89" type="file" documentType="reference">
+            <Name>OMCURLRequestCompletionBlock</Name>
+            <Path>Blocks/OMCURLRequestCompletionBlock.html</Path>
+            
+        </Node>
+        <Node id="90" type="file" documentType="reference">
+            <Name>OMCUserRegistrationCompletionBlockWithUser</Name>
+            <Path>Blocks/OMCUserRegistrationCompletionBlockWithUser.html</Path>
+            
+        </Node>
+        <Node id="91" type="file" documentType="reference">
+            <Name>OMC_Notifications_ErrorBlock</Name>
+            <Path>Blocks/OMC_Notifications_ErrorBlock.html</Path>
+            
+        </Node>
+        <Node id="92" type="file" documentType="reference">
+            <Name>OMC_Notifications_SuccessBlock</Name>
+            <Path>Blocks/OMC_Notifications_SuccessBlock.html</Path>
+            
+        </Node>
+        
+	</Library>
+</DocSetNodes>

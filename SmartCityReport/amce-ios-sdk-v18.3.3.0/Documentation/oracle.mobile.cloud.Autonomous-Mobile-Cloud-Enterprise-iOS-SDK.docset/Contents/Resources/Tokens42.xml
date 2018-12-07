@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCServiceProxy.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCServiceProxy</TokenIdentifier>
+			<Abstract type="html">Interface to an OMCe service proxy.
+This is an abstract superclass of the various OMC service proxies.</Abstract>
+			<DeclaredIn>OMCServiceProxy.h</DeclaredIn>
+            
+			
+			<NodeRef refid="42"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCServiceProxy/setMobileComponent:</TokenIdentifier>
+			<Abstract type="html">The service proxy&apos;s mobile component.</Abstract>
+			<DeclaredIn>OMCServiceProxy.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) OMCMobileComponent *mobileComponent</Declaration>
+			
+			
+			<Anchor>//api/name/mobileComponent</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCServiceProxy/mobileComponent</TokenIdentifier>
+			<Abstract type="html">The service proxy&apos;s mobile component.</Abstract>
+			<DeclaredIn>OMCServiceProxy.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) OMCMobileComponent *mobileComponent</Declaration>
+			
+			
+			<Anchor>//api/name/mobileComponent</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCServiceProxy/mobileComponent</TokenIdentifier>
+			<Abstract type="html">The service proxy&apos;s mobile component.</Abstract>
+			<DeclaredIn>OMCServiceProxy.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) OMCMobileComponent *mobileComponent</Declaration>
+			
+			
+			<Anchor>//api/name/mobileComponent</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCServiceProxy/setProperties:</TokenIdentifier>
+			<Abstract type="html">The service proxy&apos;s properties, as specified by the OMC property list file
+(OMC.plist).</Abstract>
+			<DeclaredIn>OMCServiceProxy.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSDictionary&lt;NSString*id&gt; *properties</Declaration>
+			
+			
+			<Anchor>//api/name/properties</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCServiceProxy/properties</TokenIdentifier>
+			<Abstract type="html">The service proxy&apos;s properties, as specified by the OMC property list file
+(OMC.plist).</Abstract>
+			<DeclaredIn>OMCServiceProxy.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSDictionary&lt;NSString*id&gt; *properties</Declaration>
+			
+			
+			<Anchor>//api/name/properties</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCServiceProxy/properties</TokenIdentifier>
+			<Abstract type="html">The service proxy&apos;s properties, as specified by the OMC property list file
+(OMC.plist).</Abstract>
+			<DeclaredIn>OMCServiceProxy.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSDictionary&lt;NSString*id&gt; *properties</Declaration>
+			
+			
+			<Anchor>//api/name/properties</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>OMCStorageCollection Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">Autonomous Mobile Cloud Enterprise iOS SDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Oracle Corporation, 18.3.3.0 - E91498-01</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/collectionDescription">collectionDescription</option>
+		
+		<option value="//api/name/collectionID">collectionID</option>
+		
+	</optgroup>
+	
+
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/contains:">- contains:</option>
+		
+		<option value="//api/name/delete:">- delete:</option>
+		
+		<option value="//api/name/deleteWithKey:">- deleteWithKey:</option>
+		
+		<option value="//api/name/get:">- get:</option>
+		
+		<option value="//api/name/get:withLimit:getAllObjects:">- get:withLimit:getAllObjects:</option>
+		
+		<option value="//api/name/post:">- post:</option>
+		
+		<option value="//api/name/put:">- put:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">OMCStorageCollection Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>OMCStorageCollection.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>This interface defines the <code>OMCStorageCollection</code> object which contains parameters and public methods
+to operate on the OMCStorageObjects in the current collection.</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/collectionID" title="collectionID"></a>
+	<h3 class="method-title"><code><a href="#//api/name/collectionID">&nbsp;&nbsp;collectionID</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Identification of the current <code>OMCStorageCollection</code> in the service.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic) NSString *collectionID</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCStorageCollection.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/collectionDescription" title="collectionDescription"></a>
+	<h3 class="method-title"><code><a href="#//api/name/collectionDescription">&nbsp;&nbsp;collectionDescription</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Description of the current <code>OMCStorageCollection</code> in the service.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic) NSString *collectionDescription</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCStorageCollection.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/contains:" title="contains:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/contains:">&ndash;&nbsp;contains:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Tells if the <a href="../Classes/OMCStorageObject.html">OMCStorageObject</a> with the key exists in the current <code>OMCStorageCollection</code>.
+Return YES if it exists, NO otherwise.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)contains:(NSString *)<em>objectID</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>objectID</code></th>
+						<td><p>The ID of the <a href="../Classes/OMCStorageObject.html"><code>OMCStorageObject</code></a> to find.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCStorageCollection.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/get:withLimit:getAllObjects:" title="get:withLimit:getAllObjects:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/get:withLimit:getAllObjects:">&ndash;&nbsp;get:withLimit:getAllObjects:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns a list of OMCStorageobjects for the StorageCollection starting with the &lsquo;offset&rsquo; index,
+with the count up to but not necessarily including the &lsquo;limit&rsquo; count.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSMutableArray *)get:(int)<em>offset</em> withLimit:(int)<em>limit</em> getAllObjects:(BOOL)<em>allObjects</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>offset</code></th>
+						<td><p>The &lsquo;start&rsquo; index.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>limit</code></th>
+						<td><p>The count.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>allObjects</code></th>
+						<td><p>True when a technician gets all the objects in a userIsolated collection, otherwise false.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>In a shared collection, it always returns the whole objects.
+In a user-isolated collection, if <code>allObjects</code> is false, then it only returns the objects owned by the current user.
+In a user-isolated collection, if <code>allObjects</code> is true, then it returns all the objects visible to the current user.
+The user must have READ_ALL or READ_WRITE_ALL permission.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCStorageCollection.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/get:" title="get:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/get:">&ndash;&nbsp;get:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Fetches and returns the <a href="../Classes/OMCStorageObject.html"><code>OMCStorageObject</code></a> in the current OMCStorageCollection.
+The <a href="../Classes/OMCStorageObject.html"><code>OMCStorageObject</code></a> is specified with the key.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (OMCStorageObject *)get:(NSString *)<em>objectID</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>objectID</code></th>
+						<td><p>The ID of the <a href="../Classes/OMCStorageObject.html"><code>OMCStorageObject</code></a> to be fetched.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCStorageCollection.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/post:" title="post:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/post:">&ndash;&nbsp;post:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Creates and uploads an <a href="../Classes/OMCStorageObject.html"><code>OMCStorageObject</code></a> to the current OMCStorageCollection.
+Note that for a POST request, the server will generate an Object ID and ignore
+the Object ID currently in the current storage object.  To preserve the Object ID,
+use the <a href="#//api/name/put:">put:</a> method, even with a new object.
+Returns the <a href="../Classes/OMCStorageObject.html">OMCStorageObject</a>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (OMCStorageObject *)post:(OMCStorageObject *)<em>storageObject</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>storageObject</code></th>
+						<td><p>The <a href="../Classes/OMCStorageObject.html"><code>OMCStorageObject</code></a> to be uploaded.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCStorageCollection.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/put:" title="put:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/put:">&ndash;&nbsp;put:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Uploads a new <a href="../Classes/OMCStorageObject.html"><code>OMCStorageObject</code></a> or updates an existing <a href="../Classes/OMCStorageObject.html"><code>OMCStorageObject</code></a> in the current OMCStorageCollection.
+Returns the updated `<a href="../Classes/OMCStorageObject.html">OMCStorageObject</a>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (OMCStorageObject *)put:(OMCStorageObject *)<em>storageObject</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>storageObject</code></th>
+						<td><p>The <a href="../Classes/OMCStorageObject.html"><code>OMCStorageObject</code></a> to be uploaded.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCStorageCollection.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/deleteWithKey:" title="deleteWithKey:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/deleteWithKey:">&ndash;&nbsp;deleteWithKey:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Deletes the <a href="../Classes/OMCStorageObject.html"><code>OMCStorageObject</code></a> in the OMCStorageCollection.
+The <a href="../Classes/OMCStorageObject.html"><code>OMCStorageObject</code></a> is specified with the key.
+Return YES if delete is successful.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)deleteWithKey:(NSString *)<em>objectID</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>objectID</code></th>
+						<td><p>The ID of the <a href="../Classes/OMCStorageObject.html"><code>OMCStorageObject</code></a> to be deleted.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCStorageCollection.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/delete:" title="delete:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/delete:">&ndash;&nbsp;delete:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Deletes the <a href="../Classes/OMCStorageObject.html"><code>OMCStorageObject</code></a> in the OMCStorageCollection.
+Return YES if delete is successful.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)delete:(OMCStorageObject *)<em>storageObject</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>storageObject</code></th>
+						<td><p>The <a href="../Classes/OMCStorageObject.html"><code>OMCStorageObject</code></a> to be deleted.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCStorageCollection.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2018 Oracle Corporation, 18.3.3.0 - E91498-01. All rights reserved. Updated: 2018-08-29</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

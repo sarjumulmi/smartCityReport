@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCMobileManager.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCMobileManager</TokenIdentifier>
+			<Abstract type="html">The mobile manager is the entry point to the
+Oracle Mobile Cloud, Enterprise (OMCe) Service SDK.
+It is responsible for building and holding the mobile backend and analytics app.</Abstract>
+			<DeclaredIn>OMCMobileManager.h</DeclaredIn>
+            
+			
+			<NodeRef refid="37"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/OMCMobileManager/sharedManager</TokenIdentifier>
+			<Abstract type="html">Returns the singleton mobile manager.</Abstract>
+			<DeclaredIn>OMCMobileManager.h</DeclaredIn>
+			
+			<Declaration>+ (OMCMobileManager *)sharedManager</Declaration>
+			
+			
+			<Anchor>//api/name/sharedManager</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileManager/setMobileBackend:</TokenIdentifier>
+			<Abstract type="html">The mobile manager&apos;s mobile backend. This is the mobile backend
+configured in the OMC property list file (OMC.plist).</Abstract>
+			<DeclaredIn>OMCMobileManager.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) OMCMobileBackend *mobileBackend</Declaration>
+			
+			
+			<Anchor>//api/name/mobileBackend</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileManager/mobileBackend</TokenIdentifier>
+			<Abstract type="html">The mobile manager&apos;s mobile backend. This is the mobile backend
+configured in the OMC property list file (OMC.plist).</Abstract>
+			<DeclaredIn>OMCMobileManager.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) OMCMobileBackend *mobileBackend</Declaration>
+			
+			
+			<Anchor>//api/name/mobileBackend</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileManager/mobileBackend</TokenIdentifier>
+			<Abstract type="html">The mobile manager&apos;s mobile backend. This is the mobile backend
+configured in the OMC property list file (OMC.plist).</Abstract>
+			<DeclaredIn>OMCMobileManager.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) OMCMobileBackend *mobileBackend</Declaration>
+			
+			
+			<Anchor>//api/name/mobileBackend</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileManager/setMobileBackendWithProperties:</TokenIdentifier>
+			<Abstract type="html">Sets and returns the receiver&apos;s mobile backend,
+initializing it with the specified properties.
+The properties must be in the same form as the backend
+properties in the OMC property list file (OMC.plist).</Abstract>
+			<DeclaredIn>OMCMobileManager.h</DeclaredIn>
+			
+			<Declaration>- (OMCMobileBackend *)setMobileBackendWithProperties:(nullable NSDictionary&lt;NSString*,id&gt; *)properties</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>properties</Name>
+					<Abstract type="html">The new mobile backend&apos;s initial properties.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setMobileBackendWithProperties:</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileManager/buildMobileBackendWithProperties:</TokenIdentifier>
+			<Abstract type="html">Builds and returns a new mobile backend,
+initializing it with the specified properties.
+The properties must be in the same form as the backend
+properties in the OMC property list file (OMC.plist).
+Returns nil if the specified properties is nil.</Abstract>
+			<DeclaredIn>OMCMobileManager.h</DeclaredIn>
+			
+			<Declaration>- (OMCMobileBackend *)buildMobileBackendWithProperties:(nullable NSDictionary&lt;NSString*,id&gt; *)properties</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>properties</Name>
+					<Abstract type="html">The new mobile backend&apos;s initial properties.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/buildMobileBackendWithProperties:</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileManager/setOAuthTokenEndPointURL:</TokenIdentifier>
+			<Abstract type="html">The mobile manager&apos;s OAuth token end point URL, which is used by the
+mobileBackend and analyticsApp to acquire OAuth tokens, if necessary.
+This URL is built by appending the pre-defined OAuth token path
+to the Identity Service base URL.</Abstract>
+			<DeclaredIn>OMCMobileManager.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileManager/identityServiceBaseURL</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly, nullable) NSURL *oAuthTokenEndPointURL</Declaration>
+			
+			
+			<Anchor>//api/name/oAuthTokenEndPointURL</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileManager/oAuthTokenEndPointURL</TokenIdentifier>
+			<Abstract type="html">The mobile manager&apos;s OAuth token end point URL, which is used by the
+mobileBackend and analyticsApp to acquire OAuth tokens, if necessary.
+This URL is built by appending the pre-defined OAuth token path
+to the Identity Service base URL.</Abstract>
+			<DeclaredIn>OMCMobileManager.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileManager/identityServiceBaseURL</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly, nullable) NSURL *oAuthTokenEndPointURL</Declaration>
+			
+			
+			<Anchor>//api/name/oAuthTokenEndPointURL</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileManager/oAuthTokenEndPointURL</TokenIdentifier>
+			<Abstract type="html">The mobile manager&apos;s OAuth token end point URL, which is used by the
+mobileBackend and analyticsApp to acquire OAuth tokens, if necessary.
+This URL is built by appending the pre-defined OAuth token path
+to the Identity Service base URL.</Abstract>
+			<DeclaredIn>OMCMobileManager.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileManager/identityServiceBaseURL</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly, nullable) NSURL *oAuthTokenEndPointURL</Declaration>
+			
+			
+			<Anchor>//api/name/oAuthTokenEndPointURL</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileManager/setIdentityServiceBaseURL:</TokenIdentifier>
+			<Abstract type="html">The mobile manager&apos;s Identity Service base URL, which is used to build
+the manager&apos;s OAuth token end point URL.
+Typically, this URL is set via the OMC property list file (OMC.plist)
+and is in the form https://&lt;host&gt;:&lt;port&gt;.</Abstract>
+			<DeclaredIn>OMCMobileManager.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileManager/oAuthTokenEndPointURL</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nullable) NSURL *identityServiceBaseURL</Declaration>
+			
+			
+			<Anchor>//api/name/identityServiceBaseURL</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileManager/identityServiceBaseURL</TokenIdentifier>
+			<Abstract type="html">The mobile manager&apos;s Identity Service base URL, which is used to build
+the manager&apos;s OAuth token end point URL.
+Typically, this URL is set via the OMC property list file (OMC.plist)
+and is in the form https://&lt;host&gt;:&lt;port&gt;.</Abstract>
+			<DeclaredIn>OMCMobileManager.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileManager/oAuthTokenEndPointURL</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nullable) NSURL *identityServiceBaseURL</Declaration>
+			
+			
+			<Anchor>//api/name/identityServiceBaseURL</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileManager/identityServiceBaseURL</TokenIdentifier>
+			<Abstract type="html">The mobile manager&apos;s Identity Service base URL, which is used to build
+the manager&apos;s OAuth token end point URL.
+Typically, this URL is set via the OMC property list file (OMC.plist)
+and is in the form https://&lt;host&gt;:&lt;port&gt;.</Abstract>
+			<DeclaredIn>OMCMobileManager.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileManager/oAuthTokenEndPointURL</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nullable) NSURL *identityServiceBaseURL</Declaration>
+			
+			
+			<Anchor>//api/name/identityServiceBaseURL</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileManager/setLogLevel:</TokenIdentifier>
+			<Abstract type="html">The mobile manager&apos;s log level. This log level controls the volume of log entries
+produced by the OMCe SDK. The log level can be set to one of the following
+levels: &quot;none&quot;, &quot;error&quot;, &quot;warning&quot;, &quot;info&quot;, &quot;debug&quot;.
+This log level can be either initialized
+from the default property list file (OMC.plist) or set directly at
+runtime via this property. If it is not set explicitly, the log level is error.</Abstract>
+			<DeclaredIn>OMCMobileManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSString *logLevel</Declaration>
+			
+			
+			<Anchor>//api/name/logLevel</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileManager/logLevel</TokenIdentifier>
+			<Abstract type="html">The mobile manager&apos;s log level. This log level controls the volume of log entries
+produced by the OMCe SDK. The log level can be set to one of the following
+levels: &quot;none&quot;, &quot;error&quot;, &quot;warning&quot;, &quot;info&quot;, &quot;debug&quot;.
+This log level can be either initialized
+from the default property list file (OMC.plist) or set directly at
+runtime via this property. If it is not set explicitly, the log level is error.</Abstract>
+			<DeclaredIn>OMCMobileManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSString *logLevel</Declaration>
+			
+			
+			<Anchor>//api/name/logLevel</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileManager/logLevel</TokenIdentifier>
+			<Abstract type="html">The mobile manager&apos;s log level. This log level controls the volume of log entries
+produced by the OMCe SDK. The log level can be set to one of the following
+levels: &quot;none&quot;, &quot;error&quot;, &quot;warning&quot;, &quot;info&quot;, &quot;debug&quot;.
+This log level can be either initialized
+from the default property list file (OMC.plist) or set directly at
+runtime via this property. If it is not set explicitly, the log level is error.</Abstract>
+			<DeclaredIn>OMCMobileManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSString *logLevel</Declaration>
+			
+			
+			<Anchor>//api/name/logLevel</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileManager/setLogHTTP:</TokenIdentifier>
+			<Abstract type="html">The mobile manager&apos;s log HTTP flag. This flag controls whether,
+when logging HTTP requests and responses,
+the OMCe SDK also logs the headers and bodies of the requests and responses.
+This flag can be either initialized
+from the default property list file (OMC.plist) or set directly at
+runtime via this property. If it is not set explicitly,
+the flag&apos;s value is NO.</Abstract>
+			<DeclaredIn>OMCMobileManager.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileManager/logHTTPMaxHeaderSize</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileManager/logHTTPMaxBodySize</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property BOOL logHTTP</Declaration>
+			
+			
+			<Anchor>//api/name/logHTTP</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileManager/logHTTP</TokenIdentifier>
+			<Abstract type="html">The mobile manager&apos;s log HTTP flag. This flag controls whether,
+when logging HTTP requests and responses,
+the OMCe SDK also logs the headers and bodies of the requests and responses.
+This flag can be either initialized
+from the default property list file (OMC.plist) or set directly at
+runtime via this property. If it is not set explicitly,
+the flag&apos;s value is NO.</Abstract>
+			<DeclaredIn>OMCMobileManager.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileManager/logHTTPMaxHeaderSize</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileManager/logHTTPMaxBodySize</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property BOOL logHTTP</Declaration>
+			
+			
+			<Anchor>//api/name/logHTTP</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileManager/logHTTP</TokenIdentifier>
+			<Abstract type="html">The mobile manager&apos;s log HTTP flag. This flag controls whether,
+when logging HTTP requests and responses,
+the OMCe SDK also logs the headers and bodies of the requests and responses.
+This flag can be either initialized
+from the default property list file (OMC.plist) or set directly at
+runtime via this property. If it is not set explicitly,
+the flag&apos;s value is NO.</Abstract>
+			<DeclaredIn>OMCMobileManager.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileManager/logHTTPMaxHeaderSize</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileManager/logHTTPMaxBodySize</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property BOOL logHTTP</Declaration>
+			
+			
+			<Anchor>//api/name/logHTTP</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileManager/setLogHTTPMaxHeaderSize:</TokenIdentifier>
+			<Abstract type="html">The mobile manager&apos;s log HTTP max header size. This value determines the
+maximum number of characters to be logged when logging an HTTP header value.
+If an HTTP header value is longer than the specified maximum, a truncated version
+of the value will be logged with a trailing ellipsis (...).
+This value can be either initialized
+from the default property list file (OMC.plist) or set directly at
+runtime via this property. If it is not set explicitly, the value is 100.
+If this value is set to 0, all HTTP header values will be printed in entirety.</Abstract>
+			<DeclaredIn>OMCMobileManager.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileManager/logHTTP</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileManager/logHTTPMaxBodySize</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property NSUInteger logHTTPMaxHeaderSize</Declaration>
+			
+			
+			<Anchor>//api/name/logHTTPMaxHeaderSize</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileManager/logHTTPMaxHeaderSize</TokenIdentifier>
+			<Abstract type="html">The mobile manager&apos;s log HTTP max header size. This value determines the
+maximum number of characters to be logged when logging an HTTP header value.
+If an HTTP header value is longer than the specified maximum, a truncated version
+of the value will be logged with a trailing ellipsis (...).
+This value can be either initialized
+from the default property list file (OMC.plist) or set directly at
+runtime via this property. If it is not set explicitly, the value is 100.
+If this value is set to 0, all HTTP header values will be printed in entirety.</Abstract>
+			<DeclaredIn>OMCMobileManager.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileManager/logHTTP</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileManager/logHTTPMaxBodySize</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property NSUInteger logHTTPMaxHeaderSize</Declaration>
+			
+			
+			<Anchor>//api/name/logHTTPMaxHeaderSize</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileManager/logHTTPMaxHeaderSize</TokenIdentifier>
+			<Abstract type="html">The mobile manager&apos;s log HTTP max header size. This value determines the
+maximum number of characters to be logged when logging an HTTP header value.
+If an HTTP header value is longer than the specified maximum, a truncated version
+of the value will be logged with a trailing ellipsis (...).
+This value can be either initialized
+from the default property list file (OMC.plist) or set directly at
+runtime via this property. If it is not set explicitly, the value is 100.
+If this value is set to 0, all HTTP header values will be printed in entirety.</Abstract>
+			<DeclaredIn>OMCMobileManager.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileManager/logHTTP</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileManager/logHTTPMaxBodySize</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property NSUInteger logHTTPMaxHeaderSize</Declaration>
+			
+			
+			<Anchor>//api/name/logHTTPMaxHeaderSize</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileManager/setLogHTTPMaxBodySize:</TokenIdentifier>
+			<Abstract type="html">The mobile manager&apos;s log HTTP max body size. This value determines the
+maximum number of bytes to be logged when logging an HTTP body.
+If an HTTP body is longer than the specified maximum, a truncated version
+of the value will be logged with a trailing ellipsis (...).
+This value can be either initialized
+from the default property list file (OMC.plist) or set directly at
+runtime via this property. If it is not set explicitly, the value is 10000.
+If this value is set to 0, all HTTP bodies will be printed in entirety.</Abstract>
+			<DeclaredIn>OMCMobileManager.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileManager/logHTTP</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileManager/logHTTPMaxHeaderSize</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property NSUInteger logHTTPMaxBodySize</Declaration>
+			
+			
+			<Anchor>//api/name/logHTTPMaxBodySize</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileManager/logHTTPMaxBodySize</TokenIdentifier>
+			<Abstract type="html">The mobile manager&apos;s log HTTP max body size. This value determines the
+maximum number of bytes to be logged when logging an HTTP body.
+If an HTTP body is longer than the specified maximum, a truncated version
+of the value will be logged with a trailing ellipsis (...).
+This value can be either initialized
+from the default property list file (OMC.plist) or set directly at
+runtime via this property. If it is not set explicitly, the value is 10000.
+If this value is set to 0, all HTTP bodies will be printed in entirety.</Abstract>
+			<DeclaredIn>OMCMobileManager.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileManager/logHTTP</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileManager/logHTTPMaxHeaderSize</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property NSUInteger logHTTPMaxBodySize</Declaration>
+			
+			
+			<Anchor>//api/name/logHTTPMaxBodySize</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileManager/logHTTPMaxBodySize</TokenIdentifier>
+			<Abstract type="html">The mobile manager&apos;s log HTTP max body size. This value determines the
+maximum number of bytes to be logged when logging an HTTP body.
+If an HTTP body is longer than the specified maximum, a truncated version
+of the value will be logged with a trailing ellipsis (...).
+This value can be either initialized
+from the default property list file (OMC.plist) or set directly at
+runtime via this property. If it is not set explicitly, the value is 10000.
+If this value is set to 0, all HTTP bodies will be printed in entirety.</Abstract>
+			<DeclaredIn>OMCMobileManager.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileManager/logHTTP</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileManager/logHTTPMaxHeaderSize</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property NSUInteger logHTTPMaxBodySize</Declaration>
+			
+			
+			<Anchor>//api/name/logHTTPMaxBodySize</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileManager/setProperties:</TokenIdentifier>
+			<Abstract type="html">The mobile manager&apos;s properties, as specified by the OMC property list file
+(OMC.plist).</Abstract>
+			<DeclaredIn>OMCMobileManager.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSDictionary&lt;NSString*id&gt; *properties</Declaration>
+			
+			
+			<Anchor>//api/name/properties</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileManager/properties</TokenIdentifier>
+			<Abstract type="html">The mobile manager&apos;s properties, as specified by the OMC property list file
+(OMC.plist).</Abstract>
+			<DeclaredIn>OMCMobileManager.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSDictionary&lt;NSString*id&gt; *properties</Declaration>
+			
+			
+			<Anchor>//api/name/properties</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileManager/properties</TokenIdentifier>
+			<Abstract type="html">The mobile manager&apos;s properties, as specified by the OMC property list file
+(OMC.plist).</Abstract>
+			<DeclaredIn>OMCMobileManager.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSDictionary&lt;NSString*id&gt; *properties</Declaration>
+			
+			
+			<Anchor>//api/name/properties</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

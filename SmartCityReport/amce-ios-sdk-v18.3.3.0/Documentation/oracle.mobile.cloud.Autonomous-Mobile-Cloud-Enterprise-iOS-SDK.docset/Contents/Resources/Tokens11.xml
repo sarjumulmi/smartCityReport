@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCLocation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCLocation</TokenIdentifier>
+			<Abstract type="html">Library interface to the Oracle Mobile Cloud Location service.</Abstract>
+			<DeclaredIn>OMCLocation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocation/assetWithID:completionHandler:</TokenIdentifier>
+			<Abstract type="html">Asynchronously retrieves the asset with the specified ID from the Location service
+and passes it to the specified completion handler.</Abstract>
+			<DeclaredIn>OMCLocation.h</DeclaredIn>
+			
+			<Declaration>- (void)assetWithID:(NSNumber *)id_ completionHandler:(OMCLocationAssetCompletionBlock)completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>id_</Name>
+					<Abstract type="html">The ID of the asset to retrieve from the Location service.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The block invoked when the request to the
+    Location service is finished. The completion block will be invoked on the
+    main dispatch queue.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/assetWithID:completionHandler:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocation/buildAssetQuery</TokenIdentifier>
+			<Abstract type="html">Builds and returns a new asset query that can be configured to retrieve
+a set of assets from the Location service.</Abstract>
+			<DeclaredIn>OMCLocation.h</DeclaredIn>
+			
+			<Declaration>- (OMCLocationAssetQuery *)buildAssetQuery</Declaration>
+			
+			
+			<Anchor>//api/name/buildAssetQuery</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocation/deviceWithID:completionHandler:</TokenIdentifier>
+			<Abstract type="html">Asynchronously retrieves the device with the specified ID from the Location service
+and passes it to the specified completion handler.</Abstract>
+			<DeclaredIn>OMCLocation.h</DeclaredIn>
+			
+			<Declaration>- (void)deviceWithID:(NSNumber *)id_ completionHandler:(OMCLocationDeviceCompletionBlock)completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>id_</Name>
+					<Abstract type="html">The ID of the device to retrieve from the Location service.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The block invoked when the request to the
+    Location service is finished. The completion block will be invoked on the
+    main dispatch queue.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deviceWithID:completionHandler:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocation/devicesWithBeacon:completionHandler:</TokenIdentifier>
+			<Abstract type="html">Asynchronously retrieves the devices with the specified beacon from the Location service
+and passes them to the specified completion handler. Typically there will be
+only a single device associated with the beacon.</Abstract>
+			<DeclaredIn>OMCLocation.h</DeclaredIn>
+			
+			<Declaration>- (void)devicesWithBeacon:(OMCLocationBeacon *)beacon completionHandler:(OMCLocationDeviceQueryCompletionBlock)completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>beacon</Name>
+					<Abstract type="html">The beacon of the devices to retrieve from the Location service.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The block invoked when the request to the
+Location service is finished. The completion block will be invoked on the
+main dispatch queue.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/devicesWithBeacon:completionHandler:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocation/buildDeviceQuery</TokenIdentifier>
+			<Abstract type="html">Builds and returns a new device query that can be configured to retrieve
+a set of devices from the Location service.</Abstract>
+			<DeclaredIn>OMCLocation.h</DeclaredIn>
+			
+			<Declaration>- (OMCLocationDeviceQuery *)buildDeviceQuery</Declaration>
+			
+			
+			<Anchor>//api/name/buildDeviceQuery</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocation/placeWithID:completionHandler:</TokenIdentifier>
+			<Abstract type="html">Asynchronously retrieves the place with the specified ID from the Location service
+and passes it to the specified completion handler.</Abstract>
+			<DeclaredIn>OMCLocation.h</DeclaredIn>
+			
+			<Declaration>- (void)placeWithID:(NSNumber *)id_ completionHandler:(OMCLocationPlaceCompletionBlock)completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>id_</Name>
+					<Abstract type="html">The ID of the place to retrieve from the Location service.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The block invoked when the request to the
+    Location service is finished. The completion block will be invoked on the
+    main dispatch queue.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/placeWithID:completionHandler:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocation/placeClosestToPoint:completionHandler:</TokenIdentifier>
+			<Abstract type="html">Asynchronously retrieves the place closest to the specified geo point
+from the Location service and passes it to the specified completion handler.</Abstract>
+			<DeclaredIn>OMCLocation.h</DeclaredIn>
+			
+			<Declaration>- (void)placeClosestToPoint:(OMCLocationGeoPoint *)point completionHandler:(OMCLocationPlaceQueryCompletionBlock)completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>point</Name>
+					<Abstract type="html">The geo point to search out from.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The block invoked when the request to the
+Location service is finished. The completion block will be invoked on the
+main dispatch queue.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/placeClosestToPoint:completionHandler:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocation/placesInGeoFence:completionHandler:</TokenIdentifier>
+			<Abstract type="html">Asynchronously retrieves the places in the specified geo fence
+from the Location service and passes them to the specified completion handler.</Abstract>
+			<DeclaredIn>OMCLocation.h</DeclaredIn>
+			
+			<Declaration>- (void)placesInGeoFence:(OMCLocationGeoCircle *)geoFence completionHandler:(OMCLocationPlaceQueryCompletionBlock)completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>geoFence</Name>
+					<Abstract type="html">The geo fence to search.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The block invoked when the request to the
+Location service is finished. The completion block will be invoked on the
+main dispatch queue.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/placesInGeoFence:completionHandler:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocation/buildPlaceQuery</TokenIdentifier>
+			<Abstract type="html">Builds and returns a new place query that can be configured to retrieve
+a set of places from the Location service.</Abstract>
+			<DeclaredIn>OMCLocation.h</DeclaredIn>
+			
+			<Declaration>- (OMCLocationPlaceQuery *)buildPlaceQuery</Declaration>
+			
+			
+			<Anchor>//api/name/buildPlaceQuery</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

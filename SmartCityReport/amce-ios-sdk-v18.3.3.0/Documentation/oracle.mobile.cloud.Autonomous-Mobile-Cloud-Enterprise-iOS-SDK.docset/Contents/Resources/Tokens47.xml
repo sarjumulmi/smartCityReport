@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCSyncPolicy.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCSyncPolicy</TokenIdentifier>
+			<Abstract type="html">An OMCSyncPolicy object is used to specify the synchronization policies for an
+OMCMobileObject, OMCMobileObjectCollection or OMCMobileFile object. The policy
+is persisted along with the cached objects and is in effect even after
+application restarts.</Abstract>
+			<DeclaredIn>OMCSyncPolicy.h</DeclaredIn>
+            
+			
+			<NodeRef refid="47"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCSyncPolicy/setFetch_Policy:</TokenIdentifier>
+			<Abstract type="html">The fetch policy in use.</Abstract>
+			<DeclaredIn>OMCSyncPolicy.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) int fetch_Policy</Declaration>
+			
+			
+			<Anchor>//api/name/fetch_Policy</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCSyncPolicy/fetch_Policy</TokenIdentifier>
+			<Abstract type="html">The fetch policy in use.</Abstract>
+			<DeclaredIn>OMCSyncPolicy.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) int fetch_Policy</Declaration>
+			
+			
+			<Anchor>//api/name/fetch_Policy</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCSyncPolicy/fetch_Policy</TokenIdentifier>
+			<Abstract type="html">The fetch policy in use.</Abstract>
+			<DeclaredIn>OMCSyncPolicy.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) int fetch_Policy</Declaration>
+			
+			
+			<Anchor>//api/name/fetch_Policy</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCSyncPolicy/setExpiration_Policy:</TokenIdentifier>
+			<Abstract type="html">The expiration policy in use.</Abstract>
+			<DeclaredIn>OMCSyncPolicy.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) int expiration_Policy</Declaration>
+			
+			
+			<Anchor>//api/name/expiration_Policy</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCSyncPolicy/expiration_Policy</TokenIdentifier>
+			<Abstract type="html">The expiration policy in use.</Abstract>
+			<DeclaredIn>OMCSyncPolicy.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) int expiration_Policy</Declaration>
+			
+			
+			<Anchor>//api/name/expiration_Policy</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCSyncPolicy/expiration_Policy</TokenIdentifier>
+			<Abstract type="html">The expiration policy in use.</Abstract>
+			<DeclaredIn>OMCSyncPolicy.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) int expiration_Policy</Declaration>
+			
+			
+			<Anchor>//api/name/expiration_Policy</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCSyncPolicy/setEviction_Policy:</TokenIdentifier>
+			<Abstract type="html">The eviction policy in use.</Abstract>
+			<DeclaredIn>OMCSyncPolicy.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) int eviction_Policy</Declaration>
+			
+			
+			<Anchor>//api/name/eviction_Policy</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCSyncPolicy/eviction_Policy</TokenIdentifier>
+			<Abstract type="html">The eviction policy in use.</Abstract>
+			<DeclaredIn>OMCSyncPolicy.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) int eviction_Policy</Declaration>
+			
+			
+			<Anchor>//api/name/eviction_Policy</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCSyncPolicy/eviction_Policy</TokenIdentifier>
+			<Abstract type="html">The eviction policy in use.</Abstract>
+			<DeclaredIn>OMCSyncPolicy.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) int eviction_Policy</Declaration>
+			
+			
+			<Anchor>//api/name/eviction_Policy</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCSyncPolicy/setUpdate_Policy:</TokenIdentifier>
+			<Abstract type="html">The update policy in use.</Abstract>
+			<DeclaredIn>OMCSyncPolicy.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) int update_Policy</Declaration>
+			
+			
+			<Anchor>//api/name/update_Policy</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCSyncPolicy/update_Policy</TokenIdentifier>
+			<Abstract type="html">The update policy in use.</Abstract>
+			<DeclaredIn>OMCSyncPolicy.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) int update_Policy</Declaration>
+			
+			
+			<Anchor>//api/name/update_Policy</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCSyncPolicy/update_Policy</TokenIdentifier>
+			<Abstract type="html">The update policy in use.</Abstract>
+			<DeclaredIn>OMCSyncPolicy.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) int update_Policy</Declaration>
+			
+			
+			<Anchor>//api/name/update_Policy</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCSyncPolicy/setConflictResolution_Policy:</TokenIdentifier>
+			<Abstract type="html">The conflict resolution policy in use.</Abstract>
+			<DeclaredIn>OMCSyncPolicy.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) int conflictResolution_Policy</Declaration>
+			
+			
+			<Anchor>//api/name/conflictResolution_Policy</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCSyncPolicy/conflictResolution_Policy</TokenIdentifier>
+			<Abstract type="html">The conflict resolution policy in use.</Abstract>
+			<DeclaredIn>OMCSyncPolicy.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) int conflictResolution_Policy</Declaration>
+			
+			
+			<Anchor>//api/name/conflictResolution_Policy</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCSyncPolicy/conflictResolution_Policy</TokenIdentifier>
+			<Abstract type="html">The conflict resolution policy in use.</Abstract>
+			<DeclaredIn>OMCSyncPolicy.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) int conflictResolution_Policy</Declaration>
+			
+			
+			<Anchor>//api/name/conflictResolution_Policy</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCSyncPolicy/setExpire_After:</TokenIdentifier>
+			<Abstract type="html">The time after which the resource expires.</Abstract>
+			<DeclaredIn>OMCSyncPolicy.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) int32_t expire_After</Declaration>
+			
+			
+			<Anchor>//api/name/expire_After</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCSyncPolicy/expire_After</TokenIdentifier>
+			<Abstract type="html">The time after which the resource expires.</Abstract>
+			<DeclaredIn>OMCSyncPolicy.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) int32_t expire_After</Declaration>
+			
+			
+			<Anchor>//api/name/expire_After</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCSyncPolicy/expire_After</TokenIdentifier>
+			<Abstract type="html">The time after which the resource expires.</Abstract>
+			<DeclaredIn>OMCSyncPolicy.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) int32_t expire_After</Declaration>
+			
+			
+			<Anchor>//api/name/expire_After</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCSyncPolicy/setNo_cache:</TokenIdentifier>
+			<Abstract type="html">Specifies whether to cache the resource.</Abstract>
+			<DeclaredIn>OMCSyncPolicy.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) BOOL no_cache</Declaration>
+			
+			
+			<Anchor>//api/name/no_cache</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCSyncPolicy/no_cache</TokenIdentifier>
+			<Abstract type="html">Specifies whether to cache the resource.</Abstract>
+			<DeclaredIn>OMCSyncPolicy.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) BOOL no_cache</Declaration>
+			
+			
+			<Anchor>//api/name/no_cache</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCSyncPolicy/no_cache</TokenIdentifier>
+			<Abstract type="html">Specifies whether to cache the resource.</Abstract>
+			<DeclaredIn>OMCSyncPolicy.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) BOOL no_cache</Declaration>
+			
+			
+			<Anchor>//api/name/no_cache</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCSyncPolicy/initWithFetchPolicy:expirationPolicy:expireAfter:evictionPolicy:updatePolicy:</TokenIdentifier>
+			<Abstract type="html">* Creates a new OMCSyncPolicy object with specified policies.
+* See properties defined in the OMCSyncPolicy header file for more information about each policy.
+* Default Conflict Resolution policy will be set to PRESERVE_CONFLICT.
+* Default no_cache settings will be set to NO.</Abstract>
+			<DeclaredIn>OMCSyncPolicy.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithFetchPolicy:(int)fetchPolicy expirationPolicy:(int)expirationPolicy expireAfter:(int)expireAfter evictionPolicy:(int)evictionPolicy updatePolicy:(int)updatePolicy</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>fetchPolicy</Name>
+					<Abstract type="html">The fetch policy value.</Abstract>
+				</Parameter><Parameter>
+					<Name>expirationPolicy</Name>
+					<Abstract type="html">The expiration policy value.</Abstract>
+				</Parameter><Parameter>
+					<Name>expireAfter</Name>
+					<Abstract type="html">The duration in seconds after which an object should expire.</Abstract>
+				</Parameter><Parameter>
+					<Name>evictionPolicy</Name>
+					<Abstract type="html">The eviction policy value.</Abstract>
+				</Parameter><Parameter>
+					<Name>updatePolicy</Name>
+					<Abstract type="html">The update policy value.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithFetchPolicy:expirationPolicy:expireAfter:evictionPolicy:updatePolicy:</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCSyncPolicy/defaultSyncPolicy</TokenIdentifier>
+			<Abstract type="html">Returns a default OMCSyncPolicy object, with policies:
+fetchPolicy = FETCHPOLICYFETCHFROMSERVICEIFONLINE,
+expirationPolicy = EXPIRATIONPOLICYEXPIREONRESTART,
+evictionPolicy = EVICTIONPOLICYMANUAL_EVICTION,
+updatePolicy = UPDATEPOLICYQUEUEIFOFFLINE,
+expireAfter = NSIntegerMax,
+conflictResolutionPolicy = CONFLICTRESOLUTIONPOLICYPRESERVECONFLICT,
+no_cache = NO.</Abstract>
+			<DeclaredIn>OMCSyncPolicy.h</DeclaredIn>
+			
+			<Declaration>- (id)defaultSyncPolicy</Declaration>
+			
+			
+			<Anchor>//api/name/defaultSyncPolicy</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

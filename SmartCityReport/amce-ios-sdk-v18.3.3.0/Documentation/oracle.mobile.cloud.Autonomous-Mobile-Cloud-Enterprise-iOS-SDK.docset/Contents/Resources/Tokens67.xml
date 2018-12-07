@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/SyncResourcePinState.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/SyncResourcePinState</TokenIdentifier>
+			<Abstract type="html">An enumeration of the different Pin states for the resource.</Abstract>
+			<DeclaredIn>OMCSyncStoreState.h</DeclaredIn>
+            
+			
+			<NodeRef refid="67"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UnPinned</TokenIdentifier>
+            <Abstract type="html">Denotes Not pinned</Abstract>
+            <Declaration>UnPinned</Declaration>
+            
+            <DeclaredIn>OMCSyncStoreState.h</DeclaredIn>
+            
+            <NodeRef refid="67"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/Pinned</TokenIdentifier>
+            <Abstract type="html">Denotes pinned</Abstract>
+            <Declaration>Pinned</Declaration>
+            
+            <DeclaredIn>OMCSyncStoreState.h</DeclaredIn>
+            
+            <NodeRef refid="67"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/PinnedAnciliary</TokenIdentifier>
+            <Abstract type="html">Denotes Pinned while downloading the object graph of resources</Abstract>
+            <Declaration>PinnedAnciliary</Declaration>
+            
+            <DeclaredIn>OMCSyncStoreState.h</DeclaredIn>
+            
+            <NodeRef refid="67"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

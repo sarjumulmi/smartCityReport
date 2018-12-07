@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCAuthorization.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCAuthorization</TokenIdentifier>
+			<Abstract type="html">Module responsible for handling OAuth 2.0, Basic Authentication, and
+other authentication modes.  The API allows for authentication, validity check,
+refresh (if applicable) and logout.  Optionally, the underlying toolkit supplies
+a login dialog to get the user ID and password.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+            
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/setAccessToken:</TokenIdentifier>
+			<Abstract type="html">The string representing the authentication token.  This could be an
+OAuth token. For basic Authentication, only the name of the logged in
+user is returned so as to not reveal the password.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, strong, nonatomic, nullable) NSString *accessToken</Declaration>
+			
+			
+			<Anchor>//api/name/accessToken</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/accessToken</TokenIdentifier>
+			<Abstract type="html">The string representing the authentication token.  This could be an
+OAuth token. For basic Authentication, only the name of the logged in
+user is returned so as to not reveal the password.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, strong, nonatomic, nullable) NSString *accessToken</Declaration>
+			
+			
+			<Anchor>//api/name/accessToken</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCAuthorization/accessToken</TokenIdentifier>
+			<Abstract type="html">The string representing the authentication token.  This could be an
+OAuth token. For basic Authentication, only the name of the logged in
+user is returned so as to not reveal the password.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, strong, nonatomic, nullable) NSString *accessToken</Declaration>
+			
+			
+			<Anchor>//api/name/accessToken</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/setUserName:</TokenIdentifier>
+			<Abstract type="html">The user name of the authenticated user.  Returns nil
+if user is not authenticated or if client credentials
+OAUth Type (anonymous) was used.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, strong, nonatomic, nullable) NSString *userName</Declaration>
+			
+			
+			<Anchor>//api/name/userName</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/userName</TokenIdentifier>
+			<Abstract type="html">The user name of the authenticated user.  Returns nil
+if user is not authenticated or if client credentials
+OAUth Type (anonymous) was used.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, strong, nonatomic, nullable) NSString *userName</Declaration>
+			
+			
+			<Anchor>//api/name/userName</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCAuthorization/userName</TokenIdentifier>
+			<Abstract type="html">The user name of the authenticated user.  Returns nil
+if user is not authenticated or if client credentials
+OAUth Type (anonymous) was used.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, strong, nonatomic, nullable) NSString *userName</Declaration>
+			
+			
+			<Anchor>//api/name/userName</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/setAuthorized:</TokenIdentifier>
+			<Abstract type="html">Whether authorization has been performed.  For example, this could be acquisition
+of an OAuth token, or validation of a user/password combination.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) BOOL authorized</Declaration>
+			
+			
+			<Anchor>//api/name/authorized</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/authorized</TokenIdentifier>
+			<Abstract type="html">Whether authorization has been performed.  For example, this could be acquisition
+of an OAuth token, or validation of a user/password combination.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) BOOL authorized</Declaration>
+			
+			
+			<Anchor>//api/name/authorized</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCAuthorization/authorized</TokenIdentifier>
+			<Abstract type="html">Whether authorization has been performed.  For example, this could be acquisition
+of an OAuth token, or validation of a user/password combination.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) BOOL authorized</Declaration>
+			
+			
+			<Anchor>//api/name/authorized</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/setAuthenticationType:</TokenIdentifier>
+			<Abstract type="html">Property indicating current authentication type from the
+enumeration OMCAuthenticationType.  Note if the server
+instance supports multiple authentication types, the user
+may switch the authentication type in use at runtime.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) OMCAuthenticationType authenticationType</Declaration>
+			
+			
+			<Anchor>//api/name/authenticationType</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/authenticationType</TokenIdentifier>
+			<Abstract type="html">Property indicating current authentication type from the
+enumeration OMCAuthenticationType.  Note if the server
+instance supports multiple authentication types, the user
+may switch the authentication type in use at runtime.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) OMCAuthenticationType authenticationType</Declaration>
+			
+			
+			<Anchor>//api/name/authenticationType</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCAuthorization/authenticationType</TokenIdentifier>
+			<Abstract type="html">Property indicating current authentication type from the
+enumeration OMCAuthenticationType.  Note if the server
+instance supports multiple authentication types, the user
+may switch the authentication type in use at runtime.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) OMCAuthenticationType authenticationType</Declaration>
+			
+			
+			<Anchor>//api/name/authenticationType</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/setAuthenticationMode:</TokenIdentifier>
+			<Abstract type="html">Property indicating the current authentication mode.  See the enumeration
+for possible values.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) OMCAuthenticationMode authenticationMode</Declaration>
+			
+			
+			<Anchor>//api/name/authenticationMode</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/authenticationMode</TokenIdentifier>
+			<Abstract type="html">Property indicating the current authentication mode.  See the enumeration
+for possible values.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) OMCAuthenticationMode authenticationMode</Declaration>
+			
+			
+			<Anchor>//api/name/authenticationMode</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCAuthorization/authenticationMode</TokenIdentifier>
+			<Abstract type="html">Property indicating the current authentication mode.  See the enumeration
+for possible values.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) OMCAuthenticationMode authenticationMode</Declaration>
+			
+			
+			<Anchor>//api/name/authenticationMode</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/setOfflineAuthenticationEnabled:</TokenIdentifier>
+			<Abstract type="html">Property indicating whether the user may authenticate offline.  If this
+mode is enabled, the user may authenticate against their cached credentials
+when the server-side is not reachable through the network.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL offlineAuthenticationEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/offlineAuthenticationEnabled</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/offlineAuthenticationEnabled</TokenIdentifier>
+			<Abstract type="html">Property indicating whether the user may authenticate offline.  If this
+mode is enabled, the user may authenticate against their cached credentials
+when the server-side is not reachable through the network.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL offlineAuthenticationEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/offlineAuthenticationEnabled</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCAuthorization/offlineAuthenticationEnabled</TokenIdentifier>
+			<Abstract type="html">Property indicating whether the user may authenticate offline.  If this
+mode is enabled, the user may authenticate against their cached credentials
+when the server-side is not reachable through the network.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL offlineAuthenticationEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/offlineAuthenticationEnabled</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/isAuthenticationConfiguredForType:</TokenIdentifier>
+			<Abstract type="html">Returns whether a given authentication type is configured for this
+object.  Based on the OMCMobileBackend settings, one or more authentication
+types may be configured.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isAuthenticationConfiguredForType:(OMCAuthenticationType)type</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>type</Name>
+					<Abstract type="html">The authentication type to be checked for.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/isAuthenticationConfiguredForType:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/authenticate:password:completionBlock:</TokenIdentifier>
+			<Abstract type="html">Performs the handshake to do the authentication with the supplied user
+name and password.  Any required credentials beyond user and password
+are obtained from the mobile backend.  This method does not require a UI for use,
+and the result is returned asynchronously.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>- (void)authenticate:(NSString *)userName password:(NSString *)password completionBlock:(nullable OMCErrorCompletionBlock)completionBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>userName</Name>
+					<Abstract type="html">The user name of the person acquiring the token.</Abstract>
+				</Parameter><Parameter>
+					<Name>password</Name>
+					<Abstract type="html">The password of the person acquiring the token.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionBlock</Name>
+					<Abstract type="html">The handler invoked after the handshake has completed.
+The format of the completion handler is ^(NSError*).</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/authenticate:password:completionBlock:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/authenticateAnonymous:</TokenIdentifier>
+			<Abstract type="html">Perform the handshake to do the authentication for the anonymous user.  No
+user or password is required.  For OAuth, The client ID and secret are obtained
+from the mobile backend.  This method does not require a UI for use,
+and the result is returned asynchronously.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>- (void)authenticateAnonymous:(nullable OMCErrorCompletionBlock)completionBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completionBlock</Name>
+					<Abstract type="html">the handler invoked after the handshake has completed.
+The format of the completion handler is ^(NSError*).</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/authenticateAnonymous:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/authenticate:password:</TokenIdentifier>
+			<Abstract type="html">Gets the authentication token or logs in the user synchronously with
+the supplied user name and password.  Any additional required credentials
+are obtained from the mobile backend.  This method does not require a UI
+for use and should not be invoked from a UI thread.  This method is
+primarily intended for testing and its use is not recommended in production code.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSError *)authenticate:(NSString *)userName password:(NSString *)password</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>userName</Name>
+					<Abstract type="html">The user name of the person acquiring the token.</Abstract>
+				</Parameter><Parameter>
+					<Name>password</Name>
+					<Abstract type="html">The password of the person acquiring the token.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An error if one occurred, else nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/authenticate:password:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/authenticateAnonymous</TokenIdentifier>
+			<Abstract type="html">Does the authentication synchronously for the anonymous login.
+No user or password is required.  Any additional required credentials are
+obtained from the mobile backend.  This method does not require a UI for use
+and should not be invoked from a UI thread.  This method is primarily intended
+for testing and its use is not recommended in production code.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSError *)authenticateAnonymous</Declaration>
+			
+			<ReturnValue><Abstract type="html">An error if one occurred, else nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/authenticateAnonymous</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/authenticateSocial:</TokenIdentifier>
+			<Abstract type="html">Acquire the authentication credentials for a mobile social site asynchronously.
+Currently the only social app supported is Facebook.  The user config file
+must be set up for Facebook-style authentication.  This method does not require a
+UI for use, and the result is returned asynchronously.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>- (void)authenticateSocial:(OMCErrorCompletionBlock)completionBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completionBlock</Name>
+					<Abstract type="html">the handler invoked after the handshake has completed.
+The format of the completion handler is ^(NSError*).
+
+  </Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/authenticateSocial:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/authenticateSocial</TokenIdentifier>
+			<Abstract type="html">Acquire the authentication credentials for a mobile social site synchronously.
+Currently the only social app supported is Facebook.  The user config file
+must be set up for Facebook-style authentication.  This method is primarily
+intended for testing and its use is not recommended in production code.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>- (NSError *)authenticateSocial</Declaration>
+			
+			
+			<Anchor>//api/name/authenticateSocial</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/authenticateSSO:clearCookies:completionBlock:</TokenIdentifier>
+			<Abstract type="html">Acquire the authentication credentials using federated single sign-on.  The
+The user config file must be set up for SSO-style authentication.  This method
+returns the result asynchronously.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>- (void)authenticateSSO:(UIViewController *)presentingViewController clearCookies:(BOOL)clearCookies completionBlock:(OMCErrorCompletionBlock)completionBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>presentingViewController</Name>
+					<Abstract type="html">A view controller upon which the SSO web browser
+view will be presented.</Abstract>
+				</Parameter><Parameter>
+					<Name>clearCookies</Name>
+					<Abstract type="html">If set, clears all cookies related to authentication for this app</Abstract>
+				</Parameter><Parameter>
+					<Name>completionBlock</Name>
+					<Abstract type="html">The handler invoked after the token acquisition attempt
+has completed.  The format of the completion handler is ^(NSError*).  If the
+user has cancelled, a standard iOS cancellation error is returned.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/authenticateSSO:clearCookies:completionBlock:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/authenticateSSO:clearCookies:</TokenIdentifier>
+			<Abstract type="html">Acquire the authentication credentials using federated single sign-on synchronously.
+The user config file must be set up for SSO-style authentication.  This method is
+primarily intended for testing and its use is not recommended in production code
+due to thread-blocking behavior needed for synchronous execution.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>- (NSError *)authenticateSSO:(UIViewController *)presentingViewController clearCookies:(BOOL)clearCookies</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>presentingViewController</Name>
+					<Abstract type="html">A view controller upon which the SSO web browser
+view will be presented.</Abstract>
+				</Parameter><Parameter>
+					<Name>clearCookies</Name>
+					<Abstract type="html">If set, clears all cookies related to authentication for this app</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">an error if one occurred, else nil</Abstract></ReturnValue>
+			<Anchor>//api/name/authenticateSSO:clearCookies:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/authenticateSSOTokenExchange:completionBlock:</TokenIdentifier>
+			<Abstract type="html">Acquire the authentication credentials using the &quot;SSO token exchange&quot; paradigm, in which
+the caller acquires an external token and passes this external token to this method.
+The external token is exchanged for an internal token used as the credentials for future
+REST calls invoked by the mobile platform.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>- (void)authenticateSSOTokenExchange:(NSString *)token completionBlock:(OMCErrorCompletionBlock)completionBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>token</Name>
+					<Abstract type="html">- The external token previously acquired by other means.  This is assumed to be
+the base64 encoded representation of gzipped data.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionBlock</Name>
+					<Abstract type="html">the handler block called to report the results.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/authenticateSSOTokenExchange:completionBlock:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/authenticateSSOTokenExchange:</TokenIdentifier>
+			<Abstract type="html">Acquire the authentication credentials using the &quot;SSO token exchange&quot; synchronously.
+The caller acquires an external token and passes this external token to this method.
+The external token is exchanged for an internal token used as the credentials for future
+REST calls invoked by the mobile platform.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>- (NSError *)authenticateSSOTokenExchange:(NSString *)token</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>token</Name>
+					<Abstract type="html">- The external token previously acquired by other means.  This is assumed to be
+the base64 encoded representation of gzipped data.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">an error if one occurred, else nil</Abstract></ReturnValue>
+			<Anchor>//api/name/authenticateSSOTokenExchange:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/authenticateSSOTokenExchange:storeAccessToken:completionBlock:</TokenIdentifier>
+			<Abstract type="html">Acquire the authentication credentials using the &quot;SSO token exchange&quot; paradigm, in which
+the caller acquires an external token and passes this external token to this method.
+The external token is &quot;exchanged&quot; for an internal token used as the credentials for future
+REST calls invoked by the mobile platform.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>- (void)authenticateSSOTokenExchange:(NSString *)token storeAccessToken:(BOOL)storeToken completionBlock:(OMCErrorCompletionBlock)completionBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>token</Name>
+					<Abstract type="html">- The external token previously acquired by other means.  This is assumed to be
+the base64 encoded representation of gzipped data.</Abstract>
+				</Parameter><Parameter>
+					<Name>storeToken</Name>
+					<Abstract type="html">- If set to true, it will store the access token in secure keychain with expiry time on successful login.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionBlock</Name>
+					<Abstract type="html">the handler block called to report the results.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/authenticateSSOTokenExchange:storeAccessToken:completionBlock:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/authenticateSSOTokenExchange:storeAccessToken:</TokenIdentifier>
+			<Abstract type="html">Acquire the authentication credentials using the &quot;SSO token exchange&quot; synchronously.
+The caller acquires an external token and passes this external token to this method.
+The external token is exchanged for an internal token used as the credentials for future
+REST calls invoked by the mobile platform.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>- (NSError *)authenticateSSOTokenExchange:(NSString *)token storeAccessToken:(BOOL)storeToken</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>token</Name>
+					<Abstract type="html">- The external token previously acquired by other means.  This is assumed to be
+the base64 encoded representation of gzipped data.</Abstract>
+				</Parameter><Parameter>
+					<Name>storeToken</Name>
+					<Abstract type="html">- If set to true, it will store the access token in secure keychain with expiry time on successful login.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">an error if one occurred, else nil</Abstract></ReturnValue>
+			<Anchor>//api/name/authenticateSSOTokenExchange:storeAccessToken:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/loadSSOTokenExchange</TokenIdentifier>
+			<Abstract type="html">* Loads the cached SSO token from the secure keychain.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)loadSSOTokenExchange</Declaration>
+			
+			<ReturnValue><Abstract type="html">If the token has been loaded from the secure keychain (the token is not null), returns true; otherwise false.</Abstract></ReturnValue>
+			<Anchor>//api/name/loadSSOTokenExchange</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/clearSSOTokenExchange</TokenIdentifier>
+			<Abstract type="html">Removes the SSO token from the secure keychain and from memory.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>- (void)clearSSOTokenExchange</Declaration>
+			
+			
+			<Anchor>//api/name/clearSSOTokenExchange</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/setHTTPHeadersOnURLRequest:</TokenIdentifier>
+			<Abstract type="html">Sets the proper HTTP Authorization headers for an authorization-enabled request on the
+specified request.  The exact headers depend on the authentication type in use.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/setHTTPHeadersOnURLRequest:completionHandler:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setHTTPHeadersOnURLRequest:(NSMutableURLRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">The request object to set the header on.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setHTTPHeadersOnURLRequest:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/setHTTPHeadersOnURLRequest:completionHandler:</TokenIdentifier>
+			<Abstract type="html">Sets the proper HTTP Authorization headers for an authorization-enabled request on the
+specified request.  The exact headers depend on the authentication type in use.  Note,
+this is an asynchronous method.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/setHTTPHeadersOnURLRequest:</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackend/setHTTPHeadersOnURLRequest:completionHandler:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setHTTPHeadersOnURLRequest:(NSMutableURLRequest *)request completionHandler:(OMCErrorCompletionBlock)completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">The request object to set the header on.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion block invoked once the receiver&apos;s
+HTTP headers have been set on the URL request or an error occurs.
+The format of the completion handler is ^(NSError* error).</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setHTTPHeadersOnURLRequest:completionHandler:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/validateToken:</TokenIdentifier>
+			<Abstract type="html">Returns whether the current token is valid (non-expired) and
+optionally refreshes the token if expired if the authentication
+protocol supports refresh.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)validateToken:(BOOL)refresh</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>refresh</Name>
+					<Abstract type="html">Whether to refresh the token (ignored for OAuth).</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Whether the token is still valid.</Abstract></ReturnValue>
+			<Anchor>//api/name/validateToken:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/logout:</TokenIdentifier>
+			<Abstract type="html">Logs the user out and revokes the authentication credentials (if applicable and supported).
+Clears any local cached credentials.  Note, this is an asynchronous method.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>- (void)logout:(nullable OMCErrorCompletionBlock)completionBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completionBlock</Name>
+					<Abstract type="html">The handler invoked after the logout attempt has completed.
+The completion handler is of the form ^(NSError*).</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/logout:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/logout</TokenIdentifier>
+			<Abstract type="html">Synchronously logs the user out and revokes the authentication credentials
+(if applicable and supported).
+Clears any local cached credentials.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSError *)logout</Declaration>
+			
+			<ReturnValue><Abstract type="html">An error if one occurred, else nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/logout</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/logoutClearCredentials:completionBlock:</TokenIdentifier>
+			<Abstract type="html">Logs the user out and optionally revokes the authentication credentials (if applicable and supported).
+Clears any local cached credentials.  Note this is an asynchronous call.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>- (void)logoutClearCredentials:(BOOL)clearCredentials completionBlock:(nullable OMCErrorCompletionBlock)completionBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>clearCredentials</Name>
+					<Abstract type="html">whether or not to clear the cached credentials</Abstract>
+				</Parameter><Parameter>
+					<Name>completionBlock</Name>
+					<Abstract type="html">the handler invoked after the logout attempt has completed.
+The completion handler is of the form ^(NSError*).</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/logoutClearCredentials:completionBlock:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/logoutClearCredentials:</TokenIdentifier>
+			<Abstract type="html">Synchronously logs the user out and revokes the authentication credentials
+(if applicable and supported).
+Clears any local cached credentials.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSError *)logoutClearCredentials:(BOOL)clearCredentials</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>clearCredentials</Name>
+					<Abstract type="html">whether or not to clear the cached credentials</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An error if one occurred, else nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/logoutClearCredentials:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAuthorization/getCurrentUser:</TokenIdentifier>
+			<Abstract type="html">Gets the properties for the currently authorized user.  This is an asynchronous
+method where the success status is returned in the completion block.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+			
+			<Declaration>- (void)getCurrentUser:(OMCUserRegistrationCompletionBlockWithUser)completionBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completionBlock</Name>
+					<Abstract type="html">The completion handler called upon return from the server.
+The completion handler is of the form ^(NSError*, OMCUser.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/getCurrentUser:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

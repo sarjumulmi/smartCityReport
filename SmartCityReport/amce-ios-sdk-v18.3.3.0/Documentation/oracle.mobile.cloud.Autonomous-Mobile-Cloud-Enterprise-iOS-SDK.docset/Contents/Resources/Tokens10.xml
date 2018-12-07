@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCFetchObjectCollectionBuilder.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCFetchObjectCollectionBuilder</TokenIdentifier>
+			<Abstract type="html">Fetch objectCollection builder to get OMCMobileObjectCollection</Abstract>
+			<DeclaredIn>OMCFetchObjectCollectionBuilder.h</DeclaredIn>
+            
+			
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCFetchObjectCollectionBuilder/getSyncPolicy</TokenIdentifier>
+			<Abstract type="html">* Gets currently set SyncPolicy</Abstract>
+			<DeclaredIn>OMCFetchObjectCollectionBuilder.h</DeclaredIn>
+			
+			<Declaration>- (OMCSyncPolicy *)getSyncPolicy</Declaration>
+			
+			<ReturnValue><Abstract type="html">OMCSyncPolicy object, if not set will return default SyncPolicy.</Abstract></ReturnValue>
+			<Anchor>//api/name/getSyncPolicy</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCFetchObjectCollectionBuilder/setSyncPolicy:</TokenIdentifier>
+			<Abstract type="html">* Sets SyncPolicy</Abstract>
+			<DeclaredIn>OMCFetchObjectCollectionBuilder.h</DeclaredIn>
+			
+			<Declaration>- (void)setSyncPolicy:(OMCSyncPolicy *)syncPolicy</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>syncPolicy</Name>
+					<Abstract type="html">will set the passed policy as current SyncPolicy</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setSyncPolicy:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCFetchObjectCollectionBuilder/setSyncPolicyFetchFromServer</TokenIdentifier>
+			<Abstract type="html">Sets Fetch policy in SyncPolicy as FETCHPOLICYFETCHFROMSERVICEIFONLINE. Other policies in SyncPolicy will remain same.</Abstract>
+			<DeclaredIn>OMCFetchObjectCollectionBuilder.h</DeclaredIn>
+			
+			<Declaration>- (void)setSyncPolicyFetchFromServer</Declaration>
+			
+			
+			<Anchor>//api/name/setSyncPolicyFetchFromServer</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCFetchObjectCollectionBuilder/withParamName:paramValue:</TokenIdentifier>
+			<Abstract type="html">Specifies query parameters. (Will override existing parameters with the same name)</Abstract>
+			<DeclaredIn>OMCFetchObjectCollectionBuilder.h</DeclaredIn>
+			
+			<Declaration>- (void)withParamName:(NSString *)name paramValue:(NSString *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>name</Name>
+					<Abstract type="html">name of the query param</Abstract>
+				</Parameter><Parameter>
+					<Name>value</Name>
+					<Abstract type="html">value of the query param</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/withParamName:paramValue:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCFetchObjectCollectionBuilder/queryForProperty:comparision:compareWith:</TokenIdentifier>
+			<Abstract type="html">* Sets the query to use when fetching data from the local cache.
+* Must initialize synchronization with the custom class with properties for which to query on.
+* And use that custom class in openEndpoint.</Abstract>
+			<DeclaredIn>OMCFetchObjectCollectionBuilder.h</DeclaredIn>
+			
+			<Declaration>- (void)queryForProperty:(NSString *)propertyName comparision:(SyncCompareOperator)compareOperation compareWith:(id)propertyValue</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>propertyName</Name>
+					<Abstract type="html">name of the property to query on</Abstract>
+				</Parameter><Parameter>
+					<Name>compareOperation</Name>
+					<Abstract type="html">compare operator</Abstract>
+				</Parameter><Parameter>
+					<Name>propertyValue</Name>
+					<Abstract type="html">value to compare</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/queryForProperty:comparision:compareWith:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCFetchObjectCollectionBuilder/sortByAscending:</TokenIdentifier>
+			<Abstract type="html">*  Specifies an ascending sort for the results. Multiple sorts can be specified.</Abstract>
+			<DeclaredIn>OMCFetchObjectCollectionBuilder.h</DeclaredIn>
+			
+			<Declaration>- (void)sortByAscending:(NSString *)propertyName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>propertyName</Name>
+					<Abstract type="html">Name of the property to sort on. The sort will be ascending.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/sortByAscending:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCFetchObjectCollectionBuilder/sortByDescending:</TokenIdentifier>
+			<Abstract type="html">*  Specifies a descending sort for the results. Multiple sorts can be specified.</Abstract>
+			<DeclaredIn>OMCFetchObjectCollectionBuilder.h</DeclaredIn>
+			
+			<Declaration>- (void)sortByDescending:(NSString *)propertyName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>propertyName</Name>
+					<Abstract type="html">Name of the property to sort on. The sort will be descending.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/sortByDescending:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCFetchObjectCollectionBuilder/setRequestHeaders:</TokenIdentifier>
+			<Abstract type="html">Sets extra request headers.
+No need to specify headers for authorization and content-type, as they will be added by default.</Abstract>
+			<DeclaredIn>OMCFetchObjectCollectionBuilder.h</DeclaredIn>
+			
+			<Declaration>- (void)setRequestHeaders:(NSDictionary *)headers</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>headers</Name>
+					<Abstract type="html">Extra request headers</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setRequestHeaders:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCFetchObjectCollectionBuilder/executeFetchOnSuccess:OnError:</TokenIdentifier>
+			<Abstract type="html">* Execute the Get request. Based on the set policy, it will go to the server, to the local cache, or to both.</Abstract>
+			<DeclaredIn>OMCFetchObjectCollectionBuilder.h</DeclaredIn>
+			
+			<Declaration>- (void)executeFetchOnSuccess:(OMCFetchCollectionSuccess _Nullable)successBlk OnError:(OMCSyncErrorBlock _Nullable)errorBlk</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>successBlk</Name>
+					<Abstract type="html">block that will be called after the request has successfully finished with the mobile resource.</Abstract>
+				</Parameter><Parameter>
+					<Name>errorBlk</Name>
+					<Abstract type="html">block that will be called after the request has finished with an error.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/executeFetchOnSuccess:OnError:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

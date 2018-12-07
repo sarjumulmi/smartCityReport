@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCStorageObject.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCStorageObject</TokenIdentifier>
+			<Abstract type="html">This interface manages the contents and metadata of a StorageObject.  Note that
+a StorageObject can be in either a &quot;raw&quot; or &quot;completed&quot; state.  After the user
+initializes the StorageObject from data or an input stream, none of the object
+metadata (such as creation date) is populated, so it is still in the &quot;raw&quot; state.
+It is only when the object reference is retrieved from a PUT, POST, or GET call on
+OMCStorageCollection, that the object is in its completed state.  In other words,
+the object must interact with the server or storage cache (Sync) to be fully initialized.</Abstract>
+			<DeclaredIn>OMCStorageObject.h</DeclaredIn>
+            
+			
+			<NodeRef refid="45"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorageObject/setID:</TokenIdentifier>
+			<Abstract type="html">Identification of the OMCStorageObject
+should be unique across the OMCStorageCollection.</Abstract>
+			<DeclaredIn>OMCStorageObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *ID</Declaration>
+			
+			
+			<Anchor>//api/name/ID</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorageObject/ID</TokenIdentifier>
+			<Abstract type="html">Identification of the OMCStorageObject
+should be unique across the OMCStorageCollection.</Abstract>
+			<DeclaredIn>OMCStorageObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *ID</Declaration>
+			
+			
+			<Anchor>//api/name/ID</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCStorageObject/ID</TokenIdentifier>
+			<Abstract type="html">Identification of the OMCStorageObject
+should be unique across the OMCStorageCollection.</Abstract>
+			<DeclaredIn>OMCStorageObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *ID</Declaration>
+			
+			
+			<Anchor>//api/name/ID</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorageObject/setDisplayName:</TokenIdentifier>
+			<Abstract type="html">Display Name of the OMCStorageObject.</Abstract>
+			<DeclaredIn>OMCStorageObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *displayName</Declaration>
+			
+			
+			<Anchor>//api/name/displayName</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorageObject/displayName</TokenIdentifier>
+			<Abstract type="html">Display Name of the OMCStorageObject.</Abstract>
+			<DeclaredIn>OMCStorageObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *displayName</Declaration>
+			
+			
+			<Anchor>//api/name/displayName</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCStorageObject/displayName</TokenIdentifier>
+			<Abstract type="html">Display Name of the OMCStorageObject.</Abstract>
+			<DeclaredIn>OMCStorageObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *displayName</Declaration>
+			
+			
+			<Anchor>//api/name/displayName</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorageObject/setContentType:</TokenIdentifier>
+			<Abstract type="html">The MIME Content-Type of the payload in the OMCStorageObject, for example &quot;image/jpeg&quot;.</Abstract>
+			<DeclaredIn>OMCStorageObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *contentType</Declaration>
+			
+			
+			<Anchor>//api/name/contentType</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorageObject/contentType</TokenIdentifier>
+			<Abstract type="html">The MIME Content-Type of the payload in the OMCStorageObject, for example &quot;image/jpeg&quot;.</Abstract>
+			<DeclaredIn>OMCStorageObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *contentType</Declaration>
+			
+			
+			<Anchor>//api/name/contentType</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCStorageObject/contentType</TokenIdentifier>
+			<Abstract type="html">The MIME Content-Type of the payload in the OMCStorageObject, for example &quot;image/jpeg&quot;.</Abstract>
+			<DeclaredIn>OMCStorageObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *contentType</Declaration>
+			
+			
+			<Anchor>//api/name/contentType</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorageObject/setCreatedBy:</TokenIdentifier>
+			<Abstract type="html">The property createdBy.</Abstract>
+			<DeclaredIn>OMCStorageObject.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *createdBy</Declaration>
+			
+			
+			<Anchor>//api/name/createdBy</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorageObject/createdBy</TokenIdentifier>
+			<Abstract type="html">The property createdBy.</Abstract>
+			<DeclaredIn>OMCStorageObject.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *createdBy</Declaration>
+			
+			
+			<Anchor>//api/name/createdBy</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCStorageObject/createdBy</TokenIdentifier>
+			<Abstract type="html">The property createdBy.</Abstract>
+			<DeclaredIn>OMCStorageObject.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *createdBy</Declaration>
+			
+			
+			<Anchor>//api/name/createdBy</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorageObject/setModifiedBy:</TokenIdentifier>
+			<Abstract type="html">The property modifiedBy. Might be NULL if the object is never modified.</Abstract>
+			<DeclaredIn>OMCStorageObject.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *modifiedBy</Declaration>
+			
+			
+			<Anchor>//api/name/modifiedBy</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorageObject/modifiedBy</TokenIdentifier>
+			<Abstract type="html">The property modifiedBy. Might be NULL if the object is never modified.</Abstract>
+			<DeclaredIn>OMCStorageObject.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *modifiedBy</Declaration>
+			
+			
+			<Anchor>//api/name/modifiedBy</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCStorageObject/modifiedBy</TokenIdentifier>
+			<Abstract type="html">The property modifiedBy. Might be NULL if the object is never modified.</Abstract>
+			<DeclaredIn>OMCStorageObject.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *modifiedBy</Declaration>
+			
+			
+			<Anchor>//api/name/modifiedBy</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorageObject/setCreatedOn:</TokenIdentifier>
+			<Abstract type="html">The property createdOn in the date format &quot;yyyy-MM-dd&apos;T&apos;HH:mm:ss&apos;Z&apos;&quot;.</Abstract>
+			<DeclaredIn>OMCStorageObject.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSDate *createdOn</Declaration>
+			
+			
+			<Anchor>//api/name/createdOn</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorageObject/createdOn</TokenIdentifier>
+			<Abstract type="html">The property createdOn in the date format &quot;yyyy-MM-dd&apos;T&apos;HH:mm:ss&apos;Z&apos;&quot;.</Abstract>
+			<DeclaredIn>OMCStorageObject.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSDate *createdOn</Declaration>
+			
+			
+			<Anchor>//api/name/createdOn</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCStorageObject/createdOn</TokenIdentifier>
+			<Abstract type="html">The property createdOn in the date format &quot;yyyy-MM-dd&apos;T&apos;HH:mm:ss&apos;Z&apos;&quot;.</Abstract>
+			<DeclaredIn>OMCStorageObject.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSDate *createdOn</Declaration>
+			
+			
+			<Anchor>//api/name/createdOn</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorageObject/setModifiedOn:</TokenIdentifier>
+			<Abstract type="html">The property modifiedOn in the date format &quot;yyyy-MM-dd&apos;T&apos;HH:mm:ss&apos;Z&apos;&quot;.
+Might be NULL if the object is never modified.</Abstract>
+			<DeclaredIn>OMCStorageObject.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSDate *modifiedOn</Declaration>
+			
+			
+			<Anchor>//api/name/modifiedOn</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorageObject/modifiedOn</TokenIdentifier>
+			<Abstract type="html">The property modifiedOn in the date format &quot;yyyy-MM-dd&apos;T&apos;HH:mm:ss&apos;Z&apos;&quot;.
+Might be NULL if the object is never modified.</Abstract>
+			<DeclaredIn>OMCStorageObject.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSDate *modifiedOn</Declaration>
+			
+			
+			<Anchor>//api/name/modifiedOn</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCStorageObject/modifiedOn</TokenIdentifier>
+			<Abstract type="html">The property modifiedOn in the date format &quot;yyyy-MM-dd&apos;T&apos;HH:mm:ss&apos;Z&apos;&quot;.
+Might be NULL if the object is never modified.</Abstract>
+			<DeclaredIn>OMCStorageObject.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSDate *modifiedOn</Declaration>
+			
+			
+			<Anchor>//api/name/modifiedOn</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorageObject/setCanonicalLink:</TokenIdentifier>
+			<Abstract type="html">The property canonicalLink is the canonical link for the current StorageObject.
+The link is a relative url.</Abstract>
+			<DeclaredIn>OMCStorageObject.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *canonicalLink</Declaration>
+			
+			
+			<Anchor>//api/name/canonicalLink</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorageObject/canonicalLink</TokenIdentifier>
+			<Abstract type="html">The property canonicalLink is the canonical link for the current StorageObject.
+The link is a relative url.</Abstract>
+			<DeclaredIn>OMCStorageObject.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *canonicalLink</Declaration>
+			
+			
+			<Anchor>//api/name/canonicalLink</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCStorageObject/canonicalLink</TokenIdentifier>
+			<Abstract type="html">The property canonicalLink is the canonical link for the current StorageObject.
+The link is a relative url.</Abstract>
+			<DeclaredIn>OMCStorageObject.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *canonicalLink</Declaration>
+			
+			
+			<Anchor>//api/name/canonicalLink</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorageObject/initPayload:withData:andContentType:</TokenIdentifier>
+			<Abstract type="html">Initializes an OMCStorageObject object with NSData format payload.</Abstract>
+			<DeclaredIn>OMCStorageObject.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initPayload:(NSString *)objectID withData:(NSData *)data andContentType:(NSString *)contentType</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>objectID</Name>
+					<Abstract type="html">The ID of the object in the Storage service.</Abstract>
+				</Parameter><Parameter>
+					<Name>data</Name>
+					<Abstract type="html">The payload of the current object in the format of NSData.</Abstract>
+				</Parameter><Parameter>
+					<Name>contentType</Name>
+					<Abstract type="html">The MIME Content-Type of the payload, for example &quot;image/jpeg&quot;.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initPayload:withData:andContentType:</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorageObject/initPayload:withStream:andContentType:</TokenIdentifier>
+			<Abstract type="html">Initializes an OMCStorageObject object with NSInputStream format payload.
+Note: as reading an NSInputStream involves registering on a Run Loop and
+doing asynchronous processing, invoking this API will block the current thread
+until the asynchronous processing completes.  Thus, it is not recommended that this
+method be called on the UI (main) thread.</Abstract>
+			<DeclaredIn>OMCStorageObject.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initPayload:(NSString *)objectID withStream:(NSInputStream *)inputStream andContentType:(NSString *)contentType</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>objectID</Name>
+					<Abstract type="html">The ID of the object in the Storage service.</Abstract>
+				</Parameter><Parameter>
+					<Name>inputStream</Name>
+					<Abstract type="html">The payload of the current object in the format of NSInputStream.</Abstract>
+				</Parameter><Parameter>
+					<Name>contentType</Name>
+					<Abstract type="html">The MIME Content-Type of the payload, for example &quot;image/jpeg&quot;.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initPayload:withStream:andContentType:</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorageObject/getPayloadData</TokenIdentifier>
+			<Abstract type="html">Returns the payload as NSData.</Abstract>
+			<DeclaredIn>OMCStorageObject.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)getPayloadData</Declaration>
+			
+			
+			<Anchor>//api/name/getPayloadData</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorageObject/getPayloadStream</TokenIdentifier>
+			<Abstract type="html">Returns the payload as NSInputStream.</Abstract>
+			<DeclaredIn>OMCStorageObject.h</DeclaredIn>
+			
+			<Declaration>- (NSInputStream *)getPayloadStream</Declaration>
+			
+			
+			<Anchor>//api/name/getPayloadStream</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorageObject/setPayloadFromData:withContentType:</TokenIdentifier>
+			<Abstract type="html">Sets the payload and content-Type of the OMCStorageObject.
+Returns the updated OMCStorageObject.</Abstract>
+			<DeclaredIn>OMCStorageObject.h</DeclaredIn>
+			
+			<Declaration>- (OMCStorageObject *)setPayloadFromData:(NSData *)data withContentType:(NSString *)contentType</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">is the new payload</Abstract>
+				</Parameter><Parameter>
+					<Name>contentType</Name>
+					<Abstract type="html">The MIME Content-Type of the payload, for example &quot;image/jpeg&quot;.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setPayloadFromData:withContentType:</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorageObject/setPayloadFromStream:withContentType:</TokenIdentifier>
+			<Abstract type="html">Sets the payload and content-Type of the OMCStorageObject.
+Returns the updated OMCStorageObject.
+Note: as reading an NSInputStream involves registering on a Run Loop and
+doing asynchronous processing, invoking this API will block the current thread
+until the asynchronous processing completes.  Thus, it is not recommended that this
+method be called on the UI (main) thread.</Abstract>
+			<DeclaredIn>OMCStorageObject.h</DeclaredIn>
+			
+			<Declaration>- (OMCStorageObject *)setPayloadFromStream:(NSInputStream *)inputStream withContentType:(NSString *)contentType</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>inputStream</Name>
+					<Abstract type="html">The new payload.</Abstract>
+				</Parameter><Parameter>
+					<Name>contentType</Name>
+					<Abstract type="html">The MIME Content-Type of the payload, for example &quot;image/jpeg&quot;.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setPayloadFromStream:withContentType:</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

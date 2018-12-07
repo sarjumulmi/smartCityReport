@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/SyncConflictState.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/SyncConflictState</TokenIdentifier>
+			<Abstract type="html">An enumeration of the different Conflict states for the resource.</Abstract>
+			<DeclaredIn>OMCSyncStoreState.h</DeclaredIn>
+            
+			
+			<NodeRef refid="61"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NoConflicts</TokenIdentifier>
+            <Abstract type="html">Denotes no conflicts</Abstract>
+            <Declaration>NoConflicts</Declaration>
+            
+            <DeclaredIn>OMCSyncStoreState.h</DeclaredIn>
+            
+            <NodeRef refid="61"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HasConflict</TokenIdentifier>
+            <Abstract type="html">Denotes has conflicts</Abstract>
+            <Declaration>HasConflict</Declaration>
+            
+            <DeclaredIn>OMCSyncStoreState.h</DeclaredIn>
+            
+            <NodeRef refid="61"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HasError</TokenIdentifier>
+            <Abstract type="html">Denotes has error</Abstract>
+            <Declaration>HasError</Declaration>
+            
+            <DeclaredIn>OMCSyncStoreState.h</DeclaredIn>
+            
+            <NodeRef refid="61"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HasConflictWithLatestCopy</TokenIdentifier>
+            <Abstract type="html">Denotes has conflicts, with latest from server copy downloaded</Abstract>
+            <Declaration>HasConflictWithLatestCopy</Declaration>
+            
+            <DeclaredIn>OMCSyncStoreState.h</DeclaredIn>
+            
+            <NodeRef refid="61"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

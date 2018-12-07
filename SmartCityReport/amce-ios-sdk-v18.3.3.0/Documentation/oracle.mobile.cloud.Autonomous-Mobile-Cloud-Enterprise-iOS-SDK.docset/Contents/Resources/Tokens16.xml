@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCLocationBeacon.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCLocationBeacon</TokenIdentifier>
+			<Abstract type="html">A beacon represents the vendor-specific state associated with
+a device. Beacons are immutable.</Abstract>
+			<DeclaredIn>OMCLocationBeacon.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationDevice/beacon</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="16"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationBeacon/setType:</TokenIdentifier>
+			<Abstract type="html">The beacon type (altBeacon, Eddystone beacon, or iBeacon).</Abstract>
+			<DeclaredIn>OMCLocationBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) OMCLocationBeaconType type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationBeacon/type</TokenIdentifier>
+			<Abstract type="html">The beacon type (altBeacon, Eddystone beacon, or iBeacon).</Abstract>
+			<DeclaredIn>OMCLocationBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) OMCLocationBeaconType type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationBeacon/type</TokenIdentifier>
+			<Abstract type="html">The beacon type (altBeacon, Eddystone beacon, or iBeacon).</Abstract>
+			<DeclaredIn>OMCLocationBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) OMCLocationBeaconType type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationBeacon/setProperties:</TokenIdentifier>
+			<Abstract type="html">The beacon&apos;s raw properties (corresponding to the JSON payload).</Abstract>
+			<DeclaredIn>OMCLocationBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSDictionary&lt;NSString*id&gt; *properties</Declaration>
+			
+			
+			<Anchor>//api/name/properties</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationBeacon/properties</TokenIdentifier>
+			<Abstract type="html">The beacon&apos;s raw properties (corresponding to the JSON payload).</Abstract>
+			<DeclaredIn>OMCLocationBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSDictionary&lt;NSString*id&gt; *properties</Declaration>
+			
+			
+			<Anchor>//api/name/properties</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationBeacon/properties</TokenIdentifier>
+			<Abstract type="html">The beacon&apos;s raw properties (corresponding to the JSON payload).</Abstract>
+			<DeclaredIn>OMCLocationBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSDictionary&lt;NSString*id&gt; *properties</Declaration>
+			
+			
+			<Anchor>//api/name/properties</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

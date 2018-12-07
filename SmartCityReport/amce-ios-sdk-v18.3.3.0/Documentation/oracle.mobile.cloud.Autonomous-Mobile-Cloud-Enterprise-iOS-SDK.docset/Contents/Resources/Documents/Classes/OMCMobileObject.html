@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>OMCMobileObject Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">Autonomous Mobile Cloud Enterprise iOS SDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Oracle Corporation, 18.3.3.0 - E91498-01</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/addOrUpdateJsonProperty:propertyValue:">- addOrUpdateJsonProperty:propertyValue:</option>
+		
+		<option value="//api/name/deleteResource:OnError:">- deleteResource:OnError:</option>
+		
+		<option value="//api/name/deleteResourceOnError:">- deleteResourceOnError:</option>
+		
+		<option value="//api/name/jsonObject">- jsonObject</option>
+		
+		<option value="//api/name/jsonObjectPersistentState">- jsonObjectPersistentState</option>
+		
+		<option value="//api/name/saveResource:OnSuccess:OnError:">- saveResource:OnSuccess:OnError:</option>
+		
+		<option value="//api/name/saveResourceOnSuccess:OnError:">- saveResourceOnSuccess:OnError:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">OMCMobileObject Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td><a href="../Classes/OMCMobileResource.html">OMCMobileResource</a> : NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>OMCMobileObject.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Class that represents an object returned by a custom code API. Enables access to strongly typed object properties.</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/jsonObject" title="jsonObject"></a>
+	<h3 class="method-title"><code><a href="#//api/name/jsonObject">&ndash;&nbsp;jsonObject</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The underlying JSON representation of the object, typically an NSDictionary or NSArray.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (_Nullable id)jsonObject</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>The JSON object (returns local/offline edited copy if found; otherwise returns persistent state/server copy)</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/jsonObjectPersistentState" title="jsonObjectPersistentState"></a>
+	<h3 class="method-title"><code><a href="#//api/name/jsonObjectPersistentState">&ndash;&nbsp;jsonObjectPersistentState</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns the server version (persistent state) of the object. This method is useful when the conflict resolution
+policy is PRESERVE_CONFLICT and a conflict occurs. You can use this method to get the current server version of the
+object, use the <a href="#//api/name/jsonObject">jsonObject</a>() method to get the device&rsquo;s local cache version of the object, and then resolve the
+conflict programmatically. For example you can merge the two objects, or you can let user choose which version to persist.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (_Nullable id)jsonObjectPersistentState</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>JSON object that represents the persistent state (server copy) of the object.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/addOrUpdateJsonProperty:propertyValue:" title="addOrUpdateJsonProperty:propertyValue:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/addOrUpdateJsonProperty:propertyValue:">&ndash;&nbsp;addOrUpdateJsonProperty:propertyValue:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Adds or updates the property in the JSON object. To persist the added/updated property to the OMCMobileObject object,
+you must invoke the saveResource method.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)addOrUpdateJsonProperty:(NSString *)<em>propertyName</em> propertyValue:(NSString *)<em>value</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>propertyName</code></th>
+						<td><p>key cannot be nil</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>value</code></th>
+						<td><p>value of the property</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/saveResourceOnSuccess:OnError:" title="saveResourceOnSuccess:OnError:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/saveResourceOnSuccess:OnError:">&ndash;&nbsp;saveResourceOnSuccess:OnError:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>If the device is online, sends all the changes made to the object to the server. If the device is offline,
+the behavior depends on the resource&rsquo;s (or for an add, the configuration file&rsquo;s or default) update policy.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)saveResourceOnSuccess:(OMCObjectSuccess _Nullable)<em>successBlk</em> OnError:(OMCSyncErrorBlock _Nullable)<em>errorBlk</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>successBlk</code></th>
+						<td><p>block that will be called after the request has successfully finished with the mobile resource.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>errorBlk</code></th>
+						<td><p>block that will be called after the request has finished with an error.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>If the device is online, then the changes are sent to the server, regardless of the policy setting. After
+the HTTP request that is sent to the server (PUT/POST/DELETE) completes successfully, the successBlk is
+called. If the HTTP response is not 2XX, 409 or 412, or if the SDK detects an error, such as timeout, then
+the errorBlk is called.</p>
+
+<p>If the device is offline and the update policy is QUEUE_IF_OFFLINE, then the successBlk is called after
+the changes are written to the local cache. The changes are then queued to be sent to the server when the
+device goes online.The errorBlk is called only if there is an error when writing to the local cache, such
+as exceeding the maxStoreSize.</p>
+
+<p>If the device is offline and the update policy is UPDATE_IF_ONLINE, then the errorBlk is called.</p>
+
+<p>Note that you can override the resource&rsquo;s update policy setting by calling saveResource with the saveIfOffline parameter.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/saveResource:OnSuccess:OnError:" title="saveResource:OnSuccess:OnError:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/saveResource:OnSuccess:OnError:">&ndash;&nbsp;saveResource:OnSuccess:OnError:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>If the device is online, sends all the changes made to the object to the server. If the device is offline,
+the behavior depends on saveIfOffline parameter value.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)saveResource:(BOOL)<em>saveIfOffline</em> OnSuccess:(OMCObjectSuccess _Nullable)<em>successBlk</em> OnError:(OMCSyncErrorBlock _Nullable)<em>errorBlk</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>saveIfOffline</code></th>
+						<td><p>If the device is online, this parameter has no effect because all saves are sent
+to the server. If the device is offline and this option is true, then the method caches the updates locally,
+and, when the device goes online, it sends the changes to the server. If the device is offline and this option
+is false, then the save fails.</p>
+
+<p>Note: The use of this function overrides any update policy set elsewhere, such as the resource&rsquo;s update
+policy for an update or delete, or the configuration file or default policy for an add. This parameter
+is useful is when you must ensure that a new or updated object is sent to the server immediately, and
+you need to know the results (error or success) instaneneously so that you can act on the result.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>successBlk</code></th>
+						<td><p>Block that is called after the request completes successfully.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>errorBlk</code></th>
+						<td><p>Block that is called after the request completes with an error.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>If the device is online, then the changes are sent to the server, regardless of the policy setting.
+After the HTTP request that is sent to the server (PUT/POST/DELETE) completes successfully, the successBlk is
+called. If the HTTP response is not 2XX, 409 or 412, or if the SDK detects an error, such as timeout, then the
+errorBlk is called.</p>
+
+<p>If the device is offline and saveIfOffline is true, then the successBlk is called after the changes are written
+to the local cache. The changes are then queued to be sent to the server when the device goes online.The errorBlk
+is called only if there is an error when writing to the local cache, such as exceeding the maxStoreSize.</p>
+
+<p>If the device is offline and saveIfOffline is false, then the errorBlk is called.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/deleteResourceOnError:" title="deleteResourceOnError:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/deleteResourceOnError:">&ndash;&nbsp;deleteResourceOnError:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>  Deletes the object. Caches the deletion locally if offline.  Unlike deleteResource: with it&rsquo;s
+  deleteIfOffline parameter, this method is always influenced by the Update Policy setting</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)deleteResourceOnError:(OMCSyncErrorBlock _Nullable)<em>errorBlk</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>errorBlk</code></th>
+						<td><p>Block that is called after the request completes with error.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/deleteResource:OnError:" title="deleteResource:OnError:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/deleteResource:OnError:">&ndash;&nbsp;deleteResource:OnError:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Deletes the object.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)deleteResource:(BOOL)<em>deleteIfOffline</em> OnError:(OMCSyncErrorBlock _Nullable)<em>errorBlk</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>deleteIfOffline</code></th>
+						<td><p>If true and the device is offline, caches the deletion locally and sends the DELETE
+request to the server when the device goes online. If false, then calls the errorBlk. This parameter
+overrides the resource&rsquo;s update policy.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>errorBlk</code></th>
+						<td><p>Block that is called after the request completes with error.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2018 Oracle Corporation, 18.3.3.0 - E91498-01. All rights reserved. Updated: 2018-08-29</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

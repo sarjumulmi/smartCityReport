@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/OMCAuthenticationMode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/OMCAuthenticationMode</TokenIdentifier>
+			<Abstract type="html">Authentication mode.  This distinguishes having been authenticated online
+by the server from offline mode, in which the local cached credentials
+are used.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+            
+			
+			<NodeRef refid="51"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/OMCAuthenticationModeNotAuthenticated</TokenIdentifier>
+            <Abstract type="html">Not authenticated.
+     </Abstract>
+            <Declaration>OMCAuthenticationModeNotAuthenticated</Declaration>
+            
+            <DeclaredIn>OMCAuthorization.h</DeclaredIn>
+            
+            <NodeRef refid="51"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/OMCAuthenticationModeOnline</TokenIdentifier>
+            <Abstract type="html">Online authentication.
+     </Abstract>
+            <Declaration>OMCAuthenticationModeOnline</Declaration>
+            
+            <DeclaredIn>OMCAuthorization.h</DeclaredIn>
+            
+            <NodeRef refid="51"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/OMCAuthenticationModeOffline</TokenIdentifier>
+            <Abstract type="html">Offline authentication.
+     </Abstract>
+            <Declaration>OMCAuthenticationModeOffline</Declaration>
+            
+            <DeclaredIn>OMCAuthorization.h</DeclaredIn>
+            
+            <NodeRef refid="51"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

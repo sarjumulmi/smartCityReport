@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/OMCAuthenticationType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/OMCAuthenticationType</TokenIdentifier>
+			<Abstract type="html">Authentication type.</Abstract>
+			<DeclaredIn>OMCAuthorization.h</DeclaredIn>
+            
+			
+			<NodeRef refid="52"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/OMCAuthenticationTypeOAuth</TokenIdentifier>
+            <Abstract type="html">     OAuth 2.0 Resource Owner Password Credentials
+     </Abstract>
+            <Declaration>OMCAuthenticationTypeOAuth</Declaration>
+            
+            <DeclaredIn>OMCAuthorization.h</DeclaredIn>
+            
+            <NodeRef refid="52"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/OMCAuthenticationTypeHTTPBasic</TokenIdentifier>
+            <Abstract type="html">     HTTP Basic
+     </Abstract>
+            <Declaration>OMCAuthenticationTypeHTTPBasic</Declaration>
+            
+            <DeclaredIn>OMCAuthorization.h</DeclaredIn>
+            
+            <NodeRef refid="52"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/OMCAuthenticationTypeSSO</TokenIdentifier>
+            <Abstract type="html">     Single Sign-On
+     </Abstract>
+            <Declaration>OMCAuthenticationTypeSSO</Declaration>
+            
+            <DeclaredIn>OMCAuthorization.h</DeclaredIn>
+            
+            <NodeRef refid="52"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/OMCAuthenticationTypeTokenExchange</TokenIdentifier>
+            <Abstract type="html">     Token Exchange
+     </Abstract>
+            <Declaration>OMCAuthenticationTypeTokenExchange</Declaration>
+            
+            <DeclaredIn>OMCAuthorization.h</DeclaredIn>
+            
+            <NodeRef refid="52"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/OMCAuthenticationTypeFacebook</TokenIdentifier>
+            <Abstract type="html">Facebook
+     </Abstract>
+            <Declaration>OMCAuthenticationTypeFacebook</Declaration>
+            
+            <DeclaredIn>OMCAuthorization.h</DeclaredIn>
+            
+            <NodeRef refid="52"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

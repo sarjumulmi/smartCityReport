@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/OMCLocationDeviceQueryProtocolType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/OMCLocationDeviceQueryProtocolType</TokenIdentifier>
+			<Abstract type="html">The device beacon protocol type.</Abstract>
+			<DeclaredIn>OMCLocationDeviceQuery.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationDeviceQuery/protocol</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="57"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/OMCLocationDeviceQueryProtocolTypeNone</TokenIdentifier>
+            <Abstract type="html">     The device does not yet specify a beacon type.
+     </Abstract>
+            <Declaration>OMCLocationDeviceQueryProtocolTypeNone</Declaration>
+            
+            <DeclaredIn>OMCLocationDeviceQuery.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/OMCLocationDeviceQueryProtocolTypeAltBeacon</TokenIdentifier>
+            <Abstract type="html">     The AltBeacon type.
+     </Abstract>
+            <Declaration>OMCLocationDeviceQueryProtocolTypeAltBeacon</Declaration>
+            
+            <DeclaredIn>OMCLocationDeviceQuery.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/OMCLocationDeviceQueryProtocolTypeEddystoneBeacon</TokenIdentifier>
+            <Abstract type="html">     The Eddystone Beacon type.
+     </Abstract>
+            <Declaration>OMCLocationDeviceQueryProtocolTypeEddystoneBeacon</Declaration>
+            
+            <DeclaredIn>OMCLocationDeviceQuery.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/OMCLocationDeviceQueryProtocolTypeIBeacon</TokenIdentifier>
+            <Abstract type="html">     The iBeacon type.
+     </Abstract>
+            <Declaration>OMCLocationDeviceQueryProtocolTypeIBeacon</Declaration>
+            
+            <DeclaredIn>OMCLocationDeviceQuery.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCLocationDevice.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCLocationDevice</TokenIdentifier>
+			<Abstract type="html">A device adds context to a vendor-specific beacon and associates it
+with an asset or place.</Abstract>
+			<DeclaredIn>OMCLocationDevice.h</DeclaredIn>
+            
+			
+			<NodeRef refid="17"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationDevice/setContainer:</TokenIdentifier>
+			<Abstract type="html">The device&apos;s container, either a place or an asset.
+A device can be associated with either a place or an asset, but not both.</Abstract>
+			<DeclaredIn>OMCLocationDevice.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/OMCLocationAsset</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/OMCLocationPlace</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly, nullable) OMCLocationDeviceContainer *container</Declaration>
+			
+			
+			<Anchor>//api/name/container</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationDevice/container</TokenIdentifier>
+			<Abstract type="html">The device&apos;s container, either a place or an asset.
+A device can be associated with either a place or an asset, but not both.</Abstract>
+			<DeclaredIn>OMCLocationDevice.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/OMCLocationAsset</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/OMCLocationPlace</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly, nullable) OMCLocationDeviceContainer *container</Declaration>
+			
+			
+			<Anchor>//api/name/container</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationDevice/container</TokenIdentifier>
+			<Abstract type="html">The device&apos;s container, either a place or an asset.
+A device can be associated with either a place or an asset, but not both.</Abstract>
+			<DeclaredIn>OMCLocationDevice.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/OMCLocationAsset</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/OMCLocationPlace</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly, nullable) OMCLocationDeviceContainer *container</Declaration>
+			
+			
+			<Anchor>//api/name/container</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationDevice/setBeacon:</TokenIdentifier>
+			<Abstract type="html">The device&apos;s beacon (altBeacon, Eddystone beacon, or iBeacon).</Abstract>
+			<DeclaredIn>OMCLocationDevice.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) OMCLocationBeacon *beacon</Declaration>
+			
+			
+			<Anchor>//api/name/beacon</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationDevice/beacon</TokenIdentifier>
+			<Abstract type="html">The device&apos;s beacon (altBeacon, Eddystone beacon, or iBeacon).</Abstract>
+			<DeclaredIn>OMCLocationDevice.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) OMCLocationBeacon *beacon</Declaration>
+			
+			
+			<Anchor>//api/name/beacon</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationDevice/beacon</TokenIdentifier>
+			<Abstract type="html">The device&apos;s beacon (altBeacon, Eddystone beacon, or iBeacon).</Abstract>
+			<DeclaredIn>OMCLocationDevice.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) OMCLocationBeacon *beacon</Declaration>
+			
+			
+			<Anchor>//api/name/beacon</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

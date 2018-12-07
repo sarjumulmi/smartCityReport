@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCLocationEddystoneBeacon.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCLocationEddystoneBeacon</TokenIdentifier>
+			<Abstract type="html">An Eddystone beacon is used to specify the vendor-specific state for a device&apos;s beacon.
+Eddystone beacons are immutable.</Abstract>
+			<DeclaredIn>OMCLocationEddystoneBeacon.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationDevice/beacon</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="21"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationEddystoneBeacon/setUid:</TokenIdentifier>
+			<Abstract type="html">The beacon&apos;s UID.</Abstract>
+			<DeclaredIn>OMCLocationEddystoneBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) OMCLocationEddystoneBeaconUID *uid</Declaration>
+			
+			
+			<Anchor>//api/name/uid</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationEddystoneBeacon/uid</TokenIdentifier>
+			<Abstract type="html">The beacon&apos;s UID.</Abstract>
+			<DeclaredIn>OMCLocationEddystoneBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) OMCLocationEddystoneBeaconUID *uid</Declaration>
+			
+			
+			<Anchor>//api/name/uid</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationEddystoneBeacon/uid</TokenIdentifier>
+			<Abstract type="html">The beacon&apos;s UID.</Abstract>
+			<DeclaredIn>OMCLocationEddystoneBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) OMCLocationEddystoneBeaconUID *uid</Declaration>
+			
+			
+			<Anchor>//api/name/uid</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationEddystoneBeacon/setUrl:</TokenIdentifier>
+			<Abstract type="html">The beacon&apos;s URL.</Abstract>
+			<DeclaredIn>OMCLocationEddystoneBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSURL *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationEddystoneBeacon/url</TokenIdentifier>
+			<Abstract type="html">The beacon&apos;s URL.</Abstract>
+			<DeclaredIn>OMCLocationEddystoneBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSURL *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationEddystoneBeacon/url</TokenIdentifier>
+			<Abstract type="html">The beacon&apos;s URL.</Abstract>
+			<DeclaredIn>OMCLocationEddystoneBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSURL *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/OMCLocationEddystoneBeacon/eddystoneBeaconWithNamespace:instance:url:</TokenIdentifier>
+			<Abstract type="html">Constructs a new Eddystone beacon with the specified namespace, instance,
+and URL.</Abstract>
+			<DeclaredIn>OMCLocationEddystoneBeacon.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)eddystoneBeaconWithNamespace:(nullable NSString *)namespace instance:(nullable NSString *)instance url:(nullable NSURL *)url</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>namespace</Name>
+					<Abstract type="html">The new beacon&apos;s namespace.</Abstract>
+				</Parameter><Parameter>
+					<Name>instance</Name>
+					<Abstract type="html">The new beacon&apos;s instance.</Abstract>
+				</Parameter><Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The new beacon&apos;s URL.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/eddystoneBeaconWithNamespace:instance:url:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/OMCLocationEddystoneBeacon/eddystoneBeaconWithUID:url:</TokenIdentifier>
+			<Abstract type="html">Constructs a new Eddystone beacon with the specified UID and URL.</Abstract>
+			<DeclaredIn>OMCLocationEddystoneBeacon.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)eddystoneBeaconWithUID:(nullable OMCLocationEddystoneBeaconUID *)uid url:(nullable NSURL *)url</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>uid</Name>
+					<Abstract type="html">The new beacon&apos;s UID.</Abstract>
+				</Parameter><Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The new beacon&apos;s URL.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/eddystoneBeaconWithUID:url:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

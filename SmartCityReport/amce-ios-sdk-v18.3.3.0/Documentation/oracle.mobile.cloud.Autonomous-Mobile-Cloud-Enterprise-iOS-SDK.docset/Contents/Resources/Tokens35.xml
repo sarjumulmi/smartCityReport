@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCMobileEndpoint.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCMobileEndpoint</TokenIdentifier>
+			<Abstract type="html">Represents an endpoint in a custom code API</Abstract>
+			<DeclaredIn>OMCMobileEndpoint.h</DeclaredIn>
+            
+			
+			<NodeRef refid="35"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileEndpoint/setApiName:</TokenIdentifier>
+			<Abstract type="html">The name of the custom code API.</Abstract>
+			<DeclaredIn>OMCMobileEndpoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *apiName</Declaration>
+			
+			
+			<Anchor>//api/name/apiName</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileEndpoint/apiName</TokenIdentifier>
+			<Abstract type="html">The name of the custom code API.</Abstract>
+			<DeclaredIn>OMCMobileEndpoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *apiName</Declaration>
+			
+			
+			<Anchor>//api/name/apiName</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileEndpoint/apiName</TokenIdentifier>
+			<Abstract type="html">The name of the custom code API.</Abstract>
+			<DeclaredIn>OMCMobileEndpoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *apiName</Declaration>
+			
+			
+			<Anchor>//api/name/apiName</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileEndpoint/setEndpointPath:</TokenIdentifier>
+			<Abstract type="html">The endpoint in the API.</Abstract>
+			<DeclaredIn>OMCMobileEndpoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *endpointPath</Declaration>
+			
+			
+			<Anchor>//api/name/endpointPath</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileEndpoint/endpointPath</TokenIdentifier>
+			<Abstract type="html">The endpoint in the API.</Abstract>
+			<DeclaredIn>OMCMobileEndpoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *endpointPath</Declaration>
+			
+			
+			<Anchor>//api/name/endpointPath</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileEndpoint/endpointPath</TokenIdentifier>
+			<Abstract type="html">The endpoint in the API.</Abstract>
+			<DeclaredIn>OMCMobileEndpoint.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *endpointPath</Declaration>
+			
+			
+			<Anchor>//api/name/endpointPath</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileEndpoint/createObject</TokenIdentifier>
+			<Abstract type="html">Creates a new MobileObject. The object is not uploaded to the service until Save is invoked.</Abstract>
+			<DeclaredIn>OMCMobileEndpoint.h</DeclaredIn>
+			
+			<Declaration>- (id)createObject</Declaration>
+			
+			<ReturnValue><Abstract type="html">The new OMCMobileObject object or, if a custom mobile object entity is specified, it will return custom mobile object.</Abstract></ReturnValue>
+			<Anchor>//api/name/createObject</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileEndpoint/createFile</TokenIdentifier>
+			<Abstract type="html">Creates a new MobileFile. The file is not uploaded to the service until Save is invoked.</Abstract>
+			<DeclaredIn>OMCMobileEndpoint.h</DeclaredIn>
+			
+			<Declaration>- (OMCMobileFile *)createFile</Declaration>
+			
+			<ReturnValue><Abstract type="html">The new MobileFile.</Abstract></ReturnValue>
+			<Anchor>//api/name/createFile</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileEndpoint/getSynchronization</TokenIdentifier>
+			<Abstract type="html">* Returns the synchronization object from which the current mobile endpoint was created</Abstract>
+			<DeclaredIn>OMCMobileEndpoint.h</DeclaredIn>
+			
+			<Declaration>- (OMCSynchronization *)getSynchronization</Declaration>
+			
+			<ReturnValue><Abstract type="html">synchronization OMCSynchronization object</Abstract></ReturnValue>
+			<Anchor>//api/name/getSynchronization</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileEndpoint/fetchObjectCollectionBuilder</TokenIdentifier>
+			<Abstract type="html">Method to fetch a builder to fetch a collection of objects from the endpoint. If the collection exists in the cache, and the policy is set to get from cache, the cached copy is returned. Otherwise it is downloaded from the service.</Abstract>
+			<DeclaredIn>OMCMobileEndpoint.h</DeclaredIn>
+			
+			<Declaration>- (OMCFetchObjectCollectionBuilder *)fetchObjectCollectionBuilder</Declaration>
+			
+			<ReturnValue><Abstract type="html">The object of OMCFetchObjectCollectionBuilder</Abstract></ReturnValue>
+			<Anchor>//api/name/fetchObjectCollectionBuilder</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileEndpoint/fetchObjectBuilder</TokenIdentifier>
+			<Abstract type="html">Method to fetch a builder to fetch a object from the endpoint. If the object exists in the cache, and and the policy is set to get from cache, the cached copy is returned. Otherwise it is downloaded from the service.</Abstract>
+			<DeclaredIn>OMCMobileEndpoint.h</DeclaredIn>
+			
+			<Declaration>- (OMCFetchObjectBuilder *)fetchObjectBuilder</Declaration>
+			
+			<ReturnValue><Abstract type="html">The object of OMCFetchObjectBuilder</Abstract></ReturnValue>
+			<Anchor>//api/name/fetchObjectBuilder</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileEndpoint/fetchFileBuilder</TokenIdentifier>
+			<Abstract type="html">Method to fetch a builder to fetch a file from the endpoint. If the file exists in the cache, and the policy is set to get from cache, the cached copy is returned. Otherwise it is downloaded from the service.</Abstract>
+			<DeclaredIn>OMCMobileEndpoint.h</DeclaredIn>
+			
+			<Declaration>- (OMCFetchFileBuilder *)fetchFileBuilder</Declaration>
+			
+			<ReturnValue><Abstract type="html">The object of OMCFetchFileBuilder</Abstract></ReturnValue>
+			<Anchor>//api/name/fetchFileBuilder</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileEndpoint/fetchObjectBuilder:</TokenIdentifier>
+			<Abstract type="html">Method to fetch a builder to fetch an object from the endpoint. If the object exists in the cache, and the policy is set to get from cache, the cached copy is returned. Otherwise it is downloaded from the service.</Abstract>
+			<DeclaredIn>OMCMobileEndpoint.h</DeclaredIn>
+			
+			<Declaration>- (OMCFetchObjectBuilder *)fetchObjectBuilder:(NSString *)objectId</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>objectId</Name>
+					<Abstract type="html">id to append to the endpoint path</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The object of OMCFetchObjectBuilder</Abstract></ReturnValue>
+			<Anchor>//api/name/fetchObjectBuilder:</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileEndpoint/fetchFileBuilder:</TokenIdentifier>
+			<Abstract type="html">Method to fetch a builder to fetch a file from the endpoint. If the file exists in the cache, and the policy is set to get from cache, the cached copy is returned. Otherwise it is downloaded from the service.</Abstract>
+			<DeclaredIn>OMCMobileEndpoint.h</DeclaredIn>
+			
+			<Declaration>- (OMCFetchFileBuilder *)fetchFileBuilder:(NSString *)fileId</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>fileId</Name>
+					<Abstract type="html">id to append to the endpoint path</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The object of OMCFetchFileBuilder</Abstract></ReturnValue>
+			<Anchor>//api/name/fetchFileBuilder:</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileEndpoint/absoluteUrl</TokenIdentifier>
+			<Abstract type="html">Returns absolute url for the current mobile endpoint</Abstract>
+			<DeclaredIn>OMCMobileEndpoint.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)absoluteUrl</Declaration>
+			
+			<ReturnValue><Abstract type="html">absolute url string</Abstract></ReturnValue>
+			<Anchor>//api/name/absoluteUrl</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

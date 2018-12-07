@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCAnalyticsApplicationDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCAnalyticsApplicationDelegate</TokenIdentifier>
+			<Abstract type="html">An Analytics client application delegate can subclass this application delegate
+and the application&apos;s Analytics sessions will correspond with the
+application&apos;s being in the device&apos;s foreground
+(i.e. a session will start when the app moves to the foreground and
+end when the app moves to the background).</Abstract>
+			<DeclaredIn>OMCAnalyticsApplicationDelegate.h</DeclaredIn>
+            
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAnalyticsApplicationDelegate/setAnalytics:</TokenIdentifier>
+			<Abstract type="html">The application&apos;s Oracle Mobile Cloud Analytics service.</Abstract>
+			<DeclaredIn>OMCAnalyticsApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) OMCAnalytics *analytics</Declaration>
+			
+			
+			<Anchor>//api/name/analytics</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAnalyticsApplicationDelegate/analytics</TokenIdentifier>
+			<Abstract type="html">The application&apos;s Oracle Mobile Cloud Analytics service.</Abstract>
+			<DeclaredIn>OMCAnalyticsApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) OMCAnalytics *analytics</Declaration>
+			
+			
+			<Anchor>//api/name/analytics</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCAnalyticsApplicationDelegate/analytics</TokenIdentifier>
+			<Abstract type="html">The application&apos;s Oracle Mobile Cloud Analytics service.</Abstract>
+			<DeclaredIn>OMCAnalyticsApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) OMCAnalytics *analytics</Declaration>
+			
+			
+			<Anchor>//api/name/analytics</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAnalyticsApplicationDelegate/application:didFinishLaunchingWithOptions:</TokenIdentifier>
+			<Abstract type="html">This implementation sets the value of the analytics property with the
+Analytics service for the mobile backend that is returned by the mobileBackend method.</Abstract>
+			<DeclaredIn>OMCAnalyticsApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>application</Name>
+					<Abstract type="html">The singleton app object.</Abstract>
+				</Parameter><Parameter>
+					<Name>launchOptions</Name>
+					<Abstract type="html">A dictionary indicating the reason the app was launched (if any).
+The contents of this dictionary may be empty in situations where the user launched
+the app directly. For information about the possible keys in this dictionary and
+how to handle them, see Launch Options Keys.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/application:didFinishLaunchingWithOptions:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAnalyticsApplicationDelegate/mobileBackend</TokenIdentifier>
+			<Abstract type="html">This implementation returns the mobile manager&apos;s mobile backend/</Abstract>
+			<DeclaredIn>OMCAnalyticsApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (OMCMobileBackend *)mobileBackend</Declaration>
+			
+			
+			<Anchor>//api/name/mobileBackend</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAnalyticsApplicationDelegate/applicationWillEnterForeground:</TokenIdentifier>
+			<Abstract type="html">This implementation does nothing.</Abstract>
+			<DeclaredIn>OMCAnalyticsApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)applicationWillEnterForeground:(UIApplication *)application</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>application</Name>
+					<Abstract type="html">The singleton app object.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/applicationWillEnterForeground:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAnalyticsApplicationDelegate/applicationDidBecomeActive:</TokenIdentifier>
+			<Abstract type="html">This implementation starts a new Analytics session.</Abstract>
+			<DeclaredIn>OMCAnalyticsApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)applicationDidBecomeActive:(UIApplication *)application</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>application</Name>
+					<Abstract type="html">The singleton app object.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/applicationDidBecomeActive:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAnalyticsApplicationDelegate/applicationWillResignActive:</TokenIdentifier>
+			<Abstract type="html">This implementation does nothing.</Abstract>
+			<DeclaredIn>OMCAnalyticsApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)applicationWillResignActive:(UIApplication *)application</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>application</Name>
+					<Abstract type="html">The singleton app object.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/applicationWillResignActive:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAnalyticsApplicationDelegate/applicationDidEnterBackground:</TokenIdentifier>
+			<Abstract type="html">This implementation ends the current Analytics session.</Abstract>
+			<DeclaredIn>OMCAnalyticsApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)applicationDidEnterBackground:(UIApplication *)application</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>application</Name>
+					<Abstract type="html">The singleton app object.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/applicationDidEnterBackground:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAnalyticsApplicationDelegate/applicationWillTerminate:</TokenIdentifier>
+			<Abstract type="html">This implementation does nothing.</Abstract>
+			<DeclaredIn>OMCAnalyticsApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)applicationWillTerminate:(UIApplication *)application</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>application</Name>
+					<Abstract type="html">The singleton app object.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/applicationWillTerminate:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

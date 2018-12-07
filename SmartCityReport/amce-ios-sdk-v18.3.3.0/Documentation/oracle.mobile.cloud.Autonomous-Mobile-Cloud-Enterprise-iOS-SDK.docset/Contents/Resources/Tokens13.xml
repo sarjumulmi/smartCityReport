@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCLocationAltBeacon.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCLocationAltBeacon</TokenIdentifier>
+			<Abstract type="html">An altBeacon is used to specify the vendor-specific state for a device&apos;s beacon.
+altBeacons are immutable.</Abstract>
+			<DeclaredIn>OMCLocationAltBeacon.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationDevice/beacon</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="13"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationAltBeacon/setId1:</TokenIdentifier>
+			<Abstract type="html">The altBeacon&apos;s ID1.</Abstract>
+			<DeclaredIn>OMCLocationAltBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSUUID *id1</Declaration>
+			
+			
+			<Anchor>//api/name/id1</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationAltBeacon/id1</TokenIdentifier>
+			<Abstract type="html">The altBeacon&apos;s ID1.</Abstract>
+			<DeclaredIn>OMCLocationAltBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSUUID *id1</Declaration>
+			
+			
+			<Anchor>//api/name/id1</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationAltBeacon/id1</TokenIdentifier>
+			<Abstract type="html">The altBeacon&apos;s ID1.</Abstract>
+			<DeclaredIn>OMCLocationAltBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSUUID *id1</Declaration>
+			
+			
+			<Anchor>//api/name/id1</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationAltBeacon/setId2:</TokenIdentifier>
+			<Abstract type="html">The altBeacon&apos;s ID2.</Abstract>
+			<DeclaredIn>OMCLocationAltBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSNumber *id2</Declaration>
+			
+			
+			<Anchor>//api/name/id2</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationAltBeacon/id2</TokenIdentifier>
+			<Abstract type="html">The altBeacon&apos;s ID2.</Abstract>
+			<DeclaredIn>OMCLocationAltBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSNumber *id2</Declaration>
+			
+			
+			<Anchor>//api/name/id2</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationAltBeacon/id2</TokenIdentifier>
+			<Abstract type="html">The altBeacon&apos;s ID2.</Abstract>
+			<DeclaredIn>OMCLocationAltBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSNumber *id2</Declaration>
+			
+			
+			<Anchor>//api/name/id2</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationAltBeacon/setId3:</TokenIdentifier>
+			<Abstract type="html">The altBeacon&apos;s ID3.</Abstract>
+			<DeclaredIn>OMCLocationAltBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSNumber *id3</Declaration>
+			
+			
+			<Anchor>//api/name/id3</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationAltBeacon/id3</TokenIdentifier>
+			<Abstract type="html">The altBeacon&apos;s ID3.</Abstract>
+			<DeclaredIn>OMCLocationAltBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSNumber *id3</Declaration>
+			
+			
+			<Anchor>//api/name/id3</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationAltBeacon/id3</TokenIdentifier>
+			<Abstract type="html">The altBeacon&apos;s ID3.</Abstract>
+			<DeclaredIn>OMCLocationAltBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSNumber *id3</Declaration>
+			
+			
+			<Anchor>//api/name/id3</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/OMCLocationAltBeacon/altBeaconWithID1:id2:id3:</TokenIdentifier>
+			<Abstract type="html">Constructs an altBeacon with the specified IDs.</Abstract>
+			<DeclaredIn>OMCLocationAltBeacon.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)altBeaconWithID1:(nullable NSUUID *)id1 id2:(nullable NSNumber *)id2 id3:(nullable NSNumber *)id3</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>id1</Name>
+					<Abstract type="html">The altBeacon&apos;s ID1.</Abstract>
+				</Parameter><Parameter>
+					<Name>id2</Name>
+					<Abstract type="html">The altBeacon&apos;s ID2.</Abstract>
+				</Parameter><Parameter>
+					<Name>id3</Name>
+					<Abstract type="html">The altBeacon&apos;s ID3.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/altBeaconWithID1:id2:id3:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCLocationAssetQuery.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCLocationAssetQuery</TokenIdentifier>
+			<Abstract type="html">An asset query can be configured to search for assets.</Abstract>
+			<DeclaredIn>OMCLocationAssetQuery.h</DeclaredIn>
+            
+			
+			<NodeRef refid="15"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationAssetQuery/setDeviceID:</TokenIdentifier>
+			<Abstract type="html">The query will search for the asset associated with this device ID.</Abstract>
+			<DeclaredIn>OMCLocationAssetQuery.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, nullable) NSNumber *deviceID</Declaration>
+			
+			
+			<Anchor>//api/name/deviceID</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationAssetQuery/deviceID</TokenIdentifier>
+			<Abstract type="html">The query will search for the asset associated with this device ID.</Abstract>
+			<DeclaredIn>OMCLocationAssetQuery.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, nullable) NSNumber *deviceID</Declaration>
+			
+			
+			<Anchor>//api/name/deviceID</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationAssetQuery/deviceID</TokenIdentifier>
+			<Abstract type="html">The query will search for the asset associated with this device ID.</Abstract>
+			<DeclaredIn>OMCLocationAssetQuery.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, nullable) NSNumber *deviceID</Declaration>
+			
+			
+			<Anchor>//api/name/deviceID</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationAssetQuery/setDevice:</TokenIdentifier>
+			<Abstract type="html">The query will search for the asset associated with the specified device.</Abstract>
+			<DeclaredIn>OMCLocationAssetQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationAssetQuery/deviceID</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setDevice:(nullable OMCLocationDevice *)device</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>device</Name>
+					<Abstract type="html">The device associated with the asset the query will search for.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setDevice:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationAssetQuery/executeWithCompletionHandler:</TokenIdentifier>
+			<Abstract type="html">Asynchronously executes the query, invoking the specified completion
+handler block when finished.</Abstract>
+			<DeclaredIn>OMCLocationAssetQuery.h</DeclaredIn>
+			
+			<Declaration>- (void)executeWithCompletionHandler:(void ( ^ ) ( OMCLocationObjectQueryResult&lt;OMCLocationAssetQuery*,OMCLocationAsset*&gt; *_Nullable result , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The block to be invoked when the query has
+finished executing. The completion block will be invoked on
+the main dispatch queue.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/executeWithCompletionHandler:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

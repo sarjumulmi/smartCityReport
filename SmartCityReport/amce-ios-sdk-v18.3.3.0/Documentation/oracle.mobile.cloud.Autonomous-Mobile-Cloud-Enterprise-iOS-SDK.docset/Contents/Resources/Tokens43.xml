@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCStorage.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCStorage</TokenIdentifier>
+			<Abstract type="html">This is the main class for Storage API operations.  As the Storage functionality
+relies heavily on the Sync module, it is necessary to include the OMCSynchronization
+library and SyncStore.mom with your app.</Abstract>
+			<DeclaredIn>OMCStorage.h</DeclaredIn>
+            
+			
+			<NodeRef refid="43"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorage/getCollection:</TokenIdentifier>
+			<Abstract type="html">Fetch an OMCStorageCollection from the Storage Service for the current user.
+The OMCStorageCollection is specified with the collectionID.</Abstract>
+			<DeclaredIn>OMCStorage.h</DeclaredIn>
+			
+			<Declaration>- (OMCStorageCollection *)getCollection:(NSString *)collectionID</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>collectionID</Name>
+					<Abstract type="html">The ID of the OMCStorageCollection to be fetched.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The target OMCStorageCollection object, or nil if a collection is not found
+for the given collectionID.</Abstract></ReturnValue>
+			<Anchor>//api/name/getCollection:</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorage/getCollection:forUserId:</TokenIdentifier>
+			<Abstract type="html">In comparison to the getCollection function, which returns OMCStorageCollections for
+the current user, this function is designed to return OMCStorageCollections for
+a different specified user.  This is useful when, from a MCS perspective, the collection
+is marked as &apos;isolated&apos; rather than &apos;shared&apos; and the current user needs access to
+another user&apos;s isolated collection objects.  In order to access objects in another
+user&apos;s isolated collected, the current user must have READALL or READWRITE_ALL
+privileges on the other user&apos;s collection.</Abstract>
+			<DeclaredIn>OMCStorage.h</DeclaredIn>
+			
+			<Declaration>- (OMCStorageCollection *)getCollection:(NSString *)collectionID forUserId:(NSString *)userId</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>collectionID</Name>
+					<Abstract type="html">The ID of the OMCStorageCollection.</Abstract>
+				</Parameter><Parameter>
+					<Name>userId</Name>
+					<Abstract type="html">The ID of the user who owns the collection.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The target OMCStorageCollection object, or nil if a collection is not found
+for the given collectionID.</Abstract></ReturnValue>
+			<Anchor>//api/name/getCollection:forUserId:</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

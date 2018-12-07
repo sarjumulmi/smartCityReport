@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCMobileResource.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCMobileResource</TokenIdentifier>
+			<Abstract type="html">OMCMobileResource - Base class for all of the mobile resources</Abstract>
+			<DeclaredIn>OMCMobileResource.h</DeclaredIn>
+            
+			
+			<NodeRef refid="40"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileResource/setUri:</TokenIdentifier>
+			<Abstract type="html">Uri of the resource</Abstract>
+			<DeclaredIn>OMCMobileResource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *uri</Declaration>
+			
+			
+			<Anchor>//api/name/uri</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileResource/uri</TokenIdentifier>
+			<Abstract type="html">Uri of the resource</Abstract>
+			<DeclaredIn>OMCMobileResource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *uri</Declaration>
+			
+			
+			<Anchor>//api/name/uri</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileResource/uri</TokenIdentifier>
+			<Abstract type="html">Uri of the resource</Abstract>
+			<DeclaredIn>OMCMobileResource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *uri</Declaration>
+			
+			
+			<Anchor>//api/name/uri</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileResource/setLastSyncTime:</TokenIdentifier>
+			<Abstract type="html">lastSyncTime of the resource</Abstract>
+			<DeclaredIn>OMCMobileResource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) double lastSyncTime</Declaration>
+			
+			
+			<Anchor>//api/name/lastSyncTime</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileResource/lastSyncTime</TokenIdentifier>
+			<Abstract type="html">lastSyncTime of the resource</Abstract>
+			<DeclaredIn>OMCMobileResource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) double lastSyncTime</Declaration>
+			
+			
+			<Anchor>//api/name/lastSyncTime</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileResource/lastSyncTime</TokenIdentifier>
+			<Abstract type="html">lastSyncTime of the resource</Abstract>
+			<DeclaredIn>OMCMobileResource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) double lastSyncTime</Declaration>
+			
+			
+			<Anchor>//api/name/lastSyncTime</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileResource/setPinned:</TokenIdentifier>
+			<Abstract type="html">Resource&apos;s pinned status</Abstract>
+			<DeclaredIn>OMCMobileResource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL pinned</Declaration>
+			
+			
+			<Anchor>//api/name/pinned</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileResource/pinned</TokenIdentifier>
+			<Abstract type="html">Resource&apos;s pinned status</Abstract>
+			<DeclaredIn>OMCMobileResource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL pinned</Declaration>
+			
+			
+			<Anchor>//api/name/pinned</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileResource/pinned</TokenIdentifier>
+			<Abstract type="html">Resource&apos;s pinned status</Abstract>
+			<DeclaredIn>OMCMobileResource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL pinned</Declaration>
+			
+			
+			<Anchor>//api/name/pinned</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileResource/setHasConflicts:</TokenIdentifier>
+			<Abstract type="html">Resource&apos;s conflict status</Abstract>
+			<DeclaredIn>OMCMobileResource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL hasConflicts</Declaration>
+			
+			
+			<Anchor>//api/name/hasConflicts</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileResource/hasConflicts</TokenIdentifier>
+			<Abstract type="html">Resource&apos;s conflict status</Abstract>
+			<DeclaredIn>OMCMobileResource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL hasConflicts</Declaration>
+			
+			
+			<Anchor>//api/name/hasConflicts</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileResource/hasConflicts</TokenIdentifier>
+			<Abstract type="html">Resource&apos;s conflict status</Abstract>
+			<DeclaredIn>OMCMobileResource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL hasConflicts</Declaration>
+			
+			
+			<Anchor>//api/name/hasConflicts</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileResource/setHasOfflineUpdates:</TokenIdentifier>
+			<Abstract type="html">Resource&apos;s offline/local updates status</Abstract>
+			<DeclaredIn>OMCMobileResource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL hasOfflineUpdates</Declaration>
+			
+			
+			<Anchor>//api/name/hasOfflineUpdates</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileResource/hasOfflineUpdates</TokenIdentifier>
+			<Abstract type="html">Resource&apos;s offline/local updates status</Abstract>
+			<DeclaredIn>OMCMobileResource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL hasOfflineUpdates</Declaration>
+			
+			
+			<Anchor>//api/name/hasOfflineUpdates</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileResource/hasOfflineUpdates</TokenIdentifier>
+			<Abstract type="html">Resource&apos;s offline/local updates status</Abstract>
+			<DeclaredIn>OMCMobileResource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL hasOfflineUpdates</Declaration>
+			
+			
+			<Anchor>//api/name/hasOfflineUpdates</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileResource/setHasOfflineCommitError:</TokenIdentifier>
+			<Abstract type="html">Resource&apos;s error status after committing offline updates</Abstract>
+			<DeclaredIn>OMCMobileResource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL hasOfflineCommitError</Declaration>
+			
+			
+			<Anchor>//api/name/hasOfflineCommitError</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileResource/hasOfflineCommitError</TokenIdentifier>
+			<Abstract type="html">Resource&apos;s error status after committing offline updates</Abstract>
+			<DeclaredIn>OMCMobileResource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL hasOfflineCommitError</Declaration>
+			
+			
+			<Anchor>//api/name/hasOfflineCommitError</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileResource/hasOfflineCommitError</TokenIdentifier>
+			<Abstract type="html">Resource&apos;s error status after committing offline updates</Abstract>
+			<DeclaredIn>OMCMobileResource.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL hasOfflineCommitError</Declaration>
+			
+			
+			<Anchor>//api/name/hasOfflineCommitError</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileResource/pinResource:</TokenIdentifier>
+			<Abstract type="html">Pin the resource</Abstract>
+			<DeclaredIn>OMCMobileResource.h</DeclaredIn>
+			
+			<Declaration>- (NSError *)pinResource:(SyncPinPriority)pinPriority</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>pinPriority</Name>
+					<Abstract type="html">specifies the priority</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">NSError* if resource not found, otherwise nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/pinResource:</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileResource/unpinResource</TokenIdentifier>
+			<Abstract type="html">* Unpin the resource</Abstract>
+			<DeclaredIn>OMCMobileResource.h</DeclaredIn>
+			
+			<Declaration>- (NSError *)unpinResource</Declaration>
+			
+			<ReturnValue><Abstract type="html">NSError* if resource not found, otherwise nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/unpinResource</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileResource/currentOfflineState</TokenIdentifier>
+			<Abstract type="html">* Resource&apos;s current offline/local updated state, with specific information of which offline operation is pending, if any.</Abstract>
+			<DeclaredIn>OMCMobileResource.h</DeclaredIn>
+			
+			<Declaration>- (SyncOfflineState)currentOfflineState</Declaration>
+			
+			<ReturnValue><Abstract type="html">SyncOfflineState offline state</Abstract></ReturnValue>
+			<Anchor>//api/name/currentOfflineState</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileResource/setRequestHeaders:</TokenIdentifier>
+			<Abstract type="html">Sets extra request headers. Afterwards, you need to call reloadResource from the service or SaveResource to use these extra request headers.
+No need to specify headers for authorization and content-type, since they will be added by default.</Abstract>
+			<DeclaredIn>OMCMobileResource.h</DeclaredIn>
+			
+			<Declaration>- (void)setRequestHeaders:(NSDictionary *)headers</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>headers</Name>
+					<Abstract type="html">Extra request headers</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setRequestHeaders:</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileResource/getResponseHeaders</TokenIdentifier>
+			<Abstract type="html">Returns response headers which have been retrieved from the server</Abstract>
+			<DeclaredIn>OMCMobileResource.h</DeclaredIn>
+			
+			<Declaration>- (NSDictionary *)getResponseHeaders</Declaration>
+			
+			<ReturnValue><Abstract type="html">NSDictionary* response headers</Abstract></ReturnValue>
+			<Anchor>//api/name/getResponseHeaders</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileResource/setSyncPolicy:</TokenIdentifier>
+			<Abstract type="html">Sets Sync Policy. Afterwards you need to call reloadResource or SaveResource to use this Sync Policy.</Abstract>
+			<DeclaredIn>OMCMobileResource.h</DeclaredIn>
+			
+			<Declaration>- (void)setSyncPolicy:(OMCSyncPolicy *)policy</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>policy</Name>
+					<Abstract type="html">OMCSyncPolicy object</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setSyncPolicy:</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileResource/getCurrentSyncPolicy</TokenIdentifier>
+			<Abstract type="html">Returns currently associated Sync Policy for this resource.</Abstract>
+			<DeclaredIn>OMCMobileResource.h</DeclaredIn>
+			
+			<Declaration>- (OMCSyncPolicy *)getCurrentSyncPolicy</Declaration>
+			
+			<ReturnValue><Abstract type="html">policy OMCSyncPolicy object</Abstract></ReturnValue>
+			<Anchor>//api/name/getCurrentSyncPolicy</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileResource/reloadResource:</TokenIdentifier>
+			<Abstract type="html">Reloads the data that was last downloaded from the service. Any offline updates are not discarded.</Abstract>
+			<DeclaredIn>OMCMobileResource.h</DeclaredIn>
+			
+			<Declaration>- (void)reloadResource:(OMCMobileResourceSuccess _Nullable)successBlk</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>successBlk</Name>
+					<Abstract type="html">callback block for success</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/reloadResource:</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileResource/reloadResource:reloadFromService:onSuccess:</TokenIdentifier>
+			<Abstract type="html">Reloads the data that was last downloaded from the service. Can provide the ability to discard any offline updates for the resource or can go to the service if online to get the latest.</Abstract>
+			<DeclaredIn>OMCMobileResource.h</DeclaredIn>
+			
+			<Declaration>- (void)reloadResource:(BOOL)discardOfflineUpdates reloadFromService:(BOOL)reloadFromService onSuccess:(OMCMobileResourceSuccess _Nullable)successBlk</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>discardOfflineUpdates</Name>
+					<Abstract type="html">If true will delete all offline updates from the cache.</Abstract>
+				</Parameter><Parameter>
+					<Name>reloadFromService</Name>
+					<Abstract type="html">If true will reload from the service if online or from the cache if offline.</Abstract>
+				</Parameter><Parameter>
+					<Name>successBlk</Name>
+					<Abstract type="html">callback block for success, will return the reloaded resource.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/reloadResource:reloadFromService:onSuccess:</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

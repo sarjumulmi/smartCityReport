@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCNotifications.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCNotifications</TokenIdentifier>
+			<Abstract type="html">This class is used to both register and deregister the device with MCS for push notifications.</Abstract>
+			<DeclaredIn>OMCNotifications.h</DeclaredIn>
+            
+			
+			<NodeRef refid="41"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCNotifications/registerForNotifications:onSuccess:onError:</TokenIdentifier>
+			<Abstract type="html">Registers the device token with MCS.  This is an asynchronous call.</Abstract>
+			<DeclaredIn>OMCNotifications.h</DeclaredIn>
+			
+			<Declaration>- (void)registerForNotifications:(NSData *)deviceToken onSuccess:(OMC_Notifications_SuccessBlock)successCallback onError:(OMC_Notifications_ErrorBlock)errorCallback</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>deviceToken</Name>
+					<Abstract type="html">Device token of iOS device.</Abstract>
+				</Parameter><Parameter>
+					<Name>successCallback</Name>
+					<Abstract type="html">(optional) The block to be called on success.
+The format of the callback is ^(NSHTTPURLResponse*).</Abstract>
+				</Parameter><Parameter>
+					<Name>errorCallback</Name>
+					<Abstract type="html">(optional) The block to be called on error.
+The format of the callback is ^(NSError*).</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/registerForNotifications:onSuccess:onError:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCNotifications/deregisterForNotifications:onSuccess:onError:</TokenIdentifier>
+			<Abstract type="html">De-registers the device token with MCS.  This is an asynchronous call.</Abstract>
+			<DeclaredIn>OMCNotifications.h</DeclaredIn>
+			
+			<Declaration>- (void)deregisterForNotifications:(NSData *)deviceToken onSuccess:(OMC_Notifications_SuccessBlock)successCallback onError:(OMC_Notifications_ErrorBlock)errorCallback</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>deviceToken</Name>
+					<Abstract type="html">Device token of iOS device.</Abstract>
+				</Parameter><Parameter>
+					<Name>successCallback</Name>
+					<Abstract type="html">(optional) The block to be called on success.</Abstract>
+				</Parameter><Parameter>
+					<Name>errorCallback</Name>
+					<Abstract type="html">(optional) The block to be called on error.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deregisterForNotifications:onSuccess:onError:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

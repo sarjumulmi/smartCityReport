@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/SyncNetworkStatus.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/SyncNetworkStatus</TokenIdentifier>
+			<Abstract type="html">An enumeration of the different Sync network states.</Abstract>
+			<DeclaredIn>OMCSyncGlobals.h</DeclaredIn>
+            
+			
+			<NodeRef refid="62"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SyncOnline</TokenIdentifier>
+            <Abstract type="html">Online state</Abstract>
+            <Declaration>SyncOnline</Declaration>
+            
+            <DeclaredIn>OMCSyncGlobals.h</DeclaredIn>
+            
+            <NodeRef refid="62"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SyncOffline</TokenIdentifier>
+            <Abstract type="html">Offline state</Abstract>
+            <Declaration>SyncOffline</Declaration>
+            
+            <DeclaredIn>OMCSyncGlobals.h</DeclaredIn>
+            
+            <NodeRef refid="62"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SyncOfflineTest</TokenIdentifier>
+            <Abstract type="html">Offline state for test</Abstract>
+            <Declaration>SyncOfflineTest</Declaration>
+            
+            <DeclaredIn>OMCSyncGlobals.h</DeclaredIn>
+            
+            <NodeRef refid="62"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

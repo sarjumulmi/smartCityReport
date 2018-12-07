@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>OMCStorageObject Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">Autonomous Mobile Cloud Enterprise iOS SDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Oracle Corporation, 18.3.3.0 - E91498-01</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/ID">ID</option>
+		
+		<option value="//api/name/canonicalLink">canonicalLink</option>
+		
+		<option value="//api/name/contentType">contentType</option>
+		
+		<option value="//api/name/createdBy">createdBy</option>
+		
+		<option value="//api/name/createdOn">createdOn</option>
+		
+		<option value="//api/name/displayName">displayName</option>
+		
+		<option value="//api/name/modifiedBy">modifiedBy</option>
+		
+		<option value="//api/name/modifiedOn">modifiedOn</option>
+		
+	</optgroup>
+	
+
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/getPayloadData">- getPayloadData</option>
+		
+		<option value="//api/name/getPayloadStream">- getPayloadStream</option>
+		
+		<option value="//api/name/initPayload:withData:andContentType:">- initPayload:withData:andContentType:</option>
+		
+		<option value="//api/name/initPayload:withStream:andContentType:">- initPayload:withStream:andContentType:</option>
+		
+		<option value="//api/name/setPayloadFromData:withContentType:">- setPayloadFromData:withContentType:</option>
+		
+		<option value="//api/name/setPayloadFromStream:withContentType:">- setPayloadFromStream:withContentType:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">OMCStorageObject Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>OMCStorageObject.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>This interface manages the contents and metadata of a StorageObject.  Note that
+a StorageObject can be in either a &ldquo;raw&rdquo; or &ldquo;completed&rdquo; state.  After the user
+initializes the StorageObject from data or an input stream, none of the object
+metadata (such as creation date) is populated, so it is still in the &ldquo;raw&rdquo; state.
+It is only when the object reference is retrieved from a PUT, POST, or GET call on
+<a href="../Classes/OMCStorageCollection.html">OMCStorageCollection</a>, that the object is in its completed state.  In other words,
+the object must interact with the server or storage cache (Sync) to be fully initialized.</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/ID" title="ID"></a>
+	<h3 class="method-title"><code><a href="#//api/name/ID">&nbsp;&nbsp;ID</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Identification of the <code>OMCStorageObject</code>
+should be unique across the <a href="../Classes/OMCStorageCollection.html">OMCStorageCollection</a>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) NSString *ID</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCStorageObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/displayName" title="displayName"></a>
+	<h3 class="method-title"><code><a href="#//api/name/displayName">&nbsp;&nbsp;displayName</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Display Name of the <code>OMCStorageObject</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) NSString *displayName</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCStorageObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/contentType" title="contentType"></a>
+	<h3 class="method-title"><code><a href="#//api/name/contentType">&nbsp;&nbsp;contentType</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The MIME Content-Type of the payload in the <code>OMCStorageObject</code>, for example &ldquo;image/jpeg&rdquo;.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) NSString *contentType</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCStorageObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/createdBy" title="createdBy"></a>
+	<h3 class="method-title"><code><a href="#//api/name/createdBy">&nbsp;&nbsp;createdBy</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The property <code>createdBy</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic) NSString *createdBy</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCStorageObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/modifiedBy" title="modifiedBy"></a>
+	<h3 class="method-title"><code><a href="#//api/name/modifiedBy">&nbsp;&nbsp;modifiedBy</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The property <code>modifiedBy</code>. Might be NULL if the object is never modified.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic) NSString *modifiedBy</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCStorageObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/createdOn" title="createdOn"></a>
+	<h3 class="method-title"><code><a href="#//api/name/createdOn">&nbsp;&nbsp;createdOn</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The property <code>createdOn</code> in the date format &ldquo;yyyy-MM-dd&rsquo;T'HH:mm:ss'Z'&rdquo;.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic) NSDate *createdOn</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCStorageObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/modifiedOn" title="modifiedOn"></a>
+	<h3 class="method-title"><code><a href="#//api/name/modifiedOn">&nbsp;&nbsp;modifiedOn</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The property <code>modifiedOn</code> in the date format &ldquo;yyyy-MM-dd&rsquo;T'HH:mm:ss'Z'&rdquo;.
+Might be NULL if the object is never modified.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic) NSDate *modifiedOn</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCStorageObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/canonicalLink" title="canonicalLink"></a>
+	<h3 class="method-title"><code><a href="#//api/name/canonicalLink">&nbsp;&nbsp;canonicalLink</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The property <code>canonicalLink</code> is the canonical link for the current StorageObject.
+The link is a relative url.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic) NSString *canonicalLink</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCStorageObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/initPayload:withData:andContentType:" title="initPayload:withData:andContentType:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initPayload:withData:andContentType:">&ndash;&nbsp;initPayload:withData:andContentType:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Initializes an <code>OMCStorageObject</code> object with NSData format payload.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (instancetype)initPayload:(NSString *)<em>objectID</em> withData:(NSData *)<em>data</em> andContentType:(NSString *)<em>contentType</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>objectID</code></th>
+						<td><p>The <a href="#//api/name/ID">ID</a> of the object in the Storage service.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>data</code></th>
+						<td><p>The payload of the current object in the format of NSData.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>contentType</code></th>
+						<td><p>The MIME Content-Type of the payload, for example &ldquo;image/jpeg&rdquo;.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCStorageObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/initPayload:withStream:andContentType:" title="initPayload:withStream:andContentType:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initPayload:withStream:andContentType:">&ndash;&nbsp;initPayload:withStream:andContentType:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Initializes an <code>OMCStorageObject</code> object with NSInputStream format payload.
+Note: as reading an NSInputStream involves registering on a Run Loop and
+doing asynchronous processing, invoking this API will block the current thread
+until the asynchronous processing completes.  Thus, it is not recommended that this
+method be called on the UI (main) thread.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (instancetype)initPayload:(NSString *)<em>objectID</em> withStream:(NSInputStream *)<em>inputStream</em> andContentType:(NSString *)<em>contentType</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>objectID</code></th>
+						<td><p>The <a href="#//api/name/ID">ID</a> of the object in the Storage service.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>inputStream</code></th>
+						<td><p>The payload of the current object in the format of NSInputStream.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>contentType</code></th>
+						<td><p>The MIME Content-Type of the payload, for example &ldquo;image/jpeg&rdquo;.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCStorageObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getPayloadData" title="getPayloadData"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getPayloadData">&ndash;&nbsp;getPayloadData</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns the payload as NSData.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSData *)getPayloadData</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCStorageObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getPayloadStream" title="getPayloadStream"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getPayloadStream">&ndash;&nbsp;getPayloadStream</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns the payload as NSInputStream.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSInputStream *)getPayloadStream</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCStorageObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setPayloadFromData:withContentType:" title="setPayloadFromData:withContentType:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setPayloadFromData:withContentType:">&ndash;&nbsp;setPayloadFromData:withContentType:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Sets the payload and content-Type of the <code>OMCStorageObject</code>.
+Returns the updated <code>OMCStorageObject</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (OMCStorageObject *)setPayloadFromData:(NSData *)<em>data</em> withContentType:(NSString *)<em>contentType</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>data</code></th>
+						<td><p>is the new payload</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>contentType</code></th>
+						<td><p>The MIME Content-Type of the payload, for example &ldquo;image/jpeg&rdquo;.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCStorageObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setPayloadFromStream:withContentType:" title="setPayloadFromStream:withContentType:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setPayloadFromStream:withContentType:">&ndash;&nbsp;setPayloadFromStream:withContentType:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Sets the payload and content-Type of the <code>OMCStorageObject</code>.
+Returns the updated <code>OMCStorageObject</code>.
+Note: as reading an NSInputStream involves registering on a Run Loop and
+doing asynchronous processing, invoking this API will block the current thread
+until the asynchronous processing completes.  Thus, it is not recommended that this
+method be called on the UI (main) thread.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (OMCStorageObject *)setPayloadFromStream:(NSInputStream *)<em>inputStream</em> withContentType:(NSString *)<em>contentType</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>inputStream</code></th>
+						<td><p>The new payload.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>contentType</code></th>
+						<td><p>The MIME Content-Type of the payload, for example &ldquo;image/jpeg&rdquo;.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCStorageObject.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2018 Oracle Corporation, 18.3.3.0 - E91498-01. All rights reserved. Updated: 2018-08-29</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

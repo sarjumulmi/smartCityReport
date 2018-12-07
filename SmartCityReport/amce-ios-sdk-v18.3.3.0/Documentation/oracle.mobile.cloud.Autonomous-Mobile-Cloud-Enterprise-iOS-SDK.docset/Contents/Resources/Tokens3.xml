@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCAppConfig.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCAppConfig</TokenIdentifier>
+			<Abstract type="html">Application configuration stored in OMCe.
+The configuration&apos;s property values can be changed after the client app
+has been published.</Abstract>
+			<DeclaredIn>OMCAppConfig.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCMobileBackend/appConfig</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAppConfig/booleanForProperty:default:</TokenIdentifier>
+			<Abstract type="html">Returns a BOOL for the specified property.
+Returns the specified default value if the property is absent.</Abstract>
+			<DeclaredIn>OMCAppConfig.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)booleanForProperty:(NSString *)property default:(BOOL)defaultValue</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>property</Name>
+					<Abstract type="html">The name of the property, as specified on the server by the mobile backend.</Abstract>
+				</Parameter><Parameter>
+					<Name>defaultValue</Name>
+					<Abstract type="html">The value returned if the property is not specified.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/booleanForProperty:default:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAppConfig/integerForProperty:default:</TokenIdentifier>
+			<Abstract type="html">Returns an NSInteger for the specified property.
+Returns the specified default value if the property is absent.</Abstract>
+			<DeclaredIn>OMCAppConfig.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)integerForProperty:(NSString *)property default:(NSInteger)defaultValue</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>property</Name>
+					<Abstract type="html">The name of the property, as specified on the server by the mobile backend.</Abstract>
+				</Parameter><Parameter>
+					<Name>defaultValue</Name>
+					<Abstract type="html">The value returned if the property is not specified.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/integerForProperty:default:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAppConfig/doubleForProperty:default:</TokenIdentifier>
+			<Abstract type="html">Returns a double for the specified property.
+Returns the specified default value if the property is absent.</Abstract>
+			<DeclaredIn>OMCAppConfig.h</DeclaredIn>
+			
+			<Declaration>- (double)doubleForProperty:(NSString *)property default:(double)defaultValue</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>property</Name>
+					<Abstract type="html">The name of the property, as specified on the server by the mobile backend.</Abstract>
+				</Parameter><Parameter>
+					<Name>defaultValue</Name>
+					<Abstract type="html">The value returned if the property is not specified.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/doubleForProperty:default:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAppConfig/numberForProperty:default:</TokenIdentifier>
+			<Abstract type="html">Returns an NSNumber for the specified property.
+Returns the specified default value if the property is absent.</Abstract>
+			<DeclaredIn>OMCAppConfig.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSNumber *)numberForProperty:(NSString *)property default:(nullable NSNumber *)defaultValue</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>property</Name>
+					<Abstract type="html">The name of the property, as specified on the server by the mobile backend.</Abstract>
+				</Parameter><Parameter>
+					<Name>defaultValue</Name>
+					<Abstract type="html">The value returned if the property is not specified.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/numberForProperty:default:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAppConfig/stringForProperty:default:</TokenIdentifier>
+			<Abstract type="html">Returns a string for the specified property.
+Returns the specified default value if the property is absent.</Abstract>
+			<DeclaredIn>OMCAppConfig.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSString *)stringForProperty:(NSString *)property default:(nullable NSString *)defaultValue</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>property</Name>
+					<Abstract type="html">The name of the property, as specified on the server by the mobile backend.</Abstract>
+				</Parameter><Parameter>
+					<Name>defaultValue</Name>
+					<Abstract type="html">The value returned if the property is not specified.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/stringForProperty:default:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

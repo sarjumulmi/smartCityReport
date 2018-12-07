@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCLocationObjectQueryResult.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCLocationObjectQueryResult</TokenIdentifier>
+			<Abstract type="html">A query result represents the results returned from the Location
+service for a particular query.
+Query results are immutable.</Abstract>
+			<DeclaredIn>OMCLocationObjectQueryResult.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCLocationAssetQuery/executeWithCompletionHandler:</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCLocationDeviceQuery/executeWithCompletionHandler:</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlaceQuery/executeWithCompletionHandler:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="29"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQueryResult/setQuery:</TokenIdentifier>
+			<Abstract type="html">The query that generated the result.</Abstract>
+			<DeclaredIn>OMCLocationObjectQueryResult.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) QueryType query</Declaration>
+			
+			
+			<Anchor>//api/name/query</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQueryResult/query</TokenIdentifier>
+			<Abstract type="html">The query that generated the result.</Abstract>
+			<DeclaredIn>OMCLocationObjectQueryResult.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) QueryType query</Declaration>
+			
+			
+			<Anchor>//api/name/query</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQueryResult/query</TokenIdentifier>
+			<Abstract type="html">The query that generated the result.</Abstract>
+			<DeclaredIn>OMCLocationObjectQueryResult.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) QueryType query</Declaration>
+			
+			
+			<Anchor>//api/name/query</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQueryResult/setItems:</TokenIdentifier>
+			<Abstract type="html">The items (assets, devices, or places) that match the original query&apos;s search
+arguments.</Abstract>
+			<DeclaredIn>OMCLocationObjectQueryResult.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSArray&lt;ItemType&gt; *items</Declaration>
+			
+			
+			<Anchor>//api/name/items</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQueryResult/items</TokenIdentifier>
+			<Abstract type="html">The items (assets, devices, or places) that match the original query&apos;s search
+arguments.</Abstract>
+			<DeclaredIn>OMCLocationObjectQueryResult.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSArray&lt;ItemType&gt; *items</Declaration>
+			
+			
+			<Anchor>//api/name/items</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQueryResult/items</TokenIdentifier>
+			<Abstract type="html">The items (assets, devices, or places) that match the original query&apos;s search
+arguments.</Abstract>
+			<DeclaredIn>OMCLocationObjectQueryResult.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSArray&lt;ItemType&gt; *items</Declaration>
+			
+			
+			<Anchor>//api/name/items</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQueryResult/setProperties:</TokenIdentifier>
+			<Abstract type="html">The result&apos;s raw properties (corresponding to the JSON payload).</Abstract>
+			<DeclaredIn>OMCLocationObjectQueryResult.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSDictionary&lt;NSString*id&gt; *properties</Declaration>
+			
+			
+			<Anchor>//api/name/properties</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQueryResult/properties</TokenIdentifier>
+			<Abstract type="html">The result&apos;s raw properties (corresponding to the JSON payload).</Abstract>
+			<DeclaredIn>OMCLocationObjectQueryResult.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSDictionary&lt;NSString*id&gt; *properties</Declaration>
+			
+			
+			<Anchor>//api/name/properties</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQueryResult/properties</TokenIdentifier>
+			<Abstract type="html">The result&apos;s raw properties (corresponding to the JSON payload).</Abstract>
+			<DeclaredIn>OMCLocationObjectQueryResult.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSDictionary&lt;NSString*id&gt; *properties</Declaration>
+			
+			
+			<Anchor>//api/name/properties</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQueryResult/setTotalResults:</TokenIdentifier>
+			<Abstract type="html">The total number of items that match the original query&apos;s search arguments,
+but may not all be returned in the result.</Abstract>
+			<DeclaredIn>OMCLocationObjectQueryResult.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSNumber *totalResults</Declaration>
+			
+			
+			<Anchor>//api/name/totalResults</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQueryResult/totalResults</TokenIdentifier>
+			<Abstract type="html">The total number of items that match the original query&apos;s search arguments,
+but may not all be returned in the result.</Abstract>
+			<DeclaredIn>OMCLocationObjectQueryResult.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSNumber *totalResults</Declaration>
+			
+			
+			<Anchor>//api/name/totalResults</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQueryResult/totalResults</TokenIdentifier>
+			<Abstract type="html">The total number of items that match the original query&apos;s search arguments,
+but may not all be returned in the result.</Abstract>
+			<DeclaredIn>OMCLocationObjectQueryResult.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSNumber *totalResults</Declaration>
+			
+			
+			<Anchor>//api/name/totalResults</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQueryResult/setOffset:</TokenIdentifier>
+			<Abstract type="html">The offset of the items contained by the result.</Abstract>
+			<DeclaredIn>OMCLocationObjectQueryResult.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSNumber *offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQueryResult/offset</TokenIdentifier>
+			<Abstract type="html">The offset of the items contained by the result.</Abstract>
+			<DeclaredIn>OMCLocationObjectQueryResult.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSNumber *offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQueryResult/offset</TokenIdentifier>
+			<Abstract type="html">The offset of the items contained by the result.</Abstract>
+			<DeclaredIn>OMCLocationObjectQueryResult.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSNumber *offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQueryResult/setCount:</TokenIdentifier>
+			<Abstract type="html">The number of items contained by the result.</Abstract>
+			<DeclaredIn>OMCLocationObjectQueryResult.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSNumber *count</Declaration>
+			
+			
+			<Anchor>//api/name/count</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQueryResult/count</TokenIdentifier>
+			<Abstract type="html">The number of items contained by the result.</Abstract>
+			<DeclaredIn>OMCLocationObjectQueryResult.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSNumber *count</Declaration>
+			
+			
+			<Anchor>//api/name/count</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQueryResult/count</TokenIdentifier>
+			<Abstract type="html">The number of items contained by the result.</Abstract>
+			<DeclaredIn>OMCLocationObjectQueryResult.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSNumber *count</Declaration>
+			
+			
+			<Anchor>//api/name/count</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQueryResult/setLimit:</TokenIdentifier>
+			<Abstract type="html">The requested limit of how many items were to be returned by the query.</Abstract>
+			<DeclaredIn>OMCLocationObjectQueryResult.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSNumber *limit</Declaration>
+			
+			
+			<Anchor>//api/name/limit</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQueryResult/limit</TokenIdentifier>
+			<Abstract type="html">The requested limit of how many items were to be returned by the query.</Abstract>
+			<DeclaredIn>OMCLocationObjectQueryResult.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSNumber *limit</Declaration>
+			
+			
+			<Anchor>//api/name/limit</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQueryResult/limit</TokenIdentifier>
+			<Abstract type="html">The requested limit of how many items were to be returned by the query.</Abstract>
+			<DeclaredIn>OMCLocationObjectQueryResult.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSNumber *limit</Declaration>
+			
+			
+			<Anchor>//api/name/limit</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQueryResult/setHasMore:</TokenIdentifier>
+			<Abstract type="html">Flag indicating whether there are more items to be fetched from the server
+that match the original query&apos;s search arguments.</Abstract>
+			<DeclaredIn>OMCLocationObjectQueryResult.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQueryResult/nextQuery</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQueryResult/nextWithCompletionHandler:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly) BOOL hasMore</Declaration>
+			
+			
+			<Anchor>//api/name/hasMore</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQueryResult/hasMore</TokenIdentifier>
+			<Abstract type="html">Flag indicating whether there are more items to be fetched from the server
+that match the original query&apos;s search arguments.</Abstract>
+			<DeclaredIn>OMCLocationObjectQueryResult.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQueryResult/nextQuery</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQueryResult/nextWithCompletionHandler:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly) BOOL hasMore</Declaration>
+			
+			
+			<Anchor>//api/name/hasMore</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQueryResult/hasMore</TokenIdentifier>
+			<Abstract type="html">Flag indicating whether there are more items to be fetched from the server
+that match the original query&apos;s search arguments.</Abstract>
+			<DeclaredIn>OMCLocationObjectQueryResult.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQueryResult/nextQuery</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQueryResult/nextWithCompletionHandler:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly) BOOL hasMore</Declaration>
+			
+			
+			<Anchor>//api/name/hasMore</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQueryResult/setNextQuery:</TokenIdentifier>
+			<Abstract type="html">Query that, when executed, will fetch the result&apos;s &quot;next&quot; set of items.</Abstract>
+			<DeclaredIn>OMCLocationObjectQueryResult.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQueryResult/hasMore</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQueryResult/totalResults</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQueryResult/nextWithCompletionHandler:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly) QueryType nextQuery</Declaration>
+			
+			
+			<Anchor>//api/name/nextQuery</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQueryResult/nextQuery</TokenIdentifier>
+			<Abstract type="html">Query that, when executed, will fetch the result&apos;s &quot;next&quot; set of items.</Abstract>
+			<DeclaredIn>OMCLocationObjectQueryResult.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQueryResult/hasMore</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQueryResult/totalResults</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQueryResult/nextWithCompletionHandler:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly) QueryType nextQuery</Declaration>
+			
+			
+			<Anchor>//api/name/nextQuery</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQueryResult/nextQuery</TokenIdentifier>
+			<Abstract type="html">Query that, when executed, will fetch the result&apos;s &quot;next&quot; set of items.</Abstract>
+			<DeclaredIn>OMCLocationObjectQueryResult.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQueryResult/hasMore</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQueryResult/totalResults</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQueryResult/nextWithCompletionHandler:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly) QueryType nextQuery</Declaration>
+			
+			
+			<Anchor>//api/name/nextQuery</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQueryResult/nextWithCompletionHandler:</TokenIdentifier>
+			<Abstract type="html">Asynchronously fetches the result&apos;s &quot;next&quot; set of items,
+invoking the specified completion handler block when finished.</Abstract>
+			<DeclaredIn>OMCLocationObjectQueryResult.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQueryResult/hasMore</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQueryResult/totalResults</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQueryResult/nextQuery</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)nextWithCompletionHandler:(void ( ^ ) ( OMCLocationObjectQueryResult&lt;QueryType,ItemType&gt; *_Nullable result , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The block to be invoked when the query has
+finished executing. The completion block will be invoked on
+the main dispatch queue.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/nextWithCompletionHandler:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

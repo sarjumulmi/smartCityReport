@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/SyncResourceKind.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/SyncResourceKind</TokenIdentifier>
+			<Abstract type="html">An enumeration of the different resource types.</Abstract>
+			<DeclaredIn>OMCSyncGlobals.h</DeclaredIn>
+            
+			
+			<NodeRef refid="66"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ResourceKindFile</TokenIdentifier>
+            <Abstract type="html">Denotes a file resource.</Abstract>
+            <Declaration>ResourceKindFile</Declaration>
+            
+            <DeclaredIn>OMCSyncGlobals.h</DeclaredIn>
+            
+            <NodeRef refid="66"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ResourceKindObject</TokenIdentifier>
+            <Abstract type="html">Denotes an object resource.</Abstract>
+            <Declaration>ResourceKindObject</Declaration>
+            
+            <DeclaredIn>OMCSyncGlobals.h</DeclaredIn>
+            
+            <NodeRef refid="66"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ResourceKindCollection</TokenIdentifier>
+            <Abstract type="html">Denotes a collection resource.</Abstract>
+            <Declaration>ResourceKindCollection</Declaration>
+            
+            <DeclaredIn>OMCSyncGlobals.h</DeclaredIn>
+            
+            <NodeRef refid="66"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ResourceKindUnknown</TokenIdentifier>
+            <Abstract type="html">Denotes an unknown type.</Abstract>
+            <Declaration>ResourceKindUnknown</Declaration>
+            
+            <DeclaredIn>OMCSyncGlobals.h</DeclaredIn>
+            
+            <NodeRef refid="66"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

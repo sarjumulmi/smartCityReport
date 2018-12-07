@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>OMCSyncPolicy Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">Autonomous Mobile Cloud Enterprise iOS SDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Oracle Corporation, 18.3.3.0 - E91498-01</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/conflictResolution_Policy">conflictResolution_Policy</option>
+		
+		<option value="//api/name/eviction_Policy">eviction_Policy</option>
+		
+		<option value="//api/name/expiration_Policy">expiration_Policy</option>
+		
+		<option value="//api/name/expire_After">expire_After</option>
+		
+		<option value="//api/name/fetch_Policy">fetch_Policy</option>
+		
+		<option value="//api/name/no_cache">no_cache</option>
+		
+		<option value="//api/name/update_Policy">update_Policy</option>
+		
+	</optgroup>
+	
+
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/defaultSyncPolicy">- defaultSyncPolicy</option>
+		
+		<option value="//api/name/initWithFetchPolicy:expirationPolicy:expireAfter:evictionPolicy:updatePolicy:">- initWithFetchPolicy:expirationPolicy:expireAfter:evictionPolicy:updatePolicy:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">OMCSyncPolicy Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>OMCSyncPolicy.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>An OMCSyncPolicy object is used to specify the synchronization policies for an
+<a href="../Classes/OMCMobileObject.html">OMCMobileObject</a>, <a href="../Classes/OMCMobileObjectCollection.html">OMCMobileObjectCollection</a> or <a href="../Classes/OMCMobileFile.html">OMCMobileFile</a> object. The policy
+is persisted along with the cached objects and is in effect even after
+application restarts.</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/fetch_Policy" title="fetch_Policy"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fetch_Policy">&nbsp;&nbsp;fetch_Policy</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The fetch policy in use.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) int fetch_Policy</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCSyncPolicy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/expiration_Policy" title="expiration_Policy"></a>
+	<h3 class="method-title"><code><a href="#//api/name/expiration_Policy">&nbsp;&nbsp;expiration_Policy</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The expiration policy in use.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) int expiration_Policy</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCSyncPolicy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/eviction_Policy" title="eviction_Policy"></a>
+	<h3 class="method-title"><code><a href="#//api/name/eviction_Policy">&nbsp;&nbsp;eviction_Policy</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The eviction policy in use.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) int eviction_Policy</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCSyncPolicy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/update_Policy" title="update_Policy"></a>
+	<h3 class="method-title"><code><a href="#//api/name/update_Policy">&nbsp;&nbsp;update_Policy</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The update policy in use.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) int update_Policy</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCSyncPolicy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/conflictResolution_Policy" title="conflictResolution_Policy"></a>
+	<h3 class="method-title"><code><a href="#//api/name/conflictResolution_Policy">&nbsp;&nbsp;conflictResolution_Policy</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The conflict resolution policy in use.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) int conflictResolution_Policy</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCSyncPolicy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/expire_After" title="expire_After"></a>
+	<h3 class="method-title"><code><a href="#//api/name/expire_After">&nbsp;&nbsp;expire_After</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The time after which the resource expires.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) int32_t expire_After</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCSyncPolicy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/no_cache" title="no_cache"></a>
+	<h3 class="method-title"><code><a href="#//api/name/no_cache">&nbsp;&nbsp;no_cache</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Specifies whether to cache the resource.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) BOOL no_cache</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCSyncPolicy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/initWithFetchPolicy:expirationPolicy:expireAfter:evictionPolicy:updatePolicy:" title="initWithFetchPolicy:expirationPolicy:expireAfter:evictionPolicy:updatePolicy:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initWithFetchPolicy:expirationPolicy:expireAfter:evictionPolicy:updatePolicy:">&ndash;&nbsp;initWithFetchPolicy:expirationPolicy:expireAfter:evictionPolicy:updatePolicy:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<ul>
+<li>Creates a new OMCSyncPolicy object with specified policies.</li>
+<li>See properties defined in the OMCSyncPolicy header file for more information about each policy.</li>
+<li>Default Conflict Resolution policy will be set to PRESERVE_CONFLICT.</li>
+<li>Default <a href="#//api/name/no_cache">no_cache</a> settings will be set to NO.</li>
+</ul>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (id)initWithFetchPolicy:(int)<em>fetchPolicy</em> expirationPolicy:(int)<em>expirationPolicy</em> expireAfter:(int)<em>expireAfter</em> evictionPolicy:(int)<em>evictionPolicy</em> updatePolicy:(int)<em>updatePolicy</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>fetchPolicy</code></th>
+						<td><p>The fetch policy value.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>expirationPolicy</code></th>
+						<td><p>The expiration policy value.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>expireAfter</code></th>
+						<td><p>The duration in seconds after which an object should expire.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>evictionPolicy</code></th>
+						<td><p>The eviction policy value.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>updatePolicy</code></th>
+						<td><p>The update policy value.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCSyncPolicy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/defaultSyncPolicy" title="defaultSyncPolicy"></a>
+	<h3 class="method-title"><code><a href="#//api/name/defaultSyncPolicy">&ndash;&nbsp;defaultSyncPolicy</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns a default OMCSyncPolicy object, with policies:
+fetchPolicy = FETCH_POLICY_FETCH_FROM_SERVICE_IF_ONLINE,
+expirationPolicy = EXPIRATION_POLICY_EXPIRE_ON_RESTART,
+evictionPolicy = EVICTION_POLICY_MANUAL_EVICTION,
+updatePolicy = UPDATE_POLICY_QUEUE_IF_OFFLINE,
+expireAfter = NSIntegerMax,
+conflictResolutionPolicy = CONFLICT_RESOLUTION_POLICY_PRESERVE_CONFLICT,
+no_cache = NO.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (id)defaultSyncPolicy</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCSyncPolicy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2018 Oracle Corporation, 18.3.3.0 - E91498-01. All rights reserved. Updated: 2018-08-29</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

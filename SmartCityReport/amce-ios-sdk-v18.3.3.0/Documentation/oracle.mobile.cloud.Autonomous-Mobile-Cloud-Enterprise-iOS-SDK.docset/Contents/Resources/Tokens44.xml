@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCStorageCollection.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCStorageCollection</TokenIdentifier>
+			<Abstract type="html">This interface defines the OMCStorageCollection object which contains parameters and public methods
+to operate on the OMCStorageObjects in the current collection.</Abstract>
+			<DeclaredIn>OMCStorageCollection.h</DeclaredIn>
+            
+			
+			<NodeRef refid="44"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorageCollection/setCollectionID:</TokenIdentifier>
+			<Abstract type="html">Identification of the current OMCStorageCollection in the service.</Abstract>
+			<DeclaredIn>OMCStorageCollection.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *collectionID</Declaration>
+			
+			
+			<Anchor>//api/name/collectionID</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorageCollection/collectionID</TokenIdentifier>
+			<Abstract type="html">Identification of the current OMCStorageCollection in the service.</Abstract>
+			<DeclaredIn>OMCStorageCollection.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *collectionID</Declaration>
+			
+			
+			<Anchor>//api/name/collectionID</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCStorageCollection/collectionID</TokenIdentifier>
+			<Abstract type="html">Identification of the current OMCStorageCollection in the service.</Abstract>
+			<DeclaredIn>OMCStorageCollection.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *collectionID</Declaration>
+			
+			
+			<Anchor>//api/name/collectionID</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorageCollection/setCollectionDescription:</TokenIdentifier>
+			<Abstract type="html">Description of the current OMCStorageCollection in the service.</Abstract>
+			<DeclaredIn>OMCStorageCollection.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *collectionDescription</Declaration>
+			
+			
+			<Anchor>//api/name/collectionDescription</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorageCollection/collectionDescription</TokenIdentifier>
+			<Abstract type="html">Description of the current OMCStorageCollection in the service.</Abstract>
+			<DeclaredIn>OMCStorageCollection.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *collectionDescription</Declaration>
+			
+			
+			<Anchor>//api/name/collectionDescription</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCStorageCollection/collectionDescription</TokenIdentifier>
+			<Abstract type="html">Description of the current OMCStorageCollection in the service.</Abstract>
+			<DeclaredIn>OMCStorageCollection.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *collectionDescription</Declaration>
+			
+			
+			<Anchor>//api/name/collectionDescription</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorageCollection/contains:</TokenIdentifier>
+			<Abstract type="html">Tells if the OMCStorageObject with the key exists in the current OMCStorageCollection.
+Return YES if it exists, NO otherwise.</Abstract>
+			<DeclaredIn>OMCStorageCollection.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)contains:(NSString *)objectID</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>objectID</Name>
+					<Abstract type="html">The ID of the OMCStorageObject to find.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/contains:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorageCollection/get:withLimit:getAllObjects:</TokenIdentifier>
+			<Abstract type="html">Returns a list of OMCStorageobjects for the StorageCollection starting with the &apos;offset&apos; index,
+with the count up to but not necessarily including the &apos;limit&apos; count.</Abstract>
+			<DeclaredIn>OMCStorageCollection.h</DeclaredIn>
+			
+			<Declaration>- (NSMutableArray *)get:(int)offset withLimit:(int)limit getAllObjects:(BOOL)allObjects</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>offset</Name>
+					<Abstract type="html">The &apos;start&apos; index.</Abstract>
+				</Parameter><Parameter>
+					<Name>limit</Name>
+					<Abstract type="html">The count.</Abstract>
+				</Parameter><Parameter>
+					<Name>allObjects</Name>
+					<Abstract type="html">True when a technician gets all the objects in a userIsolated collection, otherwise false.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/get:withLimit:getAllObjects:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorageCollection/get:</TokenIdentifier>
+			<Abstract type="html">Fetches and returns the OMCStorageObject in the current OMCStorageCollection.
+The OMCStorageObject is specified with the key.</Abstract>
+			<DeclaredIn>OMCStorageCollection.h</DeclaredIn>
+			
+			<Declaration>- (OMCStorageObject *)get:(NSString *)objectID</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>objectID</Name>
+					<Abstract type="html">The ID of the OMCStorageObject to be fetched.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/get:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorageCollection/post:</TokenIdentifier>
+			<Abstract type="html">Creates and uploads an OMCStorageObject to the current OMCStorageCollection.
+Note that for a POST request, the server will generate an Object ID and ignore
+the Object ID currently in the current storage object.  To preserve the Object ID,
+use the put: method, even with a new object.
+Returns the OMCStorageObject.
+  </Abstract>
+			<DeclaredIn>OMCStorageCollection.h</DeclaredIn>
+			
+			<Declaration>- (OMCStorageObject *)post:(OMCStorageObject *)storageObject</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>storageObject</Name>
+					<Abstract type="html">The OMCStorageObject to be uploaded.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/post:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorageCollection/put:</TokenIdentifier>
+			<Abstract type="html">Uploads a new OMCStorageObject or updates an existing OMCStorageObject in the current OMCStorageCollection.
+Returns the updated `OMCStorageObject.</Abstract>
+			<DeclaredIn>OMCStorageCollection.h</DeclaredIn>
+			
+			<Declaration>- (OMCStorageObject *)put:(OMCStorageObject *)storageObject</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>storageObject</Name>
+					<Abstract type="html">The OMCStorageObject to be uploaded.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/put:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorageCollection/deleteWithKey:</TokenIdentifier>
+			<Abstract type="html">Deletes the OMCStorageObject in the OMCStorageCollection.
+The OMCStorageObject is specified with the key.
+Return YES if delete is successful.</Abstract>
+			<DeclaredIn>OMCStorageCollection.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)deleteWithKey:(NSString *)objectID</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>objectID</Name>
+					<Abstract type="html">The ID of the OMCStorageObject to be deleted.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteWithKey:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCStorageCollection/delete:</TokenIdentifier>
+			<Abstract type="html">Deletes the OMCStorageObject in the OMCStorageCollection.
+Return YES if delete is successful.</Abstract>
+			<DeclaredIn>OMCStorageCollection.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)delete:(OMCStorageObject *)storageObject</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>storageObject</Name>
+					<Abstract type="html">The OMCStorageObject to be deleted.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/delete:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

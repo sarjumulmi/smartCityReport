@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCLocationDeviceQuery.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCLocationDeviceQuery</TokenIdentifier>
+			<Abstract type="html">A device query can be configured to search for devices.</Abstract>
+			<DeclaredIn>OMCLocationDeviceQuery.h</DeclaredIn>
+            
+			
+			<NodeRef refid="20"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationDeviceQuery/setProtocol:</TokenIdentifier>
+			<Abstract type="html">The query&apos;s results will be filtered on a
+match of this value with the device&apos;s beacon protocol.</Abstract>
+			<DeclaredIn>OMCLocationDeviceQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationDevice/beacon</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) OMCLocationDeviceQueryProtocolType protocol</Declaration>
+			
+			
+			<Anchor>//api/name/protocol</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationDeviceQuery/protocol</TokenIdentifier>
+			<Abstract type="html">The query&apos;s results will be filtered on a
+match of this value with the device&apos;s beacon protocol.</Abstract>
+			<DeclaredIn>OMCLocationDeviceQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationDevice/beacon</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) OMCLocationDeviceQueryProtocolType protocol</Declaration>
+			
+			
+			<Anchor>//api/name/protocol</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationDeviceQuery/protocol</TokenIdentifier>
+			<Abstract type="html">The query&apos;s results will be filtered on a
+match of this value with the device&apos;s beacon protocol.</Abstract>
+			<DeclaredIn>OMCLocationDeviceQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationDevice/beacon</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) OMCLocationDeviceQueryProtocolType protocol</Declaration>
+			
+			
+			<Anchor>//api/name/protocol</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationDeviceQuery/setAssetID:</TokenIdentifier>
+			<Abstract type="html">The query will search for the device associated with this asset ID.</Abstract>
+			<DeclaredIn>OMCLocationDeviceQuery.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, nullable) NSNumber *assetID</Declaration>
+			
+			
+			<Anchor>//api/name/assetID</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationDeviceQuery/assetID</TokenIdentifier>
+			<Abstract type="html">The query will search for the device associated with this asset ID.</Abstract>
+			<DeclaredIn>OMCLocationDeviceQuery.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, nullable) NSNumber *assetID</Declaration>
+			
+			
+			<Anchor>//api/name/assetID</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationDeviceQuery/assetID</TokenIdentifier>
+			<Abstract type="html">The query will search for the device associated with this asset ID.</Abstract>
+			<DeclaredIn>OMCLocationDeviceQuery.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, nullable) NSNumber *assetID</Declaration>
+			
+			
+			<Anchor>//api/name/assetID</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationDeviceQuery/setAsset:</TokenIdentifier>
+			<Abstract type="html">The query will search for the device associated with the specified asset.</Abstract>
+			<DeclaredIn>OMCLocationDeviceQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationDeviceQuery/assetID</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setAsset:(nullable OMCLocationAsset *)asset</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>asset</Name>
+					<Abstract type="html">The asset associated with the device the query will search for.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setAsset:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationDeviceQuery/setBeacon:</TokenIdentifier>
+			<Abstract type="html">The query will search for the device for this beacon.</Abstract>
+			<DeclaredIn>OMCLocationDeviceQuery.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, nullable) OMCLocationBeacon *beacon</Declaration>
+			
+			
+			<Anchor>//api/name/beacon</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationDeviceQuery/beacon</TokenIdentifier>
+			<Abstract type="html">The query will search for the device for this beacon.</Abstract>
+			<DeclaredIn>OMCLocationDeviceQuery.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, nullable) OMCLocationBeacon *beacon</Declaration>
+			
+			
+			<Anchor>//api/name/beacon</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationDeviceQuery/beacon</TokenIdentifier>
+			<Abstract type="html">The query will search for the device for this beacon.</Abstract>
+			<DeclaredIn>OMCLocationDeviceQuery.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, nullable) OMCLocationBeacon *beacon</Declaration>
+			
+			
+			<Anchor>//api/name/beacon</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationDeviceQuery/setOrderByAttribute:</TokenIdentifier>
+			<Abstract type="html">The attribute by which the query results will be sorted when returned.
+The sort order (ascending or descending) is determined by the order-by order.</Abstract>
+			<DeclaredIn>OMCLocationDeviceQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQuery/orderByOrder</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) OMCLocationDeviceQueryOrderByAttributeType orderByAttribute</Declaration>
+			
+			
+			<Anchor>//api/name/orderByAttribute</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationDeviceQuery/orderByAttribute</TokenIdentifier>
+			<Abstract type="html">The attribute by which the query results will be sorted when returned.
+The sort order (ascending or descending) is determined by the order-by order.</Abstract>
+			<DeclaredIn>OMCLocationDeviceQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQuery/orderByOrder</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) OMCLocationDeviceQueryOrderByAttributeType orderByAttribute</Declaration>
+			
+			
+			<Anchor>//api/name/orderByAttribute</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationDeviceQuery/orderByAttribute</TokenIdentifier>
+			<Abstract type="html">The attribute by which the query results will be sorted when returned.
+The sort order (ascending or descending) is determined by the order-by order.</Abstract>
+			<DeclaredIn>OMCLocationDeviceQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQuery/orderByOrder</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) OMCLocationDeviceQueryOrderByAttributeType orderByAttribute</Declaration>
+			
+			
+			<Anchor>//api/name/orderByAttribute</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationDeviceQuery/executeWithCompletionHandler:</TokenIdentifier>
+			<Abstract type="html">Asynchronously executes the query, invoking the specified completion
+handler block when finished.</Abstract>
+			<DeclaredIn>OMCLocationDeviceQuery.h</DeclaredIn>
+			
+			<Declaration>- (void)executeWithCompletionHandler:(void ( ^ ) ( OMCLocationObjectQueryResult&lt;OMCLocationDeviceQuery*,OMCLocationDevice*&gt; *_Nullable result , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The block to be invoked when the query has
+finished executing. The completion block will be invoked on
+the main dispatch queue.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/executeWithCompletionHandler:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

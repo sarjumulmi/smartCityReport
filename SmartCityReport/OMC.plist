@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logLevel</key>
+	<string>debug</string>
+	<key>logHTTP</key>
+	<true/>
+	<key>oAuthTokenEndPoint</key>
+	<string>https://idcs-495990a5098b4c2f84e691f43975dab2.identity.oraclecloud.com/oauth2/v1/token</string>
+	<key>mobileBackend</key>
+	<dict>
+		<key>name</key>
+		<string>smartcityparking</string>
+		<key>baseURL</key>
+		<string>https://04C59248128E4D7DA536281B2CC2E3D4.mobile.ocp.oraclecloud.com:443</string>
+		<key>authentication</key>
+		<dict>
+			<key>type</key>
+			<string>basic</string>
+			<key>oauth</key>
+			<dict>
+				<key>clientID</key>
+				<string>50e9ed0971cc4efdb8574449e88010a6</string>
+				<key>clientSecret</key>
+				<string>9d83f674-f08d-4f5f-94e2-b3680b924ee3</string>
+			</dict>
+			<key>basic</key>
+			<dict>
+				<key>mobileBackendID</key>
+				<string>a4bef263-c2d8-4013-8bf1-13cba1484d43</string>
+				<key>anonymousKey</key>
+				<string>MDRDNTkyNDgxMjhFNEQ3REE1MzYyODFCMkNDMkUzRDRfTW9iaWxlQW5vbnltb3VzX0FQUElEOjE1Nzg2MmY4LWVmNzctNGI4OC1iZmEzLTVjMDA0MDJlOTZiMg==</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,1865 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>OMCMobileBackend Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">Autonomous Mobile Cloud Enterprise iOS SDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Oracle Corporation, 18.3.3.0 - E91498-01</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/appConfig">appConfig</option>
+		
+		<option value="//api/name/appConfigPath">appConfigPath</option>
+		
+		<option value="//api/name/appConfigURL">appConfigURL</option>
+		
+		<option value="//api/name/authorization">authorization</option>
+		
+		<option value="//api/name/customCodeClient">customCodeClient</option>
+		
+		<option value="//api/name/customCodePath">customCodePath</option>
+		
+		<option value="//api/name/customCodeURL">customCodeURL</option>
+		
+		<option value="//api/name/diagnostics">diagnostics</option>
+		
+		<option value="//api/name/platformPath">platformPath</option>
+		
+		<option value="//api/name/platformURL">platformURL</option>
+		
+	</optgroup>
+	
+
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/analytics">- analytics</option>
+		
+		<option value="//api/name/appConfigWithCompletionHandler:">- appConfigWithCompletionHandler:</option>
+		
+		<option value="//api/name/buildAnonymousAuthorizationCustomCodeURLRequestWithPath:completionHandler:">- buildAnonymousAuthorizationCustomCodeURLRequestWithPath:completionHandler:</option>
+		
+		<option value="//api/name/buildAnonymousAuthorizationPlatformURLRequestWithPath:completionHandler:">- buildAnonymousAuthorizationPlatformURLRequestWithPath:completionHandler:</option>
+		
+		<option value="//api/name/buildAnonymousAuthorizationURLRequestWithPath:completionHandler:">- buildAnonymousAuthorizationURLRequestWithPath:completionHandler:</option>
+		
+		<option value="//api/name/buildAppConfigURLRequestWithPath:completionHandler:">- buildAppConfigURLRequestWithPath:completionHandler:</option>
+		
+		<option value="//api/name/buildCustomCodeURLRequestWithPath:completionHandler:">- buildCustomCodeURLRequestWithPath:completionHandler:</option>
+		
+		<option value="//api/name/buildPlatformURLRequestWithPath:completionHandler:">- buildPlatformURLRequestWithPath:completionHandler:</option>
+		
+		<option value="//api/name/buildURLRequestWithPath:completionHandler:">- buildURLRequestWithPath:completionHandler:</option>
+		
+		<option value="//api/name/location">- location</option>
+		
+		<option value="//api/name/notifications">- notifications</option>
+		
+		<option value="//api/name/removeAnalytics">- removeAnalytics</option>
+		
+		<option value="//api/name/removeLocation">- removeLocation</option>
+		
+		<option value="//api/name/removeNotifications">- removeNotifications</option>
+		
+		<option value="//api/name/removeStorage">- removeStorage</option>
+		
+		<option value="//api/name/removeSynchronization">- removeSynchronization</option>
+		
+		<option value="//api/name/setAnonymousAuthorizationHTTPHeadersOnURLRequest:completionHandler:">- setAnonymousAuthorizationHTTPHeadersOnURLRequest:completionHandler:</option>
+		
+		<option value="//api/name/setHTTPHeadersOnURLRequest:completionHandler:">- setHTTPHeadersOnURLRequest:completionHandler:</option>
+		
+		<option value="//api/name/storage">- storage</option>
+		
+		<option value="//api/name/synchronization">- synchronization</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">OMCMobileBackend Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td><a href="../Classes/OMCMobileComponent.html">OMCMobileComponent</a> : NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>OMCMobileBackend.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>A mobile backend holds the settings that allow a mobile backend service proxy
+to communicate with an OMCe mobile backend server.</p>
+
+<p>Extends <code>OMCMobileBackend</code> with Synchronization-specific methods.</p>
+
+<p>Extends <code>OMCMobileBackend</code> with Notifications-specific methods.</p>
+
+<p>Extends <code>OMCMobileBackend</code> with Location-specific methods.</p>
+
+<p>Extends <code>OMCMobileBackend</code> with Storage-specific methods.</p>
+
+<p>Extends <code>OMCMobileBackend</code> with Analytics-specific methods.</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						<h2 class="task-title">Other Methods</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/diagnostics" title="diagnostics"></a>
+	<h3 class="method-title"><code><a href="#//api/name/diagnostics">&nbsp;&nbsp;diagnostics</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The mobile backend&rsquo;s diagnostics.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readonly) OMCDiagnostics *diagnostics</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileBackend.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/authorization" title="authorization"></a>
+	<h3 class="method-title"><code><a href="#//api/name/authorization">&nbsp;&nbsp;authorization</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The mobile backend&rsquo;s authorization.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readonly) OMCAuthorization *authorization</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileBackend.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/buildURLRequestWithPath:completionHandler:" title="buildURLRequestWithPath:completionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/buildURLRequestWithPath:completionHandler:">&ndash;&nbsp;buildURLRequestWithPath:completionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Builds a URL request configured with a URL with the specified path,
+relative to the mobile backend&rsquo;s base URL and path.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)buildURLRequestWithPath:(nullable NSString *)<em>relativePath</em> completionHandler:(OMCURLRequestCompletionBlock)<em>completionHandler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>relativePath</code></th>
+						<td><p>The request&rsquo;s URL path, relative to the mobile backend&rsquo;s URL.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionHandler</code></th>
+						<td><p>The completion block invoked when the URL request
+is built or an error occurs.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The request will be configured with the appropriate OMCe HTTP headers:</p>
+
+<ul>
+<li><a href="#//api/name/authorization">authorization</a></li>
+<li><a href="#//api/name/diagnostics">diagnostics</a> device ID</li>
+<li><a href="#//api/name/diagnostics">diagnostics</a> session ID</li>
+<li><a href="#//api/name/diagnostics">diagnostics</a> timestamp</li>
+</ul>
+
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="../Classes/OMCMobileComponent.html#//api/name/baseURL">[OMCMobileComponent baseURL]</a></p></code></li>
+					
+					<li><code><p><a href="../Classes/OMCMobileComponent.html#//api/name/path">[OMCMobileComponent path]</a></p></code></li>
+					
+					<li><code><p><a href="../Classes/OMCMobileComponent.html#//api/name/url">[OMCMobileComponent url]</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileBackend.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setHTTPHeadersOnURLRequest:completionHandler:" title="setHTTPHeadersOnURLRequest:completionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setHTTPHeadersOnURLRequest:completionHandler:">&ndash;&nbsp;setHTTPHeadersOnURLRequest:completionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Sets the receiver&rsquo;s HTTP headers on the specified URL request.
+The headers will include:</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setHTTPHeadersOnURLRequest:(NSMutableURLRequest *)<em>request</em> completionHandler:(OMCErrorCompletionBlock)<em>completionHandler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>request</code></th>
+						<td><p>A URL request.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionHandler</code></th>
+						<td><p>The completion block invoked once the mobile
+backend&rsquo;s HTTP headers have been added to the URL request
+or an error occurs.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<ul>
+<li><a href="#//api/name/authorization">authorization</a></li>
+<li><a href="#//api/name/diagnostics">diagnostics</a> device ID</li>
+<li><a href="#//api/name/diagnostics">diagnostics</a> session ID</li>
+<li><a href="#//api/name/diagnostics">diagnostics</a> timestamp</li>
+</ul>
+
+
+<p>Call this method to ensure that all the required OMCe headers are set
+appropriately.</p><div class="warning"><p><strong>Warning:</strong> Raises an <code>NSInvalidArgumentException</code> if <code>request</code> is <code>nil</code>.</p></div>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileBackend.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/buildAnonymousAuthorizationURLRequestWithPath:completionHandler:" title="buildAnonymousAuthorizationURLRequestWithPath:completionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/buildAnonymousAuthorizationURLRequestWithPath:completionHandler:">&ndash;&nbsp;buildAnonymousAuthorizationURLRequestWithPath:completionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Builds an anonymous <a href="#//api/name/authorization">authorization</a> URL request configured with a URL with the specified path,
+relative to the mobile backend&rsquo;s base URL and path.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)buildAnonymousAuthorizationURLRequestWithPath:(nullable NSString *)<em>relativePath</em> completionHandler:(OMCURLRequestCompletionBlock)<em>completionHandler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>relativePath</code></th>
+						<td><p>The request&rsquo;s URL path, relative to the mobile backend&rsquo;s URL.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionHandler</code></th>
+						<td><p>The completion block invoked when the URL request
+is built or an error occurs.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The request will be configured with the appropriate OMCe HTTP headers:</p>
+
+<ul>
+<li><a href="#//api/name/authorization">authorization</a> (anonymous)</li>
+<li><a href="#//api/name/diagnostics">diagnostics</a> device ID</li>
+<li><a href="#//api/name/diagnostics">diagnostics</a> session ID</li>
+<li><a href="#//api/name/diagnostics">diagnostics</a> timestamp</li>
+</ul>
+
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="../Classes/OMCMobileComponent.html#//api/name/baseURL">[OMCMobileComponent baseURL]</a></p></code></li>
+					
+					<li><code><p><a href="../Classes/OMCMobileComponent.html#//api/name/path">[OMCMobileComponent path]</a></p></code></li>
+					
+					<li><code><p><a href="../Classes/OMCMobileComponent.html#//api/name/url">[OMCMobileComponent url]</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileBackend.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setAnonymousAuthorizationHTTPHeadersOnURLRequest:completionHandler:" title="setAnonymousAuthorizationHTTPHeadersOnURLRequest:completionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setAnonymousAuthorizationHTTPHeadersOnURLRequest:completionHandler:">&ndash;&nbsp;setAnonymousAuthorizationHTTPHeadersOnURLRequest:completionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Sets the receiver&rsquo;s anonymous <a href="#//api/name/authorization">authorization</a> HTTP headers on the specified URL request.
+The headers will include:</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setAnonymousAuthorizationHTTPHeadersOnURLRequest:(NSMutableURLRequest *)<em>request</em> completionHandler:(OMCErrorCompletionBlock)<em>completionHandler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>request</code></th>
+						<td><p>A URL request.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionHandler</code></th>
+						<td><p>The completion block invoked once the mobile
+backend&rsquo;s HTTP headers have been added to the URL request
+or an error occurs.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<ul>
+<li><a href="#//api/name/authorization">authorization</a> (anonymous)</li>
+<li><a href="#//api/name/diagnostics">diagnostics</a> device ID</li>
+<li><a href="#//api/name/diagnostics">diagnostics</a> session ID</li>
+<li><a href="#//api/name/diagnostics">diagnostics</a> timestamp</li>
+</ul>
+
+
+<p>Call this method to ensure that all the required OMCe headers are set
+appropriately.</p><div class="warning"><p><strong>Warning:</strong> Raises an <code>NSInvalidArgumentException</code> if <code>request</code> is <code>nil</code>.</p></div>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileBackend.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/platformPath" title="platformPath"></a>
+	<h3 class="method-title"><code><a href="#//api/name/platformPath">&nbsp;&nbsp;platformPath</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The mobile backend&rsquo;s platform path, which is appended to the <code>url</code> to
+form the <a href="#//api/name/platformURL"><code>platformURL</code></a>.
+The platform path is held by <code>OMCMobileBackendPlatformPath</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readonly) NSString *platformPath</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileBackend.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/platformURL" title="platformURL"></a>
+	<h3 class="method-title"><code><a href="#//api/name/platformURL">&nbsp;&nbsp;platformURL</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The mobile backend&rsquo;s platform URL, upon which requests such as HTTP URLs are
+built. This URL is built by appending the <a href="#//api/name/platformPath"><code>platformPath</code></a> to the <code>url</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readonly) NSURL *platformURL</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileBackend.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/buildPlatformURLRequestWithPath:completionHandler:" title="buildPlatformURLRequestWithPath:completionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/buildPlatformURLRequestWithPath:completionHandler:">&ndash;&nbsp;buildPlatformURLRequestWithPath:completionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Builds a URL request configured with a URL with the specified path,
+relative to the mobile backend&rsquo;s platform URL.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)buildPlatformURLRequestWithPath:(nullable NSString *)<em>relativePath</em> completionHandler:(OMCURLRequestCompletionBlock)<em>completionHandler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>relativePath</code></th>
+						<td><p>The request&rsquo;s URL path, relative to the mobile backend&rsquo;s platform URL.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionHandler</code></th>
+						<td><p>The completion block invoked when the URL request
+is built or an error occurs.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The request will be configured with the appropriate OMCe HTTP headers:</p>
+
+<ul>
+<li><a href="#//api/name/authorization">authorization</a></li>
+<li><a href="#//api/name/diagnostics">diagnostics</a> device ID</li>
+<li><a href="#//api/name/diagnostics">diagnostics</a> session ID</li>
+<li><a href="#//api/name/diagnostics">diagnostics</a> timestamp</li>
+</ul>
+
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="#//api/name/platformPath">@property platformPath</a></p></code></li>
+					
+					<li><code><p><a href="#//api/name/platformURL">@property platformURL</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileBackend.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/buildAnonymousAuthorizationPlatformURLRequestWithPath:completionHandler:" title="buildAnonymousAuthorizationPlatformURLRequestWithPath:completionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/buildAnonymousAuthorizationPlatformURLRequestWithPath:completionHandler:">&ndash;&nbsp;buildAnonymousAuthorizationPlatformURLRequestWithPath:completionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Builds an anonymous <a href="#//api/name/authorization">authorization</a> URL request configured with a URL with the specified path,
+relative to the mobile backend&rsquo;s platform URL.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)buildAnonymousAuthorizationPlatformURLRequestWithPath:(nullable NSString *)<em>relativePath</em> completionHandler:(OMCURLRequestCompletionBlock)<em>completionHandler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>relativePath</code></th>
+						<td><p>The request&rsquo;s URL path, relative to the mobile backend&rsquo;s platform URL.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionHandler</code></th>
+						<td><p>The completion block invoked when the URL request
+is built or an error occurs.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The request will be configured with the appropriate OMCe HTTP headers:</p>
+
+<ul>
+<li><a href="#//api/name/authorization">authorization</a> (anonymous)</li>
+<li><a href="#//api/name/diagnostics">diagnostics</a> device ID</li>
+<li><a href="#//api/name/diagnostics">diagnostics</a> session ID</li>
+<li><a href="#//api/name/diagnostics">diagnostics</a> timestamp</li>
+</ul>
+
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="#//api/name/platformPath">@property platformPath</a></p></code></li>
+					
+					<li><code><p><a href="#//api/name/platformURL">@property platformURL</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileBackend.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/appConfigPath" title="appConfigPath"></a>
+	<h3 class="method-title"><code><a href="#//api/name/appConfigPath">&nbsp;&nbsp;appConfigPath</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The mobile backend&rsquo;s application configuration path, which is appended to the <a href="#//api/name/platformURL"><code>platformURL</code></a> to
+form the <a href="#//api/name/appConfigURL"><code>appConfigURL</code></a>.
+The application configuration path is held by <code>OMCMobileBackendAppConfigPath</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readonly) NSString *appConfigPath</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileBackend.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/appConfigURL" title="appConfigURL"></a>
+	<h3 class="method-title"><code><a href="#//api/name/appConfigURL">&nbsp;&nbsp;appConfigURL</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The mobile backend&rsquo;s application configuration URL, upon which requests such as HTTP URLs are
+built. This URL is built by appending the current <a href="#//api/name/appConfigPath"><code>appConfigPath</code></a>
+to the current <a href="#//api/name/platformURL"><code>platformURL</code></a>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readonly) NSURL *appConfigURL</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileBackend.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/appConfig" title="appConfig"></a>
+	<h3 class="method-title"><code><a href="#//api/name/appConfig">&nbsp;&nbsp;appConfig</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The mobile backend&rsquo;s application configuration.
+The application configuration will be empty until it is loaded.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readonly) OMCAppConfig *appConfig</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="#//api/name/appConfigWithCompletionHandler:">- appConfigWithCompletionHandler:</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileBackend.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/appConfigWithCompletionHandler:" title="appConfigWithCompletionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/appConfigWithCompletionHandler:">&ndash;&nbsp;appConfigWithCompletionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Loads the receiver&rsquo;s application configuration asynchronously.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)appConfigWithCompletionHandler:(OMCAppConfigCompletionBlock)<em>completionHandler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionHandler</code></th>
+						<td><p>The completion block invoked when the application configuration
+is loaded or an error occurs.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileBackend.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/buildAppConfigURLRequestWithPath:completionHandler:" title="buildAppConfigURLRequestWithPath:completionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/buildAppConfigURLRequestWithPath:completionHandler:">&ndash;&nbsp;buildAppConfigURLRequestWithPath:completionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Builds an HTTP URL <code>GET</code> request configured with a URL with the specified path,
+relative to the mobile backend&rsquo;s application configuration URL.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)buildAppConfigURLRequestWithPath:(nullable NSString *)<em>relativePath</em> completionHandler:(OMCURLRequestCompletionBlock)<em>completionHandler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>relativePath</code></th>
+						<td><p>The request&rsquo;s URL path, relative to the mobile backend&rsquo;s application configuration URL.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionHandler</code></th>
+						<td><p>The completion block invoked when the URL request
+is built or an error occurs.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The request will be configured with the appropriate OMCe HTTP headers:</p>
+
+<ul>
+<li><a href="#//api/name/diagnostics">diagnostics</a> device ID</li>
+<li><a href="#//api/name/diagnostics">diagnostics</a> session ID</li>
+<li><a href="#//api/name/diagnostics">diagnostics</a> timestamp</li>
+<li>anonymous <a href="#//api/name/authorization">authorization</a></li>
+<li>gzip JSON accept encoding</li>
+</ul>
+
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="#//api/name/appConfigURL">@property appConfigURL</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileBackend.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/customCodePath" title="customCodePath"></a>
+	<h3 class="method-title"><code><a href="#//api/name/customCodePath">&nbsp;&nbsp;customCodePath</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The mobile backend&rsquo;s custom API path, which is appended to the <code>url</code> to
+form the <a href="#//api/name/customCodeURL"><code>customCodeURL</code></a>.
+The custom API path is held by <code>OMCMobileBackendCustomCodePath</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readonly) NSString *customCodePath</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileBackend.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/customCodeURL" title="customCodeURL"></a>
+	<h3 class="method-title"><code><a href="#//api/name/customCodeURL">&nbsp;&nbsp;customCodeURL</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The mobile backend&rsquo;s custom API URL, upon which requests such as HTTP URLs are
+built. This URL is built by appending the current <a href="#//api/name/customCodePath"><code>customCodePath</code></a>
+to the current <code>url</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readonly) NSURL *customCodeURL</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileBackend.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/customCodeClient" title="customCodeClient"></a>
+	<h3 class="method-title"><code><a href="#//api/name/customCodeClient">&nbsp;&nbsp;customCodeClient</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The mobile backend&rsquo;s custom code client.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readonly) OMCCustomCodeClient *customCodeClient</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileBackend.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/buildCustomCodeURLRequestWithPath:completionHandler:" title="buildCustomCodeURLRequestWithPath:completionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/buildCustomCodeURLRequestWithPath:completionHandler:">&ndash;&nbsp;buildCustomCodeURLRequestWithPath:completionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Builds a URL request configured with a URL with the specified path,
+relative to the mobile backend&rsquo;s custom code URL.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)buildCustomCodeURLRequestWithPath:(nullable NSString *)<em>relativePath</em> completionHandler:(OMCURLRequestCompletionBlock)<em>completionHandler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>relativePath</code></th>
+						<td><p>The return request&rsquo;s URL path, relative to the mobile backend&rsquo;s custom code URL.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionHandler</code></th>
+						<td><p>The completion block invoked when the URL request
+is built or an error occurs.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="#//api/name/customCodePath">@property customCodePath</a></p></code></li>
+					
+					<li><code><p><a href="#//api/name/customCodeURL">@property customCodeURL</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileBackend.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/buildAnonymousAuthorizationCustomCodeURLRequestWithPath:completionHandler:" title="buildAnonymousAuthorizationCustomCodeURLRequestWithPath:completionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/buildAnonymousAuthorizationCustomCodeURLRequestWithPath:completionHandler:">&ndash;&nbsp;buildAnonymousAuthorizationCustomCodeURLRequestWithPath:completionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Builds an anonymous <a href="#//api/name/authorization">authorization</a> URL request configured with a URL with the specified path,
+relative to the mobile backend&rsquo;s custom code URL.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)buildAnonymousAuthorizationCustomCodeURLRequestWithPath:(nullable NSString *)<em>relativePath</em> completionHandler:(OMCURLRequestCompletionBlock)<em>completionHandler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>relativePath</code></th>
+						<td><p>The return request&rsquo;s URL path, relative to the mobile backend&rsquo;s custom code URL.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionHandler</code></th>
+						<td><p>The completion block invoked when the URL request
+is built or an error occurs.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="#//api/name/customCodePath">@property customCodePath</a></p></code></li>
+					
+					<li><code><p><a href="#//api/name/customCodeURL">@property customCodeURL</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileBackend.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="OMC_Synchronization Methods" name="task_OMC_Synchronization Methods"></a>
+						<h2 class="task-title">OMC_Synchronization Methods</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/synchronization" title="synchronization"></a>
+	<h3 class="method-title"><code><a href="#//api/name/synchronization">&ndash;&nbsp;synchronization</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns the receiver&rsquo;s synchronization service.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (OMCSynchronization *)synchronization</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileBackend+OMC_Synchronization.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/removeSynchronization" title="removeSynchronization"></a>
+	<h3 class="method-title"><code><a href="#//api/name/removeSynchronization">&ndash;&nbsp;removeSynchronization</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Removes the receiver&rsquo;s <a href="#//api/name/synchronization">synchronization</a> service.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)removeSynchronization</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileBackend+OMC_Synchronization.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="OMC_Notifications Methods" name="task_OMC_Notifications Methods"></a>
+						<h2 class="task-title">OMC_Notifications Methods</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/notifications" title="notifications"></a>
+	<h3 class="method-title"><code><a href="#//api/name/notifications">&ndash;&nbsp;notifications</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns the receiver&rsquo;s notifications service.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (OMCNotifications *)notifications</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileBackend+OMC_Notifications.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/removeNotifications" title="removeNotifications"></a>
+	<h3 class="method-title"><code><a href="#//api/name/removeNotifications">&ndash;&nbsp;removeNotifications</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Removes the receiver&rsquo;s <a href="#//api/name/notifications">notifications</a> service.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)removeNotifications</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileBackend+OMC_Notifications.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="OMC_Location Methods" name="task_OMC_Location Methods"></a>
+						<h2 class="task-title">OMC_Location Methods</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/location" title="location"></a>
+	<h3 class="method-title"><code><a href="#//api/name/location">&ndash;&nbsp;location</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns the receiver&rsquo;s location service.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (OMCLocation *)location</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileBackend+OMC_Location.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/removeLocation" title="removeLocation"></a>
+	<h3 class="method-title"><code><a href="#//api/name/removeLocation">&ndash;&nbsp;removeLocation</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Removes the receiver&rsquo;s <a href="#//api/name/location">location</a> service.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)removeLocation</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileBackend+OMC_Location.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="OMCStorage Methods" name="task_OMCStorage Methods"></a>
+						<h2 class="task-title">OMCStorage Methods</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/storage" title="storage"></a>
+	<h3 class="method-title"><code><a href="#//api/name/storage">&ndash;&nbsp;storage</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns the receiver&rsquo;s storage service.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (OMCStorage *)storage</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileBackend+OMC_Storage.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/removeStorage" title="removeStorage"></a>
+	<h3 class="method-title"><code><a href="#//api/name/removeStorage">&ndash;&nbsp;removeStorage</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Removes the receiver&rsquo;s <a href="#//api/name/storage">storage</a> service.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)removeStorage</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileBackend+OMC_Storage.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="OMC_Analytics Methods" name="task_OMC_Analytics Methods"></a>
+						<h2 class="task-title">OMC_Analytics Methods</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/analytics" title="analytics"></a>
+	<h3 class="method-title"><code><a href="#//api/name/analytics">&ndash;&nbsp;analytics</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns the receiver&rsquo;s analytics service.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (OMCAnalytics *)analytics</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileBackend+OMC_Analytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/removeAnalytics" title="removeAnalytics"></a>
+	<h3 class="method-title"><code><a href="#//api/name/removeAnalytics">&ndash;&nbsp;removeAnalytics</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Removes the receiver&rsquo;s <a href="#//api/name/analytics">analytics</a> service.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)removeAnalytics</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileBackend+OMC_Analytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2018 Oracle Corporation, 18.3.3.0 - E91498-01. All rights reserved. Updated: 2018-08-29</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

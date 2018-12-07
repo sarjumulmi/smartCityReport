@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/SyncOfflineState.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/SyncOfflineState</TokenIdentifier>
+			<Abstract type="html">An enumeration of the different Offline states for the resource.</Abstract>
+			<DeclaredIn>OMCSyncStoreState.h</DeclaredIn>
+            
+			
+			<NodeRef refid="63"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NoOfflineUpdates</TokenIdentifier>
+            <Abstract type="html">Denotes No offline updates</Abstract>
+            <Declaration>NoOfflineUpdates</Declaration>
+            
+            <DeclaredIn>OMCSyncStoreState.h</DeclaredIn>
+            
+            <NodeRef refid="63"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CreatePending</TokenIdentifier>
+            <Abstract type="html">Denotes offline create pending</Abstract>
+            <Declaration>CreatePending</Declaration>
+            
+            <DeclaredIn>OMCSyncStoreState.h</DeclaredIn>
+            
+            <NodeRef refid="63"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/UpdatePending</TokenIdentifier>
+            <Abstract type="html">Denotes offline update pending</Abstract>
+            <Declaration>UpdatePending</Declaration>
+            
+            <DeclaredIn>OMCSyncStoreState.h</DeclaredIn>
+            
+            <NodeRef refid="63"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/PatchPending</TokenIdentifier>
+            <Abstract type="html">Denotes offline patch pending</Abstract>
+            <Declaration>PatchPending</Declaration>
+            
+            <DeclaredIn>OMCSyncStoreState.h</DeclaredIn>
+            
+            <NodeRef refid="63"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DeletePending</TokenIdentifier>
+            <Abstract type="html">Denotes offline delete pending</Abstract>
+            <Declaration>DeletePending</Declaration>
+            
+            <DeclaredIn>OMCSyncStoreState.h</DeclaredIn>
+            
+            <NodeRef refid="63"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

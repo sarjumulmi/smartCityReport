@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCMobileComponent.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCMobileComponent</TokenIdentifier>
+			<Abstract type="html">A mobile component holds the settings that allow a service proxy
+to communicate with a mobile suite server.</Abstract>
+			<DeclaredIn>OMCMobileComponent.h</DeclaredIn>
+            
+			
+			<NodeRef refid="34"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileComponent/setManager:</TokenIdentifier>
+			<Abstract type="html">The mobile component&apos;s manager.</Abstract>
+			<DeclaredIn>OMCMobileComponent.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) OMCMobileManager *manager</Declaration>
+			
+			
+			<Anchor>//api/name/manager</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileComponent/manager</TokenIdentifier>
+			<Abstract type="html">The mobile component&apos;s manager.</Abstract>
+			<DeclaredIn>OMCMobileComponent.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) OMCMobileManager *manager</Declaration>
+			
+			
+			<Anchor>//api/name/manager</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileComponent/manager</TokenIdentifier>
+			<Abstract type="html">The mobile component&apos;s manager.</Abstract>
+			<DeclaredIn>OMCMobileComponent.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) OMCMobileManager *manager</Declaration>
+			
+			
+			<Anchor>//api/name/manager</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileComponent/setName:</TokenIdentifier>
+			<Abstract type="html">The mobile component&apos;s name, as specified by the OMC property list file
+(OMC.plist). The default name is determined by the implementation class.</Abstract>
+			<DeclaredIn>OMCMobileComponent.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileComponent/name</TokenIdentifier>
+			<Abstract type="html">The mobile component&apos;s name, as specified by the OMC property list file
+(OMC.plist). The default name is determined by the implementation class.</Abstract>
+			<DeclaredIn>OMCMobileComponent.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileComponent/name</TokenIdentifier>
+			<Abstract type="html">The mobile component&apos;s name, as specified by the OMC property list file
+(OMC.plist). The default name is determined by the implementation class.</Abstract>
+			<DeclaredIn>OMCMobileComponent.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileComponent/setProperties:</TokenIdentifier>
+			<Abstract type="html">The mobile component&apos;s properties, as specified by the OMC property list file
+(OMC.plist).</Abstract>
+			<DeclaredIn>OMCMobileComponent.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSDictionary&lt;NSString*id&gt; *properties</Declaration>
+			
+			
+			<Anchor>//api/name/properties</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileComponent/properties</TokenIdentifier>
+			<Abstract type="html">The mobile component&apos;s properties, as specified by the OMC property list file
+(OMC.plist).</Abstract>
+			<DeclaredIn>OMCMobileComponent.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSDictionary&lt;NSString*id&gt; *properties</Declaration>
+			
+			
+			<Anchor>//api/name/properties</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileComponent/properties</TokenIdentifier>
+			<Abstract type="html">The mobile component&apos;s properties, as specified by the OMC property list file
+(OMC.plist).</Abstract>
+			<DeclaredIn>OMCMobileComponent.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSDictionary&lt;NSString*id&gt; *properties</Declaration>
+			
+			
+			<Anchor>//api/name/properties</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileComponent/setBaseURL:</TokenIdentifier>
+			<Abstract type="html">The mobile component&apos;s base URL, upon which requests such as HTTP URLs are
+built. Typically, this URL is set via the OMC property list file (OMC.plist)
+and is in the form http://&lt;host&gt;:&lt;port&gt;.</Abstract>
+			<DeclaredIn>OMCMobileComponent.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSURL *baseURL</Declaration>
+			
+			
+			<Anchor>//api/name/baseURL</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileComponent/baseURL</TokenIdentifier>
+			<Abstract type="html">The mobile component&apos;s base URL, upon which requests such as HTTP URLs are
+built. Typically, this URL is set via the OMC property list file (OMC.plist)
+and is in the form http://&lt;host&gt;:&lt;port&gt;.</Abstract>
+			<DeclaredIn>OMCMobileComponent.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSURL *baseURL</Declaration>
+			
+			
+			<Anchor>//api/name/baseURL</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileComponent/baseURL</TokenIdentifier>
+			<Abstract type="html">The mobile component&apos;s base URL, upon which requests such as HTTP URLs are
+built. Typically, this URL is set via the OMC property list file (OMC.plist)
+and is in the form http://&lt;host&gt;:&lt;port&gt;.</Abstract>
+			<DeclaredIn>OMCMobileComponent.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSURL *baseURL</Declaration>
+			
+			
+			<Anchor>//api/name/baseURL</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileComponent/setPath:</TokenIdentifier>
+			<Abstract type="html">The mobile component&apos;s path, which is appended to the baseURL to
+form the url. The mobile component path is determined by
+the subclass.</Abstract>
+			<DeclaredIn>OMCMobileComponent.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *path</Declaration>
+			
+			
+			<Anchor>//api/name/path</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileComponent/path</TokenIdentifier>
+			<Abstract type="html">The mobile component&apos;s path, which is appended to the baseURL to
+form the url. The mobile component path is determined by
+the subclass.</Abstract>
+			<DeclaredIn>OMCMobileComponent.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *path</Declaration>
+			
+			
+			<Anchor>//api/name/path</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileComponent/path</TokenIdentifier>
+			<Abstract type="html">The mobile component&apos;s path, which is appended to the baseURL to
+form the url. The mobile component path is determined by
+the subclass.</Abstract>
+			<DeclaredIn>OMCMobileComponent.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *path</Declaration>
+			
+			
+			<Anchor>//api/name/path</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileComponent/setUrl:</TokenIdentifier>
+			<Abstract type="html">The mobile component&apos;s URL, upon which requests such as HTTP URLs are
+built. This URL is built by appending the current path
+to the current baseURL.</Abstract>
+			<DeclaredIn>OMCMobileComponent.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSURL *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileComponent/url</TokenIdentifier>
+			<Abstract type="html">The mobile component&apos;s URL, upon which requests such as HTTP URLs are
+built. This URL is built by appending the current path
+to the current baseURL.</Abstract>
+			<DeclaredIn>OMCMobileComponent.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSURL *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileComponent/url</TokenIdentifier>
+			<Abstract type="html">The mobile component&apos;s URL, upon which requests such as HTTP URLs are
+built. This URL is built by appending the current path
+to the current baseURL.</Abstract>
+			<DeclaredIn>OMCMobileComponent.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSURL *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileComponent/setOAuthScope:</TokenIdentifier>
+			<Abstract type="html">The mobile component&apos;s OAuth scope.</Abstract>
+			<DeclaredIn>OMCMobileComponent.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *oAuthScope</Declaration>
+			
+			
+			<Anchor>//api/name/oAuthScope</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileComponent/oAuthScope</TokenIdentifier>
+			<Abstract type="html">The mobile component&apos;s OAuth scope.</Abstract>
+			<DeclaredIn>OMCMobileComponent.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *oAuthScope</Declaration>
+			
+			
+			<Anchor>//api/name/oAuthScope</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileComponent/oAuthScope</TokenIdentifier>
+			<Abstract type="html">The mobile component&apos;s OAuth scope.</Abstract>
+			<DeclaredIn>OMCMobileComponent.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *oAuthScope</Declaration>
+			
+			
+			<Anchor>//api/name/oAuthScope</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileComponent/setOAuthTokenEndPointURL:</TokenIdentifier>
+			<Abstract type="html">The mobile component&apos;s OAuth token end point URL, which is used
+to acquire OAuth tokens, if necessary.</Abstract>
+			<DeclaredIn>OMCMobileComponent.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSURL *oAuthTokenEndPointURL</Declaration>
+			
+			
+			<Anchor>//api/name/oAuthTokenEndPointURL</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileComponent/oAuthTokenEndPointURL</TokenIdentifier>
+			<Abstract type="html">The mobile component&apos;s OAuth token end point URL, which is used
+to acquire OAuth tokens, if necessary.</Abstract>
+			<DeclaredIn>OMCMobileComponent.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSURL *oAuthTokenEndPointURL</Declaration>
+			
+			
+			<Anchor>//api/name/oAuthTokenEndPointURL</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileComponent/oAuthTokenEndPointURL</TokenIdentifier>
+			<Abstract type="html">The mobile component&apos;s OAuth token end point URL, which is used
+to acquire OAuth tokens, if necessary.</Abstract>
+			<DeclaredIn>OMCMobileComponent.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSURL *oAuthTokenEndPointURL</Declaration>
+			
+			
+			<Anchor>//api/name/oAuthTokenEndPointURL</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileComponent/serviceProxyForClass:</TokenIdentifier>
+			<Abstract type="html">Returns the receiver&apos;s instance of the specified service proxy, if present.
+If the specified service proxy is not present, creates it via reflection and
+returns the new instance.</Abstract>
+			<DeclaredIn>OMCMobileComponent.h</DeclaredIn>
+			
+			<Declaration>- (nullable OMCServiceProxy *)serviceProxyForClass:(Class)serviceProxyClass</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>serviceProxyClass</Name>
+					<Abstract type="html">The type of service proxy.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/serviceProxyForClass:</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileComponent/removeServiceProxy:</TokenIdentifier>
+			<Abstract type="html">Removes the specified service proxy from the receiver.</Abstract>
+			<DeclaredIn>OMCMobileComponent.h</DeclaredIn>
+			
+			<Declaration>- (void)removeServiceProxy:(OMCServiceProxy *)serviceProxy</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>serviceProxy</Name>
+					<Abstract type="html">The service proxy.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeServiceProxy:</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileComponent/removeServiceProxyForClass:</TokenIdentifier>
+			<Abstract type="html">Removes the receiver&apos;s instance of the specified service proxy.</Abstract>
+			<DeclaredIn>OMCMobileComponent.h</DeclaredIn>
+			
+			<Declaration>- (void)removeServiceProxyForClass:(Class)serviceProxyClass</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>serviceProxyClass</Name>
+					<Abstract type="html">The type of service proxy.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeServiceProxyForClass:</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

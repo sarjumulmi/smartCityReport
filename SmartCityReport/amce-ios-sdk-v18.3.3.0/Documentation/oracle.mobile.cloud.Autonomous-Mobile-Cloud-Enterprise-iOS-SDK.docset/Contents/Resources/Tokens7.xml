@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCDiagnostics.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCDiagnostics</TokenIdentifier>
+			<Abstract type="html">The Diagnostics interface is responsible for adding the appropriate HTTP headers
+to any OMCe URL request. Note this class is typically used indirectly through
+[OMCMobileBackend setHTTPHeadersOnURLRequest:], so this class would not need
+to be used directly.</Abstract>
+			<DeclaredIn>OMCDiagnostics.h</DeclaredIn>
+            
+			
+			<NodeRef refid="7"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCDiagnostics/setMobileBackend:</TokenIdentifier>
+			<Abstract type="html">The mobile backend that is being tracked.</Abstract>
+			<DeclaredIn>OMCDiagnostics.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic, weak) OMCMobileBackend *mobileBackend</Declaration>
+			
+			
+			<Anchor>//api/name/mobileBackend</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCDiagnostics/mobileBackend</TokenIdentifier>
+			<Abstract type="html">The mobile backend that is being tracked.</Abstract>
+			<DeclaredIn>OMCDiagnostics.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic, weak) OMCMobileBackend *mobileBackend</Declaration>
+			
+			
+			<Anchor>//api/name/mobileBackend</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCDiagnostics/mobileBackend</TokenIdentifier>
+			<Abstract type="html">The mobile backend that is being tracked.</Abstract>
+			<DeclaredIn>OMCDiagnostics.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic, weak) OMCMobileBackend *mobileBackend</Declaration>
+			
+			
+			<Anchor>//api/name/mobileBackend</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCDiagnostics/setDeviceID:</TokenIdentifier>
+			<Abstract type="html">The device ID HTTP header value.
+Uses the value returned by [UIDevice identifierForVendor].</Abstract>
+			<DeclaredIn>OMCDiagnostics.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *deviceID</Declaration>
+			
+			
+			<Anchor>//api/name/deviceID</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCDiagnostics/deviceID</TokenIdentifier>
+			<Abstract type="html">The device ID HTTP header value.
+Uses the value returned by [UIDevice identifierForVendor].</Abstract>
+			<DeclaredIn>OMCDiagnostics.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *deviceID</Declaration>
+			
+			
+			<Anchor>//api/name/deviceID</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCDiagnostics/deviceID</TokenIdentifier>
+			<Abstract type="html">The device ID HTTP header value.
+Uses the value returned by [UIDevice identifierForVendor].</Abstract>
+			<DeclaredIn>OMCDiagnostics.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *deviceID</Declaration>
+			
+			
+			<Anchor>//api/name/deviceID</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCDiagnostics/setSessionID:</TokenIdentifier>
+			<Abstract type="html">The session ID HTTP header value.
+Uses the value returned by getpid().</Abstract>
+			<DeclaredIn>OMCDiagnostics.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *sessionID</Declaration>
+			
+			
+			<Anchor>//api/name/sessionID</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCDiagnostics/sessionID</TokenIdentifier>
+			<Abstract type="html">The session ID HTTP header value.
+Uses the value returned by getpid().</Abstract>
+			<DeclaredIn>OMCDiagnostics.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *sessionID</Declaration>
+			
+			
+			<Anchor>//api/name/sessionID</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCDiagnostics/sessionID</TokenIdentifier>
+			<Abstract type="html">The session ID HTTP header value.
+Uses the value returned by getpid().</Abstract>
+			<DeclaredIn>OMCDiagnostics.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *sessionID</Declaration>
+			
+			
+			<Anchor>//api/name/sessionID</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCDiagnostics/setRequestTimestamp:</TokenIdentifier>
+			<Abstract type="html">The request timestamp HTTP header value.
+Uses the value returned by [NSDate date].</Abstract>
+			<DeclaredIn>OMCDiagnostics.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *requestTimestamp</Declaration>
+			
+			
+			<Anchor>//api/name/requestTimestamp</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCDiagnostics/requestTimestamp</TokenIdentifier>
+			<Abstract type="html">The request timestamp HTTP header value.
+Uses the value returned by [NSDate date].</Abstract>
+			<DeclaredIn>OMCDiagnostics.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *requestTimestamp</Declaration>
+			
+			
+			<Anchor>//api/name/requestTimestamp</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCDiagnostics/requestTimestamp</TokenIdentifier>
+			<Abstract type="html">The request timestamp HTTP header value.
+Uses the value returned by [NSDate date].</Abstract>
+			<DeclaredIn>OMCDiagnostics.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *requestTimestamp</Declaration>
+			
+			
+			<Anchor>//api/name/requestTimestamp</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCDiagnostics/setHTTPHeadersOnURLRequest:</TokenIdentifier>
+			<Abstract type="html">Sets all the required OMCe Diagnostics headers on the specified URL request.</Abstract>
+			<DeclaredIn>OMCDiagnostics.h</DeclaredIn>
+			
+			<Declaration>- (void)setHTTPHeadersOnURLRequest:(NSMutableURLRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">The URL request.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setHTTPHeadersOnURLRequest:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCDiagnostics/setTimestampOnURLRequest:</TokenIdentifier>
+			<Abstract type="html">Sets the OMCe Diagnostics timestamp on the specified URL request.</Abstract>
+			<DeclaredIn>OMCDiagnostics.h</DeclaredIn>
+			
+			<Declaration>- (void)setTimestampOnURLRequest:(NSMutableURLRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">The URL request.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setTimestampOnURLRequest:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

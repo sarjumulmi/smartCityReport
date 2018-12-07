@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>OMCMobileManager Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">Autonomous Mobile Cloud Enterprise iOS SDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Oracle Corporation, 18.3.3.0 - E91498-01</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/identityServiceBaseURL">identityServiceBaseURL</option>
+		
+		<option value="//api/name/logHTTP">logHTTP</option>
+		
+		<option value="//api/name/logHTTPMaxBodySize">logHTTPMaxBodySize</option>
+		
+		<option value="//api/name/logHTTPMaxHeaderSize">logHTTPMaxHeaderSize</option>
+		
+		<option value="//api/name/logLevel">logLevel</option>
+		
+		<option value="//api/name/mobileBackend">mobileBackend</option>
+		
+		<option value="//api/name/oAuthTokenEndPointURL">oAuthTokenEndPointURL</option>
+		
+		<option value="//api/name/properties">properties</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/sharedManager">+ sharedManager</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/buildMobileBackendWithProperties:">- buildMobileBackendWithProperties:</option>
+		
+		<option value="//api/name/setMobileBackendWithProperties:">- setMobileBackendWithProperties:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">OMCMobileManager Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>OMCMobileManager.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>The mobile manager is the entry point to the
+Oracle Mobile Cloud, Enterprise (OMCe) Service SDK.
+It is responsible for building and holding the mobile backend and analytics app.</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/sharedManager" title="sharedManager"></a>
+	<h3 class="method-title"><code><a href="#//api/name/sharedManager">+&nbsp;sharedManager</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns the singleton mobile manager.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (OMCMobileManager *)sharedManager</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileManager.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/mobileBackend" title="mobileBackend"></a>
+	<h3 class="method-title"><code><a href="#//api/name/mobileBackend">&nbsp;&nbsp;mobileBackend</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The mobile manager&rsquo;s mobile backend. This is the mobile backend
+configured in the OMC property list file (<code>OMC.plist</code>).</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, nullable) OMCMobileBackend *mobileBackend</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileManager.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setMobileBackendWithProperties:" title="setMobileBackendWithProperties:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setMobileBackendWithProperties:">&ndash;&nbsp;setMobileBackendWithProperties:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Sets and returns the receiver&rsquo;s mobile backend,
+initializing it with the specified <a href="#//api/name/properties">properties</a>.
+The <a href="#//api/name/properties">properties</a> must be in the same form as the <code>backend</code>
+<a href="#//api/name/properties">properties</a> in the OMC property list file (<code>OMC.plist</code>).</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (OMCMobileBackend *)setMobileBackendWithProperties:(nullable NSDictionary&lt;NSString*,id&gt; *)<em>properties</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>properties</code></th>
+						<td><p>The new mobile backend&rsquo;s initial <a href="#//api/name/properties">properties</a>.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Clears the receiver&rsquo;s mobile backend if the specified <a href="#//api/name/properties">properties</a> is <code>nil</code>.</p>
+
+<p>If the receiver already contains a mobile backend, replaces
+it with the newly created mobile backend.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileManager.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/buildMobileBackendWithProperties:" title="buildMobileBackendWithProperties:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/buildMobileBackendWithProperties:">&ndash;&nbsp;buildMobileBackendWithProperties:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Builds and returns a new mobile backend,
+initializing it with the specified <a href="#//api/name/properties">properties</a>.
+The <a href="#//api/name/properties">properties</a> must be in the same form as the <code>backend</code>
+<a href="#//api/name/properties">properties</a> in the OMC property list file (<code>OMC.plist</code>).
+Returns <code>nil</code> if the specified <a href="#//api/name/properties">properties</a> is <code>nil</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (OMCMobileBackend *)buildMobileBackendWithProperties:(nullable NSDictionary&lt;NSString*,id&gt; *)<em>properties</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>properties</code></th>
+						<td><p>The new mobile backend&rsquo;s initial <a href="#//api/name/properties">properties</a>.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>NB: The new mobile backend does not replace the mobile manager&rsquo;s
+mobile backend; it is simply returned.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileManager.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/oAuthTokenEndPointURL" title="oAuthTokenEndPointURL"></a>
+	<h3 class="method-title"><code><a href="#//api/name/oAuthTokenEndPointURL">&nbsp;&nbsp;oAuthTokenEndPointURL</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The mobile manager&rsquo;s OAuth token end point URL, which is used by the
+<a href="#//api/name/mobileBackend"><code>mobileBackend</code></a> and <code>analyticsApp</code> to acquire OAuth tokens, if necessary.
+This URL is built by appending the pre-defined OAuth token path
+to the Identity Service base URL.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, nullable) NSURL *oAuthTokenEndPointURL</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="#//api/name/identityServiceBaseURL">[OMCMobileManager identityServiceBaseURL]</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileManager.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/identityServiceBaseURL" title="identityServiceBaseURL"></a>
+	<h3 class="method-title"><code><a href="#//api/name/identityServiceBaseURL">&nbsp;&nbsp;identityServiceBaseURL</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The mobile manager&rsquo;s Identity Service base URL, which is used to build
+the manager&rsquo;s OAuth token end point URL.
+Typically, this URL is set via the OMC property list file (<code>OMC.plist</code>)
+and is in the form <code>https://&lt;host&gt;:&lt;port&gt;</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nullable) NSURL *identityServiceBaseURL</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="#//api/name/oAuthTokenEndPointURL">[OMCMobileManager oAuthTokenEndPointURL]</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileManager.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/logLevel" title="logLevel"></a>
+	<h3 class="method-title"><code><a href="#//api/name/logLevel">&nbsp;&nbsp;logLevel</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The mobile manager&rsquo;s log level. This log level controls the volume of log entries
+produced by the OMCe SDK. The log level can be set to one of the following
+levels: <code>"none"</code>, <code>"error"</code>, <code>"warning"</code>, <code>"info"</code>, <code>"debug"</code>.
+This log level can be either initialized
+from the default property list file (<code>OMC.plist</code>) or set directly at
+runtime via this property. If it is not set explicitly, the log level is <code>error</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) NSString *logLevel</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileManager.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/logHTTP" title="logHTTP"></a>
+	<h3 class="method-title"><code><a href="#//api/name/logHTTP">&nbsp;&nbsp;logHTTP</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The mobile manager&rsquo;s log HTTP flag. This flag controls whether,
+when logging HTTP requests and responses,
+the OMCe SDK also logs the headers and bodies of the requests and responses.
+This flag can be either initialized
+from the default property list file (<code>OMC.plist</code>) or set directly at
+runtime via this property. If it is not set explicitly,
+the flag&rsquo;s value is <code>NO</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property BOOL logHTTP</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="#//api/name/logHTTPMaxHeaderSize">[OMCMobileManager logHTTPMaxHeaderSize]</a></p></code></li>
+					
+					<li><code><p><a href="#//api/name/logHTTPMaxBodySize">[OMCMobileManager logHTTPMaxBodySize]</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileManager.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/logHTTPMaxHeaderSize" title="logHTTPMaxHeaderSize"></a>
+	<h3 class="method-title"><code><a href="#//api/name/logHTTPMaxHeaderSize">&nbsp;&nbsp;logHTTPMaxHeaderSize</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The mobile manager&rsquo;s log HTTP max header size. This value determines the
+maximum number of characters to be logged when logging an HTTP header value.
+If an HTTP header value is longer than the specified maximum, a truncated version
+of the value will be logged with a trailing ellipsis (<code>...</code>).
+This value can be either initialized
+from the default property list file (<code>OMC.plist</code>) or set directly at
+runtime via this property. If it is not set explicitly, the value is <code>100</code>.
+If this value is set to <code>0</code>, all HTTP header values will be printed in entirety.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property NSUInteger logHTTPMaxHeaderSize</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="#//api/name/logHTTP">[OMCMobileManager logHTTP]</a></p></code></li>
+					
+					<li><code><p><a href="#//api/name/logHTTPMaxBodySize">[OMCMobileManager logHTTPMaxBodySize]</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileManager.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/logHTTPMaxBodySize" title="logHTTPMaxBodySize"></a>
+	<h3 class="method-title"><code><a href="#//api/name/logHTTPMaxBodySize">&nbsp;&nbsp;logHTTPMaxBodySize</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The mobile manager&rsquo;s log HTTP max body size. This value determines the
+maximum number of bytes to be logged when logging an HTTP body.
+If an HTTP body is longer than the specified maximum, a truncated version
+of the value will be logged with a trailing ellipsis (<code>...</code>).
+This value can be either initialized
+from the default property list file (<code>OMC.plist</code>) or set directly at
+runtime via this property. If it is not set explicitly, the value is <code>10000</code>.
+If this value is set to <code>0</code>, all HTTP bodies will be printed in entirety.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property NSUInteger logHTTPMaxBodySize</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="#//api/name/logHTTP">[OMCMobileManager logHTTP]</a></p></code></li>
+					
+					<li><code><p><a href="#//api/name/logHTTPMaxHeaderSize">[OMCMobileManager logHTTPMaxHeaderSize]</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileManager.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/properties" title="properties"></a>
+	<h3 class="method-title"><code><a href="#//api/name/properties">&nbsp;&nbsp;properties</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The mobile manager&rsquo;s properties, as specified by the OMC property list file
+(<code>OMC.plist</code>).</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic) NSDictionary&lt;NSString*id&gt; *properties</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCMobileManager.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2018 Oracle Corporation, 18.3.3.0 - E91498-01. All rights reserved. Updated: 2018-08-29</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

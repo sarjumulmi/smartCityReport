@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>OMCLocation Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">Autonomous Mobile Cloud Enterprise iOS SDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Oracle Corporation, 18.3.3.0 - E91498-01</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/assetWithID:completionHandler:">- assetWithID:completionHandler:</option>
+		
+		<option value="//api/name/buildAssetQuery">- buildAssetQuery</option>
+		
+		<option value="//api/name/buildDeviceQuery">- buildDeviceQuery</option>
+		
+		<option value="//api/name/buildPlaceQuery">- buildPlaceQuery</option>
+		
+		<option value="//api/name/deviceWithID:completionHandler:">- deviceWithID:completionHandler:</option>
+		
+		<option value="//api/name/devicesWithBeacon:completionHandler:">- devicesWithBeacon:completionHandler:</option>
+		
+		<option value="//api/name/placeClosestToPoint:completionHandler:">- placeClosestToPoint:completionHandler:</option>
+		
+		<option value="//api/name/placeWithID:completionHandler:">- placeWithID:completionHandler:</option>
+		
+		<option value="//api/name/placesInGeoFence:completionHandler:">- placesInGeoFence:completionHandler:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">OMCLocation Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td><a href="../Classes/OMCMobileBackendServiceProxy.html">OMCMobileBackendServiceProxy</a> : <a href="../Classes/OMCServiceProxy.html">OMCServiceProxy</a> : NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>OMCLocation.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Library interface to the Oracle Mobile Cloud Location service.</p>
+
+<p>The Location service provides support for associating places, assets,
+devices and beacons.</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/assetWithID:completionHandler:" title="assetWithID:completionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/assetWithID:completionHandler:">&ndash;&nbsp;assetWithID:completionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Asynchronously retrieves the asset with the specified ID from the Location service
+and passes it to the specified completion handler.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)assetWithID:(NSNumber *)<em>id_</em> completionHandler:(OMCLocationAssetCompletionBlock)<em>completionHandler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>id_</code></th>
+						<td><p>The ID of the asset to retrieve from the Location service.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionHandler</code></th>
+						<td><p>The block invoked when the request to the
+    Location service is finished. The completion block will be invoked on the
+    main dispatch queue.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCLocation.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/buildAssetQuery" title="buildAssetQuery"></a>
+	<h3 class="method-title"><code><a href="#//api/name/buildAssetQuery">&ndash;&nbsp;buildAssetQuery</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Builds and returns a new asset query that can be configured to retrieve
+a set of assets from the Location service.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (OMCLocationAssetQuery *)buildAssetQuery</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCLocation.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/deviceWithID:completionHandler:" title="deviceWithID:completionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/deviceWithID:completionHandler:">&ndash;&nbsp;deviceWithID:completionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Asynchronously retrieves the device with the specified ID from the Location service
+and passes it to the specified completion handler.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)deviceWithID:(NSNumber *)<em>id_</em> completionHandler:(OMCLocationDeviceCompletionBlock)<em>completionHandler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>id_</code></th>
+						<td><p>The ID of the device to retrieve from the Location service.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionHandler</code></th>
+						<td><p>The block invoked when the request to the
+    Location service is finished. The completion block will be invoked on the
+    main dispatch queue.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCLocation.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/devicesWithBeacon:completionHandler:" title="devicesWithBeacon:completionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/devicesWithBeacon:completionHandler:">&ndash;&nbsp;devicesWithBeacon:completionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Asynchronously retrieves the devices with the specified beacon from the Location service
+and passes them to the specified completion handler. Typically there will be
+only a single device associated with the beacon.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)devicesWithBeacon:(OMCLocationBeacon *)<em>beacon</em> completionHandler:(OMCLocationDeviceQueryCompletionBlock)<em>completionHandler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>beacon</code></th>
+						<td><p>The beacon of the devices to retrieve from the Location service.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionHandler</code></th>
+						<td><p>The block invoked when the request to the
+Location service is finished. The completion block will be invoked on the
+main dispatch queue.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCLocation.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/buildDeviceQuery" title="buildDeviceQuery"></a>
+	<h3 class="method-title"><code><a href="#//api/name/buildDeviceQuery">&ndash;&nbsp;buildDeviceQuery</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Builds and returns a new device query that can be configured to retrieve
+a set of devices from the Location service.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (OMCLocationDeviceQuery *)buildDeviceQuery</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCLocation.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/placeWithID:completionHandler:" title="placeWithID:completionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/placeWithID:completionHandler:">&ndash;&nbsp;placeWithID:completionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Asynchronously retrieves the place with the specified ID from the Location service
+and passes it to the specified completion handler.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)placeWithID:(NSNumber *)<em>id_</em> completionHandler:(OMCLocationPlaceCompletionBlock)<em>completionHandler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>id_</code></th>
+						<td><p>The ID of the place to retrieve from the Location service.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionHandler</code></th>
+						<td><p>The block invoked when the request to the
+    Location service is finished. The completion block will be invoked on the
+    main dispatch queue.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCLocation.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/placeClosestToPoint:completionHandler:" title="placeClosestToPoint:completionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/placeClosestToPoint:completionHandler:">&ndash;&nbsp;placeClosestToPoint:completionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Asynchronously retrieves the place closest to the specified geo point
+from the Location service and passes it to the specified completion handler.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)placeClosestToPoint:(OMCLocationGeoPoint *)<em>point</em> completionHandler:(OMCLocationPlaceQueryCompletionBlock)<em>completionHandler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>point</code></th>
+						<td><p>The geo point to search out from.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionHandler</code></th>
+						<td><p>The block invoked when the request to the
+Location service is finished. The completion block will be invoked on the
+main dispatch queue.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCLocation.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/placesInGeoFence:completionHandler:" title="placesInGeoFence:completionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/placesInGeoFence:completionHandler:">&ndash;&nbsp;placesInGeoFence:completionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Asynchronously retrieves the places in the specified geo fence
+from the Location service and passes them to the specified completion handler.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)placesInGeoFence:(OMCLocationGeoCircle *)<em>geoFence</em> completionHandler:(OMCLocationPlaceQueryCompletionBlock)<em>completionHandler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>geoFence</code></th>
+						<td><p>The geo fence to search.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionHandler</code></th>
+						<td><p>The block invoked when the request to the
+Location service is finished. The completion block will be invoked on the
+main dispatch queue.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCLocation.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/buildPlaceQuery" title="buildPlaceQuery"></a>
+	<h3 class="method-title"><code><a href="#//api/name/buildPlaceQuery">&ndash;&nbsp;buildPlaceQuery</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Builds and returns a new place query that can be configured to retrieve
+a set of places from the Location service.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (OMCLocationPlaceQuery *)buildPlaceQuery</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCLocation.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2018 Oracle Corporation, 18.3.3.0 - E91498-01. All rights reserved. Updated: 2018-08-29</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

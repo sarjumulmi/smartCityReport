@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/OMCLocationAddressType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/OMCLocationAddressType</TokenIdentifier>
+			<Abstract type="html">The address type.</Abstract>
+			<DeclaredIn>OMCLocationAddress.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationAddress/type</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="53"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/OMCLocationAddressTypeGeoPoint</TokenIdentifier>
+            <Abstract type="html">     Geo point address type, which consists of a latitude/longitude pair
+     of coordinates.
+     </Abstract>
+            <Declaration>OMCLocationAddressTypeGeoPoint</Declaration>
+            
+            <DeclaredIn>OMCLocationAddress.h</DeclaredIn>
+            
+            <NodeRef refid="53"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/OMCLocationAddressTypeGeoCircle</TokenIdentifier>
+            <Abstract type="html">     Geo circle address type, which consists of a latitude/longitude pair
+     of coordinates and a radius in meters.
+     </Abstract>
+            <Declaration>OMCLocationAddressTypeGeoCircle</Declaration>
+            
+            <DeclaredIn>OMCLocationAddress.h</DeclaredIn>
+            
+            <NodeRef refid="53"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/OMCLocationAddressTypeGeoPolygon</TokenIdentifier>
+            <Abstract type="html">     Geo polygon address type, which consists of a set of geo points that
+     specify the polygon&apos;s vertices.
+     </Abstract>
+            <Declaration>OMCLocationAddressTypeGeoPolygon</Declaration>
+            
+            <DeclaredIn>OMCLocationAddress.h</DeclaredIn>
+            
+            <NodeRef refid="53"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

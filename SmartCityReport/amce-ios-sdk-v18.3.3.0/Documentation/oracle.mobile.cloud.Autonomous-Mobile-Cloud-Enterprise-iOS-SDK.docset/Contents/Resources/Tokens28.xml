@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCLocationObjectQuery.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCLocationObjectQuery</TokenIdentifier>
+			<Abstract type="html">A location object query can be configured to search for the
+various location objects (assets, devices, or places).</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+            
+			
+			<NodeRef refid="28"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQuery/setLocation:</TokenIdentifier>
+			<Abstract type="html">The location service against which the query will execute.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) OMCLocation *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQuery/location</TokenIdentifier>
+			<Abstract type="html">The location service against which the query will execute.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) OMCLocation *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQuery/location</TokenIdentifier>
+			<Abstract type="html">The location service against which the query will execute.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) OMCLocation *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQuery/setProperties:</TokenIdentifier>
+			<Abstract type="html">The query&apos;s raw properties (corresponding to the JSON payload).</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSDictionary&lt;NSString*id&gt; *properties</Declaration>
+			
+			
+			<Anchor>//api/name/properties</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQuery/properties</TokenIdentifier>
+			<Abstract type="html">The query&apos;s raw properties (corresponding to the JSON payload).</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSDictionary&lt;NSString*id&gt; *properties</Declaration>
+			
+			
+			<Anchor>//api/name/properties</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQuery/properties</TokenIdentifier>
+			<Abstract type="html">The query&apos;s raw properties (corresponding to the JSON payload).</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSDictionary&lt;NSString*id&gt; *properties</Declaration>
+			
+			
+			<Anchor>//api/name/properties</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQuery/setName:</TokenIdentifier>
+			<Abstract type="html">The query&apos;s results will be filtered on a case-insensitive partial
+match of this string with the location object&apos;s user-defined name.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObject/name</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, nullable) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQuery/name</TokenIdentifier>
+			<Abstract type="html">The query&apos;s results will be filtered on a case-insensitive partial
+match of this string with the location object&apos;s user-defined name.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObject/name</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, nullable) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQuery/name</TokenIdentifier>
+			<Abstract type="html">The query&apos;s results will be filtered on a case-insensitive partial
+match of this string with the location object&apos;s user-defined name.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObject/name</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, nullable) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQuery/setDescription:</TokenIdentifier>
+			<Abstract type="html">The query&apos;s results will be filtered on a case-insensitive partial
+match of this string with the location object&apos;s user-defined description.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObject/description_</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, nullable) NSString *description_</Declaration>
+			
+			
+			<Anchor>//api/name/description_</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQuery/description_</TokenIdentifier>
+			<Abstract type="html">The query&apos;s results will be filtered on a case-insensitive partial
+match of this string with the location object&apos;s user-defined description.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObject/description_</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, nullable) NSString *description_</Declaration>
+			
+			
+			<Anchor>//api/name/description_</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQuery/description_</TokenIdentifier>
+			<Abstract type="html">The query&apos;s results will be filtered on a case-insensitive partial
+match of this string with the location object&apos;s user-defined description.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObject/description_</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, nullable) NSString *description_</Declaration>
+			
+			
+			<Anchor>//api/name/description_</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQuery/setSearch:</TokenIdentifier>
+			<Abstract type="html">The query&apos;s results will be filtered on a case-insensitive partial
+match of this string with the location object&apos;s user-defined name
+or description.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObject/name</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObject/description_</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, nullable) NSString *search</Declaration>
+			
+			
+			<Anchor>//api/name/search</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQuery/search</TokenIdentifier>
+			<Abstract type="html">The query&apos;s results will be filtered on a case-insensitive partial
+match of this string with the location object&apos;s user-defined name
+or description.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObject/name</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObject/description_</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, nullable) NSString *search</Declaration>
+			
+			
+			<Anchor>//api/name/search</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQuery/search</TokenIdentifier>
+			<Abstract type="html">The query&apos;s results will be filtered on a case-insensitive partial
+match of this string with the location object&apos;s user-defined name
+or description.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObject/name</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObject/description_</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, nullable) NSString *search</Declaration>
+			
+			
+			<Anchor>//api/name/search</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQuery/setAttributes:</TokenIdentifier>
+			<Abstract type="html">The query&apos;s results will be filtered on a match of these attribute
+values with the location object&apos;s user-defined attribute values.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObject/attributes</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly) NSDictionary&lt;NSString*NSString*&gt; *attributes</Declaration>
+			
+			
+			<Anchor>//api/name/attributes</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQuery/attributes</TokenIdentifier>
+			<Abstract type="html">The query&apos;s results will be filtered on a match of these attribute
+values with the location object&apos;s user-defined attribute values.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObject/attributes</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly) NSDictionary&lt;NSString*NSString*&gt; *attributes</Declaration>
+			
+			
+			<Anchor>//api/name/attributes</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQuery/attributes</TokenIdentifier>
+			<Abstract type="html">The query&apos;s results will be filtered on a match of these attribute
+values with the location object&apos;s user-defined attribute values.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObject/attributes</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly) NSDictionary&lt;NSString*NSString*&gt; *attributes</Declaration>
+			
+			
+			<Anchor>//api/name/attributes</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQuery/setAttribute:forKey:</TokenIdentifier>
+			<Abstract type="html">Set the specified attribute&apos;s value.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQuery/attributes</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setAttribute:(NSString *)value forKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The attribute&apos;s user-defined value.</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">The attribute&apos;s user-defined key.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setAttribute:forKey:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQuery/removeAttributeForKey:</TokenIdentifier>
+			<Abstract type="html">Remove the specified attribute&apos;s value.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQuery/attributes</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)removeAttributeForKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">The attribute&apos;s user-defined key.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeAttributeForKey:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQuery/setAttributes:</TokenIdentifier>
+			<Abstract type="html">Set all the query&apos;s attributes to the specified attributes.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQuery/attributes</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setAttributes:(NSDictionary&lt;NSString*,NSString*&gt; *)attributes</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>attributes</Name>
+					<Abstract type="html">The query&apos;s new set of attributes.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setAttributes:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQuery/addAttributes:</TokenIdentifier>
+			<Abstract type="html">Add to the query&apos;s attributes the specified set of attributes.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQuery/attributes</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)addAttributes:(NSDictionary&lt;NSString*,NSString*&gt; *)attributes</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>attributes</Name>
+					<Abstract type="html">The set of attributes to be added to the query&apos;s
+current set of attributes.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addAttributes:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQuery/clearAttributes</TokenIdentifier>
+			<Abstract type="html">Remove all the attribute values.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQuery/attributes</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)clearAttributes</Declaration>
+			
+			
+			<Anchor>//api/name/clearAttributes</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQuery/setIds:</TokenIdentifier>
+			<Abstract type="html">The query&apos;s results will be filtered to match this list of
+location object IDs.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObject/id_</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly) NSArray&lt;NSNumber*&gt; *ids</Declaration>
+			
+			
+			<Anchor>//api/name/ids</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQuery/ids</TokenIdentifier>
+			<Abstract type="html">The query&apos;s results will be filtered to match this list of
+location object IDs.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObject/id_</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly) NSArray&lt;NSNumber*&gt; *ids</Declaration>
+			
+			
+			<Anchor>//api/name/ids</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQuery/ids</TokenIdentifier>
+			<Abstract type="html">The query&apos;s results will be filtered to match this list of
+location object IDs.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObject/id_</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly) NSArray&lt;NSNumber*&gt; *ids</Declaration>
+			
+			
+			<Anchor>//api/name/ids</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQuery/addID:</TokenIdentifier>
+			<Abstract type="html">Add the specified ID to the list of IDs the query will search for.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQuery/ids</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)addID:(NSNumber *)id_</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>id_</Name>
+					<Abstract type="html">The ID to add to the query&apos;s list of IDs.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addID:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQuery/insertID:atIndex:</TokenIdentifier>
+			<Abstract type="html">Insert the specified ID at the specified index of the list of
+IDs the query will search for.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQuery/ids</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)insertID:(NSNumber *)id_ atIndex:(NSUInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>id_</Name>
+					<Abstract type="html">The ID to add to the query&apos;s list of IDs.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The index at which to insert the new ID.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/insertID:atIndex:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQuery/removeID:</TokenIdentifier>
+			<Abstract type="html">Remove the specified ID from the list of IDs the query will search for.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQuery/ids</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)removeID:(NSNumber *)id_</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>id_</Name>
+					<Abstract type="html">The ID to remove from the query&apos;s list of IDs.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeID:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQuery/removeIDAtIndex:</TokenIdentifier>
+			<Abstract type="html">Remove the ID at the specified index from the list of IDs
+the query will search for.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQuery/ids</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)removeIDAtIndex:(NSUInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The index of the ID to remove from the query&apos;s list of IDs.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeIDAtIndex:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQuery/setIDs:</TokenIdentifier>
+			<Abstract type="html">Set all the query&apos;s IDs to the specified IDs.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQuery/ids</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setIDs:(NSArray&lt;NSNumber*&gt; *)ids</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>ids</Name>
+					<Abstract type="html">The query&apos;s new list of IDs.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setIDs:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQuery/addIDs:</TokenIdentifier>
+			<Abstract type="html">Add to the query&apos;s IDs the specified list of IDs.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQuery/ids</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)addIDs:(NSArray&lt;NSNumber*&gt; *)ids</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>ids</Name>
+					<Abstract type="html">The set of IDs to be added to the query&apos;s
+current list of IDs.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addIDs:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQuery/clearIDs</TokenIdentifier>
+			<Abstract type="html">Remove all the IDs.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQuery/ids</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)clearIDs</Declaration>
+			
+			
+			<Anchor>//api/name/clearIDs</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQuery/setFormat:</TokenIdentifier>
+			<Abstract type="html">The format of the results returned by the query, which can be &quot;long&quot; or &quot;short&quot;.
+When the requested format is &quot;short&quot;, only a subset of the properties of
+each object will be populated. The &apos;id&apos;, &apos;name&apos;, and &apos;description&apos;
+will be populated, along with any subclass-specific properties.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) OMCLocationObjectQueryFormatType format</Declaration>
+			
+			
+			<Anchor>//api/name/format</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQuery/format</TokenIdentifier>
+			<Abstract type="html">The format of the results returned by the query, which can be &quot;long&quot; or &quot;short&quot;.
+When the requested format is &quot;short&quot;, only a subset of the properties of
+each object will be populated. The &apos;id&apos;, &apos;name&apos;, and &apos;description&apos;
+will be populated, along with any subclass-specific properties.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) OMCLocationObjectQueryFormatType format</Declaration>
+			
+			
+			<Anchor>//api/name/format</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQuery/format</TokenIdentifier>
+			<Abstract type="html">The format of the results returned by the query, which can be &quot;long&quot; or &quot;short&quot;.
+When the requested format is &quot;short&quot;, only a subset of the properties of
+each object will be populated. The &apos;id&apos;, &apos;name&apos;, and &apos;description&apos;
+will be populated, along with any subclass-specific properties.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) OMCLocationObjectQueryFormatType format</Declaration>
+			
+			
+			<Anchor>//api/name/format</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQuery/setOrderByOrder:</TokenIdentifier>
+			<Abstract type="html">The order (ascending or descending) in which the query result&apos;s items will be
+sorted. This property determines only the order of the
+query result&apos;s items. The specific property by which the result&apos;s items
+will be sorted is determined by the value of orderByAttribute, which is
+defined by OMCLocationDeviceContainerQuery or OMCLocationDeviceQuery.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationDeviceContainerQuery/orderByAttribute</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationDeviceQuery/orderByAttribute</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) OMCLocationObjectQueryOrderByOrderType orderByOrder</Declaration>
+			
+			
+			<Anchor>//api/name/orderByOrder</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQuery/orderByOrder</TokenIdentifier>
+			<Abstract type="html">The order (ascending or descending) in which the query result&apos;s items will be
+sorted. This property determines only the order of the
+query result&apos;s items. The specific property by which the result&apos;s items
+will be sorted is determined by the value of orderByAttribute, which is
+defined by OMCLocationDeviceContainerQuery or OMCLocationDeviceQuery.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationDeviceContainerQuery/orderByAttribute</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationDeviceQuery/orderByAttribute</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) OMCLocationObjectQueryOrderByOrderType orderByOrder</Declaration>
+			
+			
+			<Anchor>//api/name/orderByOrder</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQuery/orderByOrder</TokenIdentifier>
+			<Abstract type="html">The order (ascending or descending) in which the query result&apos;s items will be
+sorted. This property determines only the order of the
+query result&apos;s items. The specific property by which the result&apos;s items
+will be sorted is determined by the value of orderByAttribute, which is
+defined by OMCLocationDeviceContainerQuery or OMCLocationDeviceQuery.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationDeviceContainerQuery/orderByAttribute</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationDeviceQuery/orderByAttribute</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) OMCLocationObjectQueryOrderByOrderType orderByOrder</Declaration>
+			
+			
+			<Anchor>//api/name/orderByOrder</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQuery/setOffset:</TokenIdentifier>
+			<Abstract type="html">Zero-based index of the first item to return in the results.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, nullable) NSNumber *offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQuery/offset</TokenIdentifier>
+			<Abstract type="html">Zero-based index of the first item to return in the results.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, nullable) NSNumber *offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQuery/offset</TokenIdentifier>
+			<Abstract type="html">Zero-based index of the first item to return in the results.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, nullable) NSNumber *offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQuery/setLimit:</TokenIdentifier>
+			<Abstract type="html">The maximum number of items to return (in the range 0 to 100).
+If the requested limit is greater than 100, then 100 is substituted.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, nullable) NSNumber *limit</Declaration>
+			
+			
+			<Anchor>//api/name/limit</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObjectQuery/limit</TokenIdentifier>
+			<Abstract type="html">The maximum number of items to return (in the range 0 to 100).
+If the requested limit is greater than 100, then 100 is substituted.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, nullable) NSNumber *limit</Declaration>
+			
+			
+			<Anchor>//api/name/limit</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQuery/limit</TokenIdentifier>
+			<Abstract type="html">The maximum number of items to return (in the range 0 to 100).
+If the requested limit is greater than 100, then 100 is substituted.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, nullable) NSNumber *limit</Declaration>
+			
+			
+			<Anchor>//api/name/limit</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

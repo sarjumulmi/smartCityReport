@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCFetchObjectBuilder.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCFetchObjectBuilder</TokenIdentifier>
+			<Abstract type="html">Fetch object builder to get OMCMobileObject</Abstract>
+			<DeclaredIn>OMCFetchObjectBuilder.h</DeclaredIn>
+            
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCFetchObjectBuilder/getSyncPolicy</TokenIdentifier>
+			<Abstract type="html">* Gets currently set SyncPolicy</Abstract>
+			<DeclaredIn>OMCFetchObjectBuilder.h</DeclaredIn>
+			
+			<Declaration>- (OMCSyncPolicy *)getSyncPolicy</Declaration>
+			
+			<ReturnValue><Abstract type="html">OMCSyncPolicy object. If not set, will return default SyncPolicy.</Abstract></ReturnValue>
+			<Anchor>//api/name/getSyncPolicy</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCFetchObjectBuilder/setSyncPolicy:</TokenIdentifier>
+			<Abstract type="html">* Sets SyncPolicy</Abstract>
+			<DeclaredIn>OMCFetchObjectBuilder.h</DeclaredIn>
+			
+			<Declaration>- (void)setSyncPolicy:(OMCSyncPolicy *)syncPolicy</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>syncPolicy</Name>
+					<Abstract type="html">will set the passed policy as current SyncPolicy</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setSyncPolicy:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCFetchObjectBuilder/setSyncPolicyFetchFromServer</TokenIdentifier>
+			<Abstract type="html">Sets Fetch policy in SyncPolicy as FETCHPOLICYFETCHFROMSERVICEIFONLINE. Other policies in SyncPolicy will remain same.</Abstract>
+			<DeclaredIn>OMCFetchObjectBuilder.h</DeclaredIn>
+			
+			<Declaration>- (void)setSyncPolicyFetchFromServer</Declaration>
+			
+			
+			<Anchor>//api/name/setSyncPolicyFetchFromServer</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCFetchObjectBuilder/setRequestHeaders:</TokenIdentifier>
+			<Abstract type="html">Sets extra request headers.
+No need to specify headers for authorization and content-type, as they will be added by default.</Abstract>
+			<DeclaredIn>OMCFetchObjectBuilder.h</DeclaredIn>
+			
+			<Declaration>- (void)setRequestHeaders:(NSDictionary *)headers</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>headers</Name>
+					<Abstract type="html">Extra request headers</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setRequestHeaders:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCFetchObjectBuilder/executeFetchOnSuccess:OnError:</TokenIdentifier>
+			<Abstract type="html">* Execute the Get request. Based on the set policy, it will go to the server, to the local cache, or to both.</Abstract>
+			<DeclaredIn>OMCFetchObjectBuilder.h</DeclaredIn>
+			
+			<Declaration>- (void)executeFetchOnSuccess:(OMCObjectSuccess _Nullable)successBlk OnError:(OMCSyncErrorBlock _Nullable)errorBlk</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>successBlk</Name>
+					<Abstract type="html">block that will be called after the request has successfully finished with the mobile resource.</Abstract>
+				</Parameter><Parameter>
+					<Name>errorBlk</Name>
+					<Abstract type="html">block that will be called after the request has finished with an error.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/executeFetchOnSuccess:OnError:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

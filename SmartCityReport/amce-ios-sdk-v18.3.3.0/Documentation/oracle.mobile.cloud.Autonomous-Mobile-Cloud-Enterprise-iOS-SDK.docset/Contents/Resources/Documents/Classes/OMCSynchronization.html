@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>OMCSynchronization Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">Autonomous Mobile Cloud Enterprise iOS SDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Oracle Corporation, 18.3.3.0 - E91498-01</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/cacheHitCount">- cacheHitCount</option>
+		
+		<option value="//api/name/cacheMissCount">- cacheMissCount</option>
+		
+		<option value="//api/name/cachedResourceChanged:">- cachedResourceChanged:</option>
+		
+		<option value="//api/name/discardOfflineUpdatesOnError:">- discardOfflineUpdatesOnError:</option>
+		
+		<option value="//api/name/evictResource:onError:">- evictResource:onError:</option>
+		
+		<option value="//api/name/getNetworkStatus">- getNetworkStatus</option>
+		
+		<option value="//api/name/initialize">- initialize</option>
+		
+		<option value="//api/name/initializeWithMobileObjectEntities:">- initializeWithMobileObjectEntities:</option>
+		
+		<option value="//api/name/loadOfflineResourcesOnSuccess:onError:">- loadOfflineResourcesOnSuccess:onError:</option>
+		
+		<option value="//api/name/offlineResourceSynchronized:">- offlineResourceSynchronized:</option>
+		
+		<option value="//api/name/openEndpoint:apiName:endpointPath:">- openEndpoint:apiName:endpointPath:</option>
+		
+		<option value="//api/name/purge">- purge</option>
+		
+		<option value="//api/name/requestWithUri:method:syncPolicy:headers:data:onSuccess:onError:">- requestWithUri:method:syncPolicy:headers:data:onSuccess:onError:</option>
+		
+		<option value="//api/name/setOfflineMode:">- setOfflineMode:</option>
+		
+		<option value="//api/name/synchronizePinnedResources:">- synchronizePinnedResources:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">OMCSynchronization Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td><a href="../Classes/OMCMobileBackendServiceProxy.html">OMCMobileBackendServiceProxy</a> : <a href="../Classes/OMCServiceProxy.html">OMCServiceProxy</a> : NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>OMCSynchronization.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>The main class for the Synchronization service implementation. Contains methods to make requests and manipulate the local cache.</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/initialize" title="initialize"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initialize">&ndash;&nbsp;initialize</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Initializes an <code>OMCSynchronization</code> object with the settings from the &lsquo;synchronization&rsquo; node of OMC.plist
+* This method OR <a href="#//api/name/initializeWithMobileObjectEntities:">initializeWithMobileObjectEntities:</a> should be the first method called on the OMCSynchronization class
+* As per periodicRefreshPolicy in the &lsquo;synchronization&rsquo; node of OMC.plist, this method will check for expired resources in the cache to auto refresh in background.
+* If periodicRefreshPolicy is not or set to none, this method will continue with the expired resources in cache for auto eviction based on eviction policy set for those resources.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)initialize</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCSynchronization.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/initializeWithMobileObjectEntities:" title="initializeWithMobileObjectEntities:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initializeWithMobileObjectEntities:">&ndash;&nbsp;initializeWithMobileObjectEntities:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Initializes an <code>OMCSynchronization</code> object with the settings from the  &lsquo;synchronization&rsquo; node of OMC.plist and creates database entities for your business model or mobile objects using provided custom classes.
+* This method OR the <a href="#//api/name/initialize">initialize</a> method should be the first method called on the OMCSynchronization class
+* As per periodicRefreshPolicy in the &lsquo;synchronization&rsquo; node of OMC.plist, this method will check for expired resources in the cache to auto refresh in the background.
+* If periodicRefreshPolicy is not set or is set to none, this method will continue with the expired resources in the cache for auto eviction based on the eviction policy set for those resources.
+* When calling this method again, or after <a href="#//api/name/initialize">initialize</a> with the different custom classes (entities), this will <a href="#//api/name/purge">purge</a> the local cache and re-create a blank database with new custom classes/entities as the db schema.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)initializeWithMobileObjectEntities:(nullable NSArray *)<em>customEntities</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>customEntities</code></th>
+						<td><p>(optional) Array of custom classes derived from the OMCMobileObject class; use class properties as entity attributes for queries.
+    Example array: [NSArray arrayWithObjects:[MyClass1 class], [MyClass2 class], &hellip; , nil]</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCSynchronization.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/openEndpoint:apiName:endpointPath:" title="openEndpoint:apiName:endpointPath:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/openEndpoint:apiName:endpointPath:">&ndash;&nbsp;openEndpoint:apiName:endpointPath:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns an object that provides access to an endpoint in a custom code API.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (OMCMobileEndpoint *)openEndpoint:(Class _Nullable)<em>mobileClass</em> apiName:(NSString *)<em>apiName</em> endpointPath:(NSString *)<em>endpointPath</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>mobileClass</code></th>
+						<td><p>(optional) The custom mobile object (entity) class that the custom code API exposes.
+(the custom mobile object class must have been registered through <a href="#//api/name/initializeWithMobileObjectEntities:">initializeWithMobileObjectEntities:</a> method. Or pass nil. )</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>apiName</code></th>
+						<td><p>The name of the custom code API.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>endpointPath</code></th>
+						<td><p>The endpoint in the custom code API.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>An MobileEndpoint object for accessing custom code.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCSynchronization.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/requestWithUri:method:syncPolicy:headers:data:onSuccess:onError:" title="requestWithUri:method:syncPolicy:headers:data:onSuccess:onError:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/requestWithUri:method:syncPolicy:headers:data:onSuccess:onError:">&ndash;&nbsp;requestWithUri:method:syncPolicy:headers:data:onSuccess:onError:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<ul>
+<li>Request for any method; can go to server or cache, depending on policy settings.</li>
+</ul>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)requestWithUri:(NSString *)<em>uri</em> method:(SyncRequestMethod)<em>method</em> syncPolicy:(OMCSyncPolicy *_Nullable)<em>policy</em> headers:(NSDictionary *_Nullable)<em>headers</em> data:(NSData *_Nullable)<em>data</em> onSuccess:(OMCSyncSuccessBlock _Nullable)<em>success</em> onError:(OMCSyncErrorBlock _Nullable)<em>error</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>uri</code></th>
+						<td><p>The URI to send the request to.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>method</code></th>
+						<td><p>RequestMethod value.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>policy</code></th>
+						<td><p>(optional) SyncPolicy object which has all policy settings.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>headers</code></th>
+						<td><p>(optional) NSDictionary for extra headers to support request.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>data</code></th>
+						<td><p>(optional) NSData for http body data; can set <code>nil</code> for GET method.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>success</code></th>
+						<td><p>(optional) The block will be invoked on success of the request.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>error</code></th>
+						<td><p>(optional) The block will be invoked on error of the request.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCSynchronization.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/synchronizePinnedResources:" title="synchronizePinnedResources:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/synchronizePinnedResources:">&ndash;&nbsp;synchronizePinnedResources:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<ul>
+<li>Synchronize all pinned resources.</li>
+</ul>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)synchronizePinnedResources:(BOOL)<em>background</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>background</code></th>
+						<td><p>boolean to specify for background mode sync.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCSynchronization.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/loadOfflineResourcesOnSuccess:onError:" title="loadOfflineResourcesOnSuccess:onError:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/loadOfflineResourcesOnSuccess:onError:">&ndash;&nbsp;loadOfflineResourcesOnSuccess:onError:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<ul>
+<li>Returns a list of all MobileResource objects that were updated offline/locally, and not yet successfully synchronized with the server.</li>
+</ul>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)loadOfflineResourcesOnSuccess:(nullable OMCSyncMobileResourceArray)<em>success</em> onError:(nullable OMCSyncErrorBlock)<em>error</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>success</code></th>
+						<td><p>(optional) The block will be invoked on success; contains NSArray of <a href="../Classes/OMCMobileResource.html">OMCMobileResource</a>(s) objects. (Can also be OMCMobileObject/OMCMobileFile/CustomClass)</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>error</code></th>
+						<td><p>(optional) The block will be invoked on error.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCSynchronization.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/discardOfflineUpdatesOnError:" title="discardOfflineUpdatesOnError:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/discardOfflineUpdatesOnError:">&ndash;&nbsp;discardOfflineUpdatesOnError:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<ul>
+<li>Discards all offline/local edits only for all the resources that are not yet successfully synchronized with server.</li>
+<li>Persistent state of the resources will remain in cache as is.</li>
+</ul>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)discardOfflineUpdatesOnError:(nullable OMCSyncErrorBlock)<em>error</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>error</code></th>
+						<td><p>(optional) The block will be invoked on error.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCSynchronization.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/offlineResourceSynchronized:" title="offlineResourceSynchronized:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/offlineResourceSynchronized:">&ndash;&nbsp;offlineResourceSynchronized:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<ul>
+<li>Event that is raised after every offline resource is synchronized with the service.</li>
+</ul>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)offlineResourceSynchronized:(OMCSyncResourceChanged)<em>synchronizedResource</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>synchronizedResource</code></th>
+						<td><p>The block, invoked for each resource that is finished synchronizing. Pass nil to be removed from callbacks.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCSynchronization.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/cachedResourceChanged:" title="cachedResourceChanged:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/cachedResourceChanged:">&ndash;&nbsp;cachedResourceChanged:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<ul>
+<li>Event that is raised every time a cached resource is updated, either from new data from the service,</li>
+<li>from an online or offline write by the application, or on a delete.</li>
+</ul>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)cachedResourceChanged:(OMCSyncResourceChanged)<em>changedResource</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>changedResource</code></th>
+						<td><p>The block invoked for each resource changed in the cache. Pass nil to be removed from callbacks.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCSynchronization.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/evictResource:onError:" title="evictResource:onError:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/evictResource:onError:">&ndash;&nbsp;evictResource:onError:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<ul>
+<li>Evict (delete) the resource from the local cache.</li>
+</ul>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)evictResource:(NSString *)<em>uri</em> onError:(nullable OMCSyncErrorBlock)<em>error</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>uri</code></th>
+						<td><p>The URI of the resource.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>error</code></th>
+						<td><p>(optional) The block will be invoked on error of the request.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCSynchronization.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/purge" title="purge"></a>
+	<h3 class="method-title"><code><a href="#//api/name/purge">&ndash;&nbsp;purge</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Purge entire store with all files.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)purge</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCSynchronization.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/cacheHitCount" title="cacheHitCount"></a>
+	<h3 class="method-title"><code><a href="#//api/name/cacheHitCount">&ndash;&nbsp;cacheHitCount</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns the number of cache hits.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)cacheHitCount</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>The number of cache hits.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCSynchronization.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/cacheMissCount" title="cacheMissCount"></a>
+	<h3 class="method-title"><code><a href="#//api/name/cacheMissCount">&ndash;&nbsp;cacheMissCount</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns the number of cache misses.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)cacheMissCount</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>The number of cache misses.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCSynchronization.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setOfflineMode:" title="setOfflineMode:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setOfflineMode:">&ndash;&nbsp;setOfflineMode:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<ul>
+<li>Sets device to offline mode. Useful for testing</li>
+<li>Note that calling setOfflineMode:true has no effect when the device isn&rsquo;t connected to the internet.</li>
+</ul>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setOfflineMode:(BOOL)<em>isOffline</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>isOffline</code></th>
+						<td><p>boolean to set offline mode</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCSynchronization.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getNetworkStatus" title="getNetworkStatus"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getNetworkStatus">&ndash;&nbsp;getNetworkStatus</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<ul>
+<li>Gets device network status that is currently being used by Synchronization.</li>
+</ul>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (SyncNetworkStatus)getNetworkStatus</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><a href="../Constants/SyncNetworkStatus.html">SyncNetworkStatus</a> enum</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCSynchronization.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2018 Oracle Corporation, 18.3.3.0 - E91498-01. All rights reserved. Updated: 2018-08-29</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

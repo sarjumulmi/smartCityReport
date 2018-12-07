@@ -10,4 +10,6 @@ target 'SmartCityReport' do
   pod 'SVProgressHUD'
   pod 'Eureka', :git => 'https://github.com/xmartlabs/Eureka.git', :branch => 'master'
   pod 'ImageRow', '~> 3.0'
+  pod 'SwiftSpinner'
+  pod 'SwiftyJSON'
 end

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCLocationPlaceQuery.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCLocationPlaceQuery</TokenIdentifier>
+			<Abstract type="html">A place query can be configured to search for places.</Abstract>
+			<DeclaredIn>OMCLocationPlaceQuery.h</DeclaredIn>
+            
+			
+			<NodeRef refid="31"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlaceQuery/setParentID:</TokenIdentifier>
+			<Abstract type="html">The query&apos;s results will be filtered to be the direct children of
+the place with the specified ID.</Abstract>
+			<DeclaredIn>OMCLocationPlaceQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlace/parentWithCompletionHandler:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, nullable) NSNumber *parentID</Declaration>
+			
+			
+			<Anchor>//api/name/parentID</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlaceQuery/parentID</TokenIdentifier>
+			<Abstract type="html">The query&apos;s results will be filtered to be the direct children of
+the place with the specified ID.</Abstract>
+			<DeclaredIn>OMCLocationPlaceQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlace/parentWithCompletionHandler:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, nullable) NSNumber *parentID</Declaration>
+			
+			
+			<Anchor>//api/name/parentID</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationPlaceQuery/parentID</TokenIdentifier>
+			<Abstract type="html">The query&apos;s results will be filtered to be the direct children of
+the place with the specified ID.</Abstract>
+			<DeclaredIn>OMCLocationPlaceQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlace/parentWithCompletionHandler:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, nullable) NSNumber *parentID</Declaration>
+			
+			
+			<Anchor>//api/name/parentID</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlaceQuery/setParent:</TokenIdentifier>
+			<Abstract type="html">The query&apos;s results will be filtered to be the direct children of
+the specified place.</Abstract>
+			<DeclaredIn>OMCLocationPlaceQuery.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlace/parentWithCompletionHandler:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setParent:(nullable OMCLocationPlace *)parent</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>parent</Name>
+					<Abstract type="html">The parent of the place to be searched for.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setParent:</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlaceQuery/setGeoPoint:</TokenIdentifier>
+			<Abstract type="html">The query will search for the place closest to this geo point.</Abstract>
+			<DeclaredIn>OMCLocationPlaceQuery.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, nullable) OMCLocationGeoPoint *geoPoint</Declaration>
+			
+			
+			<Anchor>//api/name/geoPoint</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlaceQuery/geoPoint</TokenIdentifier>
+			<Abstract type="html">The query will search for the place closest to this geo point.</Abstract>
+			<DeclaredIn>OMCLocationPlaceQuery.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, nullable) OMCLocationGeoPoint *geoPoint</Declaration>
+			
+			
+			<Anchor>//api/name/geoPoint</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationPlaceQuery/geoPoint</TokenIdentifier>
+			<Abstract type="html">The query will search for the place closest to this geo point.</Abstract>
+			<DeclaredIn>OMCLocationPlaceQuery.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, nullable) OMCLocationGeoPoint *geoPoint</Declaration>
+			
+			
+			<Anchor>//api/name/geoPoint</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlaceQuery/setGeoPointLatitude:longitude:</TokenIdentifier>
+			<Abstract type="html">Sets the query to search for the place closest to the specified geo point.</Abstract>
+			<DeclaredIn>OMCLocationPlaceQuery.h</DeclaredIn>
+			
+			<Declaration>- (void)setGeoPointLatitude:(NSNumber *)latitude longitude:(NSNumber *)longitude</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>latitude</Name>
+					<Abstract type="html">The geo point&apos;s latitude.</Abstract>
+				</Parameter><Parameter>
+					<Name>longitude</Name>
+					<Abstract type="html">The geo point&apos;s longitude.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setGeoPointLatitude:longitude:</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlaceQuery/setGeoFence:</TokenIdentifier>
+			<Abstract type="html">The query will search for the places in this geo fence.</Abstract>
+			<DeclaredIn>OMCLocationPlaceQuery.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, nullable) OMCLocationGeoCircle *geoFence</Declaration>
+			
+			
+			<Anchor>//api/name/geoFence</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlaceQuery/geoFence</TokenIdentifier>
+			<Abstract type="html">The query will search for the places in this geo fence.</Abstract>
+			<DeclaredIn>OMCLocationPlaceQuery.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, nullable) OMCLocationGeoCircle *geoFence</Declaration>
+			
+			
+			<Anchor>//api/name/geoFence</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationPlaceQuery/geoFence</TokenIdentifier>
+			<Abstract type="html">The query will search for the places in this geo fence.</Abstract>
+			<DeclaredIn>OMCLocationPlaceQuery.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, nullable) OMCLocationGeoCircle *geoFence</Declaration>
+			
+			
+			<Anchor>//api/name/geoFence</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlaceQuery/setGeoFenceLatitude:longitude:radius:</TokenIdentifier>
+			<Abstract type="html">Sets the query to search for the places in the specified geo fence.</Abstract>
+			<DeclaredIn>OMCLocationPlaceQuery.h</DeclaredIn>
+			
+			<Declaration>- (void)setGeoFenceLatitude:(NSNumber *)latitude longitude:(NSNumber *)longitude radius:(NSNumber *)radius</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>latitude</Name>
+					<Abstract type="html">The latitude of the geo fence&apos;s center point.</Abstract>
+				</Parameter><Parameter>
+					<Name>longitude</Name>
+					<Abstract type="html">The longitude of the geo fence&apos;s center point.</Abstract>
+				</Parameter><Parameter>
+					<Name>radius</Name>
+					<Abstract type="html">The radius of the geo fence&apos;s circle, in meters.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setGeoFenceLatitude:longitude:radius:</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlaceQuery/executeWithCompletionHandler:</TokenIdentifier>
+			<Abstract type="html">Asynchronously executes the query, invoking the specified completion
+handler block when finished.</Abstract>
+			<DeclaredIn>OMCLocationPlaceQuery.h</DeclaredIn>
+			
+			<Declaration>- (void)executeWithCompletionHandler:(void ( ^ ) ( OMCLocationObjectQueryResult&lt;OMCLocationPlaceQuery*,OMCLocationPlace*&gt; *_Nullable result , NSError *_Nullable error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The block to be invoked when the query has
+finished executing. The completion block will be invoked on
+the main dispatch queue.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/executeWithCompletionHandler:</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

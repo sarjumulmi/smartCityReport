@@ -8,6 +8,8 @@
 
 import UIKit
 
+fileprivate var mbe: OMCMobileBackend!
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -41,6 +43,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+    
+    func myMobileBackend() -> OMCMobileBackend? {
+        if (mbe != nil) {
+            return mbe
+        }
+        let mobileManager: OMCMobileManager = OMCMobileManager.shared()
+        if (mobileManager.mobileBackend != nil) {
+            mbe = mobileManager.mobileBackend
+            
+            if (mbe != nil) {
+                print("Mobile backend configured for Base URL %@ \(mbe.appConfigURL)")
+                return mbe
+            }
+        }
+        NSLog("Mobile backend configuration failed")
+        return nil
     }
 
 

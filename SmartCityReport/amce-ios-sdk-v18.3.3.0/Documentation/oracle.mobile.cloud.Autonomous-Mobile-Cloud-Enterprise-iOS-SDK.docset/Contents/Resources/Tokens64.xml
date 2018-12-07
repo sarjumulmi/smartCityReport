@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/SyncPinPriority.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/SyncPinPriority</TokenIdentifier>
+			<Abstract type="html">An enumeration of the different Pin Priority for the resource.
+The priority of pinned resources. High priority resources are synchronized first and network status may affect which resources are synchronized in the background.
+Default is &quot;Normal&quot;.</Abstract>
+			<DeclaredIn>OMCSyncStoreState.h</DeclaredIn>
+            
+			
+			<NodeRef refid="64"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/Normal</TokenIdentifier>
+            <Abstract type="html">A normal priority. Objects pinned with normal priority may not be synchronized on certain network conditions</Abstract>
+            <Declaration>Normal</Declaration>
+            
+            <DeclaredIn>OMCSyncStoreState.h</DeclaredIn>
+            
+            <NodeRef refid="64"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/High</TokenIdentifier>
+            <Abstract type="html">A high priority. Objects pinned with high priority are synchronized before objects with Normal priority.</Abstract>
+            <Declaration>High</Declaration>
+            
+            <DeclaredIn>OMCSyncStoreState.h</DeclaredIn>
+            
+            <NodeRef refid="64"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

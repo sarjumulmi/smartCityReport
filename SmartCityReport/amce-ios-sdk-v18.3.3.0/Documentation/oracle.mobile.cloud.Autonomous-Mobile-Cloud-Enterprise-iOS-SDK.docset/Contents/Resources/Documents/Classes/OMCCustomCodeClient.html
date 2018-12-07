@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>OMCCustomCodeClient Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">Autonomous Mobile Cloud Enterprise iOS SDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Oracle Corporation, 18.3.3.0 - E91498-01</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/useURLCaching">useURLCaching</option>
+		
+	</optgroup>
+	
+
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/invokeCustomRequest:method:data:completion:">- invokeCustomRequest:method:data:completion:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">OMCCustomCodeClient Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>OMCCustomCodeClient.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>This class provides convenience methods to invoke custom API endpoints for the
+currently active mobile backend.  These are not intended to exhaustively cover all
+possible endpoints.  For example, it is assumed only JSON payloads will be sent or
+received.</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/useURLCaching" title="useURLCaching"></a>
+	<h3 class="method-title"><code><a href="#//api/name/useURLCaching">&nbsp;&nbsp;useURLCaching</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>A property that configures whether or not to use URL caching.  URL Caching
+will increase performance for large data objects such as images that are
+frequently retrieved, but will increase the memory footprint.  It may also cause
+problems if some sort of caching is already being implemented locally by the app.
+This setting will be applied to every REST invocation, and may be changed at any
+time in between invocations.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) BOOL useURLCaching</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>It is assumed that for most OMCe custom API methods, caching is not desired, so the default is NO.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCCustomCodeClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/invokeCustomRequest:method:data:completion:" title="invokeCustomRequest:method:data:completion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/invokeCustomRequest:method:data:completion:">&ndash;&nbsp;invokeCustomRequest:method:data:completion:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Invoke a custom API HTTP request on the supplied data with a callback
+handler.  If the completion handler is set, it will be invoked
+in the UI (main) thread upon completion of the method invocation,
+allowing update of UI items.  The call assumes any input or expected
+output will be in JSON format.  Given the completion handler, this is
+an asynchronous function.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)invokeCustomRequest:(NSString *)<em>function</em> method:(NSString *)<em>method</em> data:(nullable id)<em>data</em> completion:(nullable OMCCustomRequestCompletionHandler)<em>completionHandler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>function</code></th>
+						<td><p>The &ldquo;function&rdquo; is the relative part of the URL to invoke
+(everything after &ldquo;<base URL from the OMC.plist>/mobile/custom/&rdquo;).</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>method</code></th>
+						<td><p>The HTTP method: &ldquo;PUT&rdquo;, &ldquo;POST&rdquo;, &ldquo;GET&rdquo;, &ldquo;DELETE&rdquo;, &ldquo;PATCH&rdquo;</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>data</code></th>
+						<td><p>a JSON object represented as a dictionary or array for the request.
+Note, for a GET call, the data value must be nil, or the iOS HTTP stack will
+incur a network error.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionHandler</code></th>
+						<td><p>the handler called asynchronously on successful or unsuccessful completion.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The completion block will contain the format-specific data for a JSON object,
+namely an NSDictionary or NSArray.  Use the completion block for any
+returned data or errors, HTTP or system.</p>
+
+<p>All of the required OMCe headers, such as Authorization (assuming the user has authenticated)
+and Diagnostics headers will automatically be inserted into the request.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCCustomCodeClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2018 Oracle Corporation, 18.3.3.0 - E91498-01. All rights reserved. Updated: 2018-08-29</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCMobileObjectCollection.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCMobileObjectCollection</TokenIdentifier>
+			<Abstract type="html">Class that represent the collection of MobileObjects derived from MobileResource</Abstract>
+			<DeclaredIn>OMCMobileObjectCollection.h</DeclaredIn>
+            
+			
+			<NodeRef refid="39"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileObjectCollection/getMobileObjects</TokenIdentifier>
+			<Abstract type="html">* Returns all the mobileObjects of this collection.</Abstract>
+			<DeclaredIn>OMCMobileObjectCollection.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)getMobileObjects</Declaration>
+			
+			<ReturnValue><Abstract type="html">mobileObjects array of OMCMobileObject object</Abstract></ReturnValue>
+			<Anchor>//api/name/getMobileObjects</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileObjectCollection/deleteResourceOnError:</TokenIdentifier>
+			<Abstract type="html">* Deletes the file. Caches the delete locally if offline.</Abstract>
+			<DeclaredIn>OMCMobileObjectCollection.h</DeclaredIn>
+			
+			<Declaration>- (void)deleteResourceOnError:(OMCSyncErrorBlock _Nullable)errorBlk</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>errorBlk</Name>
+					<Abstract type="html">block that will be called after the request has finished with an error.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteResourceOnError:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileObjectCollection/deleteResource:OnError:</TokenIdentifier>
+			<Abstract type="html">* Deletes the file.</Abstract>
+			<DeclaredIn>OMCMobileObjectCollection.h</DeclaredIn>
+			
+			<Declaration>- (void)deleteResource:(BOOL)deleteIfOffline OnError:(OMCSyncErrorBlock _Nullable)errorBlk</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>deleteIfOffline</Name>
+					<Abstract type="html">If true will cache the delete locally and sync back to the service if the device is offline. If false will fail if the device is offline.</Abstract>
+				</Parameter><Parameter>
+					<Name>errorBlk</Name>
+					<Abstract type="html">block that will be called after the request has finished with an error.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteResource:OnError:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

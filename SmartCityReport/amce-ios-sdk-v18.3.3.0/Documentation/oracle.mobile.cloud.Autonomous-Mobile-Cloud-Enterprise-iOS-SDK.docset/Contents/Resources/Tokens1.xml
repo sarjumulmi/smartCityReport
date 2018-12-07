@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCAnalytics.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCAnalytics</TokenIdentifier>
+			<Abstract type="html">Library interface to the Oracle Mobile Cloud Analytics service.</Abstract>
+			<DeclaredIn>OMCAnalytics.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAnalytics/setSessionID:</TokenIdentifier>
+			<Abstract type="html">The analytics service&apos;s current session ID. This is nil if there
+is currently no analytics session.</Abstract>
+			<DeclaredIn>OMCAnalytics.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSUUID *sessionID</Declaration>
+			
+			
+			<Anchor>//api/name/sessionID</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAnalytics/sessionID</TokenIdentifier>
+			<Abstract type="html">The analytics service&apos;s current session ID. This is nil if there
+is currently no analytics session.</Abstract>
+			<DeclaredIn>OMCAnalytics.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSUUID *sessionID</Declaration>
+			
+			
+			<Anchor>//api/name/sessionID</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCAnalytics/sessionID</TokenIdentifier>
+			<Abstract type="html">The analytics service&apos;s current session ID. This is nil if there
+is currently no analytics session.</Abstract>
+			<DeclaredIn>OMCAnalytics.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSUUID *sessionID</Declaration>
+			
+			
+			<Anchor>//api/name/sessionID</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAnalytics/setDelegate:</TokenIdentifier>
+			<Abstract type="html">The analytics service&apos;s delegate.</Abstract>
+			<DeclaredIn>OMCAnalytics.h</DeclaredIn>
+			
+			<Declaration>@property (weak) id&lt;OMCAnalyticsDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAnalytics/delegate</TokenIdentifier>
+			<Abstract type="html">The analytics service&apos;s delegate.</Abstract>
+			<DeclaredIn>OMCAnalytics.h</DeclaredIn>
+			
+			<Declaration>@property (weak) id&lt;OMCAnalyticsDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCAnalytics/delegate</TokenIdentifier>
+			<Abstract type="html">The analytics service&apos;s delegate.</Abstract>
+			<DeclaredIn>OMCAnalytics.h</DeclaredIn>
+			
+			<Declaration>@property (weak) id&lt;OMCAnalyticsDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAnalytics/setOptOut:</TokenIdentifier>
+			<Abstract type="html">Determines whether sessions and events are logged.
+If this flag is set to YES, the following methods will do nothing:</Abstract>
+			<DeclaredIn>OMCAnalytics.h</DeclaredIn>
+			
+			<Declaration>@property BOOL optOut</Declaration>
+			
+			
+			<Anchor>//api/name/optOut</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAnalytics/optOut</TokenIdentifier>
+			<Abstract type="html">Determines whether sessions and events are logged.
+If this flag is set to YES, the following methods will do nothing:</Abstract>
+			<DeclaredIn>OMCAnalytics.h</DeclaredIn>
+			
+			<Declaration>@property BOOL optOut</Declaration>
+			
+			
+			<Anchor>//api/name/optOut</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCAnalytics/optOut</TokenIdentifier>
+			<Abstract type="html">Determines whether sessions and events are logged.
+If this flag is set to YES, the following methods will do nothing:</Abstract>
+			<DeclaredIn>OMCAnalytics.h</DeclaredIn>
+			
+			<Declaration>@property BOOL optOut</Declaration>
+			
+			
+			<Anchor>//api/name/optOut</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAnalytics/startSession</TokenIdentifier>
+			<Abstract type="html">Starts an OMC Analytics session. If a session is already in progress, it simply proceeds
+and a new session is NOT started.</Abstract>
+			<DeclaredIn>OMCAnalytics.h</DeclaredIn>
+			
+			<Declaration>- (void)startSession</Declaration>
+			
+			
+			<Anchor>//api/name/startSession</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAnalytics/endSession</TokenIdentifier>
+			<Abstract type="html">Stops the current OMC Analytics session. Does nothing if a session is not in progress.</Abstract>
+			<DeclaredIn>OMCAnalytics.h</DeclaredIn>
+			
+			<Declaration>- (void)endSession</Declaration>
+			
+			
+			<Anchor>//api/name/endSession</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAnalytics/logEvent:</TokenIdentifier>
+			<Abstract type="html">Logs an OMC Analytics event with the specified name. If a session is not in progress,
+starts a session. Copies the specified name before returning.</Abstract>
+			<DeclaredIn>OMCAnalytics.h</DeclaredIn>
+			
+			<Declaration>- (void)logEvent:(NSString *)name</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>name</Name>
+					<Abstract type="html">The event name.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/logEvent:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAnalytics/logEvent:properties:</TokenIdentifier>
+			<Abstract type="html">Logs an OMC Analytics event with the specified name and properties.
+If a session is not in progress, starts a session.
+Copies the specified name and properties before returning.</Abstract>
+			<DeclaredIn>OMCAnalytics.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/clm/OMCAnalytics/reservedEventPropertyNames</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)logEvent:(NSString *)name properties:(NSDictionary&lt;NSString*,NSString*&gt; *_Nullable)properties</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>name</Name>
+					<Abstract type="html">The event name.</Abstract>
+				</Parameter><Parameter>
+					<Name>properties</Name>
+					<Abstract type="html">Optional dictionary of arbitrarily named properties for the event.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/logEvent:properties:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAnalytics/flush</TokenIdentifier>
+			<Abstract type="html">Uploads all the logged events to the OMC Mobile Analytics REST service.</Abstract>
+			<DeclaredIn>OMCAnalytics.h</DeclaredIn>
+			
+			<Declaration>- (void)flush</Declaration>
+			
+			
+			<Anchor>//api/name/flush</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/OMCAnalytics/reservedEventPropertyNames</TokenIdentifier>
+			<Abstract type="html">Returns a set of the reserved event property names.</Abstract>
+			<DeclaredIn>OMCAnalytics.h</DeclaredIn>
+			
+			<Declaration>+ (NSSet *)reservedEventPropertyNames</Declaration>
+			
+			
+			<Anchor>//api/name/reservedEventPropertyNames</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAnalytics/setContextLocationCountry:</TokenIdentifier>
+			<Abstract type="html">The analytics service&apos;s context location country. This can be nil.</Abstract>
+			<DeclaredIn>OMCAnalytics.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCAnalytics/setContextLocationCountry:region:locality:postalCode:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly, nullable) NSString *contextLocationCountry</Declaration>
+			
+			
+			<Anchor>//api/name/contextLocationCountry</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAnalytics/contextLocationCountry</TokenIdentifier>
+			<Abstract type="html">The analytics service&apos;s context location country. This can be nil.</Abstract>
+			<DeclaredIn>OMCAnalytics.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCAnalytics/setContextLocationCountry:region:locality:postalCode:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly, nullable) NSString *contextLocationCountry</Declaration>
+			
+			
+			<Anchor>//api/name/contextLocationCountry</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCAnalytics/contextLocationCountry</TokenIdentifier>
+			<Abstract type="html">The analytics service&apos;s context location country. This can be nil.</Abstract>
+			<DeclaredIn>OMCAnalytics.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCAnalytics/setContextLocationCountry:region:locality:postalCode:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly, nullable) NSString *contextLocationCountry</Declaration>
+			
+			
+			<Anchor>//api/name/contextLocationCountry</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAnalytics/setContextLocationRegion:</TokenIdentifier>
+			<Abstract type="html">The analytics service&apos;s context location region. This can be nil.</Abstract>
+			<DeclaredIn>OMCAnalytics.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCAnalytics/setContextLocationCountry:region:locality:postalCode:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly, nullable) NSString *contextLocationRegion</Declaration>
+			
+			
+			<Anchor>//api/name/contextLocationRegion</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAnalytics/contextLocationRegion</TokenIdentifier>
+			<Abstract type="html">The analytics service&apos;s context location region. This can be nil.</Abstract>
+			<DeclaredIn>OMCAnalytics.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCAnalytics/setContextLocationCountry:region:locality:postalCode:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly, nullable) NSString *contextLocationRegion</Declaration>
+			
+			
+			<Anchor>//api/name/contextLocationRegion</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCAnalytics/contextLocationRegion</TokenIdentifier>
+			<Abstract type="html">The analytics service&apos;s context location region. This can be nil.</Abstract>
+			<DeclaredIn>OMCAnalytics.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCAnalytics/setContextLocationCountry:region:locality:postalCode:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly, nullable) NSString *contextLocationRegion</Declaration>
+			
+			
+			<Anchor>//api/name/contextLocationRegion</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAnalytics/setContextLocationLocality:</TokenIdentifier>
+			<Abstract type="html">The analytics service&apos;s context location locality. This can be nil.</Abstract>
+			<DeclaredIn>OMCAnalytics.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCAnalytics/setContextLocationCountry:region:locality:postalCode:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly, nullable) NSString *contextLocationLocality</Declaration>
+			
+			
+			<Anchor>//api/name/contextLocationLocality</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAnalytics/contextLocationLocality</TokenIdentifier>
+			<Abstract type="html">The analytics service&apos;s context location locality. This can be nil.</Abstract>
+			<DeclaredIn>OMCAnalytics.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCAnalytics/setContextLocationCountry:region:locality:postalCode:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly, nullable) NSString *contextLocationLocality</Declaration>
+			
+			
+			<Anchor>//api/name/contextLocationLocality</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCAnalytics/contextLocationLocality</TokenIdentifier>
+			<Abstract type="html">The analytics service&apos;s context location locality. This can be nil.</Abstract>
+			<DeclaredIn>OMCAnalytics.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCAnalytics/setContextLocationCountry:region:locality:postalCode:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly, nullable) NSString *contextLocationLocality</Declaration>
+			
+			
+			<Anchor>//api/name/contextLocationLocality</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAnalytics/setContextLocationPostalCode:</TokenIdentifier>
+			<Abstract type="html">The analytics service&apos;s context location postal code. This can be nil.</Abstract>
+			<DeclaredIn>OMCAnalytics.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCAnalytics/setContextLocationCountry:region:locality:postalCode:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly, nullable) NSString *contextLocationPostalCode</Declaration>
+			
+			
+			<Anchor>//api/name/contextLocationPostalCode</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAnalytics/contextLocationPostalCode</TokenIdentifier>
+			<Abstract type="html">The analytics service&apos;s context location postal code. This can be nil.</Abstract>
+			<DeclaredIn>OMCAnalytics.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCAnalytics/setContextLocationCountry:region:locality:postalCode:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly, nullable) NSString *contextLocationPostalCode</Declaration>
+			
+			
+			<Anchor>//api/name/contextLocationPostalCode</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCAnalytics/contextLocationPostalCode</TokenIdentifier>
+			<Abstract type="html">The analytics service&apos;s context location postal code. This can be nil.</Abstract>
+			<DeclaredIn>OMCAnalytics.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCAnalytics/setContextLocationCountry:region:locality:postalCode:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly, nullable) NSString *contextLocationPostalCode</Declaration>
+			
+			
+			<Anchor>//api/name/contextLocationPostalCode</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCAnalytics/setContextLocationCountry:region:locality:postalCode:</TokenIdentifier>
+			<Abstract type="html">Set the analytics service&apos;s context location country, region, locality,
+and/or postal code. Any of these settings can be nil.</Abstract>
+			<DeclaredIn>OMCAnalytics.h</DeclaredIn>
+			
+			<Declaration>- (void)setContextLocationCountry:(nullable NSString *)country region:(nullable NSString *)region locality:(nullable NSString *)locality postalCode:(nullable NSString *)postalCode</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>country</Name>
+					<Abstract type="html">Optional country.</Abstract>
+				</Parameter><Parameter>
+					<Name>region</Name>
+					<Abstract type="html">Optional region.</Abstract>
+				</Parameter><Parameter>
+					<Name>locality</Name>
+					<Abstract type="html">Optional locality.</Abstract>
+				</Parameter><Parameter>
+					<Name>postalCode</Name>
+					<Abstract type="html">Optional postal code.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setContextLocationCountry:region:locality:postalCode:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

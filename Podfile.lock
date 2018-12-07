@@ -3,16 +3,22 @@ PODS:
   - ImageRow (3.2.0):
     - Eureka (~> 4.3)
   - SVProgressHUD (2.2.5)
+  - SwiftSpinner (1.6.2)
+  - SwiftyJSON (4.2.0)
 
 DEPENDENCIES:
   - Eureka (from `https://github.com/xmartlabs/Eureka.git`, branch `master`)
   - ImageRow (~> 3.0)
   - SVProgressHUD
+  - SwiftSpinner
+  - SwiftyJSON
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - ImageRow
     - SVProgressHUD
+    - SwiftSpinner
+    - SwiftyJSON
 
 EXTERNAL SOURCES:
   Eureka:
@@ -28,7 +34,9 @@ SPEC CHECKSUMS:
   Eureka: e2dd50c3d6e07d2d2501d4141e903ec64fa3724e
   ImageRow: 03681b3ef8034b5a649440325f5d5ba7b22c1b0a
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftSpinner: 3a4c6dea425e5a31b908a8b1dd5dcd1ad4d96340
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
 
-PODFILE CHECKSUM: f36f8f609bf596d67f7aa2b800a8ad0bd2d918ec
+PODFILE CHECKSUM: dfe3aca1e7f9ef5a6b920f560339e0bdb1dc0b0c
 
 COCOAPODS: 1.5.3

@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>OMCAnalytics Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">Autonomous Mobile Cloud Enterprise iOS SDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Oracle Corporation, 18.3.3.0 - E91498-01</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/contextLocationCountry">contextLocationCountry</option>
+		
+		<option value="//api/name/contextLocationLocality">contextLocationLocality</option>
+		
+		<option value="//api/name/contextLocationPostalCode">contextLocationPostalCode</option>
+		
+		<option value="//api/name/contextLocationRegion">contextLocationRegion</option>
+		
+		<option value="//api/name/delegate">delegate</option>
+		
+		<option value="//api/name/optOut">optOut</option>
+		
+		<option value="//api/name/sessionID">sessionID</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/reservedEventPropertyNames">+ reservedEventPropertyNames</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/endSession">- endSession</option>
+		
+		<option value="//api/name/flush">- flush</option>
+		
+		<option value="//api/name/logEvent:">- logEvent:</option>
+		
+		<option value="//api/name/logEvent:properties:">- logEvent:properties:</option>
+		
+		<option value="//api/name/setContextLocationCountry:region:locality:postalCode:">- setContextLocationCountry:region:locality:postalCode:</option>
+		
+		<option value="//api/name/startSession">- startSession</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">OMCAnalytics Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td><a href="../Classes/OMCMobileBackendServiceProxy.html">OMCMobileBackendServiceProxy</a> : <a href="../Classes/OMCServiceProxy.html">OMCServiceProxy</a> : NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>OMCAnalytics.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Library interface to the Oracle Mobile Cloud Analytics service.</p>
+
+<p><strong>Device Location Support</strong></p>
+
+<p>By default, the Analytics library captures the device&rsquo;s location with each Analytics
+event and session start/end. As a result, the first time the Analytics library records
+a session start, the library will request authorization to access the device&rsquo;s location.
+If the library&rsquo;s client app has not already requested this authorization, the user will
+be prompted via a dialog.</p>
+
+<p><strong>[iOS 8 and later]</strong> By default, the Analytics library will request &ldquo;when in use&rdquo; location authorization.
+If the client app will be starting or ending Analytics sessions or logging Analytics events
+in the background and would like the device location to be updated while the app is
+in the background, this library must be configured to request &ldquo;always&rdquo; authorization.
+(Alternatively, the client app itself can request &ldquo;always&rdquo; authorization.)
+This is configured via the appropriate <code>OMC.plist</code> property.</p>
+
+<p><strong>[iOS 8 and later]</strong> The Analytics library requests location
+updates by calling the method <code>[CLLocationManager startUpdatingLocation]</code>, which
+requires only &ldquo;when in use&rdquo; authorization, unless updates are required while the client app
+is in the background.</p><div class="warning"><p><strong>Warning:</strong> <strong>[iOS 8 and later]</strong> If the Analytics library is configured to capture location information,
+the client app&rsquo;s <code>Info.plist</code> file must include the appropriate entry for prompting the user
+for location authorization; either <code>NSLocationWhenInUseUsageDescription</code> or
+<code>NSLocationAlwaysUsageDescription</code>. See the documentation for <code>CLLocationManager</code>.</p></div>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/sessionID" title="sessionID"></a>
+	<h3 class="method-title"><code><a href="#//api/name/sessionID">&nbsp;&nbsp;sessionID</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The analytics service&rsquo;s current session ID. This is <code>nil</code> if there
+is currently no analytics session.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, nullable) NSUUID *sessionID</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/delegate" title="delegate"></a>
+	<h3 class="method-title"><code><a href="#//api/name/delegate">&nbsp;&nbsp;delegate</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The analytics service&rsquo;s delegate.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (weak) id&lt;OMCAnalyticsDelegate&gt; delegate</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/optOut" title="optOut"></a>
+	<h3 class="method-title"><code><a href="#//api/name/optOut">&nbsp;&nbsp;optOut</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Determines whether sessions and events are logged.
+If this flag is set to <code>YES</code>, the following methods will do nothing:</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property BOOL optOut</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<ul>
+<li><a href="#//api/name/startSession"><code>startSession</code></a></li>
+<li><a href="#//api/name/endSession"><code>endSession</code></a></li>
+<li><a href="#//api/name/logEvent:"><code>logEvent:</code></a></li>
+<li><a href="#//api/name/logEvent:properties:"><code>logEvent:properties:</code></a></li>
+</ul>
+
+
+<p>This allows the client application to simply set this flag if
+the user wants to &ldquo;opt out&rdquo; of being tracked via analytics events.
+The client application code then need not check the user&rsquo;s preference
+with every call to the Analytics library.</p>
+
+<p>NB: As the value of this flag is not persisted, its value must
+be set by the client application every time the application starts.
+The client must persist the user&rsquo;s preference as appropriate.</p>
+
+<p>NB: The <a href="#//api/name/flush"><code>flush</code></a> method ignores this flag and will still upload any
+events generated while this flag was not set. As usual, if there are
+no events, the <a href="#//api/name/flush"><code>flush</code></a> method does nothing.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/startSession" title="startSession"></a>
+	<h3 class="method-title"><code><a href="#//api/name/startSession">&ndash;&nbsp;startSession</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Starts an OMC Analytics session. If a session is already in progress, it simply proceeds
+and a new session is NOT started.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)startSession</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Does nothing if the <a href="#//api/name/optOut"><code>optOut</code></a> flag is set.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/endSession" title="endSession"></a>
+	<h3 class="method-title"><code><a href="#//api/name/endSession">&ndash;&nbsp;endSession</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Stops the current OMC Analytics session. Does nothing if a session is not in progress.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)endSession</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Does nothing if the <a href="#//api/name/optOut"><code>optOut</code></a> flag is set.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/logEvent:" title="logEvent:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/logEvent:">&ndash;&nbsp;logEvent:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Logs an OMC Analytics event with the specified name. If a session is not in progress,
+starts a session. Copies the specified name before returning.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)logEvent:(NSString *)<em>name</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>name</code></th>
+						<td><p>The event name.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Does nothing if the <a href="#//api/name/optOut"><code>optOut</code></a> flag is set.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/logEvent:properties:" title="logEvent:properties:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/logEvent:properties:">&ndash;&nbsp;logEvent:properties:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Logs an OMC Analytics event with the specified name and properties.
+If a session is not in progress, starts a session.
+Copies the specified name and properties before returning.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)logEvent:(NSString *)<em>name</em> properties:(NSDictionary&lt;NSString*,NSString*&gt; *_Nullable)<em>properties</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>name</code></th>
+						<td><p>The event name.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>properties</code></th>
+						<td><p>Optional dictionary of arbitrarily named properties for the event.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Does nothing if the <a href="#//api/name/optOut"><code>optOut</code></a> flag is set.</p><div class="warning"><p><strong>Warning:</strong> Raises an <code>NSInvalidArgumentException</code> if any of the keys in <code>properties</code>
+    is reserved.</p></div>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="#//api/name/reservedEventPropertyNames">+ reservedEventPropertyNames</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/flush" title="flush"></a>
+	<h3 class="method-title"><code><a href="#//api/name/flush">&ndash;&nbsp;flush</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Uploads all the logged events to the OMC Mobile Analytics REST service.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)flush</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/reservedEventPropertyNames" title="reservedEventPropertyNames"></a>
+	<h3 class="method-title"><code><a href="#//api/name/reservedEventPropertyNames">+&nbsp;reservedEventPropertyNames</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns a set of the reserved event property names.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (NSSet *)reservedEventPropertyNames</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/contextLocationCountry" title="contextLocationCountry"></a>
+	<h3 class="method-title"><code><a href="#//api/name/contextLocationCountry">&nbsp;&nbsp;contextLocationCountry</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The analytics service&rsquo;s context location country. This can be <code>nil</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, nullable) NSString *contextLocationCountry</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="#//api/name/setContextLocationCountry:region:locality:postalCode:">[OMCAnalytics setContextLocationCountry:region:locality:postalCode:]</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/contextLocationRegion" title="contextLocationRegion"></a>
+	<h3 class="method-title"><code><a href="#//api/name/contextLocationRegion">&nbsp;&nbsp;contextLocationRegion</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The analytics service&rsquo;s context location region. This can be <code>nil</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, nullable) NSString *contextLocationRegion</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="#//api/name/setContextLocationCountry:region:locality:postalCode:">[OMCAnalytics setContextLocationCountry:region:locality:postalCode:]</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/contextLocationLocality" title="contextLocationLocality"></a>
+	<h3 class="method-title"><code><a href="#//api/name/contextLocationLocality">&nbsp;&nbsp;contextLocationLocality</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The analytics service&rsquo;s context location locality. This can be <code>nil</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, nullable) NSString *contextLocationLocality</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="#//api/name/setContextLocationCountry:region:locality:postalCode:">[OMCAnalytics setContextLocationCountry:region:locality:postalCode:]</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/contextLocationPostalCode" title="contextLocationPostalCode"></a>
+	<h3 class="method-title"><code><a href="#//api/name/contextLocationPostalCode">&nbsp;&nbsp;contextLocationPostalCode</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The analytics service&rsquo;s context location postal code. This can be <code>nil</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, nullable) NSString *contextLocationPostalCode</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="#//api/name/setContextLocationCountry:region:locality:postalCode:">[OMCAnalytics setContextLocationCountry:region:locality:postalCode:]</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setContextLocationCountry:region:locality:postalCode:" title="setContextLocationCountry:region:locality:postalCode:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setContextLocationCountry:region:locality:postalCode:">&ndash;&nbsp;setContextLocationCountry:region:locality:postalCode:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Set the analytics service&rsquo;s context location country, region, locality,
+and/or postal code. Any of these settings can be <code>nil</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setContextLocationCountry:(nullable NSString *)<em>country</em> region:(nullable NSString *)<em>region</em> locality:(nullable NSString *)<em>locality</em> postalCode:(nullable NSString *)<em>postalCode</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>country</code></th>
+						<td><p>Optional country.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>region</code></th>
+						<td><p>Optional region.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>locality</code></th>
+						<td><p>Optional locality.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>postalCode</code></th>
+						<td><p>Optional postal code.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">OMCAnalytics.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2018 Oracle Corporation, 18.3.3.0 - E91498-01. All rights reserved. Updated: 2018-08-29</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

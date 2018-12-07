@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCLocationDeviceContainer.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCLocationDeviceContainer</TokenIdentifier>
+			<Abstract type="html">A device container is an object that can be associated with one or more
+devices (either an asset or place).</Abstract>
+			<DeclaredIn>OMCLocationDeviceContainer.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationDevice/container</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="18"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationDeviceContainer/setLabel:</TokenIdentifier>
+			<Abstract type="html">The device container&apos;s user-defined label.</Abstract>
+			<DeclaredIn>OMCLocationDeviceContainer.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSString *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationDeviceContainer/label</TokenIdentifier>
+			<Abstract type="html">The device container&apos;s user-defined label.</Abstract>
+			<DeclaredIn>OMCLocationDeviceContainer.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSString *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationDeviceContainer/label</TokenIdentifier>
+			<Abstract type="html">The device container&apos;s user-defined label.</Abstract>
+			<DeclaredIn>OMCLocationDeviceContainer.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSString *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationDeviceContainer/devicesWithCompletionHandler:</TokenIdentifier>
+			<Abstract type="html">Asynchronously fetches the container&apos;s devices, invoking the specified completion
+handler block when finished.
+Asynchronously invokes the completion handler immediately if the container&apos;s devices
+have already been fetched.</Abstract>
+			<DeclaredIn>OMCLocationDeviceContainer.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObject/refreshWithCompletionHandler:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)devicesWithCompletionHandler:(OMCLocationDevicesCompletionBlock)completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The block to be invoked when the devices have been
+fetched. The completion block will be invoked on the main dispatch queue.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/devicesWithCompletionHandler:</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

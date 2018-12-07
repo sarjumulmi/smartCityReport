@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCCustomCodeClient.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCCustomCodeClient</TokenIdentifier>
+			<Abstract type="html">This class provides convenience methods to invoke custom API endpoints for the
+currently active mobile backend.  These are not intended to exhaustively cover all
+possible endpoints.  For example, it is assumed only JSON payloads will be sent or
+received.</Abstract>
+			<DeclaredIn>OMCCustomCodeClient.h</DeclaredIn>
+            
+			
+			<NodeRef refid="6"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCCustomCodeClient/setUseURLCaching:</TokenIdentifier>
+			<Abstract type="html">A property that configures whether or not to use URL caching.  URL Caching
+will increase performance for large data objects such as images that are
+frequently retrieved, but will increase the memory footprint.  It may also cause
+problems if some sort of caching is already being implemented locally by the app.
+This setting will be applied to every REST invocation, and may be changed at any
+time in between invocations.</Abstract>
+			<DeclaredIn>OMCCustomCodeClient.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) BOOL useURLCaching</Declaration>
+			
+			
+			<Anchor>//api/name/useURLCaching</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCCustomCodeClient/useURLCaching</TokenIdentifier>
+			<Abstract type="html">A property that configures whether or not to use URL caching.  URL Caching
+will increase performance for large data objects such as images that are
+frequently retrieved, but will increase the memory footprint.  It may also cause
+problems if some sort of caching is already being implemented locally by the app.
+This setting will be applied to every REST invocation, and may be changed at any
+time in between invocations.</Abstract>
+			<DeclaredIn>OMCCustomCodeClient.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) BOOL useURLCaching</Declaration>
+			
+			
+			<Anchor>//api/name/useURLCaching</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCCustomCodeClient/useURLCaching</TokenIdentifier>
+			<Abstract type="html">A property that configures whether or not to use URL caching.  URL Caching
+will increase performance for large data objects such as images that are
+frequently retrieved, but will increase the memory footprint.  It may also cause
+problems if some sort of caching is already being implemented locally by the app.
+This setting will be applied to every REST invocation, and may be changed at any
+time in between invocations.</Abstract>
+			<DeclaredIn>OMCCustomCodeClient.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) BOOL useURLCaching</Declaration>
+			
+			
+			<Anchor>//api/name/useURLCaching</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCCustomCodeClient/invokeCustomRequest:method:data:completion:</TokenIdentifier>
+			<Abstract type="html">Invoke a custom API HTTP request on the supplied data with a callback
+handler.  If the completion handler is set, it will be invoked
+in the UI (main) thread upon completion of the method invocation,
+allowing update of UI items.  The call assumes any input or expected
+output will be in JSON format.  Given the completion handler, this is
+an asynchronous function.</Abstract>
+			<DeclaredIn>OMCCustomCodeClient.h</DeclaredIn>
+			
+			<Declaration>- (void)invokeCustomRequest:(NSString *)function method:(NSString *)method data:(nullable id)data completion:(nullable OMCCustomRequestCompletionHandler)completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>function</Name>
+					<Abstract type="html">The &quot;function&quot; is the relative part of the URL to invoke
+(everything after &quot;&lt;base URL from the OMC.plist&gt;/mobile/custom/&quot;).</Abstract>
+				</Parameter><Parameter>
+					<Name>method</Name>
+					<Abstract type="html">The HTTP method: &quot;PUT&quot;, &quot;POST&quot;, &quot;GET&quot;, &quot;DELETE&quot;, &quot;PATCH&quot;</Abstract>
+				</Parameter><Parameter>
+					<Name>data</Name>
+					<Abstract type="html">a JSON object represented as a dictionary or array for the request.
+Note, for a GET call, the data value must be nil, or the iOS HTTP stack will
+incur a network error.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">the handler called asynchronously on successful or unsuccessful completion.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/invokeCustomRequest:method:data:completion:</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

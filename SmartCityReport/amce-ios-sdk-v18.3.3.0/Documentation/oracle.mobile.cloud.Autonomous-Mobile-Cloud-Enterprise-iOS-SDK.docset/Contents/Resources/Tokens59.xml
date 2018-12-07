@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/OMCLocationObjectQueryOrderByOrderType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/OMCLocationObjectQueryOrderByOrderType</TokenIdentifier>
+			<Abstract type="html">Order-by order (ascending or descending). Used in conjunction with the
+order-by attribute, which specifies the attribute by which the query result&apos;s
+items will be sorted.
+The default order is ascending.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQuery/orderByOrder</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="59"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/OMCLocationObjectQueryOrderByOrderTypeAscending</TokenIdentifier>
+            <Abstract type="html">     Ascending order-by. The query result&apos;s items will be sorted by the
+     order-by attribute in ascending order.
+     </Abstract>
+            <Declaration>OMCLocationObjectQueryOrderByOrderTypeAscending</Declaration>
+            
+            <DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+            
+            <NodeRef refid="59"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/OMCLocationObjectQueryOrderByOrderTypeDescending</TokenIdentifier>
+            <Abstract type="html">     Descending order-by. The query result&apos;s items will be sorted by the
+     order-by attribute in descending order.
+     </Abstract>
+            <Declaration>OMCLocationObjectQueryOrderByOrderTypeDescending</Declaration>
+            
+            <DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+            
+            <NodeRef refid="59"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

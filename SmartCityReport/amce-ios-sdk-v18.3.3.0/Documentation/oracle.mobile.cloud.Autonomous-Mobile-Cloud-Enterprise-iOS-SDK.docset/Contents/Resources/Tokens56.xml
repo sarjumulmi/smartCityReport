@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/OMCLocationDeviceQueryOrderByAttributeType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/OMCLocationDeviceQueryOrderByAttributeType</TokenIdentifier>
+			<Abstract type="html">Order-by attribute (ascending or descending). Used in conjunction with the
+order-by order, which specifies the attribute by which the query result&apos;s
+items will be sorted.
+By default, the order-by attribute is unspecified and the query result&apos;s
+items are returned unsorted.</Abstract>
+			<DeclaredIn>OMCLocationDeviceQuery.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationDeviceQuery/orderByAttribute</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="56"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/OMCLocationDeviceQueryOrderByAttributeTypeNone</TokenIdentifier>
+            <Abstract type="html">     No order-by attribute is specified. The query result&apos;s items will
+     be returned unsorted.
+     </Abstract>
+            <Declaration>OMCLocationDeviceQueryOrderByAttributeTypeNone</Declaration>
+            
+            <DeclaredIn>OMCLocationDeviceQuery.h</DeclaredIn>
+            
+            <NodeRef refid="56"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/OMCLocationDeviceQueryOrderByAttributeTypeName</TokenIdentifier>
+            <Abstract type="html">     Name order-by attribute. The query result&apos;s items will be sorted by the
+     items&apos; names.
+     </Abstract>
+            <Declaration>OMCLocationDeviceQueryOrderByAttributeTypeName</Declaration>
+            
+            <DeclaredIn>OMCLocationDeviceQuery.h</DeclaredIn>
+            
+            <NodeRef refid="56"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/OMCLocationDeviceQueryOrderByAttributeTypeProtocol</TokenIdentifier>
+            <Abstract type="html">     Protocol order-by attribute. The query result&apos;s items will be sorted by the
+     items&apos; protocols.
+     </Abstract>
+            <Declaration>OMCLocationDeviceQueryOrderByAttributeTypeProtocol</Declaration>
+            
+            <DeclaredIn>OMCLocationDeviceQuery.h</DeclaredIn>
+            
+            <NodeRef refid="56"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/OMCLocationDeviceQueryOrderByAttributeTypeCreatedOn</TokenIdentifier>
+            <Abstract type="html">     Created-on order-by attribute. The query result&apos;s items will be sorted by the
+     items&apos; created-on dates.
+     </Abstract>
+            <Declaration>OMCLocationDeviceQueryOrderByAttributeTypeCreatedOn</Declaration>
+            
+            <DeclaredIn>OMCLocationDeviceQuery.h</DeclaredIn>
+            
+            <NodeRef refid="56"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/OMCLocationDeviceQueryOrderByAttributeTypeModifiedOn</TokenIdentifier>
+            <Abstract type="html">     Modified-on order-by attribute. The query result&apos;s items will be sorted by the
+     items&apos; modified-on dates.
+     </Abstract>
+            <Declaration>OMCLocationDeviceQueryOrderByAttributeTypeModifiedOn</Declaration>
+            
+            <DeclaredIn>OMCLocationDeviceQuery.h</DeclaredIn>
+            
+            <NodeRef refid="56"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

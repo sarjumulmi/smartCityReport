@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCLocationAddress.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCLocationAddress</TokenIdentifier>
+			<Abstract type="html">An address is used to specify the physical location
+of an OMCLocationPlace. Addresses are immutable.</Abstract>
+			<DeclaredIn>OMCLocationAddress.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationPlace/address</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="12"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationAddress/setType:</TokenIdentifier>
+			<Abstract type="html">The address type (geo point, circle, or polygon).</Abstract>
+			<DeclaredIn>OMCLocationAddress.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) OMCLocationAddressType type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationAddress/type</TokenIdentifier>
+			<Abstract type="html">The address type (geo point, circle, or polygon).</Abstract>
+			<DeclaredIn>OMCLocationAddress.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) OMCLocationAddressType type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationAddress/type</TokenIdentifier>
+			<Abstract type="html">The address type (geo point, circle, or polygon).</Abstract>
+			<DeclaredIn>OMCLocationAddress.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) OMCLocationAddressType type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationAddress/setProperties:</TokenIdentifier>
+			<Abstract type="html">The address&apos;s raw properties (corresponding to the JSON payload).</Abstract>
+			<DeclaredIn>OMCLocationAddress.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSDictionary&lt;NSString*id&gt; *properties</Declaration>
+			
+			
+			<Anchor>//api/name/properties</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationAddress/properties</TokenIdentifier>
+			<Abstract type="html">The address&apos;s raw properties (corresponding to the JSON payload).</Abstract>
+			<DeclaredIn>OMCLocationAddress.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSDictionary&lt;NSString*id&gt; *properties</Declaration>
+			
+			
+			<Anchor>//api/name/properties</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationAddress/properties</TokenIdentifier>
+			<Abstract type="html">The address&apos;s raw properties (corresponding to the JSON payload).</Abstract>
+			<DeclaredIn>OMCLocationAddress.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSDictionary&lt;NSString*id&gt; *properties</Declaration>
+			
+			
+			<Anchor>//api/name/properties</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

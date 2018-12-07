@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCMobileBackendServiceProxy.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCMobileBackendServiceProxy</TokenIdentifier>
+			<Abstract type="html">Interface to an Oracle Mobile Backend service proxy.</Abstract>
+			<DeclaredIn>OMCMobileBackendServiceProxy.h</DeclaredIn>
+            
+			
+			<NodeRef refid="33"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackendServiceProxy/setMobileBackend:</TokenIdentifier>
+			<Abstract type="html">The service proxy&apos;s mobile backend.</Abstract>
+			<DeclaredIn>OMCMobileBackendServiceProxy.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) OMCMobileBackend *mobileBackend</Declaration>
+			
+			
+			<Anchor>//api/name/mobileBackend</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileBackendServiceProxy/mobileBackend</TokenIdentifier>
+			<Abstract type="html">The service proxy&apos;s mobile backend.</Abstract>
+			<DeclaredIn>OMCMobileBackendServiceProxy.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) OMCMobileBackend *mobileBackend</Declaration>
+			
+			
+			<Anchor>//api/name/mobileBackend</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCMobileBackendServiceProxy/mobileBackend</TokenIdentifier>
+			<Abstract type="html">The service proxy&apos;s mobile backend.</Abstract>
+			<DeclaredIn>OMCMobileBackendServiceProxy.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) OMCMobileBackend *mobileBackend</Declaration>
+			
+			
+			<Anchor>//api/name/mobileBackend</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

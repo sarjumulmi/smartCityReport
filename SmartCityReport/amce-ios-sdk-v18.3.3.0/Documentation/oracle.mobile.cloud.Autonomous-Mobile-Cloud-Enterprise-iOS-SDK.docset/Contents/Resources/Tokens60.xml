@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/SyncCompareOperator.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/SyncCompareOperator</TokenIdentifier>
+			<Abstract type="html">An enumerration of different comparision operation for local database query</Abstract>
+			<DeclaredIn>OMCSyncStoreState.h</DeclaredIn>
+            
+			
+			<NodeRef refid="60"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/Equals</TokenIdentifier>
+            <Abstract type="html">Denotes Equals</Abstract>
+            <Declaration>Equals</Declaration>
+            
+            <DeclaredIn>OMCSyncStoreState.h</DeclaredIn>
+            
+            <NodeRef refid="60"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/NotEquals</TokenIdentifier>
+            <Abstract type="html">Denotes Not Equals</Abstract>
+            <Declaration>NotEquals</Declaration>
+            
+            <DeclaredIn>OMCSyncStoreState.h</DeclaredIn>
+            
+            <NodeRef refid="60"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LessThan</TokenIdentifier>
+            <Abstract type="html">Denotes Less than</Abstract>
+            <Declaration>LessThan</Declaration>
+            
+            <DeclaredIn>OMCSyncStoreState.h</DeclaredIn>
+            
+            <NodeRef refid="60"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/GreaterThan</TokenIdentifier>
+            <Abstract type="html">Denotes Greater than</Abstract>
+            <Declaration>GreaterThan</Declaration>
+            
+            <DeclaredIn>OMCSyncStoreState.h</DeclaredIn>
+            
+            <NodeRef refid="60"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/LessThanOrEqual</TokenIdentifier>
+            <Abstract type="html">Denotes Less than or equal</Abstract>
+            <Declaration>LessThanOrEqual</Declaration>
+            
+            <DeclaredIn>OMCSyncStoreState.h</DeclaredIn>
+            
+            <NodeRef refid="60"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/GreaterThanOrEqual</TokenIdentifier>
+            <Abstract type="html">Denotes Greater than or equal</Abstract>
+            <Declaration>GreaterThanOrEqual</Declaration>
+            
+            <DeclaredIn>OMCSyncStoreState.h</DeclaredIn>
+            
+            <NodeRef refid="60"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCLocationGeoPoint.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCLocationGeoPoint</TokenIdentifier>
+			<Abstract type="html">A geo point, which is specified as a latitude/longitude pair,
+is one of several ways to specify a place&apos;s address.
+Geo points are immutable.</Abstract>
+			<DeclaredIn>OMCLocationGeoPoint.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationPlace/address</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="24"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationGeoPoint/setLatitude:</TokenIdentifier>
+			<Abstract type="html">The point&apos;s latitude.</Abstract>
+			<DeclaredIn>OMCLocationGeoPoint.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSNumber *latitude</Declaration>
+			
+			
+			<Anchor>//api/name/latitude</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationGeoPoint/latitude</TokenIdentifier>
+			<Abstract type="html">The point&apos;s latitude.</Abstract>
+			<DeclaredIn>OMCLocationGeoPoint.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSNumber *latitude</Declaration>
+			
+			
+			<Anchor>//api/name/latitude</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationGeoPoint/latitude</TokenIdentifier>
+			<Abstract type="html">The point&apos;s latitude.</Abstract>
+			<DeclaredIn>OMCLocationGeoPoint.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSNumber *latitude</Declaration>
+			
+			
+			<Anchor>//api/name/latitude</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationGeoPoint/setLongitude:</TokenIdentifier>
+			<Abstract type="html">The point&apos;s longitude.</Abstract>
+			<DeclaredIn>OMCLocationGeoPoint.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSNumber *longitude</Declaration>
+			
+			
+			<Anchor>//api/name/longitude</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationGeoPoint/longitude</TokenIdentifier>
+			<Abstract type="html">The point&apos;s longitude.</Abstract>
+			<DeclaredIn>OMCLocationGeoPoint.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSNumber *longitude</Declaration>
+			
+			
+			<Anchor>//api/name/longitude</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationGeoPoint/longitude</TokenIdentifier>
+			<Abstract type="html">The point&apos;s longitude.</Abstract>
+			<DeclaredIn>OMCLocationGeoPoint.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSNumber *longitude</Declaration>
+			
+			
+			<Anchor>//api/name/longitude</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/OMCLocationGeoPoint/pointWithLatitude:longitude:</TokenIdentifier>
+			<Abstract type="html">Constructs a new geo point with the specified latitude and longitude.</Abstract>
+			<DeclaredIn>OMCLocationGeoPoint.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)pointWithLatitude:(NSNumber *)latitude longitude:(NSNumber *)longitude</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>latitude</Name>
+					<Abstract type="html">The point&apos;s latitude.</Abstract>
+				</Parameter><Parameter>
+					<Name>longitude</Name>
+					<Abstract type="html">The point&apos;s longitude.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/pointWithLatitude:longitude:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

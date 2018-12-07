@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCLocationPlace.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCLocationPlace</TokenIdentifier>
+			<Abstract type="html">A place represents a geographical location that can be associated with one
+or more devices. Optionally, places can also form a hierarchy, where a place
+has a single parent and, possibly, multiple children. Typically this is used
+to aggregate a set of contiguous places into a larger place that represents the
+whole collection of smaller places.</Abstract>
+			<DeclaredIn>OMCLocationPlace.h</DeclaredIn>
+            
+			
+			<NodeRef refid="30"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlace/setAddress:</TokenIdentifier>
+			<Abstract type="html">The place&apos;s address (a geo point, circle, or polygon).</Abstract>
+			<DeclaredIn>OMCLocationPlace.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) OMCLocationAddress *address</Declaration>
+			
+			
+			<Anchor>//api/name/address</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlace/address</TokenIdentifier>
+			<Abstract type="html">The place&apos;s address (a geo point, circle, or polygon).</Abstract>
+			<DeclaredIn>OMCLocationPlace.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) OMCLocationAddress *address</Declaration>
+			
+			
+			<Anchor>//api/name/address</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationPlace/address</TokenIdentifier>
+			<Abstract type="html">The place&apos;s address (a geo point, circle, or polygon).</Abstract>
+			<DeclaredIn>OMCLocationPlace.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) OMCLocationAddress *address</Declaration>
+			
+			
+			<Anchor>//api/name/address</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlace/allDevicesWithCompletionHandler:</TokenIdentifier>
+			<Abstract type="html">Asynchronously fetches all the place&apos;s devices, including the devices of all
+the place&apos;s descendants, invoking the specified completion
+handler block when finished.
+Asynchronously invokes the completion handler immediately if the place&apos;s devices
+have already been fetched.</Abstract>
+			<DeclaredIn>OMCLocationPlace.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObject/refreshWithCompletionHandler:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)allDevicesWithCompletionHandler:(OMCLocationDevicesCompletionBlock)completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The block to be invoked when the devices have been
+fetched. The completion block will be invoked on the main dispatch queue.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/allDevicesWithCompletionHandler:</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlace/parentWithCompletionHandler:</TokenIdentifier>
+			<Abstract type="html">Asynchronously fetches the place&apos;s parent, invoking the specified completion
+handler block when finished.
+Asynchronously invokes the completion handler immediately if the place&apos;s parent
+has already been fetched.</Abstract>
+			<DeclaredIn>OMCLocationPlace.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationPlace/hasChildren</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlace/childrenWithCompletionHandler:</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObject/refreshWithCompletionHandler:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)parentWithCompletionHandler:(OMCLocationPlaceCompletionBlock)completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The block to be invoked when the devices have been
+fetched. The completion block will be invoked on the main dispatch queue.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/parentWithCompletionHandler:</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlace/setHasChildren:</TokenIdentifier>
+			<Abstract type="html">Returns whether the place has children, without querying the server.</Abstract>
+			<DeclaredIn>OMCLocationPlace.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlace/parentWithCompletionHandler:</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlace/childrenWithCompletionHandler:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly) BOOL hasChildren</Declaration>
+			
+			
+			<Anchor>//api/name/hasChildren</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlace/hasChildren</TokenIdentifier>
+			<Abstract type="html">Returns whether the place has children, without querying the server.</Abstract>
+			<DeclaredIn>OMCLocationPlace.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlace/parentWithCompletionHandler:</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlace/childrenWithCompletionHandler:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly) BOOL hasChildren</Declaration>
+			
+			
+			<Anchor>//api/name/hasChildren</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationPlace/hasChildren</TokenIdentifier>
+			<Abstract type="html">Returns whether the place has children, without querying the server.</Abstract>
+			<DeclaredIn>OMCLocationPlace.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlace/parentWithCompletionHandler:</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlace/childrenWithCompletionHandler:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (readonly) BOOL hasChildren</Declaration>
+			
+			
+			<Anchor>//api/name/hasChildren</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlace/childrenWithCompletionHandler:</TokenIdentifier>
+			<Abstract type="html">Asynchronously fetches the place&apos;s children (i.e. its direct descendants),
+invoking the specified completion handler block when finished.
+Asynchronously invokes the completion handler immediately if the place&apos;s children
+have already been fetched.</Abstract>
+			<DeclaredIn>OMCLocationPlace.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlace/parentWithCompletionHandler:</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationPlace/hasChildren</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlace/hierarchyWithCompletionHandler:</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlace/descendantsWithCompletionHandler:</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObject/refreshWithCompletionHandler:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)childrenWithCompletionHandler:(OMCLocationPlacesCompletionBlock)completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The block to be invoked when the devices have been
+fetched. The completion block will be invoked on the main dispatch queue.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/childrenWithCompletionHandler:</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlace/hierarchyWithCompletionHandler:</TokenIdentifier>
+			<Abstract type="html">Asynchronously fetches the place&apos;s hierarchy (i.e. the place itself and all its descendants),
+invoking the specified completion handler block when finished.
+Asynchronously invokes the completion handler immediately if the place&apos;s hierarchy
+has already been fetched.</Abstract>
+			<DeclaredIn>OMCLocationPlace.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlace/childrenWithCompletionHandler:</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlace/descendantsWithCompletionHandler:</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObject/refreshWithCompletionHandler:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)hierarchyWithCompletionHandler:(OMCLocationPlacesCompletionBlock)completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The block to be invoked when the devices have been
+fetched. The completion block will be invoked on the main dispatch queue.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/hierarchyWithCompletionHandler:</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlace/descendantsWithCompletionHandler:</TokenIdentifier>
+			<Abstract type="html">Asynchronously fetches the place&apos;s descendants (i.e. its children, grandchildren, etc.),
+invoking the specified completion handler block when finished.
+Asynchronously invokes the completion handler immediately if the place&apos;s descendants
+have already been fetched.</Abstract>
+			<DeclaredIn>OMCLocationPlace.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlace/childrenWithCompletionHandler:</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCLocationPlace/hierarchyWithCompletionHandler:</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/instm/OMCLocationObject/refreshWithCompletionHandler:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)descendantsWithCompletionHandler:(OMCLocationPlacesCompletionBlock)completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The block to be invoked when the devices have been
+fetched. The completion block will be invoked on the main dispatch queue.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/descendantsWithCompletionHandler:</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

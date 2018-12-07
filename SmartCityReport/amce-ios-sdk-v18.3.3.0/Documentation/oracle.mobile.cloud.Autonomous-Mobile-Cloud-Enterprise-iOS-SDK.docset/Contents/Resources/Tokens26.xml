@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCLocationIBeacon.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCLocationIBeacon</TokenIdentifier>
+			<Abstract type="html">An iBeacon is used to specify the vendor-specific state for a device&apos;s beacon.
+iBeacons are immutable.</Abstract>
+			<DeclaredIn>OMCLocationIBeacon.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationDevice/beacon</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="26"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationIBeacon/setUuid:</TokenIdentifier>
+			<Abstract type="html">The iBeacon&apos;s UUID.</Abstract>
+			<DeclaredIn>OMCLocationIBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSUUID *uuid</Declaration>
+			
+			
+			<Anchor>//api/name/uuid</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationIBeacon/uuid</TokenIdentifier>
+			<Abstract type="html">The iBeacon&apos;s UUID.</Abstract>
+			<DeclaredIn>OMCLocationIBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSUUID *uuid</Declaration>
+			
+			
+			<Anchor>//api/name/uuid</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationIBeacon/uuid</TokenIdentifier>
+			<Abstract type="html">The iBeacon&apos;s UUID.</Abstract>
+			<DeclaredIn>OMCLocationIBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSUUID *uuid</Declaration>
+			
+			
+			<Anchor>//api/name/uuid</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationIBeacon/setMajor:</TokenIdentifier>
+			<Abstract type="html">The iBeacon&apos;s major value.</Abstract>
+			<DeclaredIn>OMCLocationIBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSNumber *major</Declaration>
+			
+			
+			<Anchor>//api/name/major</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationIBeacon/major</TokenIdentifier>
+			<Abstract type="html">The iBeacon&apos;s major value.</Abstract>
+			<DeclaredIn>OMCLocationIBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSNumber *major</Declaration>
+			
+			
+			<Anchor>//api/name/major</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationIBeacon/major</TokenIdentifier>
+			<Abstract type="html">The iBeacon&apos;s major value.</Abstract>
+			<DeclaredIn>OMCLocationIBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSNumber *major</Declaration>
+			
+			
+			<Anchor>//api/name/major</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationIBeacon/setMinor:</TokenIdentifier>
+			<Abstract type="html">The iBeacon&apos;s minor value.</Abstract>
+			<DeclaredIn>OMCLocationIBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSNumber *minor</Declaration>
+			
+			
+			<Anchor>//api/name/minor</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationIBeacon/minor</TokenIdentifier>
+			<Abstract type="html">The iBeacon&apos;s minor value.</Abstract>
+			<DeclaredIn>OMCLocationIBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSNumber *minor</Declaration>
+			
+			
+			<Anchor>//api/name/minor</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationIBeacon/minor</TokenIdentifier>
+			<Abstract type="html">The iBeacon&apos;s minor value.</Abstract>
+			<DeclaredIn>OMCLocationIBeacon.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSNumber *minor</Declaration>
+			
+			
+			<Anchor>//api/name/minor</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/OMCLocationIBeacon/iBeaconWithUUID:major:minor:</TokenIdentifier>
+			<Abstract type="html">Constructs an iBeacon with the specified UUID, major value, and minor value.</Abstract>
+			<DeclaredIn>OMCLocationIBeacon.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)iBeaconWithUUID:(nullable NSUUID *)uuid major:(nullable NSNumber *)major minor:(nullable NSNumber *)minor</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>uuid</Name>
+					<Abstract type="html">The new iBeacon&apos;s UUID.</Abstract>
+				</Parameter><Parameter>
+					<Name>major</Name>
+					<Abstract type="html">The new iBeacon&apos;s major value.</Abstract>
+				</Parameter><Parameter>
+					<Name>minor</Name>
+					<Abstract type="html">The new iBeacon&apos;s minor value.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/iBeaconWithUUID:major:minor:</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -10,10 +10,17 @@ import UIKit
 import CoreLocation
 import ImageRow
 import Eureka
+import SwiftSpinner
+import SwiftyJSON
 
 
 class ReportFormViewController: FormViewController, CLLocationManagerDelegate {
-    var rowItem: String = "Photo"
+    var mbe: OMCMobileBackend!
+    var auth: OMCAuthorization!
+    var ccClient: OMCCustomCodeClient!
+    let appDelegate = UIApplication.shared.delegate as! AppDelegate
+    
+    var rowItem: String = ""
     let locationManager: CLLocationManager = CLLocationManager()
     var latitude: CLLocationDegrees?
     var longitude: CLLocationDegrees?
@@ -24,6 +31,10 @@ class ReportFormViewController: FormViewController, CLLocationManagerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        mbe = appDelegate.myMobileBackend()
+        
+        auth = mbe.authorization
         
 //        self.navigationItem.setHidesBackButton(true, animated:true);
         self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "Back", style: .plain, target: nil, action: nil)
@@ -39,8 +50,6 @@ class ReportFormViewController: FormViewController, CLLocationManagerDelegate {
             options = litterSpecificOptions
         case "Rodent Sighting":
             options = animalSpecificOptions
-        case "Illegal Graffiti":
-            options = graffitiSpecificOptions
         default:
             break
         }
@@ -117,7 +126,7 @@ class ReportFormViewController: FormViewController, CLLocationManagerDelegate {
             
             <<< PushRow<String>("specificLocation") {
                 $0.hidden = Condition.function([], { (form) -> Bool in
-                    return !(self.rowItem == "Litter" || self.rowItem == "Rodent Sighting" || self.rowItem == "Illegal Graffiti")
+                    return !(self.rowItem == "Litter" || self.rowItem == "Rodent Sighting")
                 })
                 $0.title = "Choose a specific Location"
                 $0.options = options
@@ -127,6 +136,20 @@ class ReportFormViewController: FormViewController, CLLocationManagerDelegate {
                     to.dismissOnSelection = false
                     to.dismissOnChange = false
         }
+            
+            <<< PushRow<String>("graffittiObject") {
+                $0.hidden = Condition.function([], { (form) -> Bool in
+                    return !(self.rowItem == "Illegal Graffiti")
+                })
+                $0.title = "Choose graffiti object"
+                $0.options = graffitiSpecificOptions
+                $0.value = options.first
+                $0.selectorTitle = "Graffiti Object"
+                }.onPresent { from, to in
+                    to.dismissOnSelection = false
+                    to.dismissOnChange = false
+            }
+            
             <<< NameRow("carMakeModel") {
                 $0.hidden = Condition.function([], { (form) -> Bool in
                     return !(self.rowItem == "Abandoned Vehicle")
@@ -255,6 +278,12 @@ class ReportFormViewController: FormViewController, CLLocationManagerDelegate {
                         }
                     }
                 })
+        
+        +++ Section()
+            <<< SwitchRow("isPublic") {
+                $0.title = "Make Request Public?"
+                $0.value = false
+        }
 
     }
     
@@ -276,15 +305,77 @@ class ReportFormViewController: FormViewController, CLLocationManagerDelegate {
         print(error)
     }
     
+    // need to authenticate before making the api call
+    // can remove this once login step in done
+    func authenticate(username: String, password: String) {
+        let error: NSError? = auth.authenticate(username, password: password) as NSError?
+        if (error != nil) {
+            print("Error: \(error!.localizedDescription)")
+            let alert = UIAlertController(title: "Error!!!!!", message:error!.localizedDescription, preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+        }
+    }
+    
+    private func getStringCoordinates(coordinates: CLLocation) -> String {
+        let lat = String(coordinates.coordinate.latitude)
+        let long = String(coordinates.coordinate.longitude)
+        return "\(lat),  \(long)"
+    }
+    
+    private func getRequestParams(form: Form, photoUrl: String?) -> [String: Any?] {
+        return [
+            "category": rowItem,
+            "isPublic": (form.rowBy(tag: "isPublic") as! SwitchRow).value,
+            "description": (form.rowBy(tag: "description") as! TextAreaRow).value,
+            "coordinates": getStringCoordinates(coordinates: (form.rowBy(tag: "location") as! LocationRow).value!),
+            "photoUrl": photoUrl ?? "https://photourl.com",
+            "firstName": (form.rowBy(tag: "firstName") as! TextRow).value,
+            "lastName": (form.rowBy(tag: "lastName") as! TextRow).value,
+            "email": (form.rowBy(tag: "email") as! EmailRow).value,
+            "phone": (form.rowBy(tag: "phone") as! PhoneRow).value,
+            "specificLocation": (form.rowBy(tag: "specificLocation") as! PushRow<String>).value ?? nil,
+            "carMakeModel": (form.rowBy(tag: "carMakeModel") as! NameRow).value ?? nil,
+            "carColor": (form.rowBy(tag: "carColor") as! NameRow).value ?? nil,
+            "carLicense": (form.rowBy(tag: "carLicense") as! NameRow).value ?? nil,
+            "graffittiObject":(form.rowBy(tag: "graffittiObject") as! PushRow<String>).value ?? nil
+        ]
+    }
     
     @IBAction func submitRequest(_ sender: UIButton) {
         self.view.endEditing(true)
-        print(form.values())
+        print(getStringCoordinates(coordinates: (form.rowBy(tag: "location") as! LocationRow).value!))
         let errors = form.validate()
         if errors.count > 1 {
             print("Errors: \(errors)")
+            return
         }
-       
+        SwiftSpinner.show("Requesting...")
+        // need to authenticate before making api call
+        // can be changed after login steps are done
+        self.authenticate(username: "sarju.mulmi@oracle.com", password: "!Reston2018" )
+        let data = getRequestParams(form: form, photoUrl: nil) // need to get the photo to upload to OCI and get the url
+        ccClient = mbe.customCodeClient
+        // post call to insert new report working
+        // need to get the photo to upload to OCI and get the url
+        ccClient.invokeCustomRequest("SmartCityReport/postReport", method: "POST", data: data) { (error, response, responseData) in
+            if (error != nil) {
+                print(error?.localizedDescription as Any)
+                let alert = UIAlertController(title: "Error!!!!!", message:error!.localizedDescription, preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+                self.present(alert, animated: true, completion: nil)
+                return
+            }
+            print(JSON(responseData!))
+            let alert = UIAlertController(title: "Success", message:"Report submitted!", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+        }
+        
+        if let uploadData = (form.rowBy(tag: "photo") as! ImageRow).value!.pngData() {
+            print("yaay")
+        }
+        SwiftSpinner.hide()
     }
     
     /*

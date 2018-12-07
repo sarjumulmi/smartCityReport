@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCMobileFile.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCMobileFile</TokenIdentifier>
+			<Abstract type="html">Class that represents a file or BLOB returned by a custom code API.</Abstract>
+			<DeclaredIn>OMCMobileFile.h</DeclaredIn>
+            
+			
+			<NodeRef refid="36"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileFile/getData</TokenIdentifier>
+			<Abstract type="html">Returns the raw file data.</Abstract>
+			<DeclaredIn>OMCMobileFile.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)getData</Declaration>
+			
+			
+			<Anchor>//api/name/getData</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileFile/getDataPersistentState</TokenIdentifier>
+			<Abstract type="html">Returns the raw file data (server copy).</Abstract>
+			<DeclaredIn>OMCMobileFile.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)getDataPersistentState</Declaration>
+			
+			
+			<Anchor>//api/name/getDataPersistentState</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileFile/getDataStream</TokenIdentifier>
+			<Abstract type="html">Returns the input stream of the data.</Abstract>
+			<DeclaredIn>OMCMobileFile.h</DeclaredIn>
+			
+			<Declaration>- (NSInputStream *)getDataStream</Declaration>
+			
+			
+			<Anchor>//api/name/getDataStream</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileFile/getFilepath</TokenIdentifier>
+			<Abstract type="html">Returns the file path of the raw file data.</Abstract>
+			<DeclaredIn>OMCMobileFile.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)getFilepath</Declaration>
+			
+			
+			<Anchor>//api/name/getFilepath</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileFile/getFilepathPersistentState</TokenIdentifier>
+			<Abstract type="html">Returns the file path of the raw file data (server copy).</Abstract>
+			<DeclaredIn>OMCMobileFile.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)getFilepathPersistentState</Declaration>
+			
+			
+			<Anchor>//api/name/getFilepathPersistentState</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileFile/saveResource:contentType:OnSuccess:OnError:</TokenIdentifier>
+			<Abstract type="html">* Saves any changes to the file back to the service. Caches the changes locally if offline.
+* Unlike saveResource: with it&apos;s saveIfOffline parameter, this method is always influenced by the Update Policy setting
+* When online for both saveResource()
+*       - The Update Policy and the similar saveIfOffline parameter on this method has no effect in this case, regardless of their settings.
+*       - successBlk is called once the change has been written directly to MCS and the related PUT/POST/DELETE operation is successful.
+*       - errorBlk is called if, during the save operation, the server returned an error code (status code &lt;&gt; 2XX or &lt;&gt; 409/412) or the SDK detects a separate error (e.g. timeout).
+* When offline and the UpdatePolicy is UPDATEIFONLINE
+*       - An error is raised with the errorBlk, the successBlk is never called as the policy deliberately says only update if online, and no request is sent to MCS.
+* When offline and UpdatePolicy == QUEUEIFOFFLINE
+*       - The successBlk is called once the change has been written to the local cache and queued to be later written to MCS.
+*       - The errorBlk is only called if there is an error writing to the local cache (such as exceeding the maxStoreSize)</Abstract>
+			<DeclaredIn>OMCMobileFile.h</DeclaredIn>
+			
+			<Declaration>- (void)saveResource:(NSData *)data contentType:(NSString *_Nullable)contentType OnSuccess:(OMCFileSuccess _Nullable)successBlk OnError:(OMCSyncErrorBlock _Nullable)errorBlk</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">raw data for file</Abstract>
+				</Parameter><Parameter>
+					<Name>contentType</Name>
+					<Abstract type="html">type of content in data for file</Abstract>
+				</Parameter><Parameter>
+					<Name>successBlk</Name>
+					<Abstract type="html">block that will be called after request successfully finished with the mobile resource.</Abstract>
+				</Parameter><Parameter>
+					<Name>errorBlk</Name>
+					<Abstract type="html">block that will be called after request finished with error.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/saveResource:contentType:OnSuccess:OnError:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileFile/saveResource:contentType:saveIfOffline:OnSuccess:OnError:</TokenIdentifier>
+			<Abstract type="html">* Saves any changes to the file back to the service. Caches the changes locally if offline.
+* Unlike saveResource: with it&apos;s saveIfOffline parameter, this method is always influenced by the Update Policy setting
+* When online for both saveResource()
+*       - The Update Policy and the similar saveIfOffline parameter on this method has no effect in this case, regardless of their settings.
+*       - The successBlk is called once the change has been written directly to MCS and the related PUT/POST/DELETE operation is successful.
+*       - The errorBlk is called if, during the save operation, the server returned an error code (status code &lt;&gt; 2XX or &lt;&gt; 409/412) or the SDK detects a separate error (e.g. timeout).
+* When offline and UpdatePolicy is UPDATEIFONLINE
+*       - An error is raised with the errorBlk, the successBlk is never called as the policy deliberately says only update if online, and no request is sent to MCS.
+* When offline and UpdatePolicy == QUEUEIFOFFLINE
+*       - successBlk is called once the change has been written to the local cache and queued to be later written to MCS.
+*       - The errorBlk is only called if there is an error writing to the local cache (such as exceeding the maxStoreSize)</Abstract>
+			<DeclaredIn>OMCMobileFile.h</DeclaredIn>
+			
+			<Declaration>- (void)saveResource:(NSData *)data contentType:(NSString *_Nullable)contentType saveIfOffline:(BOOL)saveIfOffline OnSuccess:(OMCFileSuccess _Nullable)successBlk OnError:(OMCSyncErrorBlock _Nullable)errorBlk</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">raw data for file</Abstract>
+				</Parameter><Parameter>
+					<Name>contentType</Name>
+					<Abstract type="html">type of content for file</Abstract>
+				</Parameter><Parameter>
+					<Name>saveIfOffline</Name>
+					<Abstract type="html">If the device is online, this parameter has no effect since any save will be written back to the server. If the device is offline and this option is true, the method will cache updates locally and, when the device returns online, sync them back to the remote service. If the device is offline and this option is false, the save will fail. Note the use of this function overrides any UpdatePolicy setting set elsewhere. This parameter is useful in cases such as a one-off save, where you can set the option to false to ensure the new/updated record is saved to MCS or an error is reported instantaneously, so you can immediately act on the result.</Abstract>
+				</Parameter><Parameter>
+					<Name>successBlk</Name>
+					<Abstract type="html">block that will be called after the request has successfully finished with the mobile resource.</Abstract>
+				</Parameter><Parameter>
+					<Name>errorBlk</Name>
+					<Abstract type="html">block that will be called after the request has finished with an error.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/saveResource:contentType:saveIfOffline:OnSuccess:OnError:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileFile/deleteResourceOnError:</TokenIdentifier>
+			<Abstract type="html">* Deletes the file. Caches the delete locally if offline.
+* Unlike deleteResource: with it&apos;s deleteIfOffline parameter, this method is always influenced by the Update Policy setting</Abstract>
+			<DeclaredIn>OMCMobileFile.h</DeclaredIn>
+			
+			<Declaration>- (void)deleteResourceOnError:(OMCSyncErrorBlock _Nullable)errorBlk</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>errorBlk</Name>
+					<Abstract type="html">block that will be called after the request has finished with an error.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteResourceOnError:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCMobileFile/deleteResource:OnError:</TokenIdentifier>
+			<Abstract type="html">* Deletes the file.</Abstract>
+			<DeclaredIn>OMCMobileFile.h</DeclaredIn>
+			
+			<Declaration>- (void)deleteResource:(BOOL)deleteIfOffline OnError:(OMCSyncErrorBlock _Nullable)errorBlk</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>deleteIfOffline</Name>
+					<Abstract type="html">If true will cache the delete locally and sync back to the service if the device is offline. If false will fail if the device is offline. (This param will override the UpdatePolicy setting set elsewhere.)</Abstract>
+				</Parameter><Parameter>
+					<Name>errorBlk</Name>
+					<Abstract type="html">block that will be called after the request has finished with an error.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteResource:OnError:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OMCLocationGeoPolygon.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OMCLocationGeoPolygon</TokenIdentifier>
+			<Abstract type="html">A geo polygon, which consists of a list of geographical vertices,
+is one of several ways to specify a place&apos;s address.
+Geo polygons are immutable.</Abstract>
+			<DeclaredIn>OMCLocationGeoPolygon.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationPlace/address</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="25"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationGeoPolygon/setVertices:</TokenIdentifier>
+			<Abstract type="html">The polygon&apos;s list of vertices.</Abstract>
+			<DeclaredIn>OMCLocationGeoPolygon.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSArray&lt;OMCLocationGeoPoint*&gt; *vertices</Declaration>
+			
+			
+			<Anchor>//api/name/vertices</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OMCLocationGeoPolygon/vertices</TokenIdentifier>
+			<Abstract type="html">The polygon&apos;s list of vertices.</Abstract>
+			<DeclaredIn>OMCLocationGeoPolygon.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSArray&lt;OMCLocationGeoPoint*&gt; *vertices</Declaration>
+			
+			
+			<Anchor>//api/name/vertices</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OMCLocationGeoPolygon/vertices</TokenIdentifier>
+			<Abstract type="html">The polygon&apos;s list of vertices.</Abstract>
+			<DeclaredIn>OMCLocationGeoPolygon.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSArray&lt;OMCLocationGeoPoint*&gt; *vertices</Declaration>
+			
+			
+			<Anchor>//api/name/vertices</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/OMCLocationGeoPolygon/polygonWithVertices:</TokenIdentifier>
+			<Abstract type="html">Constructs a geo polygon with the specified list of vertices.</Abstract>
+			<DeclaredIn>OMCLocationGeoPolygon.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)polygonWithVertices:(NSArray&lt;OMCLocationGeoPoint*&gt; *)vertices</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>vertices</Name>
+					<Abstract type="html">The polygon&apos;s vertices.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/polygonWithVertices:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

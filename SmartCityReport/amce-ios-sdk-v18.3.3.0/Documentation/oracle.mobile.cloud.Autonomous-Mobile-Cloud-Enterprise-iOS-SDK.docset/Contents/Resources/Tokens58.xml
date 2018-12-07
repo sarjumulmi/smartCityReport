@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/OMCLocationObjectQueryFormatType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/OMCLocationObjectQueryFormatType</TokenIdentifier>
+			<Abstract type="html">Query format (long or short). Query results in long format will include all
+the items&apos; attributes. Query results in short format will include only
+a subset of the items&apos; attributes, depending on the objects&apos; type.
+The default query format is long.</Abstract>
+			<DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationObjectQuery/format</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="58"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/OMCLocationObjectQueryFormatTypeLong</TokenIdentifier>
+            <Abstract type="html">     Long format: the query results will include all the items&apos; attributes.
+     </Abstract>
+            <Declaration>OMCLocationObjectQueryFormatTypeLong</Declaration>
+            
+            <DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+            
+            <NodeRef refid="58"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/OMCLocationObjectQueryFormatTypeShort</TokenIdentifier>
+            <Abstract type="html">     Short format: the query results will include only a subset of the items&apos;
+     attributes, depending on the items&apos; type.
+     </Abstract>
+            <Declaration>OMCLocationObjectQueryFormatTypeShort</Declaration>
+            
+            <DeclaredIn>OMCLocationObjectQuery.h</DeclaredIn>
+            
+            <NodeRef refid="58"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

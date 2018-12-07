@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/OMCLocationBeaconType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/OMCLocationBeaconType</TokenIdentifier>
+			<Abstract type="html">The beacon type.</Abstract>
+			<DeclaredIn>OMCLocationBeacon.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/OMCLocationBeacon/type</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="54"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/OMCLocationBeaconTypeAltBeacon</TokenIdentifier>
+            <Abstract type="html">     AltBeacon type. The device&apos;s beacon is an AltBeacon.
+     </Abstract>
+            <Declaration>OMCLocationBeaconTypeAltBeacon</Declaration>
+            
+            <DeclaredIn>OMCLocationBeacon.h</DeclaredIn>
+            
+            <NodeRef refid="54"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/OMCLocationBeaconTypeEddystoneBeacon</TokenIdentifier>
+            <Abstract type="html">     Eddystone beacon type. The device&apos;s beacon is an Eddystone beacon.
+     </Abstract>
+            <Declaration>OMCLocationBeaconTypeEddystoneBeacon</Declaration>
+            
+            <DeclaredIn>OMCLocationBeacon.h</DeclaredIn>
+            
+            <NodeRef refid="54"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/OMCLocationBeaconTypeIBeacon</TokenIdentifier>
+            <Abstract type="html">     iBeacon type. The device&apos;s beacon is an iBeacon.
+     </Abstract>
+            <Declaration>OMCLocationBeaconTypeIBeacon</Declaration>
+            
+            <DeclaredIn>OMCLocationBeacon.h</DeclaredIn>
+            
+            <NodeRef refid="54"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>
